@@ -16,11 +16,11 @@ const Footer = () => {
 
           <div className="flex items-center gap-6">
             <a 
-              href="mailto:info@venturo.it" 
+              href="mailto:info@venturoconsulting.it" 
               className="text-muted-foreground hover:text-primary transition-colors flex items-center gap-2"
             >
               <Mail className="w-4 h-4" />
-              <span className="text-sm">info@venturo.it</span>
+              <span className="text-sm">info@venturoconsulting.it</span>
             </a>
             <a 
               href="https://linkedin.com" 
