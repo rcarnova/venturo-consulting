@@ -7,24 +7,24 @@ const HeroSection = () => {
   };
 
   return (
-    <section className="relative min-h-screen flex items-center pt-20 bg-charcoal">
+    <section className="relative min-h-screen flex items-center pt-20">
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <img 
           src={heroImage} 
           alt="Abstract representation of cultural evolution" 
-          className="w-full h-full object-cover opacity-30"
+          className="w-full h-full object-cover opacity-90"
         />
-        <div className="absolute inset-0 bg-gradient-to-r from-charcoal via-charcoal/90 to-charcoal/70" />
+        <div className="absolute inset-0 bg-gradient-to-r from-background/95 via-background/70 to-transparent" />
       </div>
 
       <div className="container-wide relative z-10">
         <div className="max-w-2xl">
-          <h1 className="text-display text-white animate-fade-up">
+          <h1 className="text-display text-charcoal animate-fade-up">
             Evoluzione culturale guidata
           </h1>
           
-          <p className="text-subheadline mt-6 max-w-xl animate-fade-up-delay-1 text-white/80">
+          <p className="text-subheadline mt-6 max-w-xl animate-fade-up-delay-1">
             La cultura non è quello che dite di essere. È quello che fate quando nessuno vi guarda.
           </p>
 
@@ -41,8 +41,8 @@ const HeroSection = () => {
 
       {/* Scroll indicator */}
       <div className="absolute bottom-10 left-1/2 -translate-x-1/2 animate-float">
-        <div className="w-6 h-10 border-2 border-white/30 rounded-full flex items-start justify-center p-2">
-          <div className="w-1 h-2 bg-white/50 rounded-full animate-bounce" />
+        <div className="w-6 h-10 border-2 border-charcoal/30 rounded-full flex items-start justify-center p-2">
+          <div className="w-1 h-2 bg-charcoal/50 rounded-full animate-bounce" />
         </div>
       </div>
     </section>
