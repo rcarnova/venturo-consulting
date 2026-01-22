@@ -7,60 +7,60 @@
 
 @layer base {
   :root {
-    /* Core Palette - Sophisticated Neutrals with Terracotta Accent */
-    --background: 30 15% 97%;
-    --foreground: 220 15% 15%;
+    /* Core Palette - Dark & Bold with Neon Yellow Accent */
+    --background: 60 10% 98%;
+    --foreground: 220 20% 12%;
 
-    --card: 30 10% 99%;
-    --card-foreground: 220 15% 15%;
+    --card: 60 5% 99%;
+    --card-foreground: 220 20% 12%;
 
-    --popover: 30 10% 99%;
-    --popover-foreground: 220 15% 15%;
+    --popover: 60 5% 99%;
+    --popover-foreground: 220 20% 12%;
 
-    /* Terracotta accent - warm, human, decisive */
-    --primary: 15 55% 55%;
-    --primary-foreground: 30 15% 98%;
+    /* Neon Yellow accent - energetic, bold, modern */
+    --primary: 55 100% 50%;
+    --primary-foreground: 220 20% 10%;
 
     /* Cool slate for secondary elements */
     --secondary: 220 10% 94%;
     --secondary-foreground: 220 15% 25%;
 
-    --muted: 30 10% 93%;
+    --muted: 60 5% 93%;
     --muted-foreground: 220 10% 45%;
 
-    --accent: 220 12% 92%;
-    --accent-foreground: 220 15% 20%;
+    --accent: 55 80% 90%;
+    --accent-foreground: 220 20% 12%;
 
     --destructive: 0 70% 50%;
     --destructive-foreground: 0 0% 100%;
 
     --border: 220 10% 88%;
     --input: 220 10% 88%;
-    --ring: 15 55% 55%;
+    --ring: 55 100% 50%;
 
     --radius: 0.5rem;
 
     /* Custom Venturo tokens */
-    --charcoal: 220 15% 18%;
-    --charcoal-light: 220 12% 28%;
-    --warm-white: 30 20% 98%;
-    --terracotta: 15 55% 55%;
-    --terracotta-dark: 15 55% 45%;
+    --charcoal: 220 20% 15%;
+    --charcoal-light: 220 15% 28%;
+    --warm-white: 60 10% 98%;
+    --neon-yellow: 55 100% 50%;
+    --neon-yellow-dark: 55 100% 42%;
     --slate: 220 10% 50%;
     
     /* Gradients */
-    --gradient-warm: linear-gradient(135deg, hsl(30 20% 98%) 0%, hsl(30 15% 93%) 100%);
-    --gradient-dark: linear-gradient(135deg, hsl(220 15% 18%) 0%, hsl(220 15% 12%) 100%);
-    --gradient-terracotta: linear-gradient(135deg, hsl(15 55% 55%) 0%, hsl(15 55% 45%) 100%);
+    --gradient-warm: linear-gradient(135deg, hsl(60 10% 98%) 0%, hsl(60 5% 93%) 100%);
+    --gradient-dark: linear-gradient(135deg, hsl(220 20% 15%) 0%, hsl(220 20% 8%) 100%);
+    --gradient-neon: linear-gradient(135deg, hsl(55 100% 50%) 0%, hsl(50 100% 45%) 100%);
     
     /* Typography */
     --font-display: 'Playfair Display', Georgia, serif;
     --font-body: 'DM Sans', system-ui, sans-serif;
     
     /* Shadows */
-    --shadow-subtle: 0 2px 8px -2px hsl(220 15% 15% / 0.06);
-    --shadow-medium: 0 8px 24px -4px hsl(220 15% 15% / 0.08);
-    --shadow-elevated: 0 16px 48px -8px hsl(220 15% 15% / 0.12);
+    --shadow-subtle: 0 2px 8px -2px hsl(220 20% 15% / 0.06);
+    --shadow-medium: 0 8px 24px -4px hsl(220 20% 15% / 0.08);
+    --shadow-elevated: 0 16px 48px -8px hsl(220 20% 15% / 0.12);
 
     --sidebar-background: 0 0% 98%;
     --sidebar-foreground: 240 5.3% 26.1%;
@@ -69,53 +69,53 @@
     --sidebar-accent: 240 4.8% 95.9%;
     --sidebar-accent-foreground: 240 5.9% 10%;
     --sidebar-border: 220 13% 91%;
-    --sidebar-ring: 217.2 91.2% 59.8%;
+    --sidebar-ring: 55 100% 50%;
   }
 
   .dark {
-    --background: 220 15% 10%;
-    --foreground: 30 15% 95%;
+    --background: 220 20% 8%;
+    --foreground: 60 10% 95%;
 
-    --card: 220 15% 13%;
-    --card-foreground: 30 15% 95%;
+    --card: 220 20% 12%;
+    --card-foreground: 60 10% 95%;
 
-    --popover: 220 15% 13%;
-    --popover-foreground: 30 15% 95%;
+    --popover: 220 20% 12%;
+    --popover-foreground: 60 10% 95%;
 
-    --primary: 15 55% 60%;
-    --primary-foreground: 220 15% 10%;
+    --primary: 55 100% 55%;
+    --primary-foreground: 220 20% 8%;
 
-    --secondary: 220 12% 20%;
-    --secondary-foreground: 30 15% 90%;
+    --secondary: 220 15% 18%;
+    --secondary-foreground: 60 10% 90%;
 
-    --muted: 220 12% 18%;
+    --muted: 220 15% 16%;
     --muted-foreground: 220 10% 60%;
 
-    --accent: 220 12% 22%;
-    --accent-foreground: 30 15% 95%;
+    --accent: 55 60% 20%;
+    --accent-foreground: 60 10% 95%;
 
     --destructive: 0 62.8% 30.6%;
-    --destructive-foreground: 30 15% 95%;
+    --destructive-foreground: 60 10% 95%;
 
-    --border: 220 12% 22%;
-    --input: 220 12% 22%;
-    --ring: 15 55% 60%;
+    --border: 220 15% 20%;
+    --input: 220 15% 20%;
+    --ring: 55 100% 55%;
 
-    --charcoal: 220 12% 85%;
-    --charcoal-light: 220 10% 70%;
-    --warm-white: 220 15% 12%;
-    --terracotta: 15 55% 60%;
-    --terracotta-dark: 15 55% 50%;
+    --charcoal: 60 10% 85%;
+    --charcoal-light: 60 5% 70%;
+    --warm-white: 220 20% 10%;
+    --neon-yellow: 55 100% 55%;
+    --neon-yellow-dark: 55 100% 48%;
     --slate: 220 10% 60%;
 
     --sidebar-background: 240 5.9% 10%;
     --sidebar-foreground: 240 4.8% 95.9%;
-    --sidebar-primary: 224.3 76.3% 48%;
-    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-primary: 55 100% 55%;
+    --sidebar-primary-foreground: 220 20% 8%;
     --sidebar-accent: 240 3.7% 15.9%;
     --sidebar-accent-foreground: 240 4.8% 95.9%;
     --sidebar-border: 240 3.7% 15.9%;
-    --sidebar-ring: 217.2 91.2% 59.8%;
+    --sidebar-ring: 55 100% 55%;
   }
 }
 
