@@ -28,9 +28,9 @@ export default {
           light: "hsl(var(--charcoal-light))",
         },
         "warm-white": "hsl(var(--warm-white))",
-        terracotta: {
-          DEFAULT: "hsl(var(--terracotta))",
-          dark: "hsl(var(--terracotta-dark))",
+        "neon-yellow": {
+          DEFAULT: "hsl(var(--neon-yellow))",
+          dark: "hsl(var(--neon-yellow-dark))",
         },
         slate: "hsl(var(--slate))",
         primary: {
