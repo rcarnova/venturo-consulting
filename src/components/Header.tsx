@@ -8,7 +8,7 @@ const Header = () => {
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-md border-b border-border/50">
       <div className="container-wide flex items-center justify-between h-16 md:h-20">
-        <a href="/" className="font-display text-xl md:text-2xl font-semibold text-charcoal tracking-tight">
+        <a href="/" className="font-body text-xl md:text-2xl font-bold text-charcoal tracking-tight uppercase">
           Venturo
         </a>
         
