@@ -6,7 +6,7 @@ const Footer = () => {
       <div className="container-wide">
         <div className="flex flex-col md:flex-row items-center justify-between gap-4">
           <div className="flex items-center gap-2">
-            <span className="font-display text-lg font-semibold text-charcoal">
+            <span className="font-body text-lg font-bold text-charcoal tracking-tight uppercase">
               Venturo
             </span>
             <span className="text-muted-foreground">
