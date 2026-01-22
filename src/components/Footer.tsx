@@ -1,0 +1,46 @@
+import { Linkedin, Mail } from "lucide-react";
+
+const Footer = () => {
+  return (
+    <footer className="py-8 border-t border-border bg-background">
+      <div className="container-wide">
+        <div className="flex flex-col md:flex-row items-center justify-between gap-4">
+          <div className="flex items-center gap-2">
+            <span className="font-display text-lg font-semibold text-charcoal">
+              Venturo
+            </span>
+            <span className="text-muted-foreground">
+              · Consulenza Culturale
+            </span>
+          </div>
+
+          <div className="flex items-center gap-6">
+            <a 
+              href="mailto:info@venturo.it" 
+              className="text-muted-foreground hover:text-primary transition-colors flex items-center gap-2"
+            >
+              <Mail className="w-4 h-4" />
+              <span className="text-sm">info@venturo.it</span>
+            </a>
+            <a 
+              href="https://linkedin.com" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="text-muted-foreground hover:text-primary transition-colors"
+            >
+              <Linkedin className="w-5 h-5" />
+            </a>
+          </div>
+        </div>
+
+        <div className="mt-6 pt-6 border-t border-border/50 text-center">
+          <p className="text-sm text-muted-foreground">
+            © {new Date().getFullYear()} Venturo. Tutti i diritti riservati.
+          </p>
+        </div>
+      </div>
+    </footer>
+  );
+};
+
+export default Footer;

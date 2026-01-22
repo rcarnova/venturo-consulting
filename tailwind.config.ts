@@ -13,12 +13,26 @@ export default {
       },
     },
     extend: {
+      fontFamily: {
+        display: ['Playfair Display', 'Georgia', 'serif'],
+        body: ['DM Sans', 'system-ui', 'sans-serif'],
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
+        charcoal: {
+          DEFAULT: "hsl(var(--charcoal))",
+          light: "hsl(var(--charcoal-light))",
+        },
+        "warm-white": "hsl(var(--warm-white))",
+        terracotta: {
+          DEFAULT: "hsl(var(--terracotta))",
+          dark: "hsl(var(--terracotta-dark))",
+        },
+        slate: "hsl(var(--slate))",
         primary: {
           DEFAULT: "hsl(var(--primary))",
           foreground: "hsl(var(--primary-foreground))",
@@ -65,25 +79,32 @@ export default {
       },
       keyframes: {
         "accordion-down": {
-          from: {
-            height: "0",
-          },
-          to: {
-            height: "var(--radix-accordion-content-height)",
-          },
+          from: { height: "0" },
+          to: { height: "var(--radix-accordion-content-height)" },
         },
         "accordion-up": {
-          from: {
-            height: "var(--radix-accordion-content-height)",
-          },
-          to: {
-            height: "0",
-          },
+          from: { height: "var(--radix-accordion-content-height)" },
+          to: { height: "0" },
+        },
+        "fade-up": {
+          "0%": { opacity: "0", transform: "translateY(20px)" },
+          "100%": { opacity: "1", transform: "translateY(0)" },
+        },
+        "fade-in": {
+          "0%": { opacity: "0" },
+          "100%": { opacity: "1" },
         },
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
+        "fade-up": "fade-up 0.6s ease-out forwards",
+        "fade-in": "fade-in 0.4s ease-out forwards",
+      },
+      boxShadow: {
+        subtle: "0 2px 8px -2px hsl(220 15% 15% / 0.06)",
+        medium: "0 8px 24px -4px hsl(220 15% 15% / 0.08)",
+        elevated: "0 16px 48px -8px hsl(220 15% 15% / 0.12)",
       },
     },
   },
