@@ -14,6 +14,7 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion";
+import AnimatedSection from "./AnimatedSection";
 
 const levers = [
   {
@@ -62,38 +63,41 @@ const LeversSection = () => {
   return (
     <section id="leve" className="section-padding bg-muted/50">
       <div className="container-narrow">
-        <div className="text-center max-w-2xl mx-auto mb-12">
-          <h2 className="text-headline text-charcoal">
-            Su cosa lavoriamo
-          </h2>
-          <p className="text-subheadline mt-4">
-            Otto leve per trasformare la vostra cultura organizzativa.
-          </p>
-        </div>
+        <AnimatedSection>
+          <div className="text-center max-w-2xl mx-auto mb-12">
+            <h2 className="text-headline text-charcoal">
+              Su cosa lavoriamo
+            </h2>
+            <p className="text-subheadline mt-4">
+              Otto leve per trasformare la vostra cultura organizzativa.
+            </p>
+          </div>
+        </AnimatedSection>
 
         <Accordion type="single" collapsible className="space-y-3">
           {levers.map((lever, index) => (
-            <AccordionItem 
-              key={index} 
-              value={`item-${index}`}
-              className="bg-card rounded-xl border-none shadow-subtle data-[state=open]:shadow-medium transition-shadow"
-            >
-              <AccordionTrigger className="px-6 py-5 hover:no-underline group">
-                <div className="flex items-center gap-4">
-                  <div className="w-10 h-10 rounded-lg bg-primary/10 flex items-center justify-center group-hover:bg-primary/20 transition-colors">
-                    <lever.icon className="w-5 h-5 text-primary" />
+            <AnimatedSection key={index} animation="fade-left" delay={index * 75}>
+              <AccordionItem 
+                value={`item-${index}`}
+                className="bg-card rounded-xl border-none shadow-subtle data-[state=open]:shadow-medium transition-shadow"
+              >
+                <AccordionTrigger className="px-6 py-5 hover:no-underline group">
+                  <div className="flex items-center gap-4">
+                    <div className="w-10 h-10 rounded-lg bg-primary/10 flex items-center justify-center group-hover:bg-primary/20 transition-colors">
+                      <lever.icon className="w-5 h-5 text-primary" />
+                    </div>
+                    <span className="font-display text-lg font-medium text-charcoal text-left">
+                      {lever.title}
+                    </span>
                   </div>
-                  <span className="font-display text-lg font-medium text-charcoal text-left">
-                    {lever.title}
-                  </span>
-                </div>
-              </AccordionTrigger>
-              <AccordionContent className="px-6 pb-5">
-                <p className="text-muted-foreground pl-14">
-                  {lever.description}
-                </p>
-              </AccordionContent>
-            </AccordionItem>
+                </AccordionTrigger>
+                <AccordionContent className="px-6 pb-5">
+                  <p className="text-muted-foreground pl-14">
+                    {lever.description}
+                  </p>
+                </AccordionContent>
+              </AccordionItem>
+            </AnimatedSection>
           ))}
         </Accordion>
       </div>
