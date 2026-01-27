@@ -1,4 +1,5 @@
 import { Linkedin, Mail } from "lucide-react";
+import logoVenturo from "@/assets/logo-venturo.png";
 
 const Footer = () => {
   return (
@@ -6,9 +7,7 @@ const Footer = () => {
       <div className="container-wide">
         <div className="flex flex-col md:flex-row items-center justify-between gap-4">
           <div className="flex items-center gap-2">
-            <span className="font-body text-lg font-bold text-charcoal tracking-tight uppercase">
-              Venturo
-            </span>
+            <img src={logoVenturo} alt="Venturo" className="h-5" />
             <span className="text-muted-foreground">
               · Consulenza Culturale
             </span>
