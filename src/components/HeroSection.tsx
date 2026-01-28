@@ -21,7 +21,7 @@ const HeroSection = () => {
       <div className="container-wide relative z-10">
         <div className="max-w-2xl">
           <h1 className="text-display text-charcoal animate-fade-up">
-            Evoluzione culturale guidata
+            Comunicazione Rituali Leadership
           </h1>
           
           <p className="text-subheadline mt-6 max-w-xl animate-fade-up-delay-1">
