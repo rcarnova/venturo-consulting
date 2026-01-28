@@ -9,7 +9,7 @@ const Footer = () => {
           <div className="flex items-center gap-2">
             <img src={logoVenturo} alt="Venturo" className="h-5" />
             <span className="text-muted-foreground">
-              · Consulenza Culturale
+              Comunicazione Rituali Leadership
             </span>
           </div>
 
