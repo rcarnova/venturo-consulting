@@ -34,6 +34,9 @@ const Footer = () => {
 
         <div className="mt-6 pt-6 border-t border-border/50 text-center">
           <p className="text-sm text-muted-foreground">
+            Venturo è un progetto di Studio Miller
+          </p>
+          <p className="text-sm text-muted-foreground mt-1">
             © {new Date().getFullYear()} Venturo. Tutti i diritti riservati.
           </p>
         </div>
