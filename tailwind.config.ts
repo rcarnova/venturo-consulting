@@ -15,7 +15,7 @@ export default {
     extend: {
       fontFamily: {
         display: ['Space Grotesk', 'system-ui', 'sans-serif'],
-        body: ['Space Grotesk', 'system-ui', 'sans-serif'],
+        body: ['IBM Plex Mono', 'monospace'],
       },
       colors: {
         border: "hsl(var(--border))",
