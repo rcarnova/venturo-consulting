@@ -54,7 +54,7 @@ const ContactSection = () => {
                 value={formData.name}
                 onChange={(e) => setFormData({ ...formData, name: e.target.value })}
                 required
-                className="bg-warm-white/10 border-warm-white/20 text-warm-white placeholder:text-warm-white/50 focus:border-primary h-12"
+                className="bg-warm-white/10 border-warm-white/20 text-warm-white placeholder:text-warm-white/50 focus:border-warm-white h-12"
               />
             </div>
             <div>
@@ -64,7 +64,7 @@ const ContactSection = () => {
                 value={formData.email}
                 onChange={(e) => setFormData({ ...formData, email: e.target.value })}
                 required
-                className="bg-warm-white/10 border-warm-white/20 text-warm-white placeholder:text-warm-white/50 focus:border-primary h-12"
+                className="bg-warm-white/10 border-warm-white/20 text-warm-white placeholder:text-warm-white/50 focus:border-warm-white h-12"
               />
             </div>
             <div>
@@ -74,13 +74,12 @@ const ContactSection = () => {
                 onChange={(e) => setFormData({ ...formData, message: e.target.value })}
                 required
                 rows={4}
-                className="bg-warm-white/10 border-warm-white/20 text-warm-white placeholder:text-warm-white/50 focus:border-primary resize-none"
+                className="bg-warm-white/10 border-warm-white/20 text-warm-white placeholder:text-warm-white/50 focus:border-warm-white resize-none"
               />
             </div>
             <Button 
               type="submit" 
-              variant="hero" 
-              className="w-full"
+              className="w-full bg-warm-white text-charcoal hover:bg-warm-white/90 shadow-medium hover:shadow-elevated text-base px-8 py-6 h-auto"
               disabled={isSubmitting}
             >
               {isSubmitting ? (
