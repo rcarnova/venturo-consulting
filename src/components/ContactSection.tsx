@@ -5,6 +5,7 @@ import { Textarea } from "@/components/ui/textarea";
 import { useToast } from "@/hooks/use-toast";
 import { Send } from "lucide-react";
 import AnimatedSection from "./AnimatedSection";
+import { supabase } from "@/integrations/supabase/client";
 
 const ContactSection = () => {
   const { toast } = useToast();
@@ -19,16 +20,36 @@ const ContactSection = () => {
     e.preventDefault();
     setIsSubmitting(true);
     
-    // Simulate form submission
-    await new Promise(resolve => setTimeout(resolve, 1000));
-    
-    toast({
-      title: "Messaggio inviato!",
-      description: "Ti ricontatteremo al più presto.",
-    });
-    
-    setFormData({ name: "", email: "", message: "" });
-    setIsSubmitting(false);
+    try {
+      const { data, error } = await supabase.functions.invoke('send-contact-email', {
+        body: formData
+      });
+
+      if (error) {
+        console.error("Error sending email:", error);
+        throw error;
+      }
+
+      if (!data?.success) {
+        throw new Error(data?.error || "Failed to send email");
+      }
+
+      toast({
+        title: "Messaggio inviato!",
+        description: "Ti ricontatteremo al più presto.",
+      });
+      
+      setFormData({ name: "", email: "", message: "" });
+    } catch (error) {
+      console.error("Error submitting form:", error);
+      toast({
+        title: "Errore",
+        description: "Si è verificato un errore. Riprova più tardi.",
+        variant: "destructive",
+      });
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   return (
