@@ -4,7 +4,7 @@ import AnimatedSection from "./AnimatedSection";
 const cases = [
   {
     company: "Ricehouse",
-    result: "Da identità confusa a candidature qualificate",
+    result: "Da identità forte a candidature qualificate",
     description: "Ridefinizione completa dell'employer brand e della proposta di valore."
   },
   {
