@@ -14,7 +14,7 @@ const cases = [
   },
   {
     company: "CVE",
-    result: "Prima Town Hall aziendale in 30 anni",
+    result: "La Prima Town Hall aziendale",
     rating: "4.3/5",
     description: "Progettazione e facilitazione di un momento storico per l'azienda."
   },
