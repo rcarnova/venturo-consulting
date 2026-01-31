@@ -1,7 +1,9 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
+import { Checkbox } from "@/components/ui/checkbox";
 import { useToast } from "@/hooks/use-toast";
 import { Send } from "lucide-react";
 import AnimatedSection from "./AnimatedSection";
@@ -15,6 +17,7 @@ const ContactSection = () => {
     email: "",
     message: ""
   });
+  const [privacyAccepted, setPrivacyAccepted] = useState(false);
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -40,6 +43,7 @@ const ContactSection = () => {
       });
       
       setFormData({ name: "", email: "", message: "" });
+      setPrivacyAccepted(false);
     } catch (error) {
       console.error("Error submitting form:", error);
       toast({
@@ -89,29 +93,44 @@ const ContactSection = () => {
               />
             </div>
             <div>
-              <Textarea
-                placeholder="Qual è la sfida culturale che state affrontando?"
-                value={formData.message}
-                onChange={(e) => setFormData({ ...formData, message: e.target.value })}
-                required
-                rows={4}
-                className="bg-warm-white/10 border-warm-white/20 text-warm-white placeholder:text-warm-white/50 focus:border-warm-white resize-none"
-              />
-            </div>
-            <Button 
-              type="submit" 
-              className="w-full bg-warm-white text-charcoal hover:bg-warm-white/90 shadow-medium hover:shadow-elevated text-base px-8 py-6 h-auto"
-              disabled={isSubmitting}
+            <Textarea
+              placeholder="Qual è la sfida culturale che state affrontando?"
+              value={formData.message}
+              onChange={(e) => setFormData({ ...formData, message: e.target.value })}
+              required
+              rows={4}
+              className="bg-warm-white/10 border-warm-white/20 text-warm-white placeholder:text-warm-white/50 focus:border-warm-white resize-none"
+            />
+          </div>
+          <div className="flex items-start gap-3 mt-6 mb-4">
+            <Checkbox
+              id="privacy"
+              checked={privacyAccepted}
+              onCheckedChange={(checked) => setPrivacyAccepted(checked as boolean)}
+              required
+              className="mt-0.5 border-warm-white/40 data-[state=checked]:bg-warm-white data-[state=checked]:text-charcoal"
+            />
+            <label 
+              htmlFor="privacy" 
+              className="text-[0.9rem] leading-relaxed text-warm-white/70 cursor-pointer"
             >
-              {isSubmitting ? (
-                "Invio in corso..."
-              ) : (
-                <>
-                  Invia messaggio
-                  <Send className="w-4 h-4 ml-2" />
-                </>
-              )}
-            </Button>
+              Ho letto l'<Link to="/privacy" className="underline hover:text-warm-white transition-colors">informativa privacy</Link> e acconsento al trattamento dei miei dati personali per essere ricontattato in merito a questa richiesta.*
+            </label>
+          </div>
+          <Button 
+            type="submit" 
+            className="w-full bg-warm-white text-charcoal hover:bg-warm-white/90 shadow-medium hover:shadow-elevated text-base px-8 py-6 h-auto"
+            disabled={isSubmitting || !privacyAccepted}
+          >
+            {isSubmitting ? (
+              "Invio in corso..."
+            ) : (
+              <>
+                Invia messaggio
+                <Send className="w-4 h-4 ml-2" />
+              </>
+            )}
+          </Button>
           </form>
         </AnimatedSection>
       </div>

@@ -1,9 +1,10 @@
+import { Link } from "react-router-dom";
 import { Linkedin, Mail } from "lucide-react";
 import logoVenturo from "@/assets/logo-venturo.png";
 
 const Footer = () => {
   return (
-    <footer className="py-8 border-t border-border bg-background">
+    <footer className="pt-12 pb-8 border-t border-border bg-background">
       <div className="container-wide">
         <div className="flex flex-col md:flex-row items-center justify-between gap-4">
           <div className="flex items-center gap-2">
@@ -33,11 +34,14 @@ const Footer = () => {
         </div>
 
         <div className="mt-6 pt-6 border-t border-border/50 text-center">
-          <p className="text-sm text-muted-foreground">
-            Venturo è un progetto di Studio Miller
-          </p>
-          <p className="text-sm text-muted-foreground mt-1">
-            © {new Date().getFullYear()} Venturo. Tutti i diritti riservati.
+          <Link 
+            to="/privacy" 
+            className="text-[0.85rem] text-muted-foreground hover:text-foreground transition-colors"
+          >
+            Privacy Policy
+          </Link>
+          <p className="text-[0.85rem] text-muted-foreground mt-2">
+            © 2025 Studio Miller - P.IVA 02662900022
           </p>
         </div>
       </div>
