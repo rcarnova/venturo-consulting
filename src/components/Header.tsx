@@ -26,6 +26,9 @@ const Header = () => {
           <a href="#casi" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
             Case Study
           </a>
+          <a href="#chi-siamo" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
+            Chi Siamo
+          </a>
         </nav>
 
         <Button onClick={scrollToContact} variant="default" size="default">
