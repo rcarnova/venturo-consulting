@@ -1,5 +1,7 @@
-import { ArrowUpRight, Star } from "lucide-react";
+import { ArrowUpRight, ArrowRight, Star } from "lucide-react";
+import { Link } from "react-router-dom";
 import AnimatedSection from "./AnimatedSection";
+import { Button } from "./ui/button";
 
 const cases = [
   {
@@ -80,6 +82,18 @@ const CasesSection = () => {
             </AnimatedSection>
           ))}
         </div>
+
+        {/* Link to all cases */}
+        <AnimatedSection delay={600}>
+          <div className="text-center mt-12">
+            <Button asChild variant="outline" size="lg">
+              <Link to="/casi-studio" className="inline-flex items-center gap-2">
+                Vedi tutti i casi studio
+                <ArrowRight className="w-4 h-4" />
+              </Link>
+            </Button>
+          </div>
+        </AnimatedSection>
       </div>
     </section>
   );

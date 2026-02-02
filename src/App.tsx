@@ -6,6 +6,10 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Index from "./pages/Index";
 import Privacy from "./pages/Privacy";
 import NotFound from "./pages/NotFound";
+import CasiStudio from "./pages/CasiStudio";
+import Ricehouse from "./pages/cases/Ricehouse";
+import Randstad from "./pages/cases/Randstad";
+import Lely from "./pages/cases/Lely";
 
 const queryClient = new QueryClient();
 
@@ -18,6 +22,10 @@ const App = () => (
         <Routes>
           <Route path="/" element={<Index />} />
           <Route path="/privacy" element={<Privacy />} />
+          <Route path="/casi-studio" element={<CasiStudio />} />
+          <Route path="/casi-studio/ricehouse" element={<Ricehouse />} />
+          <Route path="/casi-studio/randstad" element={<Randstad />} />
+          <Route path="/casi-studio/lely" element={<Lely />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
