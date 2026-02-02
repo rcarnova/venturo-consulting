@@ -26,57 +26,41 @@ La partnership funziona così: Ingaze misura percezione e posizionamento employe
 
 const PartnersSection = () => {
   return (
-    <section className="py-16 bg-secondary">
-      <div className="container-wide">
-        <AnimatedSection className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
+    <section className="py-12 md:py-16">
+      <div className="container-narrow">
+        <AnimatedSection className="text-center mb-8">
+          <p className="text-sm font-medium text-muted-foreground uppercase tracking-wider mb-2">
             Partner
-          </h2>
-          <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
+          </p>
+          <p className="text-base text-muted-foreground max-w-xl mx-auto">
             Per progetti che richiedono employer intelligence strutturata, 
-            collaboriamo con partner tecnologici che condividono il nostro approccio concreto.
+            collaboriamo con partner tecnologici.
           </p>
         </AnimatedSection>
 
-        <div className="flex flex-col items-center gap-8">
+        <div className="flex flex-col items-center gap-6">
           {partners.map((partner, index) => (
             <AnimatedSection
               key={partner.name}
               animation="fade-up"
               delay={index * 100}
-              className="w-full max-w-2xl"
             >
-              <div className="bg-card rounded-xl p-8 md:p-12 shadow-subtle text-center callout-glow hover:scale-[1.01] transition-all duration-300">
-                {/* Logo */}
-                <div className="mb-6 flex justify-center">
-                  <img
-                    src={partner.logo}
-                    alt={`${partner.name} logo`}
-                    className="h-12 md:h-16 w-auto object-contain"
-                  />
-                </div>
-
-                {/* Tagline */}
-                <p className="text-sm md:text-base font-semibold uppercase tracking-wider text-[#FF006E] mb-6">
+              <a
+                href={partner.link}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="group flex flex-col items-center gap-3 hover:opacity-80 transition-opacity"
+              >
+                <img
+                  src={partner.logo}
+                  alt={`${partner.name} logo`}
+                  className="h-8 md:h-10 w-auto object-contain opacity-70 group-hover:opacity-100 transition-opacity"
+                />
+                <span className="text-xs text-muted-foreground group-hover:text-foreground transition-colors flex items-center gap-1">
                   {partner.tagline}
-                </p>
-
-                {/* Description */}
-                <p className="text-base text-muted-foreground leading-relaxed whitespace-pre-line mb-8">
-                  {partner.description}
-                </p>
-
-                {/* CTA Link */}
-                <a
-                  href={partner.link}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-flex items-center gap-2 text-[#FF006E] font-semibold hover:opacity-80 transition-opacity"
-                >
-                  {partner.linkText}
-                  <ArrowRight className="w-4 h-4" />
-                </a>
-              </div>
+                  <ArrowRight className="w-3 h-3" />
+                </span>
+              </a>
             </AnimatedSection>
           ))}
         </div>
