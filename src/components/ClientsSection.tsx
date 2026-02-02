@@ -1,10 +1,10 @@
 const clients = [
-  { name: "Ricehouse", logo: "/logos/ricehouse_white.png" },
-  { name: "Lely", logo: "/logos/lely_white.svg" },
-  { name: "Randstad", logo: "/logos/randstad_white.png" },
-  { name: "Findomestic", logo: "/logos/findomestic_white.png" },
-  { name: "Sambonet", logo: "/logos/sambonet_white.png" },
-  { name: "Ufficio Pio", logo: "/logos/ufficio_pio_white.png" },
+  { name: "Ricehouse", logo: "/logos/ricehouse_white.png", scale: 1 },
+  { name: "Lely", logo: "/logos/lely_white.svg", scale: 1 },
+  { name: "Randstad", logo: "/logos/randstad_white.png", scale: 1.4 },
+  { name: "Findomestic", logo: "/logos/findomestic_white.png", scale: 1.5 },
+  { name: "Sambonet", logo: "/logos/sambonet_white.png", scale: 1 },
+  { name: "Ufficio Pio", logo: "/logos/ufficio_pio_white.png", scale: 1 },
 ];
 
 // Duplicate the array 3 times for seamless infinite scroll
@@ -42,6 +42,7 @@ const ClientsSection = () => {
               <img
                 src={client.logo}
                 alt={client.name}
+                style={{ transform: `scale(${client.scale})` }}
                 className="max-w-full max-h-full object-contain opacity-60 hover:opacity-90 transition-opacity duration-300"
               />
             </div>
