@@ -18,7 +18,9 @@ const HeroSection = () => {
           </h1>
           
           <p className="text-xl md:text-2xl mt-8 max-w-2xl text-muted-foreground leading-relaxed animate-fade-up-delay-1">
-            La cultura non è quello che dite di essere. È quello che fate quando nessuno vi guarda.
+            La cultura non è quello che dite di essere.
+            <br />
+            È quello che fate quando nessuno vi guarda.
           </p>
 
           <div className="mt-12 flex flex-col sm:flex-row gap-4 animate-fade-up-delay-2">
