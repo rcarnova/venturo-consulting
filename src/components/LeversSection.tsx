@@ -60,7 +60,7 @@ const LeversSection = () => {
             const IconComponent = lever.icon;
             return (
               <AnimatedSection key={index} animation="scale" delay={index * 100}>
-                <div className="bg-white rounded-xl p-8 md:p-10 border border-black/[0.06] shadow-[0_2px_8px_rgba(0,0,0,0.08)] md:shadow-[0_2px_8px_rgba(0,0,0,0.08)] hover:shadow-[0_8px_24px_rgba(0,0,0,0.15)] hover:-translate-y-1 transition-all duration-300 cursor-default h-full flex flex-col">
+                <div className="bg-white rounded-xl p-8 md:p-10 border border-black/[0.06] shadow-[0_4px_12px_rgba(0,0,0,0.12)] hover:shadow-[0_12px_32px_rgba(0,0,0,0.18)] hover:-translate-y-1.5 transition-all duration-300 cursor-default h-full flex flex-col">
                   <IconComponent className="w-7 h-7 md:w-10 md:h-10 text-foreground mb-6" strokeWidth={1.5} />
                   <h3 className="font-display text-xl lg:text-2xl font-semibold text-foreground mb-4">
                     {lever.title}
