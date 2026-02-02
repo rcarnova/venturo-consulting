@@ -74,7 +74,7 @@ const Privacy = () => {
               I dati personali non vengono comunicati a terzi, ad eccezione dei fornitori di servizi tecnici necessari alla gestione del sito:
             </p>
             <ul className="list-disc pl-6 text-foreground space-y-1 mb-3">
-              <li><strong>Netlify</strong> (hosting del sito web) - USA, con garanzie GDPR</li>
+              <li><strong>Lovable</strong> (hosting del sito web) - USA, con garanzie GDPR</li>
               <li><strong>Resend</strong> (servizio di invio email) - USA, con garanzie GDPR</li>
             </ul>
             <p className="text-foreground leading-relaxed">
