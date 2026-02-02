@@ -74,7 +74,7 @@ const HowWeWorkSection = () => {
         {/* Callout finale - Artefatti concreti */}
         <AnimatedSection animation="fade-up" delay={450}>
           <div 
-            className="mt-12 rounded-xl p-8 md:p-10 border-l-[6px] border-l-[#FF006E] flex flex-col md:flex-row items-center md:items-start gap-6 md:gap-8"
+            className="mt-12 rounded-xl p-8 md:p-10 border-l-[6px] border-l-[#FF006E] flex flex-col md:flex-row items-center md:items-start gap-6 md:gap-8 transition-all duration-300 hover:scale-[1.02] hover:border-l-[8px] hover:shadow-2xl cursor-default group"
             style={{ 
               background: 'linear-gradient(135deg, #1a1a1a 0%, #000000 100%)',
               boxShadow: '0 4px 16px rgba(0,0,0,0.1)'
