@@ -49,7 +49,7 @@ const HowWeWorkSection = () => {
         <div className="grid md:grid-cols-3 gap-6 lg:gap-8">
           {services.map((service, index) => (
             <AnimatedSection key={index} animation="scale" delay={index * 150}>
-              <div className="card-elevated group hover:shadow-elevated transition-all duration-300 h-full">
+              <div className="card-elevated group hover:shadow-elevated transition-all duration-300 h-full callout-glow">
                 <div className="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center mb-6 group-hover:bg-primary/20 transition-colors">
                   <service.icon className="w-6 h-6 text-primary" />
                 </div>
