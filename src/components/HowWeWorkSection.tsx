@@ -1,4 +1,4 @@
-import { Users, MessageSquare, Repeat } from "lucide-react";
+import { Users, MessageSquare, Repeat, Package } from "lucide-react";
 import AnimatedSection from "./AnimatedSection";
 
 const services = [
@@ -27,6 +27,15 @@ const services = [
       "Ridisegno meeting e processi decisionali",
       "Framework pratici",
       "Affiancamento con handover"
+    ]
+  },
+  {
+    icon: Package,
+    title: "Artefatti concreti",
+    items: [
+      "I nostri progetti non finiscono con slide di sintesi",
+      "Produciamo strumenti che restano in azienda: playbook operativi, canvas decisionali, toolkit per manager",
+      "Non vi lasciamo con insight, vi lasciamo con ciò che serve per agire"
     ]
   }
 ];
