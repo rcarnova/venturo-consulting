@@ -33,6 +33,9 @@ const Header = () => {
           <a href="/#chi-siamo" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
             Chi Siamo
           </a>
+          <a href="/magazine" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
+            Magazine
+          </a>
         </nav>
 
         <Button onClick={scrollToContact} variant="default" size="default">
