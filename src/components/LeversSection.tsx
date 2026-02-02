@@ -1,105 +1,40 @@
-import { 
-  Crown, 
-  Magnet, 
-  Lightbulb, 
-  Users2, 
-  Home, 
-  GitBranch, 
-  Megaphone, 
-  Handshake 
-} from "lucide-react";
-import {
-  Accordion,
-  AccordionContent,
-  AccordionItem,
-  AccordionTrigger,
-} from "@/components/ui/accordion";
 import AnimatedSection from "./AnimatedSection";
 
 const levers = [
-  {
-    icon: Crown,
-    title: "Leadership & Retention",
-    description: "Costruire leader che le persone scelgono di seguire, riducendo il turnover dove conta."
-  },
-  {
-    icon: Magnet,
-    title: "Attrazione Talenti",
-    description: "Diventare un magnete per i profili giusti, non solo per tanti CV."
-  },
-  {
-    icon: Lightbulb,
-    title: "Innovazione & AI Readiness",
-    description: "Preparare l'organizzazione al cambiamento, non solo agli strumenti."
-  },
-  {
-    icon: Users2,
-    title: "Passaggi Generazionali",
-    description: "Far dialogare generazioni, dipartimenti e mentalità diverse."
-  },
-  {
-    icon: Home,
-    title: "Cultura del Lavoro Ibrido",
-    description: "Ridefinire presenza, fiducia e collaborazione nel nuovo mondo del lavoro."
-  },
-  {
-    icon: GitBranch,
-    title: "Decision Making Distribuito",
-    description: "Portare le decisioni dove servono, senza perdere allineamento."
-  },
-  {
-    icon: Megaphone,
-    title: "Marketing & Coerenza Esterna",
-    description: "Allineare promessa di brand e realtà vissuta dai clienti."
-  },
-  {
-    icon: Handshake,
-    title: "Vendita & Relazione Cliente",
-    description: "Trasformare la cultura interna in vantaggio competitivo sul mercato."
-  }
+  { title: "Attrazione Talenti" },
+  { title: "Innovazione & AI Readiness" },
+  { title: "Generazioni al lavoro" },
+  { title: "Cultura del Lavoro Ibrido" },
+  { title: "Marketing & Coerenza Esterna" },
+  { title: "Vendita & Relazione Cliente" }
 ];
 
 const LeversSection = () => {
   return (
-    <section id="leve" className="section-padding bg-muted/50">
-      <div className="container-narrow">
+    <section id="leve" className="section-padding bg-primary">
+      <div className="container-wide">
         <AnimatedSection>
           <div className="text-center max-w-2xl mx-auto mb-12">
-            <h2 className="text-headline text-charcoal">
+            <h2 className="text-headline text-primary-foreground">
               Su cosa lavoriamo
             </h2>
-            <p className="text-subheadline mt-4">
-              Otto leve per trasformare la vostra cultura organizzativa.
+            <p className="text-subheadline mt-4 text-primary-foreground/70">
+              Sei leve per trasformare la vostra cultura organizzativa.
             </p>
           </div>
         </AnimatedSection>
 
-        <Accordion type="single" collapsible className="space-y-3">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {levers.map((lever, index) => (
-            <AnimatedSection key={index} animation="fade-left" delay={index * 75}>
-              <AccordionItem 
-                value={`item-${index}`}
-                className="bg-card rounded-xl border-none shadow-subtle data-[state=open]:shadow-medium transition-shadow"
-              >
-                <AccordionTrigger className="px-6 py-5 hover:no-underline group">
-                  <div className="flex items-center gap-4">
-                    <div className="w-10 h-10 rounded-lg bg-primary/10 flex items-center justify-center group-hover:bg-primary/20 transition-colors">
-                      <lever.icon className="w-5 h-5 text-primary" />
-                    </div>
-                    <span className="font-display text-lg font-medium text-charcoal text-left">
-                      {lever.title}
-                    </span>
-                  </div>
-                </AccordionTrigger>
-                <AccordionContent className="px-6 pb-5">
-                  <p className="text-muted-foreground pl-14">
-                    {lever.description}
-                  </p>
-                </AccordionContent>
-              </AccordionItem>
+            <AnimatedSection key={index} animation="scale" delay={index * 100}>
+              <div className="bg-card rounded-xl p-8 hover:scale-[1.02] hover:shadow-elevated transition-all duration-300 cursor-default">
+                <h3 className="font-display text-xl lg:text-2xl font-semibold text-card-foreground text-center">
+                  {lever.title}
+                </h3>
+              </div>
             </AnimatedSection>
           ))}
-        </Accordion>
+        </div>
       </div>
     </section>
   );
