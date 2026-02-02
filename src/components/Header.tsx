@@ -23,7 +23,7 @@ const Header = () => {
           <a href="#leve" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
             Le Leve
           </a>
-          <a href="#casi" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
+          <a href="/casi-studio" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
             Case Study
           </a>
           <a href="#chi-siamo" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
