@@ -4,17 +4,6 @@ import ArticleCard from "@/components/ArticleCard";
 
 const articles = [
   {
-    category: "Leadership",
-    title: "Quando il miglior venditore è il problema",
-    excerpt:
-      "Fattura il 30% in più del team. Ma nessuno vuole lavorare con lui. Ecco perché tenerlo è l'errore più costoso che stai facendo.",
-    date: "15 gen 2025",
-    readTime: "5 min",
-    link: "/magazine/quando-il-miglior-venditore-e-il-problema",
-    imageUrl:
-      "https://via.placeholder.com/800x450/FF9500/FFFFFF?text=Leadership",
-  },
-  {
     category: "Organizzazione",
     title: "Ruoli vaghi = Tutto rallenta",
     excerpt:
