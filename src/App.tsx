@@ -10,6 +10,7 @@ import CasiStudio from "./pages/CasiStudio";
 import Ricehouse from "./pages/cases/Ricehouse";
 import Randstad from "./pages/cases/Randstad";
 import Lely from "./pages/cases/Lely";
+import Magazine from "./pages/Magazine";
 import ScrollToHash from "./components/ScrollToHash";
 
 const queryClient = new QueryClient();
@@ -28,6 +29,7 @@ const App = () => (
           <Route path="/casi-studio/ricehouse" element={<Ricehouse />} />
           <Route path="/casi-studio/randstad" element={<Randstad />} />
           <Route path="/casi-studio/lely" element={<Lely />} />
+          <Route path="/magazine" element={<Magazine />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
