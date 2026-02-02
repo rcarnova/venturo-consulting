@@ -29,9 +29,9 @@ const PartnersSection = () => {
     <section className="py-12 md:py-16">
       <div className="container-narrow">
         <AnimatedSection className="text-center mb-8">
-          <p className="text-sm font-medium text-muted-foreground uppercase tracking-wider mb-2">
+          <h2 className="text-2xl md:text-3xl font-medium text-foreground mb-2">
             Partner
-          </p>
+          </h2>
           <p className="text-base text-muted-foreground max-w-xl mx-auto">
             Per progetti che richiedono employer intelligence strutturata, 
             collaboriamo con partner tecnologici.
