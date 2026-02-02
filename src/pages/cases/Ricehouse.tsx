@@ -3,7 +3,8 @@ import CaseStudyLayout from "@/components/CaseStudyLayout";
 const Ricehouse = () => {
   return (
     <CaseStudyLayout
-      logoPlaceholder="RICEHOUSE"
+      logo="/logos/ricehouse_white.png"
+      logoAlt="Ricehouse"
       title="Ricehouse"
       subtitle="Da identità forte a candidature qualificate"
       overview={[
