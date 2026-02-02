@@ -183,7 +183,7 @@ const CaseStudyLayout = ({
                 onClick={scrollToContact}
                 variant="outline"
                 size="lg"
-                className="border-primary-foreground text-primary-foreground hover:bg-primary-foreground hover:text-primary"
+                className="bg-transparent border-primary-foreground text-primary-foreground hover:bg-primary-foreground hover:text-primary"
               >
                 Parliamone
               </Button>
