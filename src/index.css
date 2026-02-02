@@ -222,8 +222,17 @@
       animation: scroll 35s linear infinite;
     }
   }
-}
 
+  /* Callout glow effect */
+  .callout-glow {
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease, transform 0.3s ease, border-width 0.3s ease;
+  }
+
+  .callout-glow:hover {
+    box-shadow: 0 4px 24px rgba(255, 0, 110, 0.4), 0 0 40px rgba(255, 0, 110, 0.2);
+  }
+}
 @keyframes fadeUp {
   from {
     opacity: 0;
