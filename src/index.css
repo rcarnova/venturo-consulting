@@ -230,7 +230,7 @@
   }
 
   .callout-glow:hover {
-    box-shadow: 0 4px 24px rgba(255, 0, 110, 0.4), 0 0 40px rgba(255, 0, 110, 0.2);
+    box-shadow: 0 4px 20px rgba(255, 0, 110, 0.2), 0 0 24px rgba(255, 0, 110, 0.1);
   }
 }
 @keyframes fadeUp {
