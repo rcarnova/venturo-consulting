@@ -8,9 +8,19 @@ const cases = [
     description: "Ridefinizione completa dell'employer brand e della proposta di valore."
   },
   {
+    company: "Randstad",
+    result: "Cultura visibile, candidati allineati",
+    description: "Campagna employer branding che traduce valori interni in messaggi concreti per il mercato del lavoro."
+  },
+  {
     company: "Lely",
     result: "Tool per gestire persone senza esperienza HR",
     description: "Framework pratico per manager tecnici che devono guidare team."
+  },
+  {
+    company: "Ufficio Pio",
+    result: "Naming che fa cultura",
+    description: "Progetto di naming strategico per dare linguaggio condiviso ai dipartimenti e rendere riconoscibile il percorso dei beneficiari."
   },
   {
     company: "CVE",
