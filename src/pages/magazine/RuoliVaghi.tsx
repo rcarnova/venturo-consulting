@@ -1,4 +1,5 @@
 import ArticleLayout from "@/components/ArticleLayout";
+import confusioneNeiRuoli from "@/assets/confusione-nei-ruoli.png";
 
 const content = `"Pensavo lo facessi tu."
 
@@ -84,7 +85,7 @@ const RuoliVaghi = () => {
       subtitle="Come chiarire responsabilità senza creare burocrazia"
       date="22 gen 2025"
       readTime="6 min"
-      heroImage="https://via.placeholder.com/1200x500/3B82F6/FFFFFF?text=Organizzazione"
+      heroImage={confusioneNeiRuoli}
       content={content}
     />
   );
