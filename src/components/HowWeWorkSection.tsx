@@ -7,7 +7,7 @@ const services = [
     title: "Cultura e Identità",
     items: [
       "Workshop facilitati che fanno emergere chi siete davvero",
-      "Definizione per sottrazione: chi NON vogliamo",
+      "Materiali coerenti ai valori",
       "Employer personas concrete"
     ]
   },
