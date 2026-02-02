@@ -19,7 +19,7 @@ const partners: Partner[] = [
     description: `Quando servono dati strutturati su employer branding e talent attraction, Ingaze fornisce la piattaforma analytics. Noi traduciamo quei dati in strategie culturali applicabili.
 
 La partnership funziona così: Ingaze misura percezione e posizionamento employer, Venturo progetta gli interventi per colmare i gap emersi. Dati che diventano azione.`,
-    link: "https://ingaze.io",
+    link: "https://ingaze.ai",
     linkText: "Scopri Ingaze",
   },
 ];
