@@ -34,7 +34,7 @@ const levers = [
   },
   {
     icon: Users2,
-    title: "Convivenza tra Subculture",
+    title: "Passaggi Generazionali",
     description: "Far dialogare generazioni, dipartimenti e mentalità diverse."
   },
   {
