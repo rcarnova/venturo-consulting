@@ -2,11 +2,11 @@ import { X } from "lucide-react";
 import AnimatedSection from "./AnimatedSection";
 
 const problems = [
-  "Decisioni che si bloccano ai livelli intermedi",
-  "Talenti che se ne vanno dopo 18 mesi",
+  "Talenti che abbandonano dopo 18 mesi",
   "Innovazione che resta sulla carta",
   "Team che non si capiscono perché parlano lingue diverse",
-  "Gap tra promesse ai clienti e realtà interna"
+  "Gap tra promesse ai clienti e realtà interna",
+  "Decisioni che si bloccano ai livelli intermedi"
 ];
 
 const ProblemSection = () => {
