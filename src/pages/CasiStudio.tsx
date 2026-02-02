@@ -72,7 +72,7 @@ const CasiStudio = () => {
                 <AnimatedSection key={index} animation="fade-up" delay={index * 100}>
                   {caseStudy.hasDetail ? (
                     <Link to={`/casi-studio/${caseStudy.slug}`} className="block h-full">
-                      <div className="card-subtle group hover:bg-card hover:shadow-medium transition-all duration-300 cursor-pointer h-full flex flex-col">
+                      <div className="card-subtle group hover:bg-card transition-all duration-300 cursor-pointer h-full flex flex-col glow-yellow hover:scale-[1.02]">
                         <div className="flex items-start justify-between">
                           <div>
                             <span className="text-sm font-medium text-primary uppercase tracking-wider">
@@ -95,7 +95,7 @@ const CasiStudio = () => {
                       </div>
                     </Link>
                   ) : (
-                    <div className="card-subtle h-full flex flex-col">
+                    <div className="card-subtle h-full flex flex-col glow-yellow hover:scale-[1.02] transition-all duration-300">
                       <div>
                         <span className="text-sm font-medium text-muted-foreground uppercase tracking-wider">
                           {caseStudy.company}
