@@ -68,7 +68,7 @@ const CaseStudyLayout = ({
                 <img
                   src={logo}
                   alt={logoAlt || title}
-                  className="h-16 md:h-20 mx-auto mb-8 invert"
+                  className="h-24 md:h-32 mx-auto mb-8 invert"
                 />
               ) : (
                 <div className="inline-block px-8 py-4 bg-charcoal text-warm-white font-display text-2xl font-semibold rounded-lg mb-8">
