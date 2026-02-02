@@ -109,7 +109,7 @@ const CaseStudyLayout = ({
               <p className="text-body-large text-muted-foreground mb-8">
                 {challenge.description}
               </p>
-              <div className="bg-muted/50 rounded-xl p-6">
+              <div className="bg-muted/50 rounded-xl p-6 glow-yellow hover:scale-[1.01] transition-all duration-300">
                 <p className="font-medium text-charcoal mb-4">Problemi principali:</p>
                 <ul className="space-y-3">
                   {challenge.problems.map((problem, index) => (
@@ -161,7 +161,7 @@ const CaseStudyLayout = ({
                 {results.map((result, index) => (
                   <div
                     key={index}
-                    className="flex items-start gap-3 p-4 bg-accent/50 rounded-lg"
+                    className="flex items-start gap-3 p-4 bg-accent/50 rounded-lg glow-yellow hover:scale-[1.02] transition-all duration-300"
                   >
                     <span className="text-primary font-semibold">✓</span>
                     <p className="text-charcoal">{result}</p>
