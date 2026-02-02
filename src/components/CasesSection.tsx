@@ -55,7 +55,7 @@ const CasesSection = () => {
         <div className="grid md:grid-cols-2 gap-6">
           {cases.map((caseStudy, index) => (
             <AnimatedSection key={index} animation="fade-up" delay={index * 100}>
-              <div className="card-subtle group hover:bg-card hover:shadow-medium transition-all duration-300 cursor-pointer h-full">
+              <div className="card-subtle group hover:bg-card transition-all duration-300 cursor-pointer h-full glow-yellow hover:scale-[1.02]">
                 <div className="flex items-start justify-between">
                   <div>
                     <span className="text-sm font-medium text-primary uppercase tracking-wider">
