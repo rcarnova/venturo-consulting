@@ -8,6 +8,7 @@ interface Problem {
 
 const problems: Problem[] = [
   { text: "Talenti che abbandonano dopo 18 mesi", icon: UserMinus },
+  { text: "Processo di delega che non funziona", icon: Lock },
   { text: "Innovazione che resta sulla carta", icon: FileX },
   { text: "Team che non si capiscono perché parlano lingue diverse", icon: MessageSquareWarning },
   { text: "Gap tra promesse ai clienti e realtà interna", icon: Scale },
