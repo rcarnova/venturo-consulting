@@ -1,4 +1,5 @@
 import ArticleLayout from "@/components/ArticleLayout";
+import culturaOrg from "@/assets/cultura-org.png";
 
 const content = `"Qui si lavora così. Lo capirai stando."
 
@@ -122,7 +123,7 @@ const CulturaImplicita = () => {
       subtitle="Perché aspettarsi che 'lo capiscano da soli' non funziona mai"
       date="29 gen 2025"
       readTime="7 min"
-      heroImage="https://via.placeholder.com/1200x500/8B5CF6/FFFFFF?text=Cultura"
+      heroImage={culturaOrg}
       content={content}
     />
   );

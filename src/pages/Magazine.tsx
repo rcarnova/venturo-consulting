@@ -1,6 +1,8 @@
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import ArticleCard from "@/components/ArticleCard";
+import confusioneNeiRuoli from "@/assets/confusione-nei-ruoli.png";
+import culturaOrg from "@/assets/cultura-org.png";
 
 const articles = [
   {
@@ -11,8 +13,7 @@ const articles = [
     date: "22 gen 2025",
     readTime: "6 min",
     link: "/magazine/ruoli-vaghi-tutto-rallenta",
-    imageUrl:
-      "https://via.placeholder.com/800x450/3B82F6/FFFFFF?text=Organizzazione",
+    imageUrl: confusioneNeiRuoli,
   },
   {
     category: "Cultura",
@@ -22,7 +23,7 @@ const articles = [
     date: "29 gen 2025",
     readTime: "7 min",
     link: "/magazine/cultura-implicita-cultura-inesistente",
-    imageUrl: "https://via.placeholder.com/800x450/8B5CF6/FFFFFF?text=Cultura",
+    imageUrl: culturaOrg,
   },
 ];
 
