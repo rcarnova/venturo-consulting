@@ -1,12 +1,12 @@
-import { Users, Puzzle, MessageCircle, BarChart3, GraduationCap, PenTool } from "lucide-react";
+import { Users, Puzzle, Palette, BarChart3, Sparkles, PenTool } from "lucide-react";
 import AnimatedSection from "./AnimatedSection";
 
 const competenze = [
   { icon: Users, label: "Coaching & facilitazione" },
   { icon: Puzzle, label: "Design organizzativo" },
-  { icon: MessageCircle, label: "Comunicazione interna" },
+  { icon: Sparkles, label: "Internal branding" },
   { icon: BarChart3, label: "Data analysis culturale" },
-  { icon: GraduationCap, label: "Formazione leadership" },
+  { icon: Palette, label: "Art direction" },
   { icon: PenTool, label: "Progettazione editoriale" },
 ];
 
