@@ -28,15 +28,6 @@ const services = [
       "Framework pratici",
       "Affiancamento con handover"
     ]
-  },
-  {
-    icon: Package,
-    title: "Artefatti concreti",
-    items: [
-      "I nostri progetti non finiscono con slide di sintesi",
-      "Produciamo strumenti che restano in azienda: playbook operativi, canvas decisionali, toolkit per manager",
-      "Non vi lasciamo con insight, vi lasciamo con ciò che serve per agire"
-    ]
   }
 ];
 
@@ -79,6 +70,29 @@ const HowWeWorkSection = () => {
             </AnimatedSection>
           ))}
         </div>
+
+        {/* Callout finale - Artefatti concreti */}
+        <AnimatedSection animation="fade-up" delay={450}>
+          <div 
+            className="mt-12 rounded-xl p-8 md:p-10 border-l-[6px] border-l-[#FF006E] flex flex-col md:flex-row items-center md:items-start gap-6 md:gap-8"
+            style={{ 
+              background: 'linear-gradient(135deg, #1a1a1a 0%, #000000 100%)',
+              boxShadow: '0 4px 16px rgba(0,0,0,0.1)'
+            }}
+          >
+            <div className="flex-shrink-0">
+              <Package className="w-12 h-12 text-white opacity-90" />
+            </div>
+            <div className="text-center md:text-left">
+              <h3 className="text-xl md:text-2xl font-display font-bold text-white mb-4">
+                Il risultato? Artefatti concreti
+              </h3>
+              <p className="text-base md:text-lg leading-relaxed text-white/90">
+                I nostri progetti non finiscono con slide di sintesi. Produciamo strumenti che restano in azienda e vengono usati: playbook operativi, canvas decisionali, toolkit per manager. Non vi lasciamo con insight, vi lasciamo con ciò che serve per agire.
+              </p>
+            </div>
+          </div>
+        </AnimatedSection>
       </div>
     </section>
   );
