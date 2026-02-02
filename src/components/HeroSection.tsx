@@ -17,11 +17,14 @@ const HeroSection = () => {
             Leadership
           </h1>
           
-          <p className="text-xl md:text-2xl mt-8 max-w-2xl text-muted-foreground leading-relaxed animate-fade-up-delay-1">
-            La cultura non è quello che dite di essere.
-            <br />
-            È quello che fate quando nessuno vi guarda.
-          </p>
+          <div className="text-xl md:text-2xl mt-8 max-w-2xl text-muted-foreground leading-relaxed">
+            <span className="block animate-fade-up-delay-1">
+              La cultura non è quello che dite di essere.
+            </span>
+            <span className="block animate-fade-up-delay-2">
+              È quello che fate quando nessuno vi guarda.
+            </span>
+          </div>
 
           <div className="mt-12 flex flex-col sm:flex-row gap-4 animate-fade-up-delay-2">
             <Button onClick={scrollToContact} variant="hero">
