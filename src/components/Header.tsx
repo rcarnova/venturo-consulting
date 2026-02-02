@@ -3,7 +3,11 @@ import logoVenturo from "@/assets/logo-venturo.png";
 
 const Header = () => {
   const scrollToContact = () => {
-    document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' });
+    if (window.location.pathname === '/') {
+      document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' });
+    } else {
+      window.location.href = '/#contact';
+    }
   };
 
   return (
@@ -14,19 +18,19 @@ const Header = () => {
         </a>
         
         <nav className="hidden md:flex items-center gap-8">
-          <a href="#problema" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
+          <a href="/#problema" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
             Il Problema
           </a>
-          <a href="#come-lavoriamo" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
+          <a href="/#come-lavoriamo" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
             Come Lavoriamo
           </a>
-          <a href="#leve" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
+          <a href="/#leve" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
             Le Leve
           </a>
           <a href="/casi-studio" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
             Case Study
           </a>
-          <a href="#chi-siamo" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
+          <a href="/#chi-siamo" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
             Chi Siamo
           </a>
         </nav>
