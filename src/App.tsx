@@ -10,6 +10,7 @@ import CasiStudio from "./pages/CasiStudio";
 import Ricehouse from "./pages/cases/Ricehouse";
 import Randstad from "./pages/cases/Randstad";
 import Lely from "./pages/cases/Lely";
+import ScrollToHash from "./components/ScrollToHash";
 
 const queryClient = new QueryClient();
 
@@ -19,6 +20,7 @@ const App = () => (
       <Toaster />
       <Sonner />
       <BrowserRouter>
+        <ScrollToHash />
         <Routes>
           <Route path="/" element={<Index />} />
           <Route path="/privacy" element={<Privacy />} />
