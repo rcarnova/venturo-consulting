@@ -38,7 +38,7 @@ const cases = [
     result: "La Prima Town Hall aziendale",
     rating: "4.3/5",
     description: "Progettazione e facilitazione di un momento storico per l'azienda.",
-    logo: "/logos/cve_white.png",
+    logo: "/logos/cve_mono.png",
     logoScale: 1.2
   },
   {

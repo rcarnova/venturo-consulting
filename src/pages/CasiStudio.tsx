@@ -46,7 +46,7 @@ const cases = [
     description: "Progettazione e facilitazione di un momento storico per l'azienda.",
     slug: "cve",
     hasDetail: false,
-    logo: "/logos/cve_white.png",
+    logo: "/logos/cve_mono.png",
     logoScale: 1.2,
   },
   {
