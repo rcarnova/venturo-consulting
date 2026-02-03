@@ -48,6 +48,14 @@ const ProblemSection = () => {
             </p>
           </div>
         </AnimatedSection>
+
+        <AnimatedSection delay={600}>
+          <div className="mt-10 pt-6 border-t border-warm-white/10">
+            <p className="text-base text-warm-white/60 font-display">
+              Venturo è uno studio che conosce queste dinamiche dall'interno. Non dall'esterno.
+            </p>
+          </div>
+        </AnimatedSection>
       </div>
     </section>
   );

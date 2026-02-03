@@ -38,10 +38,10 @@ const HowWeWorkSection = () => {
         <AnimatedSection>
           <div className="text-center max-w-2xl mx-auto mb-16">
             <h2 className="text-headline text-charcoal">
-              Architetti della vostra infrastruttura culturale
+              Il nostro metodo
             </h2>
             <p className="text-subheadline mt-4">
-              Tre pilastri per costruire un'organizzazione che funziona davvero.
+              Tre pilastri su cui costruiamo ogni intervento.
             </p>
           </div>
         </AnimatedSection>
