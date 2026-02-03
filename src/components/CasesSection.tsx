@@ -70,12 +70,14 @@ const CasesSection = () => {
                   <div>
                     <div className="flex items-center gap-3 mb-2">
                       {caseStudy.logo && (
-                        <img 
-                          src={caseStudy.logo} 
-                          alt={caseStudy.company} 
-                          className="h-6 w-auto"
-                          style={{ transform: `scale(${caseStudy.logoScale || 1})` }}
-                        />
+                        <div className="bg-charcoal rounded px-3 py-1.5 inline-flex items-center justify-center">
+                          <img 
+                            src={caseStudy.logo} 
+                            alt={caseStudy.company} 
+                            className="h-5 w-auto"
+                            style={{ transform: `scale(${caseStudy.logoScale || 1})` }}
+                          />
+                        </div>
                       )}
                       {!caseStudy.logo && (
                         <span className="text-sm font-medium text-primary uppercase tracking-wider">
