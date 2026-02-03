@@ -15,8 +15,9 @@ const cases = [
     company: "Randstad",
     result: "Cultura visibile, candidati allineati",
     description: "Campagna employer branding che traduce valori interni in messaggi concreti per il mercato del lavoro.",
-    logo: "/logos/randstad_white.png",
-    logoScale: 1.4
+    logo: "/logos/randstad_blue.svg",
+    logoScale: 1,
+    invertLogo: true
   },
   {
     company: "Lely",
@@ -74,7 +75,7 @@ const CasesSection = () => {
                           <img 
                             src={caseStudy.logo} 
                             alt={caseStudy.company} 
-                            className="h-5 w-auto"
+                            className={`h-5 w-auto ${caseStudy.invertLogo ? 'invert brightness-0 invert' : ''}`}
                             style={{ transform: `scale(${caseStudy.logoScale || 1})` }}
                           />
                         </div>
