@@ -20,6 +20,7 @@ interface CaseStudyLayoutProps {
   logoAlt?: string;
   logoPlaceholder?: string;
   logoNeedsInvert?: boolean;
+  logoClassName?: string;
   title: string;
   subtitle: string;
   overview: OverviewItem[];
@@ -36,6 +37,7 @@ const CaseStudyLayout = ({
   logoAlt,
   logoPlaceholder,
   logoNeedsInvert = true,
+  logoClassName,
   title,
   subtitle,
   overview,
@@ -70,7 +72,7 @@ const CaseStudyLayout = ({
                 <img
                   src={logo}
                   alt={logoAlt || title}
-                  className={`h-24 md:h-32 mx-auto mb-8 ${logoNeedsInvert ? 'invert' : ''}`}
+                  className={logoClassName || `h-24 md:h-32 mx-auto mb-8 ${logoNeedsInvert ? 'invert' : ''}`}
                 />
               ) : (
                 <div className="inline-block px-8 py-4 bg-charcoal text-warm-white font-display text-2xl font-semibold rounded-lg mb-8">
