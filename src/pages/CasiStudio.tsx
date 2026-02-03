@@ -47,7 +47,7 @@ const cases = [
     slug: "cve",
     hasDetail: false,
     logo: "/logos/cve_mono.png",
-    logoScale: 1.2,
+    logoScale: 0.8,
   },
   {
     company: "Smart Working",

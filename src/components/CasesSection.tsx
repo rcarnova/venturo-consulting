@@ -39,7 +39,7 @@ const cases = [
     rating: "4.3/5",
     description: "Progettazione e facilitazione di un momento storico per l'azienda.",
     logo: "/logos/cve_mono.png",
-    logoScale: 1.2
+    logoScale: 0.8
   },
   {
     company: "Smart Working",
