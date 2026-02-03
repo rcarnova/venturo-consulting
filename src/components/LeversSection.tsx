@@ -46,11 +46,11 @@ const LeversSection = () => {
       <div className="container-wide">
         <AnimatedSection>
           <div className="text-center max-w-2xl mx-auto mb-12">
-            <h2 className="text-headline text-primary-foreground">
-              Su cosa lavoriamo
+          <h2 className="text-headline text-primary-foreground">
+              Le aree di intervento
             </h2>
             <p className="text-subheadline mt-4 text-primary-foreground/70">
-              Sei leve per trasformare la vostra cultura organizzativa.
+              Le sei leve concrete su cui agiamo dentro le vostre organizzazioni.
             </p>
           </div>
         </AnimatedSection>
