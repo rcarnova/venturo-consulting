@@ -3,8 +3,9 @@ import CaseStudyLayout from "@/components/CaseStudyLayout";
 const Randstad = () => {
   return (
     <CaseStudyLayout
-      logo="/logos/randstad_white.png"
+      logo="/logos/randstad_blue.svg"
       logoAlt="Randstad"
+      logoNeedsInvert={false}
       title="Randstad Italia"
       subtitle="Cultura visibile, candidati allineati"
       overview={[

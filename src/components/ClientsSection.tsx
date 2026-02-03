@@ -1,7 +1,7 @@
 const clients = [
   { name: "Ricehouse", logo: "/logos/ricehouse_white.png", scale: 1 },
   { name: "Lely", logo: "/logos/lely_white.svg", scale: 1 },
-  { name: "Randstad", logo: "/logos/randstad_white.png", scale: 1.4 },
+  { name: "Randstad", logo: "/logos/randstad_blue.svg", scale: 1 },
   { name: "Findomestic", logo: "/logos/findomestic_white.png", scale: 1.5 },
   { name: "Sambonet", logo: "/logos/sambonet_white.png", scale: 1 },
   { name: "Ufficio Pio", logo: "/logos/ufficio_pio_white.png", scale: 1 },
