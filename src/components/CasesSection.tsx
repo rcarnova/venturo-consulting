@@ -8,31 +8,37 @@ const cases = [
     company: "Ricehouse",
     result: "Da identità forte a candidature qualificate",
     description: "Ridefinizione completa dell'employer brand e della proposta di valore.",
-    logo: "/logos/ricehouse_white.png"
+    logo: "/logos/ricehouse_white.png",
+    logoScale: 1
   },
   {
     company: "Randstad",
     result: "Cultura visibile, candidati allineati",
     description: "Campagna employer branding che traduce valori interni in messaggi concreti per il mercato del lavoro.",
-    logo: "/logos/randstad_white.png"
+    logo: "/logos/randstad_white.png",
+    logoScale: 1.4
   },
   {
     company: "Lely",
     result: "Tool per gestire persone senza esperienza HR",
     description: "Framework pratico per manager tecnici che devono guidare team.",
-    logo: "/logos/lely_white.svg"
+    logo: "/logos/lely_white.svg",
+    logoScale: 1.3
   },
   {
     company: "Ufficio Pio",
     result: "Naming che fa cultura",
     description: "Progetto di naming strategico per dare linguaggio condiviso ai dipartimenti e rendere riconoscibile il percorso dei beneficiari.",
-    logo: "/logos/ufficio_pio_white.png"
+    logo: "/logos/ufficio_pio_white.png",
+    logoScale: 1
   },
   {
     company: "CVE",
     result: "La Prima Town Hall aziendale",
     rating: "4.3/5",
-    description: "Progettazione e facilitazione di un momento storico per l'azienda."
+    description: "Progettazione e facilitazione di un momento storico per l'azienda.",
+    logo: "/logos/cve_white.png",
+    logoScale: 1.2
   },
   {
     company: "Smart Working",
@@ -67,7 +73,8 @@ const CasesSection = () => {
                         <img 
                           src={caseStudy.logo} 
                           alt={caseStudy.company} 
-                          className="h-5 w-auto opacity-70 invert"
+                          className="h-6 w-auto"
+                          style={{ transform: `scale(${caseStudy.logoScale || 1})` }}
                         />
                       )}
                       {!caseStudy.logo && (
