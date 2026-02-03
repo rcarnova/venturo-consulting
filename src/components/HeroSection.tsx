@@ -9,7 +9,7 @@ const HeroSection = () => {
     <section className="relative min-h-screen flex items-center pt-20 bg-background">
       <div className="container-wide relative z-10">
         <div className="max-w-4xl">
-          <h1 className="text-5xl md:text-7xl lg:text-8xl font-display font-medium leading-[0.95] tracking-tight text-foreground">
+          <h1 className="text-4xl sm:text-5xl md:text-7xl lg:text-8xl font-display font-medium leading-[0.95] tracking-tight text-foreground">
             <span className="block typing-line typing-line-1">Comunicazione</span>
             <span className="block typing-line typing-line-2">Rituali</span>
             <span className="block typing-line typing-line-3">Leadership</span>
