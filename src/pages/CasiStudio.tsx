@@ -12,6 +12,7 @@ const cases = [
     description: "Ridefinizione completa dell'employer brand e della proposta di valore.",
     slug: "ricehouse",
     hasDetail: true,
+    logo: "/logos/ricehouse_white.png",
   },
   {
     company: "Randstad",
@@ -19,6 +20,8 @@ const cases = [
     description: "Campagna employer branding che traduce valori interni in messaggi concreti per il mercato del lavoro.",
     slug: "randstad",
     hasDetail: true,
+    logo: "/logos/randstad_blue.svg",
+    invertLogo: true,
   },
   {
     company: "Lely",
@@ -26,6 +29,8 @@ const cases = [
     description: "Framework pratico per manager tecnici che devono guidare team.",
     slug: "lely",
     hasDetail: true,
+    logo: "/logos/lely_white.svg",
+    logoScale: 1.3,
   },
   {
     company: "Ufficio Pio",
@@ -33,6 +38,7 @@ const cases = [
     description: "Progetto di naming strategico per dare linguaggio condiviso ai dipartimenti e rendere riconoscibile il percorso dei beneficiari.",
     slug: "ufficio-pio",
     hasDetail: false,
+    logo: "/logos/ufficio_pio_white.png",
   },
   {
     company: "Smart Working",
@@ -75,9 +81,20 @@ const CasiStudio = () => {
                       <div className="card-subtle group hover:bg-card transition-all duration-300 cursor-pointer h-full flex flex-col glow-yellow hover:scale-[1.02]">
                         <div className="flex items-start justify-between">
                           <div>
-                            <span className="text-sm font-medium text-primary uppercase tracking-wider">
-                              {caseStudy.company}
-                            </span>
+                            {caseStudy.logo ? (
+                              <div className="bg-charcoal rounded px-3 py-1.5 inline-flex items-center justify-center mb-2">
+                                <img 
+                                  src={caseStudy.logo} 
+                                  alt={caseStudy.company} 
+                                  className={`h-5 w-auto ${caseStudy.invertLogo ? 'invert brightness-0 invert' : ''}`}
+                                  style={{ transform: `scale(${caseStudy.logoScale || 1})` }}
+                                />
+                              </div>
+                            ) : (
+                              <span className="text-sm font-medium text-primary uppercase tracking-wider">
+                                {caseStudy.company}
+                              </span>
+                            )}
                             <h3 className="text-xl font-display font-semibold text-charcoal mt-2">
                               {caseStudy.result}
                             </h3>
@@ -97,9 +114,20 @@ const CasiStudio = () => {
                   ) : (
                     <div className="card-subtle h-full flex flex-col glow-yellow hover:scale-[1.02] transition-all duration-300">
                       <div>
-                        <span className="text-sm font-medium text-muted-foreground uppercase tracking-wider">
-                          {caseStudy.company}
-                        </span>
+                        {caseStudy.logo ? (
+                          <div className="bg-charcoal rounded px-3 py-1.5 inline-flex items-center justify-center mb-2">
+                            <img 
+                              src={caseStudy.logo} 
+                              alt={caseStudy.company} 
+                              className={`h-5 w-auto ${caseStudy.invertLogo ? 'invert brightness-0 invert' : ''}`}
+                              style={{ transform: `scale(${caseStudy.logoScale || 1})` }}
+                            />
+                          </div>
+                        ) : (
+                          <span className="text-sm font-medium text-muted-foreground uppercase tracking-wider">
+                            {caseStudy.company}
+                          </span>
+                        )}
                         <h3 className="text-xl font-display font-semibold text-charcoal mt-2">
                           {caseStudy.result}
                         </h3>
