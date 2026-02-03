@@ -1,10 +1,10 @@
 const clients = [
-  { name: "Ricehouse", logo: "/logos/ricehouse_white.png", scale: 1 },
-  { name: "Lely", logo: "/logos/lely_white.svg", scale: 1 },
-  { name: "Randstad", logo: "/logos/randstad_blue.svg", scale: 1 },
-  { name: "Findomestic", logo: "/logos/findomestic_white.png", scale: 1.5 },
-  { name: "Sambonet", logo: "/logos/sambonet_white.png", scale: 1 },
-  { name: "Ufficio Pio", logo: "/logos/ufficio_pio_white.png", scale: 1 },
+  { name: "Ricehouse", logo: "/logos/ricehouse_white.png", scale: 1, invert: false },
+  { name: "Lely", logo: "/logos/lely_white.svg", scale: 1, invert: false },
+  { name: "Randstad", logo: "/logos/randstad_blue.svg", scale: 1, invert: true },
+  { name: "Findomestic", logo: "/logos/findomestic_white.png", scale: 1.5, invert: false },
+  { name: "Sambonet", logo: "/logos/sambonet_white.png", scale: 1, invert: false },
+  { name: "Ufficio Pio", logo: "/logos/ufficio_pio_white.png", scale: 1, invert: false },
 ];
 
 // Duplicate the array 3 times for seamless infinite scroll
@@ -43,7 +43,7 @@ const ClientsSection = () => {
                 src={client.logo}
                 alt={client.name}
                 style={{ transform: `scale(${client.scale})` }}
-                className="max-w-full max-h-full object-contain opacity-60 hover:opacity-90 transition-opacity duration-300"
+                className={`max-w-full max-h-full object-contain opacity-60 hover:opacity-90 transition-opacity duration-300 ${client.invert ? 'invert brightness-0 invert' : ''}`}
               />
             </div>
           ))}
