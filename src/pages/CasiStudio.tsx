@@ -41,6 +41,15 @@ const cases = [
     logo: "/logos/ufficio_pio_white.png",
   },
   {
+    company: "CVE",
+    result: "La Prima Town Hall aziendale",
+    description: "Progettazione e facilitazione di un momento storico per l'azienda.",
+    slug: "cve",
+    hasDetail: false,
+    logo: "/logos/cve_white.png",
+    logoScale: 1.2,
+  },
+  {
     company: "Smart Working",
     result: "+35-50% satisfaction",
     description: "Metodo testato su decine di aziende per il lavoro ibrido efficace.",
