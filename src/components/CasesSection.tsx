@@ -7,22 +7,26 @@ const cases = [
   {
     company: "Ricehouse",
     result: "Da identità forte a candidature qualificate",
-    description: "Ridefinizione completa dell'employer brand e della proposta di valore."
+    description: "Ridefinizione completa dell'employer brand e della proposta di valore.",
+    logo: "/logos/ricehouse_white.png"
   },
   {
     company: "Randstad",
     result: "Cultura visibile, candidati allineati",
-    description: "Campagna employer branding che traduce valori interni in messaggi concreti per il mercato del lavoro."
+    description: "Campagna employer branding che traduce valori interni in messaggi concreti per il mercato del lavoro.",
+    logo: "/logos/randstad_white.png"
   },
   {
     company: "Lely",
     result: "Tool per gestire persone senza esperienza HR",
-    description: "Framework pratico per manager tecnici che devono guidare team."
+    description: "Framework pratico per manager tecnici che devono guidare team.",
+    logo: "/logos/lely_white.svg"
   },
   {
     company: "Ufficio Pio",
     result: "Naming che fa cultura",
-    description: "Progetto di naming strategico per dare linguaggio condiviso ai dipartimenti e rendere riconoscibile il percorso dei beneficiari."
+    description: "Progetto di naming strategico per dare linguaggio condiviso ai dipartimenti e rendere riconoscibile il percorso dei beneficiari.",
+    logo: "/logos/ufficio_pio_white.png"
   },
   {
     company: "CVE",
@@ -58,9 +62,20 @@ const CasesSection = () => {
               <div className="card-subtle group hover:bg-card transition-all duration-300 cursor-pointer h-full glow-yellow hover:scale-[1.02]">
                 <div className="flex items-start justify-between">
                   <div>
-                    <span className="text-sm font-medium text-primary uppercase tracking-wider">
-                      {caseStudy.company}
-                    </span>
+                    <div className="flex items-center gap-3 mb-2">
+                      {caseStudy.logo && (
+                        <img 
+                          src={caseStudy.logo} 
+                          alt={caseStudy.company} 
+                          className="h-5 w-auto opacity-70 invert"
+                        />
+                      )}
+                      {!caseStudy.logo && (
+                        <span className="text-sm font-medium text-primary uppercase tracking-wider">
+                          {caseStudy.company}
+                        </span>
+                      )}
+                    </div>
                     <h3 className="text-xl font-display font-semibold text-charcoal mt-2">
                       {caseStudy.result}
                     </h3>
