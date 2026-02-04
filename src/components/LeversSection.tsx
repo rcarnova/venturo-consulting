@@ -15,7 +15,7 @@ const levers: Lever[] = [
   },
   {
     title: "Innovazione & AI Readiness",
-    description: "Lavorare sugli assunti culturali che bloccano l'innovazione. L'AI amplifica la vostra cultura: se l'errore è punito, nessuno strumento vi renderà innovativi.",
+    description: "Lavorare sugli assunti culturali che bloccano l'innovazione. L'AI amplifica la vostra cultura: se gli errori non sono permessi, nessuno strumento vi renderà innovativi.",
     icon: Sparkles
   },
   {
