@@ -4,6 +4,7 @@ import { TooltipProvider } from "@/components/ui/tooltip";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Index from "./pages/Index";
+import IndexEN from "./pages/en/Index";
 import Privacy from "./pages/Privacy";
 import NotFound from "./pages/NotFound";
 import CasiStudio from "./pages/CasiStudio";
@@ -26,6 +27,7 @@ const App = () => (
         <ScrollToHash />
         <Routes>
           <Route path="/" element={<Index />} />
+          <Route path="/en" element={<IndexEN />} />
           <Route path="/privacy" element={<Privacy />} />
           <Route path="/casi-studio" element={<CasiStudio />} />
           <Route path="/casi-studio/ricehouse" element={<Ricehouse />} />
