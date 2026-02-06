@@ -15,6 +15,11 @@ import Magazine from "./pages/Magazine";
 import RuoliVaghi from "./pages/magazine/RuoliVaghi";
 import CulturaImplicita from "./pages/magazine/CulturaImplicita";
 import ScrollToHash from "./components/ScrollToHash";
+// English case studies
+import CaseStudies from "./pages/en/CaseStudies";
+import RicehouseEN from "./pages/en/cases/Ricehouse";
+import RandstadEN from "./pages/en/cases/Randstad";
+import LelyEN from "./pages/en/cases/Lely";
 
 const queryClient = new QueryClient();
 
@@ -28,6 +33,10 @@ const App = () => (
         <Routes>
           <Route path="/" element={<Index />} />
           <Route path="/en" element={<IndexEN />} />
+          <Route path="/en/case-studies" element={<CaseStudies />} />
+          <Route path="/en/case-studies/ricehouse" element={<RicehouseEN />} />
+          <Route path="/en/case-studies/randstad" element={<RandstadEN />} />
+          <Route path="/en/case-studies/lely" element={<LelyEN />} />
           <Route path="/privacy" element={<Privacy />} />
           <Route path="/casi-studio" element={<CasiStudio />} />
           <Route path="/casi-studio/ricehouse" element={<Ricehouse />} />
