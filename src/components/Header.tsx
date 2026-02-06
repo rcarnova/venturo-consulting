@@ -107,6 +107,29 @@ const Header = () => {
                 >
                   Parliamone
                 </Button>
+                
+                {/* Language Switcher */}
+                <div className="mt-6 pt-6 border-t border-border">
+                  <p className="text-sm text-muted-foreground mb-3">Lingua</p>
+                  <div className="flex gap-2">
+                    <a
+                      href="/"
+                      onClick={handleNavClick}
+                      className="flex-1 flex items-center justify-center gap-2 py-2 px-3 rounded-md bg-primary/10 text-foreground font-medium"
+                    >
+                      <span>🇮🇹</span>
+                      <span>Italiano</span>
+                    </a>
+                    <a
+                      href="/en"
+                      onClick={handleNavClick}
+                      className="flex-1 flex items-center justify-center gap-2 py-2 px-3 rounded-md border border-border text-muted-foreground hover:bg-accent transition-colors"
+                    >
+                      <span>🇬🇧</span>
+                      <span>English</span>
+                    </a>
+                  </div>
+                </div>
               </nav>
             </SheetContent>
           </Sheet>
