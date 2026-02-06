@@ -1,8 +1,14 @@
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
-import { Menu } from "lucide-react";
+import { Menu, Globe } from "lucide-react";
 import logoVenturo from "@/assets/logo-venturo.png";
+import {
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuItem,
+  DropdownMenuTrigger,
+} from "@/components/ui/dropdown-menu";
 
 const navLinks = [
   { href: "/#problema", label: "Il Problema" },
@@ -47,11 +53,31 @@ const Header = () => {
         </nav>
 
         <div className="flex items-center gap-4">
+          <DropdownMenu>
+            <DropdownMenuTrigger asChild>
+              <Button variant="ghost" size="icon" aria-label="Cambia lingua">
+                <Globe className="h-4 w-4" />
+              </Button>
+            </DropdownMenuTrigger>
+            <DropdownMenuContent align="end">
+              <DropdownMenuItem asChild>
+                <a href="/" className="flex items-center gap-2 cursor-pointer">
+                  <span className="text-sm font-medium">🇮🇹</span>
+                  <span>Italiano</span>
+                </a>
+              </DropdownMenuItem>
+              <DropdownMenuItem asChild>
+                <a href="/en" className="flex items-center gap-2 cursor-pointer">
+                  <span className="text-sm font-medium">🇬🇧</span>
+                  <span>English</span>
+                </a>
+              </DropdownMenuItem>
+            </DropdownMenuContent>
+          </DropdownMenu>
+
           <Button onClick={scrollToContact} variant="default" size="default" className="hidden sm:inline-flex">
             Parliamone
           </Button>
-
-          {/* Mobile Menu */}
           <Sheet open={open} onOpenChange={setOpen}>
             <SheetTrigger asChild className="md:hidden">
               <Button variant="ghost" size="icon" aria-label="Apri menu">
