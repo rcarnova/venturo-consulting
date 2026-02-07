@@ -3,6 +3,7 @@ import CaseStudyLayout from "@/components/CaseStudyLayout";
 const Lely = () => {
   return (
     <CaseStudyLayout
+      caseId="lely"
       logo="/logos/lely_white.svg"
       logoAlt="Lely"
       title="Lely"

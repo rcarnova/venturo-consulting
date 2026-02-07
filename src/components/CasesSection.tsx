@@ -2,54 +2,7 @@ import { ArrowUpRight, ArrowRight, Star } from "lucide-react";
 import { Link } from "react-router-dom";
 import AnimatedSection from "./AnimatedSection";
 import { Button } from "./ui/button";
-
-const cases = [
-  {
-    company: "Ricehouse",
-    result: "Da identità forte a candidature qualificate",
-    description: "Ridefinizione completa dell'employer brand e della proposta di valore.",
-    logo: "/logos/ricehouse_white.png",
-    logoScale: 1,
-    slug: "ricehouse",
-  },
-  {
-    company: "Randstad",
-    result: "Cultura visibile, candidati allineati",
-    description: "Campagna employer branding che traduce valori interni in messaggi concreti per il mercato del lavoro.",
-    logo: "/logos/randstad_blue.svg",
-    logoScale: 1,
-    invertLogo: true,
-    slug: "randstad",
-  },
-  {
-    company: "Lely",
-    result: "Tool per gestire persone senza esperienza HR",
-    description: "Framework pratico per manager tecnici che devono guidare team.",
-    logo: "/logos/lely_white.svg",
-    logoScale: 1.3,
-    slug: "lely",
-  },
-  {
-    company: "Ufficio Pio",
-    result: "Naming che fa cultura",
-    description: "Progetto di naming strategico per dare linguaggio condiviso ai dipartimenti e rendere riconoscibile il percorso dei beneficiari.",
-    logo: "/logos/ufficio_pio_white.png",
-    logoScale: 1
-  },
-  {
-    company: "CVE",
-    result: "La Prima Town Hall aziendale",
-    rating: "4.3/5",
-    description: "Progettazione e facilitazione di un momento storico per l'azienda.",
-    logo: "/logos/cve_mono.png",
-    logoScale: 0.8
-  },
-  {
-    company: "Smart Working",
-    result: "+35-50% satisfaction",
-    description: "Metodo testato su decine di aziende per il lavoro ibrido efficace."
-  }
-];
+import { allCases } from "@/data/cases";
 
 const CasesSection = () => {
   return (
@@ -67,7 +20,7 @@ const CasesSection = () => {
         </AnimatedSection>
 
         <div className="grid md:grid-cols-2 gap-6">
-          {cases.map((caseStudy, index) => {
+          {allCases.map((caseStudy, index) => {
             const content = (
               <div className="card-subtle group hover:bg-card transition-all duration-300 cursor-pointer h-full glow-yellow hover:scale-[1.02]">
                 <div className="flex items-start justify-between">

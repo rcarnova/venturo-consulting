@@ -3,6 +3,7 @@ import CaseStudyLayoutEN from "@/components/en/CaseStudyLayoutEN";
 const RicehouseEN = () => {
   return (
     <CaseStudyLayoutEN
+      caseId="ricehouse"
       logo="/logos/ricehouse_white.png"
       logoAlt="Ricehouse"
       title="Ricehouse"
