@@ -4,6 +4,8 @@ import HeaderEN from "./HeaderEN";
 import FooterEN from "./FooterEN";
 import AnimatedSection from "../AnimatedSection";
 import { Button } from "../ui/button";
+import SuggestedCasesEN from "./SuggestedCasesEN";
+import { allCasesEN } from "@/data/casesEN";
 
 interface OverviewItem {
   label: string;
@@ -21,6 +23,7 @@ interface CaseStudyLayoutENProps {
   logoPlaceholder?: string;
   logoNeedsInvert?: boolean;
   logoClassName?: string;
+  caseId: string;
   title: string;
   subtitle: string;
   overview: OverviewItem[];
@@ -38,6 +41,7 @@ const CaseStudyLayoutEN = ({
   logoPlaceholder,
   logoNeedsInvert = true,
   logoClassName,
+  caseId,
   title,
   subtitle,
   overview,
@@ -175,6 +179,9 @@ const CaseStudyLayoutEN = ({
             </AnimatedSection>
           </div>
         </section>
+
+        {/* Suggested Cases */}
+        <SuggestedCasesEN currentCaseId={caseId} allCases={allCasesEN} />
 
         {/* CTA */}
         <section className="py-16 md:py-20 bg-primary text-primary-foreground">

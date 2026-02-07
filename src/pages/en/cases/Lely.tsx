@@ -3,6 +3,7 @@ import CaseStudyLayoutEN from "@/components/en/CaseStudyLayoutEN";
 const LelyEN = () => {
   return (
     <CaseStudyLayoutEN
+      caseId="lely"
       logo="/logos/lely_white.svg"
       logoAlt="Lely"
       title="Lely"

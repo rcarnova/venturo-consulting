@@ -3,6 +3,7 @@ import CaseStudyLayoutEN from "@/components/en/CaseStudyLayoutEN";
 const RandstadEN = () => {
   return (
     <CaseStudyLayoutEN
+      caseId="randstad"
       logo="/logos/randstad_blue.svg"
       logoAlt="Randstad"
       logoClassName="h-16 sm:h-20 md:h-28 lg:h-32 mx-auto mb-8 brightness-0"
