@@ -112,7 +112,7 @@ const CasesSectionEN = () => {
         <AnimatedSection delay={600}>
           <div className="text-center mt-12">
             <Button asChild variant="outline" size="lg">
-              <Link to="/casi-studio" className="inline-flex items-center gap-2">
+              <Link to="/en/case-studies" className="inline-flex items-center gap-2">
                 Discover all case studies
                 <ArrowRight className="w-4 h-4" />
               </Link>
