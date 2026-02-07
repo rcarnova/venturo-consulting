@@ -9,7 +9,8 @@ const cases = [
     result: "From strong identity to qualified applications",
     description: "Complete redefinition of employer brand and value proposition.",
     logo: "/logos/ricehouse_white.png",
-    logoScale: 1
+    logoScale: 1,
+    slug: "ricehouse",
   },
   {
     company: "Randstad",
@@ -17,14 +18,16 @@ const cases = [
     description: "Employer branding campaign that translates internal values into concrete messages for the job market.",
     logo: "/logos/randstad_blue.svg",
     logoScale: 1,
-    invertLogo: true
+    invertLogo: true,
+    slug: "randstad",
   },
   {
     company: "Lely",
     result: "Tool for managing people without HR experience",
     description: "Practical framework for technical managers who need to lead teams.",
     logo: "/logos/lely_white.svg",
-    logoScale: 1.3
+    logoScale: 1.3,
+    slug: "lely",
   },
   {
     company: "Ufficio Pio",
@@ -64,8 +67,8 @@ const CasesSectionEN = () => {
         </AnimatedSection>
 
         <div className="grid md:grid-cols-2 gap-6">
-          {cases.map((caseStudy, index) => (
-            <AnimatedSection key={index} animation="fade-up" delay={index * 100}>
+          {cases.map((caseStudy, index) => {
+            const content = (
               <div className="card-subtle group hover:bg-card transition-all duration-300 cursor-pointer h-full glow-yellow hover:scale-[1.02]">
                 <div className="flex items-start justify-between">
                   <div>
@@ -104,8 +107,20 @@ const CasesSectionEN = () => {
                   {caseStudy.description}
                 </p>
               </div>
-            </AnimatedSection>
-          ))}
+            );
+
+            return (
+              <AnimatedSection key={index} animation="fade-up" delay={index * 100}>
+                {caseStudy.slug ? (
+                  <Link to={`/en/case-studies/${caseStudy.slug}`} className="block h-full">
+                    {content}
+                  </Link>
+                ) : (
+                  content
+                )}
+              </AnimatedSection>
+            );
+          })}
         </div>
 
         {/* Link to all cases */}
