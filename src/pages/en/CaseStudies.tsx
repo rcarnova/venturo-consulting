@@ -2,6 +2,7 @@ import { ArrowRight } from "lucide-react";
 import { Link } from "react-router-dom";
 import HeaderEN from "@/components/en/HeaderEN";
 import FooterEN from "@/components/en/FooterEN";
+import EnglishMeta from "@/components/en/EnglishMeta";
 import AnimatedSection from "@/components/AnimatedSection";
 import { Button } from "@/components/ui/button";
 
@@ -65,6 +66,7 @@ const CaseStudies = () => {
 
   return (
     <div className="min-h-screen bg-background">
+      <EnglishMeta />
       <HeaderEN />
       <main className="pt-20">
         {/* Hero */}
