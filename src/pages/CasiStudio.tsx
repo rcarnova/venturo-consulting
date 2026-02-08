@@ -38,7 +38,7 @@ const cases = [
     result: "Naming che fa cultura",
     description: "Progetto di naming strategico per dare linguaggio condiviso ai dipartimenti e rendere riconoscibile il percorso dei beneficiari.",
     slug: "ufficio-pio",
-    hasDetail: false,
+    hasDetail: true,
     logo: "/logos/ufficio_pio_white.png",
   },
   {
