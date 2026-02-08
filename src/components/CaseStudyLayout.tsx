@@ -15,6 +15,11 @@ interface OverviewItem {
 interface Phase {
   title: string;
   description: string;
+  image?: {
+    src: string;
+    alt: string;
+    caption: string;
+  };
 }
 
 interface CaseStudyLayoutProps {
@@ -152,6 +157,19 @@ const CaseStudyLayout = ({
                         {phase.title}
                       </h3>
                       <p className="text-muted-foreground">{phase.description}</p>
+                      {phase.image && (
+                        <div className="mt-6">
+                          <img
+                            src={phase.image.src}
+                            alt={phase.image.alt}
+                            className="w-full h-80 object-cover rounded-lg grayscale"
+                            loading="lazy"
+                          />
+                          <p className="text-sm text-muted-foreground mt-3 italic">
+                            {phase.image.caption}
+                          </p>
+                        </div>
+                      )}
                     </div>
                   </div>
                 </AnimatedSection>
