@@ -1,5 +1,6 @@
 import { ArrowRight } from "lucide-react";
 import { Link } from "react-router-dom";
+import { SEO } from "@/components/SEO";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import AnimatedSection from "@/components/AnimatedSection";
@@ -65,6 +66,13 @@ const CasiStudio = () => {
 
   return (
     <div className="min-h-screen bg-background">
+      <SEO
+        title="Casi Studio"
+        description="Progetti di cultura organizzativa realizzati con aziende italiane. Employer branding, leadership, rituali e comunicazione interna."
+        canonical="https://venturo.it/casi-studio"
+        lang="it"
+        alternateUrls={{ it: "https://venturo.it/casi-studio", en: "https://venturo.it/en/case-studies" }}
+      />
       <Header />
       <main className="pt-20">
         {/* Hero */}

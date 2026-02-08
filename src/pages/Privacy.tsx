@@ -1,10 +1,17 @@
 import { Link } from "react-router-dom";
 import { ArrowLeft } from "lucide-react";
+import { SEO } from "@/components/SEO";
 import Footer from "@/components/Footer";
 
 const Privacy = () => {
   return (
     <div className="min-h-screen bg-background">
+      <SEO
+        title="Informativa Privacy"
+        description="Informativa privacy di Venturo. Come trattiamo i tuoi dati personali raccolti tramite il form di contatto."
+        canonical="https://venturo.it/privacy"
+        lang="it"
+      />
       <div className="max-w-[800px] mx-auto px-6 md:px-12 py-12">
         <Link 
           to="/" 

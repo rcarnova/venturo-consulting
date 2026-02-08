@@ -1,3 +1,4 @@
+import { SEO } from "@/components/SEO";
 import ArticleLayout from "@/components/ArticleLayout";
 import confusioneNeiRuoli from "@/assets/confusione-nei-ruoli.png";
 
@@ -79,7 +80,14 @@ La collaborazione funziona meglio quando è chiaro chi ha l'ultima parola.
 
 const RuoliVaghi = () => {
   return (
-    <ArticleLayout
+    <>
+      <SEO
+        title="Ruoli vaghi = Tutto rallenta"
+        description="Come chiarire responsabilità senza creare burocrazia. Ownership e ruoli in azienda."
+        canonical="https://venturo.it/magazine/ruoli-vaghi-tutto-rallenta"
+        lang="it"
+      />
+      <ArticleLayout
       category="Organizzazione"
       title="Ruoli vaghi = Tutto rallenta"
       subtitle="Come chiarire responsabilità senza creare burocrazia"
@@ -88,6 +96,7 @@ const RuoliVaghi = () => {
       heroImage={confusioneNeiRuoli}
       content={content}
     />
+    </>
   );
 };
 
