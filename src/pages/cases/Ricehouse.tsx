@@ -45,7 +45,7 @@ const Ricehouse = () => {
         {
           title: "Employer Personas (2 settimane)",
           description:
-            "Costruzione di personas concrete: chi sappiamo che qui troverà bene, chi farà fatica. Definizione cultural fit verificabile già dal colloquio.",
+            "Costruzione di personas concrete: chi sappiamo che qui si troverà bene, chi farà fatica. Definizione cultural fit verificabile già dal colloquio.",
         },
         {
           title: "Applicazione operativa (2-3 settimane)",
