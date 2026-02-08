@@ -37,6 +37,11 @@ const RandstadEN = () => {
           title: "Values identification (workshop)",
           description:
             "Facilitated workshops to bring out the real values on which Randstad Italia is based. Not aspirational values, but those actually lived and transmitted daily.",
+          image: {
+            src: "/workshop/randstad-postit-wall.jpg",
+            alt: "Workshop employer perception analysis with Randstad team",
+            caption: "Employer perception mapping workshop, 2024",
+          },
         },
         {
           title: "Community involvement",

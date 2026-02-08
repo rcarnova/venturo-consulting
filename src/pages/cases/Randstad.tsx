@@ -37,6 +37,11 @@ const Randstad = () => {
           title: "Individuazione valori (workshop)",
           description:
             "Workshop facilitati per far emergere i valori reali su cui si basa Randstad Italia. Non valori aspirazionali, ma quelli effettivamente vissuti e trasmessi quotidianamente.",
+          image: {
+            src: "/workshop/randstad-postit-wall.jpg",
+            alt: "Workshop analisi employer perception con team Randstad",
+            caption: "Workshop di mappatura percezione employer, 2024",
+          },
         },
         {
           title: "Coinvolgimento community",
