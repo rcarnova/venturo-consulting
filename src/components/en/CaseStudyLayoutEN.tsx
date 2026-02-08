@@ -162,7 +162,7 @@ const CaseStudyLayoutEN = ({
                           <img
                             src={phase.image.src}
                             alt={phase.image.alt}
-                            className="w-full h-80 object-cover rounded-lg grayscale"
+                            className="w-full h-80 object-cover rounded-lg"
                             loading="lazy"
                           />
                           <p className="text-sm text-muted-foreground mt-3 italic">
