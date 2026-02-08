@@ -1,8 +1,17 @@
+import { SEO } from "@/components/SEO";
 import CaseStudyLayoutEN from "@/components/en/CaseStudyLayoutEN";
 
 const LelyEN = () => {
   return (
-    <CaseStudyLayoutEN
+    <>
+      <SEO
+        title="Lely: Concrete Tools for Managing People"
+        description="How Lely gave concrete tools to technical managers to evaluate collaborators on observable behaviors."
+        canonical="https://venturo.it/en/case-studies/lely"
+        lang="en"
+        alternateUrls={{ it: "https://venturo.it/casi-studio/lely", en: "https://venturo.it/en/case-studies/lely" }}
+      />
+      <CaseStudyLayoutEN
       caseId="lely"
       logo="/logos/lely_white.svg"
       logoAlt="Lely"
@@ -47,6 +56,7 @@ const LelyEN = () => {
         "Shift from vague judgments to constructive and improvable feedback",
       ]}
     />
+    </>
   );
 };
 

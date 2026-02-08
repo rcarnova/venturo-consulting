@@ -1,8 +1,8 @@
 import { ArrowRight } from "lucide-react";
 import { Link } from "react-router-dom";
+import { SEO } from "@/components/SEO";
 import HeaderEN from "@/components/en/HeaderEN";
 import FooterEN from "@/components/en/FooterEN";
-import EnglishMeta from "@/components/en/EnglishMeta";
 import AnimatedSection from "@/components/AnimatedSection";
 import { Button } from "@/components/ui/button";
 
@@ -66,7 +66,13 @@ const CaseStudies = () => {
 
   return (
     <div className="min-h-screen bg-background">
-      <EnglishMeta />
+      <SEO
+        title="Case Studies"
+        description="Organizational culture projects with Italian companies. Employer branding, leadership, rituals and internal communication."
+        canonical="https://venturo.it/en/case-studies"
+        lang="en"
+        alternateUrls={{ it: "https://venturo.it/casi-studio", en: "https://venturo.it/en/case-studies" }}
+      />
       <HeaderEN />
       <main className="pt-20">
         {/* Hero */}

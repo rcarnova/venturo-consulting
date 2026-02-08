@@ -3,6 +3,7 @@ import { Toaster as Sonner } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HelmetProvider } from "react-helmet-async";
 import Index from "./pages/Index";
 import IndexEN from "./pages/en/Index";
 import Privacy from "./pages/Privacy";
@@ -25,31 +26,33 @@ const queryClient = new QueryClient();
 
 const App = () => (
   <QueryClientProvider client={queryClient}>
-    <TooltipProvider>
-      <Toaster />
-      <Sonner />
-      <BrowserRouter>
-        <ScrollToHash />
-        <Routes>
-          <Route path="/" element={<Index />} />
-          <Route path="/en" element={<IndexEN />} />
-          <Route path="/en/case-studies" element={<CaseStudies />} />
-          <Route path="/en/case-studies/ricehouse" element={<RicehouseEN />} />
-          <Route path="/en/case-studies/randstad" element={<RandstadEN />} />
-          <Route path="/en/case-studies/lely" element={<LelyEN />} />
-          <Route path="/privacy" element={<Privacy />} />
-          <Route path="/casi-studio" element={<CasiStudio />} />
-          <Route path="/casi-studio/ricehouse" element={<Ricehouse />} />
-          <Route path="/casi-studio/randstad" element={<Randstad />} />
-          <Route path="/casi-studio/lely" element={<Lely />} />
-          <Route path="/magazine" element={<Magazine />} />
-          <Route path="/magazine/ruoli-vaghi-tutto-rallenta" element={<RuoliVaghi />} />
-          <Route path="/magazine/cultura-implicita-cultura-inesistente" element={<CulturaImplicita />} />
-          {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
-          <Route path="*" element={<NotFound />} />
-        </Routes>
-      </BrowserRouter>
-    </TooltipProvider>
+    <HelmetProvider>
+      <TooltipProvider>
+        <Toaster />
+        <Sonner />
+        <BrowserRouter>
+          <ScrollToHash />
+          <Routes>
+            <Route path="/" element={<Index />} />
+            <Route path="/en" element={<IndexEN />} />
+            <Route path="/en/case-studies" element={<CaseStudies />} />
+            <Route path="/en/case-studies/ricehouse" element={<RicehouseEN />} />
+            <Route path="/en/case-studies/randstad" element={<RandstadEN />} />
+            <Route path="/en/case-studies/lely" element={<LelyEN />} />
+            <Route path="/privacy" element={<Privacy />} />
+            <Route path="/casi-studio" element={<CasiStudio />} />
+            <Route path="/casi-studio/ricehouse" element={<Ricehouse />} />
+            <Route path="/casi-studio/randstad" element={<Randstad />} />
+            <Route path="/casi-studio/lely" element={<Lely />} />
+            <Route path="/magazine" element={<Magazine />} />
+            <Route path="/magazine/ruoli-vaghi-tutto-rallenta" element={<RuoliVaghi />} />
+            <Route path="/magazine/cultura-implicita-cultura-inesistente" element={<CulturaImplicita />} />
+            {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
+            <Route path="*" element={<NotFound />} />
+          </Routes>
+        </BrowserRouter>
+      </TooltipProvider>
+    </HelmetProvider>
   </QueryClientProvider>
 );
 

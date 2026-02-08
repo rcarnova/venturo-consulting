@@ -1,3 +1,4 @@
+import { SEO } from "@/components/SEO";
 import Header from "@/components/Header";
 import HeroSection from "@/components/HeroSection";
 import ProblemSection from "@/components/ProblemSection";
@@ -13,6 +14,13 @@ import Footer from "@/components/Footer";
 const Index = () => {
   return (
     <div className="min-h-screen bg-background">
+      <SEO
+        title="Comunicazione Rituali Leadership"
+        description="Aiutiamo le aziende a chiudere il gap tra la cultura dichiarata e quella vissuta ogni giorno. Consulenza in comunicazione, rituali e leadership organizzativa."
+        canonical="https://venturo.it"
+        lang="it"
+        alternateUrls={{ it: "https://venturo.it", en: "https://venturo.it/en" }}
+      />
       <Header />
       <main>
         <HeroSection />

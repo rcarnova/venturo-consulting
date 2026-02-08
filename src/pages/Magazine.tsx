@@ -1,3 +1,4 @@
+import { SEO } from "@/components/SEO";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import ArticleCard from "@/components/ArticleCard";
@@ -30,6 +31,12 @@ const articles = [
 const Magazine = () => {
   return (
     <div className="min-h-screen bg-background">
+      <SEO
+        title="Magazine"
+        description="Cultura organizzativa senza retorica. Articoli su leadership, rituali aziendali e comunicazione interna."
+        canonical="https://venturo.it/magazine"
+        lang="it"
+      />
       <Header />
       <main className="pt-20">
         {/* Hero Section */}

@@ -1,3 +1,4 @@
+import { SEO } from "@/components/SEO";
 import ArticleLayout from "@/components/ArticleLayout";
 import culturaOrg from "@/assets/cultura-org.png";
 
@@ -117,7 +118,14 @@ Se aspetti che "lo capiscano da soli", non lo capiranno mai.
 
 const CulturaImplicita = () => {
   return (
-    <ArticleLayout
+    <>
+      <SEO
+        title="Cultura implicita = Cultura inesistente"
+        description="Perché aspettarsi che 'lo capiscano da soli' non funziona. Come codificare i valori aziendali."
+        canonical="https://venturo.it/magazine/cultura-implicita-cultura-inesistente"
+        lang="it"
+      />
+      <ArticleLayout
       category="Cultura"
       title="Cultura implicita = Cultura inesistente"
       subtitle="Perché aspettarsi che 'lo capiscano da soli' non funziona mai"
@@ -126,6 +134,7 @@ const CulturaImplicita = () => {
       heroImage={culturaOrg}
       content={content}
     />
+    </>
   );
 };
 

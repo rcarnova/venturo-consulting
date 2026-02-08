@@ -1,8 +1,17 @@
+import { SEO } from "@/components/SEO";
 import CaseStudyLayout from "@/components/CaseStudyLayout";
 
 const Randstad = () => {
   return (
-    <CaseStudyLayout
+    <>
+      <SEO
+        title="Randstad: Cultura visibile, candidati allineati"
+        description="Come Randstad Italia ha tradotto la cultura aziendale in contenuti credibili attraverso le voci dei dipendenti."
+        canonical="https://venturo.it/casi-studio/randstad"
+        lang="it"
+        alternateUrls={{ it: "https://venturo.it/casi-studio/randstad", en: "https://venturo.it/en/case-studies/randstad" }}
+      />
+      <CaseStudyLayout
       caseId="randstad"
       logo="/logos/randstad_blue.svg"
       logoAlt="Randstad"
@@ -53,6 +62,7 @@ const Randstad = () => {
         "Materiale utilizzabile per attraction e comunicazione interna",
       ]}
     />
+    </>
   );
 };
 

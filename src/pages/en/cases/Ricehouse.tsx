@@ -1,8 +1,17 @@
+import { SEO } from "@/components/SEO";
 import CaseStudyLayoutEN from "@/components/en/CaseStudyLayoutEN";
 
 const RicehouseEN = () => {
   return (
-    <CaseStudyLayoutEN
+    <>
+      <SEO
+        title="Ricehouse: From Strong Identity to Qualified Candidates"
+        description="How Ricehouse improved qualified talent attraction through a more explicit and consistent organizational culture."
+        canonical="https://venturo.it/en/case-studies/ricehouse"
+        lang="en"
+        alternateUrls={{ it: "https://venturo.it/casi-studio/ricehouse", en: "https://venturo.it/en/case-studies/ricehouse" }}
+      />
+      <CaseStudyLayoutEN
       caseId="ricehouse"
       logo="/logos/ricehouse_white.png"
       logoAlt="Ricehouse"
@@ -46,6 +55,7 @@ const RicehouseEN = () => {
         "Clearer and more transparent onboarding process",
       ]}
     />
+    </>
   );
 };
 
