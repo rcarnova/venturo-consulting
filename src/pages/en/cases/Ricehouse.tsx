@@ -36,6 +36,11 @@ const RicehouseEN = () => {
           title: "Identity emergence (2 weeks)",
           description:
             "\"Who do we want with us?\" workshop with founders and management. We didn't ask \"what are your values?\" but \"tell us about the last time someone made a mistake - what happened?\". Identity emerged from facts, not aspirations.",
+          image: {
+            src: "/workshop/ricehouse-envisioning-fucsia.jpg",
+            alt: "Envisioning workshop with Ricehouse team",
+            caption: "Envisioning session with the Ricehouse team",
+          },
         },
         {
           title: "Employer Personas (2 weeks)",

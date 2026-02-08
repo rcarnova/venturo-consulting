@@ -36,6 +36,11 @@ const Ricehouse = () => {
           title: "Emersione identità (2 settimane)",
           description:
             "Workshop \"Chi vogliamo con noi?\" con founder e management. Non abbiamo chiesto \"quali sono i vostri valori?\" ma \"raccontaci l'ultima volta che qualcuno ha sbagliato - cosa è successo?\". Identità emersa dai fatti, non dalle aspirazioni.",
+          image: {
+            src: "/workshop/ricehouse-envisioning-fucsia.jpg",
+            alt: "Workshop di envisioning con il team Ricehouse",
+            caption: "Sessione di envisioning con il team Ricehouse",
+          },
         },
         {
           title: "Employer Personas (2 settimane)",
