@@ -146,31 +146,49 @@ const CaseStudyLayoutEN = ({
             <div className="space-y-8">
               {phases.map((phase, index) => (
                 <AnimatedSection key={index} delay={index * 100}>
-                  <div className="flex gap-6">
-                    <div className="flex-shrink-0">
-                      <div className="w-10 h-10 rounded-full bg-primary text-primary-foreground flex items-center justify-center font-display font-semibold">
-                        {index + 1}
-                      </div>
-                    </div>
-                    <div>
-                      <h3 className="text-xl font-display font-semibold text-charcoal mb-2">
-                        {phase.title}
-                      </h3>
-                      <p className="text-muted-foreground">{phase.description}</p>
-                      {phase.image && (
-                        <div className="mt-6">
+                  <div className="mb-12">
+                    {phase.image ? (
+                      <div className="grid md:grid-cols-[1.5fr,1fr] gap-8 items-start">
+                        <div className="flex gap-6">
+                          <div className="flex-shrink-0">
+                            <div className="w-10 h-10 rounded-full bg-primary text-primary-foreground flex items-center justify-center font-display font-semibold">
+                              {index + 1}
+                            </div>
+                          </div>
+                          <div>
+                            <h3 className="text-xl font-display font-semibold text-charcoal mb-2">
+                              {phase.title}
+                            </h3>
+                            <p className="text-muted-foreground">{phase.description}</p>
+                          </div>
+                        </div>
+                        <div>
                           <img
                             src={phase.image.src}
                             alt={phase.image.alt}
-                            className="w-full h-80 object-cover rounded-lg"
+                            className="w-full h-auto max-h-[600px] object-cover rounded-lg"
                             loading="lazy"
                           />
                           <p className="text-sm text-muted-foreground mt-3 italic">
                             {phase.image.caption}
                           </p>
                         </div>
-                      )}
-                    </div>
+                      </div>
+                    ) : (
+                      <div className="flex gap-6">
+                        <div className="flex-shrink-0">
+                          <div className="w-10 h-10 rounded-full bg-primary text-primary-foreground flex items-center justify-center font-display font-semibold">
+                            {index + 1}
+                          </div>
+                        </div>
+                        <div>
+                          <h3 className="text-xl font-display font-semibold text-charcoal mb-2">
+                            {phase.title}
+                          </h3>
+                          <p className="text-muted-foreground">{phase.description}</p>
+                        </div>
+                      </div>
+                    )}
                   </div>
                 </AnimatedSection>
               ))}
