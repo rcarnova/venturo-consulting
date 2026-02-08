@@ -1,89 +1,21 @@
 
-## Piano: Creare la Sezione "Chi Siamo"
 
-Creeremo una nuova sezione "Chi Siamo" seguendo lo stile e le convenzioni delle altre sezioni esistenti, posizionandola dopo la sezione Case Study.
+## Aggiunta Caso Studio Ufficio Pio (IT + EN)
 
----
+Creazione delle pagine di dettaglio per il caso Ufficio Pio in italiano e inglese, con aggiornamento delle rotte e dei dati centralizzati.
 
-### Struttura della Sezione
+### Cosa cambia
 
-La sezione sarà composta da due parti:
+1. **Nuova pagina IT** (`src/pages/cases/UfficioPio.tsx`) -- caso studio completo con SEO, hreflang e contenuti forniti
+2. **Nuova pagina EN** (`src/pages/en/cases/UfficioPio.tsx`) -- versione inglese, usando `CaseStudyLayoutEN` (come gli altri casi EN)
+3. **Aggiornamento dati IT** (`src/data/cases.ts`) -- il caso Ufficio Pio passa da `hasDetail: false` a `hasDetail: true` con `slug` e `url` corretti
+4. **Aggiornamento dati EN** (`src/data/casesEN.ts`) -- stessa modifica per la versione inglese
+5. **Nuove rotte** (`src/App.tsx`) -- aggiunta `/casi-studio/ufficio-pio` e `/en/case-studies/ufficio-pio` con relativi import
 
-1. **Introduzione "Chi Siamo"** - Testo descrittivo centrato con titolo e due paragrafi
-2. **Griglia Competenze** - 6 badge/card per le competenze elencate
+### Dettagli tecnici
 
----
+- La versione EN usa `CaseStudyLayoutEN` (non `CaseStudyLayout`) per coerenza con Ricehouse, Randstad e Lely EN
+- Nel data file, l'oggetto Ufficio Pio esistente viene aggiornato (non duplicato): `hasDetail: true`, `slug: "ufficio-pio"`, `url: "/casi-studio/ufficio-pio"` (IT) e `url: "/en/case-studies/ufficio-pio"` (EN)
+- SEO completo con tag hreflang IT/EN bidirezionali
+- Il caso apparira automaticamente nella sezione "Altri progetti" grazie alla navigazione ciclica esistente
 
-### File da Creare
-
-**`src/components/AboutSection.tsx`**
-
-Nuovo componente con:
-- ID sezione: `chi-siamo` (per navigazione)
-- Container: `container-wide` come nelle altre sezioni
-- Animazioni: `AnimatedSection` con pattern esistenti
-- Layout:
-  - Header centrato con titolo e sottotitolo
-  - Due paragrafi descrittivi
-  - Griglia competenze 2x3 (desktop) / 2x3 (tablet) / 1x6 (mobile)
-
----
-
-### File da Modificare
-
-**`src/pages/Index.tsx`**
-- Importare `AboutSection`
-- Aggiungere `<AboutSection />` dopo `<CasesSection />`
-
-**`src/components/Header.tsx`**
-- Aggiungere link di navigazione "Chi Siamo" che punta a `#chi-siamo`
-
----
-
-### Design e Stile
-
-La sezione userà:
-- Sfondo: `bg-muted/30` per differenziarla leggermente (come LeversSection)
-- Icone per le competenze da Lucide:
-  - Coaching & facilitazione: `Users`
-  - Design organizzativo: `Puzzle`
-  - Comunicazione interna: `MessageCircle`
-  - Data analysis culturale: `BarChart3`
-  - Formazione leadership: `GraduationCap`
-  - Progettazione editoriale: `PenTool`
-
-Card competenze:
-- Stile simile a `card-subtle`
-- Icona + testo
-- Effetto hover sottile
-
----
-
-### Contenuto
-
-**Titolo**: "Chi Siamo"
-
-**Sottotitolo**: "Uno studio ibrido che conosce le organizzazioni dall'interno"
-
-**Paragrafo 1**: "Non siamo osservatori esterni. Siamo persone che hanno vissuto le dinamiche organizzative da dentro, in ruoli operativi e strategici. Sappiamo cosa significa provare a cambiare una cultura mentre si gestisce il quotidiano."
-
-**Paragrafo 2**: "Integriamo competenze diverse — coaching, facilitazione, design, comunicazione, analisi dati — perché la cultura non si cambia con un solo strumento. Lavoriamo su misura, con progetti che hanno sempre un inizio, uno sviluppo e un rinforzo continuo."
-
-**Paragrafo 3**: "Il nostro metodo parte sempre dall'ascolto e dall'analisi, prosegue con una progettualità concreta, e si conclude con materiali e strumenti che l'organizzazione può continuare a usare."
-
-**Competenze**:
-- Coaching & facilitazione
-- Design organizzativo
-- Comunicazione interna
-- Data analysis culturale
-- Formazione leadership
-- Progettazione editoriale
-
----
-
-### Note Tecniche
-
-- Il componente seguirà esattamente i pattern delle altre sezioni (CasesSection, HowWeWorkSection)
-- Animazioni staggered per le competenze con delay incrementale
-- Completamente responsive
-- Accessibile con semantic HTML
