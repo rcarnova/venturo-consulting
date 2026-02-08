@@ -2,22 +2,19 @@ import { useEffect } from "react";
 import { useLocation } from "react-router-dom";
 
 const ScrollToHash = () => {
-  const { hash, pathname } = useLocation();
+  const { pathname, hash } = useLocation();
 
   useEffect(() => {
     if (hash) {
-      // Small delay to ensure the page has rendered
-      setTimeout(() => {
-        const element = document.getElementById(hash.substring(1));
-        if (element) {
-          element.scrollIntoView({ behavior: "smooth" });
-        }
-      }, 100);
-    } else if (pathname === "/") {
-      // Scroll to top when navigating to homepage without hash
-      window.scrollTo({ top: 0, behavior: "smooth" });
+      const id = hash.replace("#", "");
+      const element = document.getElementById(id);
+      if (element) {
+        element.scrollIntoView({ behavior: "smooth" });
+      }
+    } else {
+      window.scrollTo({ top: 0, left: 0, behavior: "instant" });
     }
-  }, [hash, pathname]);
+  }, [pathname, hash]);
 
   return null;
 };
