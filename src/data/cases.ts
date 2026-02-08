@@ -54,8 +54,9 @@ export const allCases: CaseData[] = [
     description: "Progetto di naming strategico per dare linguaggio condiviso ai dipartimenti e rendere riconoscibile il percorso dei beneficiari.",
     logo: "/logos/ufficio_pio_white.png",
     logoScale: 1,
-    hasDetail: false,
-    url: "/casi-studio",
+    slug: "ufficio-pio",
+    hasDetail: true,
+    url: "/casi-studio/ufficio-pio",
   },
   {
     id: "cve",

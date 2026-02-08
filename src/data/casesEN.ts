@@ -42,8 +42,9 @@ export const allCasesEN: CaseData[] = [
     description: "Strategic naming project to create shared language across departments.",
     logo: "/logos/ufficio_pio_white.png",
     logoScale: 1,
-    hasDetail: false,
-    url: "/en/case-studies",
+    slug: "ufficio-pio",
+    hasDetail: true,
+    url: "/en/case-studies/ufficio-pio",
   },
   {
     id: "cve",
