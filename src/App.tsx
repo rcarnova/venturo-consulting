@@ -13,7 +13,9 @@ import Ricehouse from "./pages/cases/Ricehouse";
 import Randstad from "./pages/cases/Randstad";
 import Lely from "./pages/cases/Lely";
 import UfficioPio from "./pages/cases/UfficioPio";
+import CVE from "./pages/cases/CVE";
 import UfficioPioEN from "./pages/en/cases/UfficioPio";
+import CVEEN from "./pages/en/cases/CVE";
 import Magazine from "./pages/Magazine";
 import RuoliVaghi from "./pages/magazine/RuoliVaghi";
 import CulturaImplicita from "./pages/magazine/CulturaImplicita";
@@ -47,7 +49,9 @@ const App = () => (
             <Route path="/casi-studio/randstad" element={<Randstad />} />
             <Route path="/casi-studio/lely" element={<Lely />} />
             <Route path="/casi-studio/ufficio-pio" element={<UfficioPio />} />
+            <Route path="/casi-studio/cve" element={<CVE />} />
             <Route path="/en/case-studies/ufficio-pio" element={<UfficioPioEN />} />
+            <Route path="/en/case-studies/cve" element={<CVEEN />} />
             <Route path="/magazine" element={<Magazine />} />
             <Route path="/magazine/ruoli-vaghi-tutto-rallenta" element={<RuoliVaghi />} />
             <Route path="/magazine/cultura-implicita-cultura-inesistente" element={<CulturaImplicita />} />
