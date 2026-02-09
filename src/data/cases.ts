@@ -66,8 +66,9 @@ export const allCases: CaseData[] = [
     description: "Progettazione e facilitazione di un momento storico per l'azienda.",
     logo: "/logos/cve_mono.png",
     logoScale: 0.8,
-    hasDetail: false,
-    url: "/casi-studio",
+    slug: "cve",
+    hasDetail: true,
+    url: "/casi-studio/cve",
   },
   {
     id: "smart-working",

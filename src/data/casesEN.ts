@@ -54,8 +54,9 @@ export const allCasesEN: CaseData[] = [
     description: "Design and facilitation of a historic moment for the company.",
     logo: "/logos/cve_mono.png",
     logoScale: 0.8,
-    hasDetail: false,
-    url: "/en/case-studies",
+    slug: "cve",
+    hasDetail: true,
+    url: "/en/case-studies/cve",
   },
   {
     id: "smart-working",
