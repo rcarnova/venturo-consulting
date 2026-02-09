@@ -53,6 +53,22 @@
     <priority>0.8</priority>
   </url>
 
+  <url>
+    <loc>https://venturo.it/casi-studio/ufficio-pio</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://venturo.it/en/case-studies/ufficio-pio"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://venturo.it/casi-studio/ufficio-pio"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://venturo.it/casi-studio/cve</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://venturo.it/en/case-studies/cve"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://venturo.it/casi-studio/cve"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
   <!-- Casi Studio EN -->
   <url>
     <loc>https://venturo.it/en/case-studies</loc>
@@ -82,6 +98,22 @@
     <loc>https://venturo.it/en/case-studies/lely</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://venturo.it/en/case-studies/lely"/>
     <xhtml:link rel="alternate" hreflang="it" href="https://venturo.it/casi-studio/lely"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://venturo.it/en/case-studies/ufficio-pio</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://venturo.it/en/case-studies/ufficio-pio"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://venturo.it/casi-studio/ufficio-pio"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://venturo.it/en/case-studies/cve</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://venturo.it/en/case-studies/cve"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://venturo.it/casi-studio/cve"/>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
