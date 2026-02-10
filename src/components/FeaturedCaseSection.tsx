@@ -1,92 +1,70 @@
-import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
 import { Link } from "react-router-dom";
 import AnimatedSection from "@/components/AnimatedSection";
 
 const FeaturedCaseSection = () => {
   return (
-    <section className="py-20 md:py-28 bg-muted/30">
+    <section className="py-24 md:py-32 bg-background">
       <div className="container mx-auto px-4 sm:px-6">
         <AnimatedSection>
-          <div className="max-w-6xl mx-auto mb-12">
-            <p className="text-sm font-semibold uppercase tracking-widest text-primary mb-3">
-              Come lavoriamo: un esempio concreto
-            </p>
-            <p className="text-lg text-muted-foreground max-w-2xl">
-              Il caso Randstad mostra il nostro approccio: non cerchiamo di migliorare
-              la reputazione, ma di rendere esplicita la cultura che già esiste.
-            </p>
-          </div>
-        </AnimatedSection>
+          <div className="max-w-7xl mx-auto">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-10 md:gap-16 items-center">
+              {/* Content column - Left */}
+              <div className="space-y-8">
+                {/* Brand name + subtitle */}
+                <div>
+                  <p className="text-xl font-serif tracking-wide text-foreground">
+                    Randstad
+                  </p>
+                  <p className="text-sm text-muted-foreground mt-1">
+                    HR & Recruiting
+                  </p>
+                </div>
 
-        <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 items-start">
-          {/* Logo column */}
-          <AnimatedSection animation="fade-right" delay={100}>
-            <div className="bg-background rounded-2xl p-10 md:p-14 flex items-center justify-center shadow-sm">
-              <img
-                src="/logos/randstad_blue.svg"
-                alt="Randstad logo"
-                className="w-full max-w-[280px] h-auto"
-              />
-            </div>
-          </AnimatedSection>
+                {/* Data point hero */}
+                <div>
+                  <div className="flex items-baseline gap-3">
+                    <span className="text-7xl md:text-8xl font-display font-bold text-foreground leading-none">
+                      30
+                    </span>
+                    <span className="text-base text-muted-foreground">
+                      manager coinvolti nel workshop
+                    </span>
+                  </div>
+                </div>
 
-          {/* Content column */}
-          <AnimatedSection animation="fade-left" delay={200}>
-            <div className="mb-4">
-              <h3 className="text-2xl md:text-3xl font-bold text-foreground">Randstad</h3>
-              <p className="text-primary font-medium mt-1">
-                Dalla brand reputation al cultural fit
-              </p>
-            </div>
+                {/* Headline */}
+                <h2 className="text-2xl md:text-3xl font-display font-medium leading-tight text-foreground">
+                  Dal 4.2/5 all'allineamento culturale reale
+                </h2>
 
-            <div className="space-y-5 mb-8">
-              <div>
-                <h4 className="font-semibold text-foreground mb-1">Sfida</h4>
-                <p className="text-muted-foreground text-sm leading-relaxed">
-                  Gap tra ottima reputazione employer (rating 4.2/5) e difficoltà
-                  ad attrarre candidati realmente allineati alla cultura aziendale.
-                  Il problema non era il brand, ma l'esplicitazione di chi funziona
-                  davvero in Randstad.
+                {/* Body copy */}
+                <p className="text-muted-foreground leading-relaxed max-w-lg">
+                  Workshop con 30 manager per far emergere chi funziona davvero in
+                  Randstad. Non abbiamo creato personas aspirazionali, ma estratto
+                  pattern da storie concrete. Risultato: candidati pre-filtrati sul
+                  cultural fit prima dell'assessment tecnico.
                 </p>
+
+                {/* CTA minimale */}
+                <Link
+                  to="/casi-studio/randstad"
+                  className="inline-flex items-center text-primary font-medium group hover:underline"
+                >
+                  Leggi il caso completo
+                  <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
+                </Link>
               </div>
 
-              <div>
-                <h4 className="font-semibold text-foreground mb-1">Approccio</h4>
-                <p className="text-muted-foreground text-sm leading-relaxed">
-                  Workshop con 30 manager per far emergere le caratteristiche reali
-                  che distinguono chi ha successo in azienda. Non abbiamo creato
-                  personas aspirazionali, ma estratto pattern da storie concrete.
-                </p>
-              </div>
-
-              <div>
-                <h4 className="font-semibold text-foreground mb-1">Risultato</h4>
-                <p className="text-muted-foreground text-sm leading-relaxed">
-                  Personas evidence-based integrate nei colloqui. Candidati pre-filtrati
-                  sul cultural fit prima ancora dell'assessment tecnico. Linguaggio
-                  comune tra recruiting e line manager.
-                </p>
+              {/* Image column - Right */}
+              <div className="order-first md:order-last">
+                <img
+                  src="/cases/randstad-workshop.jpg"
+                  alt="Workshop Randstad: manager al lavoro su post-it davanti al logo aziendale"
+                  className="w-full h-[400px] md:h-[600px] object-cover rounded-lg"
+                />
               </div>
             </div>
-
-            <Link to="/casi-studio/randstad">
-              <Button variant="outline" className="group">
-                Leggi il caso completo
-                <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
-              </Button>
-            </Link>
-          </AnimatedSection>
-        </div>
-
-        <AnimatedSection delay={400}>
-          <div className="max-w-6xl mx-auto mt-10 text-center">
-            <Link to="/casi-studio">
-              <Button variant="link" className="text-primary group">
-                Vedi altri progetti
-                <ArrowRight className="ml-1 h-4 w-4 transition-transform group-hover:translate-x-1" />
-              </Button>
-            </Link>
           </div>
         </AnimatedSection>
       </div>
