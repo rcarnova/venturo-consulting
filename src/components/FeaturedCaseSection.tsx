@@ -60,7 +60,7 @@ const FeaturedCaseSection = () => {
               <div className="order-first md:order-last">
                 <img
                   src="/cases/randstad-envisioning.jpg"
-                  alt="Workshop Randstad: manager al lavoro su post-it davanti al logo aziendale"
+                  alt="Workshop Randstad - Partecipanti al lavoro con visual thinking e materiali sul tavolo"
                   className="w-full h-[400px] md:h-[600px] object-cover rounded-lg"
                 />
               </div>
