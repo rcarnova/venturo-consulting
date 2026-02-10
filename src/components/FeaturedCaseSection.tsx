@@ -59,7 +59,7 @@ const FeaturedCaseSection = () => {
               {/* Image column - Right */}
               <div className="order-first md:order-last">
                 <img
-                  src="/cases/randstad-workshop.jpg"
+                  src="/cases/randstad-envisioning.jpg"
                   alt="Workshop Randstad: manager al lavoro su post-it davanti al logo aziendale"
                   className="w-full h-[400px] md:h-[600px] object-cover rounded-lg"
                 />
