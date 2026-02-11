@@ -108,7 +108,7 @@ const CasiStudio = () => {
                         <div className="flex items-start justify-between">
                           <div>
                             {caseStudy.logo ? (
-                              <div className="bg-charcoal rounded px-3 py-1.5 inline-flex items-center justify-center mb-2">
+                              <div className="bg-charcoal rounded px-4 py-2.5 inline-flex items-center justify-center mb-2">
                                 <img 
                                   src={caseStudy.logo} 
                                   alt={caseStudy.company} 
@@ -141,7 +141,7 @@ const CasiStudio = () => {
                     <div className="card-subtle h-full flex flex-col glow-yellow hover:scale-[1.02] transition-all duration-300">
                       <div>
                         {caseStudy.logo ? (
-                          <div className="bg-charcoal rounded px-3 py-1.5 inline-flex items-center justify-center mb-2">
+                          <div className="bg-charcoal rounded px-4 py-2.5 inline-flex items-center justify-center mb-2">
                             <img 
                               src={caseStudy.logo} 
                               alt={caseStudy.company} 
