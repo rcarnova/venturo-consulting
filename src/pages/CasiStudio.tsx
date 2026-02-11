@@ -51,6 +51,15 @@ const cases = [
     logoScale: 0.8,
   },
   {
+    company: "Findomestic",
+    result: "Da linguaggio istituzionale a conversazione unificata",
+    description: "Workshop intensivo per unificare il linguaggio tra assistenza clienti e team social.",
+    slug: "findomestic",
+    hasDetail: true,
+    logo: "/logos/findomestic_white.png",
+    logoScale: 1.3,
+  },
+  {
     company: "Smart Working",
     result: "+35-50% satisfaction",
     description: "Metodo testato su decine di aziende per il lavoro ibrido efficace.",
