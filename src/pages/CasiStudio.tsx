@@ -57,7 +57,7 @@ const cases = [
     slug: "findomestic",
     hasDetail: true,
     logo: "/logos/findomestic_white.png",
-    logoScale: 1.3,
+    logoScale: 1.8,
   },
   {
     company: "Smart Working",
