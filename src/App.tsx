@@ -16,6 +16,8 @@ import UfficioPio from "./pages/cases/UfficioPio";
 import CVE from "./pages/cases/CVE";
 import UfficioPioEN from "./pages/en/cases/UfficioPio";
 import CVEEN from "./pages/en/cases/CVE";
+import Findomestic from "./pages/cases/Findomestic";
+import FindomesticEN from "./pages/en/cases/Findomestic";
 import Magazine from "./pages/Magazine";
 import RuoliVaghi from "./pages/magazine/RuoliVaghi";
 import CulturaImplicita from "./pages/magazine/CulturaImplicita";
@@ -52,6 +54,8 @@ const App = () => (
             <Route path="/casi-studio/cve" element={<CVE />} />
             <Route path="/en/case-studies/ufficio-pio" element={<UfficioPioEN />} />
             <Route path="/en/case-studies/cve" element={<CVEEN />} />
+            <Route path="/casi-studio/findomestic" element={<Findomestic />} />
+            <Route path="/en/case-studies/findomestic" element={<FindomesticEN />} />
             <Route path="/magazine" element={<Magazine />} />
             <Route path="/magazine/ruoli-vaghi-tutto-rallenta" element={<RuoliVaghi />} />
             <Route path="/magazine/cultura-implicita-cultura-inesistente" element={<CulturaImplicita />} />
