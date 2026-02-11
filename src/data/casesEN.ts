@@ -64,7 +64,7 @@ export const allCasesEN: CaseData[] = [
     result: "From corporate language to unified conversation",
     description: "Intensive workshop to unify language between customer service and social media team.",
     logo: "/logos/findomestic_white.png",
-    logoScale: 1.8,
+    logoScale: 2.5,
     slug: "findomestic",
     hasDetail: true,
     url: "/en/case-studies/findomestic",
