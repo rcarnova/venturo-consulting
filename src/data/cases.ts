@@ -76,7 +76,7 @@ export const allCases: CaseData[] = [
     result: "Da linguaggio istituzionale a conversazione unificata",
     description: "Workshop intensivo per unificare il linguaggio tra assistenza clienti e team social.",
     logo: "/logos/findomestic_white.png",
-    logoScale: 1,
+    logoScale: 1.3,
     slug: "findomestic",
     hasDetail: true,
     url: "/casi-studio/findomestic",
