@@ -59,6 +59,17 @@ export const allCasesEN: CaseData[] = [
     url: "/en/case-studies/cve",
   },
   {
+    id: "findomestic",
+    company: "Findomestic",
+    result: "From corporate language to unified conversation",
+    description: "Intensive workshop to unify language between customer service and social media team.",
+    logo: "/logos/findomestic_white.png",
+    logoScale: 1,
+    slug: "findomestic",
+    hasDetail: true,
+    url: "/en/case-studies/findomestic",
+  },
+  {
     id: "smart-working",
     company: "Smart Working",
     result: "+35-50% satisfaction",

@@ -71,6 +71,17 @@ export const allCases: CaseData[] = [
     url: "/casi-studio/cve",
   },
   {
+    id: "findomestic",
+    company: "Findomestic",
+    result: "Da linguaggio istituzionale a conversazione unificata",
+    description: "Workshop intensivo per unificare il linguaggio tra assistenza clienti e team social.",
+    logo: "/logos/findomestic_white.png",
+    logoScale: 1,
+    slug: "findomestic",
+    hasDetail: true,
+    url: "/casi-studio/findomestic",
+  },
+  {
     id: "smart-working",
     company: "Smart Working",
     result: "+35-50% satisfaction",
