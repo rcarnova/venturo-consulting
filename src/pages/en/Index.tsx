@@ -10,6 +10,7 @@ import PartnersSectionEN from "@/components/en/PartnersSectionEN";
 import ClientsSectionEN from "@/components/en/ClientsSectionEN";
 import ContactSectionEN from "@/components/en/ContactSectionEN";
 import FooterEN from "@/components/en/FooterEN";
+import FeaturedCaseSectionEN from "@/components/en/FeaturedCaseSectionEN";
 
 const IndexEN = () => {
   return (
@@ -24,6 +25,7 @@ const IndexEN = () => {
       <HeaderEN />
       <main>
         <HeroSectionEN />
+        <FeaturedCaseSectionEN />
         <ProblemSectionEN />
         <HowWeWorkSectionEN />
         <LeversSectionEN />
