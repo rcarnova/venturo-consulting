@@ -5,6 +5,7 @@ import HeaderEN from "@/components/en/HeaderEN";
 import FooterEN from "@/components/en/FooterEN";
 import AnimatedSection from "@/components/AnimatedSection";
 import { Button } from "@/components/ui/button";
+import FeaturedCaseSectionEN from "@/components/en/FeaturedCaseSectionEN";
 
 const cases = [
   {
@@ -86,6 +87,8 @@ const CaseStudies = () => {
             </AnimatedSection>
           </div>
         </section>
+        {/* Featured Case */}
+        <FeaturedCaseSectionEN />
 
         {/* Grid */}
         <section className="pb-20">
