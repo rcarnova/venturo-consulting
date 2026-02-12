@@ -11,6 +11,7 @@ import ClientsSectionEN from "@/components/en/ClientsSectionEN";
 import ContactSectionEN from "@/components/en/ContactSectionEN";
 import FooterEN from "@/components/en/FooterEN";
 import FeaturedCaseSectionEN from "@/components/en/FeaturedCaseSectionEN";
+import CasesIntroSectionEN from "@/components/en/CasesIntroSectionEN";
 
 const IndexEN = () => {
   return (
@@ -25,6 +26,7 @@ const IndexEN = () => {
       <HeaderEN />
       <main>
         <HeroSectionEN />
+        <CasesIntroSectionEN />
         <FeaturedCaseSectionEN />
         <ProblemSectionEN />
         <HowWeWorkSectionEN />
