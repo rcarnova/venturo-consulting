@@ -23,7 +23,7 @@ const FooterEN = () => {
               <span className="text-sm">info@venturoconsulting.it</span>
             </a>
             <a 
-              href="https://linkedin.com" 
+              href="https://www.linkedin.com/company/venturo-consulting/" 
               target="_blank" 
               rel="noopener noreferrer"
               className="text-muted-foreground hover:text-primary transition-colors"
