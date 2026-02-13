@@ -81,12 +81,4 @@ export const allCases: CaseData[] = [
     hasDetail: true,
     url: "/casi-studio/findomestic",
   },
-  {
-    id: "smart-working",
-    company: "Smart Working",
-    result: "+35-50% satisfaction",
-    description: "Metodo testato su decine di aziende per il lavoro ibrido efficace.",
-    hasDetail: false,
-    url: "/casi-studio",
-  },
 ];
