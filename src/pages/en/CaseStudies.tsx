@@ -52,6 +52,15 @@ const cases = [
     logoScale: 0.8,
   },
   {
+    company: "Findomestic",
+    result: "Smart Working that actually works",
+    description: "Design and implementation of a hybrid work model with measurable impact on satisfaction and productivity.",
+    slug: "findomestic",
+    hasDetail: true,
+    logo: "/logos/findomestic_white.png",
+    logoScale: 2.5,
+  },
+  {
     company: "Smart Working",
     result: "+35-50% satisfaction",
     description: "Method tested across dozens of companies for effective hybrid work.",
