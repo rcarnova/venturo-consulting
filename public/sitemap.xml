@@ -118,6 +118,22 @@
     <priority>0.8</priority>
   </url>
 
+  <url>
+    <loc>https://venturo.it/casi-studio/findomestic</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://venturo.it/en/case-studies/findomestic"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://venturo.it/casi-studio/findomestic"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://venturo.it/en/case-studies/findomestic</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://venturo.it/en/case-studies/findomestic"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://venturo.it/casi-studio/findomestic"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
   <!-- Magazine IT -->
   <url>
     <loc>https://venturo.it/magazine</loc>
