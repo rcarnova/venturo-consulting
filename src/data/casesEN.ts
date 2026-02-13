@@ -69,12 +69,4 @@ export const allCasesEN: CaseData[] = [
     hasDetail: true,
     url: "/en/case-studies/findomestic",
   },
-  {
-    id: "smart-working",
-    company: "Smart Working",
-    result: "+35-50% satisfaction",
-    description: "Method tested on dozens of companies for effective hybrid work.",
-    hasDetail: false,
-    url: "/en/case-studies",
-  },
 ];
