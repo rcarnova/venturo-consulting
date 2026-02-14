@@ -15,6 +15,7 @@ const navLinks = [
   { href: "/#come-lavoriamo", label: "Come Lavoriamo" },
   { href: "/#leve", label: "Le Leve" },
   { href: "/casi-studio", label: "Case Study" },
+  { href: "/team", label: "Team" },
   { href: "/#chi-siamo", label: "Chi Siamo" },
 ];
 

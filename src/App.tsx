@@ -22,6 +22,8 @@ import Magazine from "./pages/Magazine";
 import RuoliVaghi from "./pages/magazine/RuoliVaghi";
 import CulturaImplicita from "./pages/magazine/CulturaImplicita";
 import ScrollToHash from "./components/ScrollToHash";
+import Team from "./pages/Team";
+import TeamEN from "./pages/en/Team";
 // English case studies
 import CaseStudies from "./pages/en/CaseStudies";
 import RicehouseEN from "./pages/en/cases/Ricehouse";
@@ -56,6 +58,8 @@ const App = () => (
             <Route path="/en/case-studies/cve" element={<CVEEN />} />
             <Route path="/casi-studio/findomestic" element={<Findomestic />} />
             <Route path="/en/case-studies/findomestic" element={<FindomesticEN />} />
+            <Route path="/team" element={<Team />} />
+            <Route path="/en/team" element={<TeamEN />} />
             <Route path="/magazine" element={<Magazine />} />
             <Route path="/magazine/ruoli-vaghi-tutto-rallenta" element={<RuoliVaghi />} />
             <Route path="/magazine/cultura-implicita-cultura-inesistente" element={<CulturaImplicita />} />
