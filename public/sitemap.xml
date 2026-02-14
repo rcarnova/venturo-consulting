@@ -134,6 +134,22 @@
     <priority>0.8</priority>
   </url>
 
+  <!-- Team -->
+  <url>
+    <loc>https://venturo.it/team</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://venturo.it/en/team"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://venturo.it/team"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://venturo.it/en/team</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://venturo.it/en/team"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://venturo.it/team"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
   <!-- Magazine IT -->
   <url>
     <loc>https://venturo.it/magazine</loc>
