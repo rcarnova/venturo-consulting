@@ -47,7 +47,7 @@ const TeamSection = () => {
               <AnimatedSection key={member.name} delay={index * 100}>
                 <div className="group">
                   {/* Photo - B&W with hover color effect */}
-                  <div className="aspect-square overflow-hidden rounded-lg mb-6">
+                  <div className="aspect-square overflow-hidden rounded-lg mb-6 bg-muted">
                     <img
                       src={member.image}
                       alt={member.name}
