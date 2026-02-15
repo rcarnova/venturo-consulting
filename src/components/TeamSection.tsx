@@ -1,6 +1,7 @@
 import AnimatedSection from "@/components/AnimatedSection";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import { Linkedin } from "lucide-react";
 
 const team = [
   {
@@ -8,18 +9,21 @@ const team = [
     role: "Partner",
     title: "Business Coach & Brand Strategist",
     image: "/team/rosario.jpg",
+    linkedin: "https://www.linkedin.com/in/rosariocarnovale/",
   },
   {
     name: "Arianna Barisan",
     role: "Partner",
     title: "Art Director",
     image: "/team/arianna.jpg",
+    linkedin: "https://www.linkedin.com/in/arianna-barisan/",
   },
   {
     name: "Massimo Benedetti",
     role: "Partner",
     title: "Communication & Storytelling Specialist",
     image: "/team/massimo.jpg",
+    linkedin: "https://www.linkedin.com/in/massimobenedetti/",
   },
 ];
 
@@ -57,9 +61,20 @@ const TeamSection = () => {
 
                   {/* Info */}
                   <div className="space-y-1">
-                    <h2 className="text-xl md:text-2xl font-display font-bold text-foreground">
-                      {member.name}
-                    </h2>
+                    <div className="flex items-center gap-2">
+                      <h2 className="text-xl md:text-2xl font-display font-bold text-foreground">
+                        {member.name}
+                      </h2>
+                      <a
+                        href={member.linkedin}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        aria-label={`LinkedIn di ${member.name}`}
+                        className="text-muted-foreground hover:text-primary transition-colors"
+                      >
+                        <Linkedin size={20} />
+                      </a>
+                    </div>
                     <p className="text-sm font-body uppercase tracking-widest text-primary">
                       {member.role}
                     </p>
