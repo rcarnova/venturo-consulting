@@ -22,8 +22,8 @@ import Magazine from "./pages/Magazine";
 import RuoliVaghi from "./pages/magazine/RuoliVaghi";
 import CulturaImplicita from "./pages/magazine/CulturaImplicita";
 import ScrollToHash from "./components/ScrollToHash";
-import Team from "./pages/Team";
-import TeamEN from "./pages/en/Team";
+import ChiSiamo from "./pages/ChiSiamo";
+import AboutEN from "./pages/en/About";
 // English case studies
 import CaseStudies from "./pages/en/CaseStudies";
 import RicehouseEN from "./pages/en/cases/Ricehouse";
@@ -43,6 +43,8 @@ const App = () => (
           <Routes>
             <Route path="/" element={<Index />} />
             <Route path="/en" element={<IndexEN />} />
+            <Route path="/chi-siamo" element={<ChiSiamo />} />
+            <Route path="/en/about" element={<AboutEN />} />
             <Route path="/en/case-studies" element={<CaseStudies />} />
             <Route path="/en/case-studies/ricehouse" element={<RicehouseEN />} />
             <Route path="/en/case-studies/randstad" element={<RandstadEN />} />
@@ -58,8 +60,6 @@ const App = () => (
             <Route path="/en/case-studies/cve" element={<CVEEN />} />
             <Route path="/casi-studio/findomestic" element={<Findomestic />} />
             <Route path="/en/case-studies/findomestic" element={<FindomesticEN />} />
-            <Route path="/team" element={<Team />} />
-            <Route path="/en/team" element={<TeamEN />} />
             <Route path="/magazine" element={<Magazine />} />
             <Route path="/magazine/ruoli-vaghi-tutto-rallenta" element={<RuoliVaghi />} />
             <Route path="/magazine/cultura-implicita-cultura-inesistente" element={<CulturaImplicita />} />
