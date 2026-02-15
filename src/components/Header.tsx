@@ -11,12 +11,9 @@ import {
 } from "@/components/ui/dropdown-menu";
 
 const navLinks = [
-  { href: "/#problema", label: "Il Problema" },
-  { href: "/#come-lavoriamo", label: "Come Lavoriamo" },
-  { href: "/#leve", label: "Le Leve" },
-  { href: "/casi-studio", label: "Case Study" },
-  { href: "/team", label: "Team" },
-  { href: "/#chi-siamo", label: "Chi Siamo" },
+  { href: "/#le-sfide", label: "Le sfide" },
+  { href: "/casi-studio", label: "Casi studio" },
+  { href: "/chi-siamo", label: "Chi siamo" },
 ];
 
 const Header = () => {

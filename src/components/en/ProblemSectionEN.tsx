@@ -17,7 +17,7 @@ const problems: Problem[] = [
 
 const ProblemSectionEN = () => {
   return (
-    <section id="problem" className="section-padding bg-charcoal">
+    <section id="challenges" className="section-padding bg-charcoal">
       <div className="container-narrow">
         <AnimatedSection>
           <h2 className="text-headline text-warm-white">
