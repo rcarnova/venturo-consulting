@@ -43,7 +43,7 @@ const HeaderEN = () => {
             <a
               key={link.href}
               href={link.href}
-              className="text-sm text-muted-foreground hover:text-foreground transition-colors"
+              className="text-sm font-mono text-muted-foreground hover:text-foreground transition-colors"
             >
               {link.label}
             </a>
@@ -89,7 +89,7 @@ const HeaderEN = () => {
                     key={link.href}
                     href={link.href}
                     onClick={handleNavClick}
-                    className="text-lg font-medium text-foreground hover:text-primary transition-colors py-2"
+                    className="text-lg font-mono font-medium text-foreground hover:text-primary transition-colors py-2"
                   >
                     {link.label}
                   </a>

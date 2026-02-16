@@ -9,7 +9,7 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row items-center justify-between gap-4">
           <div className="flex items-center gap-2">
             <img src={logoVenturo} alt="Venturo" className="h-5" />
-            <span className="text-muted-foreground">
+            <span className="text-muted-foreground font-mono text-sm">
               Comunicazione Rituali Leadership
             </span>
           </div>
@@ -17,7 +17,7 @@ const Footer = () => {
           <div className="flex items-center gap-6">
             <a 
               href="mailto:info@venturoconsulting.it" 
-              className="text-muted-foreground hover:text-primary transition-colors flex items-center gap-2"
+              className="text-muted-foreground hover:text-primary transition-colors flex items-center gap-2 font-mono"
             >
               <Mail className="w-4 h-4" />
               <span className="text-sm">info@venturoconsulting.it</span>
@@ -36,11 +36,11 @@ const Footer = () => {
         <div className="mt-6 pt-6 border-t border-border/50 text-center">
           <Link 
             to="/privacy" 
-            className="text-[0.85rem] text-muted-foreground hover:text-foreground transition-colors"
+            className="text-[0.85rem] font-mono text-muted-foreground hover:text-foreground transition-colors"
           >
             Privacy Policy
           </Link>
-          <p className="text-[0.85rem] text-muted-foreground mt-2">
+          <p className="text-[0.85rem] font-mono text-muted-foreground mt-2">
             © 2025 Studio Miller - P.IVA 02662900022
           </p>
         </div>

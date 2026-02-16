@@ -44,10 +44,10 @@ const AboutEN = () => {
           {/* Intro Section */}
           <AnimatedSection className="mb-16 md:mb-24">
             <div className="max-w-2xl">
-              <p className="text-sm font-body uppercase tracking-widest text-primary mb-4">
+              <p className="text-sm font-mono uppercase tracking-widest text-primary mb-4">
                 About us
               </p>
-              <h1 className="text-4xl md:text-5xl lg:text-6xl font-display font-bold text-foreground">
+              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-foreground">
                 Architects of cultural infrastructure
               </h1>
             </div>
@@ -79,10 +79,10 @@ const AboutEN = () => {
           <div className="border-t border-border pt-16 md:pt-24">
             <AnimatedSection>
               <div className="max-w-2xl mb-12">
-                <p className="text-sm font-body uppercase tracking-widest text-primary mb-4">
+                <p className="text-sm font-mono uppercase tracking-widest text-primary mb-4">
                   Team
                 </p>
-                <h2 className="text-3xl md:text-4xl font-display font-bold text-foreground">
+                <h2 className="text-3xl md:text-4xl font-bold text-foreground">
                   Partners
                 </h2>
               </div>
@@ -101,7 +101,7 @@ const AboutEN = () => {
                     </div>
                     <div className="space-y-1">
                       <div className="flex items-center gap-2">
-                        <h3 className="text-xl md:text-2xl font-display font-bold text-foreground">
+                        <h3 className="text-xl md:text-2xl font-bold text-foreground">
                           {member.name}
                         </h3>
                         <a
@@ -114,10 +114,10 @@ const AboutEN = () => {
                           <Linkedin size={20} />
                         </a>
                       </div>
-                      <p className="text-sm font-body uppercase tracking-widest text-primary">
+                      <p className="text-sm font-mono uppercase tracking-widest text-primary">
                         {member.role}
                       </p>
-                      <p className="text-base font-body text-muted-foreground">
+                      <p className="text-base font-mono text-muted-foreground">
                         {member.title}
                       </p>
                     </div>

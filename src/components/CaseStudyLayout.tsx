@@ -66,7 +66,7 @@ const CaseStudyLayout = ({
         <div className="container-wide py-4">
           <Link
             to="/casi-studio"
-            className="inline-flex items-center gap-2 text-sm text-muted-foreground hover:text-foreground transition-colors"
+            className="inline-flex items-center gap-2 text-sm font-mono text-muted-foreground hover:text-foreground transition-colors"
           >
             <ArrowLeft className="w-4 h-4" />
             Torna ai casi
@@ -84,7 +84,7 @@ const CaseStudyLayout = ({
                   className={logoClassName || `h-24 md:h-32 mx-auto mb-8 ${logoNeedsInvert ? 'invert' : ''}`}
                 />
               ) : (
-                <div className="inline-block px-8 py-4 bg-charcoal text-warm-white font-display text-2xl font-semibold rounded-lg mb-8">
+                <div className="inline-block px-8 py-4 bg-charcoal text-warm-white text-2xl font-semibold rounded-lg mb-8">
                   {logoPlaceholder || title.toUpperCase()}
                 </div>
               )}
@@ -101,10 +101,10 @@ const CaseStudyLayout = ({
               <div className="grid md:grid-cols-3 gap-6 text-center">
                 {overview.map((item, index) => (
                   <div key={index}>
-                    <p className="text-sm text-muted-foreground uppercase tracking-wider mb-1">
+                    <p className="text-sm font-mono text-muted-foreground uppercase tracking-wider mb-1">
                       {item.label}
                     </p>
-                    <p className="text-lg font-display font-medium text-charcoal">
+                    <p className="text-lg font-medium text-charcoal">
                       {item.value}
                     </p>
                   </div>
@@ -151,12 +151,12 @@ const CaseStudyLayout = ({
                       <div className="grid md:grid-cols-[1.5fr,1fr] gap-8 items-start">
                         <div className="flex gap-6">
                           <div className="flex-shrink-0">
-                            <div className="w-10 h-10 rounded-full bg-primary text-primary-foreground flex items-center justify-center font-display font-semibold">
+                            <div className="w-10 h-10 rounded-full bg-primary text-primary-foreground flex items-center justify-center font-semibold">
                               {index + 1}
                             </div>
                           </div>
                           <div>
-                            <h3 className="text-xl font-display font-semibold text-charcoal mb-2">
+                            <h3 className="text-xl font-semibold text-charcoal mb-2">
                               {phase.title}
                             </h3>
                             <p className="text-muted-foreground">{phase.description}</p>
@@ -177,12 +177,12 @@ const CaseStudyLayout = ({
                     ) : (
                       <div className="flex gap-6">
                         <div className="flex-shrink-0">
-                          <div className="w-10 h-10 rounded-full bg-primary text-primary-foreground flex items-center justify-center font-display font-semibold">
+                          <div className="w-10 h-10 rounded-full bg-primary text-primary-foreground flex items-center justify-center font-semibold">
                             {index + 1}
                           </div>
                         </div>
                         <div>
-                          <h3 className="text-xl font-display font-semibold text-charcoal mb-2">
+                          <h3 className="text-xl font-semibold text-charcoal mb-2">
                             {phase.title}
                           </h3>
                           <p className="text-muted-foreground">{phase.description}</p>

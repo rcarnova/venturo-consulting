@@ -13,7 +13,7 @@ const FeaturedCaseSection = () => {
               <div className="space-y-8">
                 {/* Brand name + subtitle */}
                 <div>
-                  <p className="text-xl font-serif tracking-wide text-foreground">
+                  <p className="text-xl tracking-wide text-foreground">
                     Randstad
                   </p>
                   <p className="text-sm text-muted-foreground mt-1">
@@ -24,7 +24,7 @@ const FeaturedCaseSection = () => {
                 {/* Data point hero */}
                 <div>
                   <div className="flex items-baseline gap-3">
-                    <span className="text-7xl md:text-8xl font-display font-bold text-foreground leading-none">
+                    <span className="text-7xl md:text-8xl font-bold text-foreground leading-none">
                       30
                     </span>
                     <span className="text-base text-muted-foreground">
@@ -34,7 +34,7 @@ const FeaturedCaseSection = () => {
                 </div>
 
                 {/* Headline */}
-                <h2 className="text-2xl md:text-3xl font-display font-medium leading-tight text-foreground">
+                <h2 className="text-2xl md:text-3xl font-medium leading-tight text-foreground">
                   Dal 4.2/5 all'allineamento culturale reale
                 </h2>
 
@@ -49,7 +49,7 @@ const FeaturedCaseSection = () => {
                 {/* CTA minimale */}
                 <Link
                   to="/casi-studio/randstad"
-                  className="inline-flex items-center text-primary font-medium group hover:underline"
+                  className="inline-flex items-center text-primary font-mono font-medium group hover:underline"
                 >
                   Leggi il caso completo
                   <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />

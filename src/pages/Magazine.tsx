@@ -44,7 +44,7 @@ const Magazine = () => {
           <div className="max-w-[1200px] mx-auto px-5 md:px-8">
             <h1
               className="text-3xl md:text-5xl font-extrabold text-foreground mb-4"
-              style={{ fontFamily: "var(--font-display)" }}
+              style={{ fontFamily: "'Space Grotesk', system-ui, sans-serif" }}
             >
               Magazine
             </h1>

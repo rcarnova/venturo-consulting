@@ -9,13 +9,13 @@ const HeroSectionEN = () => {
     <section className="relative min-h-screen flex items-center pt-20 bg-background">
       <div className="container-wide relative z-10">
         <div className="max-w-4xl">
-          <h1 className="text-[2.6rem] sm:text-6xl md:text-7xl lg:text-8xl font-display font-medium leading-[0.95] tracking-tight text-foreground">
+          <h1 className="text-[2.6rem] sm:text-6xl md:text-7xl lg:text-8xl font-medium leading-[0.95] tracking-tight text-foreground">
             <span className="block typing-line typing-line-1">Communication</span>
             <span className="block typing-line typing-line-2">Rituals</span>
             <span className="block typing-line typing-line-3">Leadership</span>
           </h1>
           
-          <p className="text-lg md:text-xl text-muted-foreground mt-8 max-w-xl font-display">
+          <p className="text-lg md:text-xl text-muted-foreground mt-8 max-w-xl">
             We help companies close the gap between declared culture and the one lived every day.
           </p>
 
