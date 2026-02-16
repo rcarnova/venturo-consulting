@@ -42,7 +42,7 @@ const ProblemSectionEN = () => {
 
         <AnimatedSection delay={500}>
           <div className="mt-12 pt-8 border-t border-warm-white/10">
-            <p className="text-xl text-warm-white font-display font-medium">
+            <p className="text-xl text-warm-white font-medium">
               These aren't process problems.
               <span className="block text-warm-white/60">They're cultural problems.</span>
             </p>
@@ -51,7 +51,7 @@ const ProblemSectionEN = () => {
 
         <AnimatedSection delay={600}>
           <div className="mt-10 pt-6 border-t border-warm-white/10">
-            <p className="text-base text-warm-white/60 font-display">
+            <p className="text-base text-warm-white/60">
               Venturo is a firm that knows these dynamics from the inside. Not from the outside.
             </p>
           </div>

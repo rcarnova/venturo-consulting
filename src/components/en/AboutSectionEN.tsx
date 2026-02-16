@@ -19,7 +19,7 @@ const AboutSectionEN = () => {
             <h2 className="text-headline text-charcoal">
               Who We Are
             </h2>
-            <p className="text-xl font-display font-medium text-charcoal mt-4">
+            <p className="text-xl font-medium text-charcoal mt-4">
               A hybrid studio that knows organizations from the inside
             </p>
           </div>
@@ -41,7 +41,7 @@ const AboutSectionEN = () => {
 
         <AnimatedSection animation="fade-up" delay={200}>
           <div className="text-center mb-8">
-            <h3 className="text-lg font-display font-medium text-charcoal uppercase tracking-wider">
+            <h3 className="text-lg font-medium text-charcoal uppercase tracking-wider">
               Our competencies
             </h3>
           </div>
@@ -54,7 +54,7 @@ const AboutSectionEN = () => {
                 <div className="w-10 h-10 rounded-lg bg-primary/10 flex items-center justify-center group-hover:bg-primary/20 transition-colors flex-shrink-0">
                   <competenza.icon className="w-5 h-5 text-primary" />
                 </div>
-                <span className="font-display font-medium text-charcoal">
+                <span className="font-medium text-charcoal">
                   {competenza.label}
                 </span>
               </div>

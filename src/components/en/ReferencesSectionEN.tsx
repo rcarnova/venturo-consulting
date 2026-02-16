@@ -9,10 +9,10 @@ const ReferencesSectionEN = () => {
         {/* Header */}
         <AnimatedSection>
           <div className="max-w-4xl mx-auto text-center mb-20">
-            <p className="text-sm font-medium tracking-widest uppercase text-primary mb-4">
+            <p className="text-sm font-mono font-medium tracking-widest uppercase text-primary mb-4">
               References
             </p>
-            <h2 className="text-4xl md:text-5xl lg:text-6xl font-display font-bold text-foreground leading-tight mb-6">
+            <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-foreground leading-tight mb-6">
               Leading companies ask important questions
             </h2>
             <p className="text-lg text-muted-foreground leading-relaxed max-w-3xl mx-auto">
@@ -29,7 +29,7 @@ const ReferencesSectionEN = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-10 md:gap-16 items-center">
               <div className="space-y-8">
                 <div>
-                  <p className="text-xl font-serif tracking-wide text-foreground">
+                  <p className="text-xl tracking-wide text-foreground">
                     Randstad
                   </p>
                   <p className="text-sm text-muted-foreground mt-1">
@@ -39,7 +39,7 @@ const ReferencesSectionEN = () => {
 
                 <div>
                   <div className="flex items-baseline gap-3">
-                    <span className="text-7xl md:text-8xl font-display font-bold text-foreground leading-none">
+                    <span className="text-7xl md:text-8xl font-bold text-foreground leading-none">
                       30
                     </span>
                     <span className="text-base text-muted-foreground">
@@ -48,7 +48,7 @@ const ReferencesSectionEN = () => {
                   </div>
                 </div>
 
-                <h3 className="text-2xl md:text-3xl font-display font-medium leading-tight text-foreground">
+                <h3 className="text-2xl md:text-3xl font-medium leading-tight text-foreground">
                   From 4.2/5 rating to actual cultural alignment
                 </h3>
 
@@ -61,7 +61,7 @@ const ReferencesSectionEN = () => {
 
                 <Link
                   to="/en/case-studies/randstad"
-                  className="inline-flex items-center text-primary font-medium group hover:underline"
+                  className="inline-flex items-center text-primary font-mono font-medium group hover:underline"
                 >
                   Read the full case study
                   <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
@@ -84,7 +84,7 @@ const ReferencesSectionEN = () => {
           <div className="max-w-7xl mx-auto mt-12 text-center">
             <Link
               to="/en/case-studies"
-              className="inline-flex items-center text-primary font-medium group hover:underline"
+              className="inline-flex items-center text-primary font-mono font-medium group hover:underline"
             >
               View all projects
               <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />

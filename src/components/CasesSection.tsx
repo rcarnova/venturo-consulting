@@ -42,7 +42,7 @@ const CasesSection = () => {
                         </span>
                       )}
                     </div>
-                    <h3 className="text-xl font-display font-semibold text-charcoal mt-2">
+                    <h3 className="text-xl font-semibold text-charcoal mt-2">
                       {caseStudy.result}
                     </h3>
                     {caseStudy.rating && (

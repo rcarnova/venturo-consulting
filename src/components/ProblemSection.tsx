@@ -42,7 +42,7 @@ const ProblemSection = () => {
 
         <AnimatedSection delay={500}>
           <div className="mt-12 pt-8 border-t border-warm-white/10">
-            <p className="text-xl text-warm-white font-display font-medium">
+            <p className="text-xl text-warm-white font-medium">
               Questi non sono problemi di processo.
               <span className="block text-warm-white/60">Sono problemi culturali.</span>
             </p>
@@ -51,7 +51,7 @@ const ProblemSection = () => {
 
         <AnimatedSection delay={600}>
           <div className="mt-10 pt-6 border-t border-warm-white/10">
-            <p className="text-base text-warm-white/60 font-display">
+            <p className="text-base text-warm-white/60">
               Venturo è uno studio che conosce queste dinamiche dall'interno. Non dall'esterno.
             </p>
           </div>

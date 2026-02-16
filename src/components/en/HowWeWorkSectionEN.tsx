@@ -54,7 +54,7 @@ const HowWeWorkSectionEN = () => {
                   <service.icon className="w-6 h-6 text-primary" />
                 </div>
                 
-                <h3 className="text-xl font-display font-semibold text-charcoal mb-4">
+                <h3 className="text-xl font-semibold text-charcoal mb-4">
                   {service.title}
                 </h3>
                 
@@ -83,8 +83,8 @@ const HowWeWorkSectionEN = () => {
               <Package className="w-12 h-12 text-white opacity-90" />
             </div>
             <div className="text-center md:text-left">
-              <h3 className="text-xl md:text-2xl font-display font-bold text-white mb-4">
-                The result? Concrete artifacts
+               <h3 className="text-xl md:text-2xl font-bold text-white mb-4">
+                 The result? Concrete artifacts
               </h3>
               <p className="text-base md:text-lg leading-relaxed text-white/90">
                 Our projects don't end with summary slides. We produce tools that stay in your company and get used: operational playbooks, decision canvases, toolkits for managers. We don't leave you with insights, we leave you with what you need to act.
