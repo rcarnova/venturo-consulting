@@ -17,6 +17,7 @@ const CVE = () => {
       <CaseStudyLayout
         caseId="cve"
         logo="/logos/cve_white.png"
+        logoClassName="h-24 md:h-32 mx-auto mb-8 invert grayscale"
         logoAlt="CVE Group"
         title="CVE Group"
         subtitle="Prima town hall per allineare 30 persone su valori e sfide"
