@@ -7,11 +7,8 @@ const FooterEN = () => {
     <footer className="pt-12 pb-8 border-t border-border bg-background">
       <div className="container-wide">
         <div className="flex flex-col md:flex-row items-center justify-between gap-4">
-          <div className="flex items-center gap-2">
+          <div className="flex items-center">
             <img src={logoVenturo} alt="Venturo" className="h-5" />
-            <span className="text-muted-foreground font-mono text-sm">
-              Communication Rituals Leadership
-            </span>
           </div>
 
           <div className="flex items-center gap-6">
