@@ -47,6 +47,11 @@ const Randstad = () => {
           title: "Coinvolgimento community",
           description:
             "Abbiamo chiesto direttamente alla community Randstad di raccontare la propria esperienza con l'azienda. Approccio bottom-up per catturare autenticità.",
+          image: {
+            src: "/cases/randstad-envisioning.jpg",
+            alt: "Workshop Randstad - Partecipanti al lavoro con visual thinking e materiali sul tavolo",
+            caption: "Sessione di envisioning con il team Randstad",
+          },
         },
         {
           title: "Interviste e racconto",
