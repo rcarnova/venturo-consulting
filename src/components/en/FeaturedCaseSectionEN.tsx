@@ -13,9 +13,11 @@ const FeaturedCaseSectionEN = () => {
               <div className="space-y-8">
                 {/* Brand name + subtitle */}
                 <div>
-                  <p className="text-xl tracking-wide text-foreground">
-                    Randstad
-                  </p>
+                  <img 
+                    src="/logos/randstad_blue.svg" 
+                    alt="Randstad" 
+                    className="h-6 md:h-7 w-auto brightness-0"
+                  />
                   <p className="text-sm text-muted-foreground mt-1">
                     HR & Recruiting
                   </p>
