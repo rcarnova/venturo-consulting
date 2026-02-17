@@ -1,8 +1,10 @@
 import { useState } from "react";
+import { useLocation } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import { Menu, Globe } from "lucide-react";
 import logoVenturo from "@/assets/logo-venturo.png";
+import { getItRoute } from "@/lib/language-routes";
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -18,6 +20,8 @@ const navLinks = [
 
 const HeaderEN = () => {
   const [open, setOpen] = useState(false);
+  const location = useLocation();
+  const itPath = getItRoute(location.pathname);
 
   const scrollToContact = () => {
     if (window.location.pathname === '/en') {
@@ -59,7 +63,7 @@ const HeaderEN = () => {
             </DropdownMenuTrigger>
             <DropdownMenuContent align="end">
               <DropdownMenuItem asChild>
-                <a href="/" className="flex items-center gap-2 cursor-pointer">
+                <a href={itPath} className="flex items-center gap-2 cursor-pointer">
                   <span className="text-sm font-medium">🇮🇹</span>
                   <span>Italiano</span>
                 </a>
@@ -111,7 +115,7 @@ const HeaderEN = () => {
                   <p className="text-sm text-muted-foreground mb-3">Language</p>
                   <div className="flex gap-2">
                     <a
-                      href="/"
+                      href={itPath}
                       onClick={handleNavClick}
                       className="flex-1 flex items-center justify-center gap-2 py-2 px-3 rounded-md border border-border text-muted-foreground hover:bg-accent transition-colors"
                     >
