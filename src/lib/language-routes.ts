@@ -9,6 +9,7 @@ const routeMap: Record<string, string> = {
   "/casi-studio/ufficio-pio": "/en/case-studies/ufficio-pio",
   "/chi-siamo": "/en/about",
   "/magazine": "/en",
+  "/lumen": "/en/lumen",
 };
 
 // Build reverse map

@@ -13,6 +13,8 @@ import Ricehouse from "./pages/cases/Ricehouse";
 import Randstad from "./pages/cases/Randstad";
 import Lely from "./pages/cases/Lely";
 import UfficioPio from "./pages/cases/UfficioPio";
+import Lumen from "./pages/Lumen";
+import LumenEN from "./pages/en/Lumen";
 import CVE from "./pages/cases/CVE";
 import UfficioPioEN from "./pages/en/cases/UfficioPio";
 import CVEEN from "./pages/en/cases/CVE";
@@ -45,6 +47,8 @@ const App = () => (
             <Route path="/en" element={<IndexEN />} />
             <Route path="/chi-siamo" element={<ChiSiamo />} />
             <Route path="/en/about" element={<AboutEN />} />
+            <Route path="/lumen" element={<Lumen />} />
+            <Route path="/en/lumen" element={<LumenEN />} />
             <Route path="/en/case-studies" element={<CaseStudies />} />
             <Route path="/en/case-studies/ricehouse" element={<RicehouseEN />} />
             <Route path="/en/case-studies/randstad" element={<RandstadEN />} />

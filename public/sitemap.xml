@@ -171,6 +171,23 @@
     <priority>0.6</priority>
   </url>
 
+  <!-- Lumen -->
+  <url>
+    <loc>https://venturo.it/lumen</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://venturo.it/en/lumen"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://venturo.it/lumen"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://venturo.it/en/lumen</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://venturo.it/en/lumen"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://venturo.it/lumen"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
   <!-- Privacy -->
   <url>
     <loc>https://venturo.it/privacy</loc>
