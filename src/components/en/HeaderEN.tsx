@@ -44,15 +44,20 @@ const HeaderEN = () => {
         </a>
         
         <nav className="hidden md:flex items-center gap-8">
-          {navLinks.map((link) => (
-            <a
-              key={link.href}
-              href={link.href}
-              className="text-sm font-mono text-muted-foreground hover:text-foreground transition-colors"
-            >
-              {link.label}
-            </a>
-          ))}
+          {navLinks.map((link) => {
+            const isActive = link.href.includes('#')
+              ? false
+              : location.pathname === link.href || location.pathname.startsWith(link.href + '/');
+            return (
+              <a
+                key={link.href}
+                href={link.href}
+                className={`text-sm font-mono transition-colors ${isActive ? 'text-primary font-semibold' : 'text-muted-foreground hover:text-foreground'}`}
+              >
+                {link.label}
+              </a>
+            );
+          })}
         </nav>
 
         <div className="flex items-center gap-4">
