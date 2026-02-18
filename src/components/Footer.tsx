@@ -31,12 +31,20 @@ const Footer = () => {
         </div>
 
         <div className="mt-6 pt-6 border-t border-border/50 text-center">
-          <Link 
-            to="/privacy" 
-            className="text-[0.85rem] font-mono text-muted-foreground hover:text-foreground transition-colors"
-          >
-            Privacy Policy
-          </Link>
+          <div className="flex items-center justify-center gap-6 mb-4">
+            <Link 
+              to="/lumen" 
+              className="text-[0.85rem] font-mono text-muted-foreground hover:text-foreground transition-colors"
+            >
+              Lumen — Metodologia
+            </Link>
+            <Link 
+              to="/privacy" 
+              className="text-[0.85rem] font-mono text-muted-foreground hover:text-foreground transition-colors"
+            >
+              Privacy Policy
+            </Link>
+          </div>
           <p className="text-[0.85rem] font-mono text-muted-foreground mt-2">
             © 2025 Studio Miller - P.IVA 02662900022
           </p>
