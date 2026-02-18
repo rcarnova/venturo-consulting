@@ -16,7 +16,7 @@ const HeroSectionEN = () => {
           </h1>
           
           <p className="text-lg md:text-xl text-muted-foreground mt-8 max-w-xl">
-            We help companies close the gap between declared culture and the one lived every day.
+            We help organizations see and reproduce what already works.
           </p>
 
           <div className="mt-12 flex flex-col sm:flex-row gap-4 animate-fade-up-delay-2">
