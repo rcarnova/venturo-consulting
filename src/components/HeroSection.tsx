@@ -16,7 +16,7 @@ const HeroSection = () => {
           </h1>
           
           <p className="text-lg md:text-xl text-muted-foreground mt-8 max-w-xl">
-            Aiutiamo le aziende a chiudere il gap tra la cultura dichiarata e quella vissuta ogni giorno.
+            Aiutiamo le organizzazioni a vedere e riprodurre ciò che già funziona.
           </p>
 
           <div className="mt-12 flex flex-col sm:flex-row gap-4 animate-fade-up-delay-2">
