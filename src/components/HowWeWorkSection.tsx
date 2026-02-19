@@ -7,8 +7,8 @@ const services = [
     title: "Cultura e Identità",
     items: [
       "Workshop facilitati che fanno emergere chi siete davvero",
-      "Materiali coerenti ai valori",
-      "Employer personas concrete"
+      "Materiali che rendono visibile chi siete già",
+      "Profili culturali estratti da storie reali"
     ]
   },
   {
@@ -17,15 +17,15 @@ const services = [
     items: [
       "Naming strategico",
       "Glossari condivisi",
-      "Tone of voice allineato alla cultura"
+      "Tone of voice che nasce da dentro, non da fuori"
     ]
   },
   {
     icon: Repeat,
     title: "Rituali e Operatività",
     items: [
-      "Ridisegno meeting e processi decisionali",
-      "Framework pratici",
+      "Rituali ridisegnati a partire da quelli che già funzionano",
+      "Processi decisionali che riflettono la cultura reale",
       "Affiancamento con handover"
     ]
   }
@@ -70,6 +70,17 @@ const HowWeWorkSection = () => {
             </AnimatedSection>
           ))}
         </div>
+
+        {/* Link a Lumen */}
+        <AnimatedSection animation="fade-up" delay={400}>
+          <p className="text-center text-muted-foreground mt-10">
+            Il processo di emersione culturale alla base di ogni intervento è{" "}
+            <a href="/lumen" className="text-primary font-medium underline underline-offset-4 hover:text-primary/80 transition-colors">
+              Lumen
+            </a>
+            , la nostra metodologia proprietaria.
+          </p>
+        </AnimatedSection>
 
         {/* Callout finale - Artefatti concreti */}
         <AnimatedSection animation="fade-up" delay={450}>
