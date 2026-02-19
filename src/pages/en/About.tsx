@@ -48,7 +48,7 @@ const AboutEN = () => {
                 About us
               </p>
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-foreground">
-                Architects of cultural infrastructure
+                We make visible what your organization already knows about itself.
               </h1>
             </div>
           </AnimatedSection>
