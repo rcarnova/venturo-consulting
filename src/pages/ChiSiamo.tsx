@@ -48,7 +48,7 @@ const ChiSiamo = () => {
                 Chi siamo
               </p>
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-foreground">
-                Architetti di infrastruttura culturale
+                Rendiamo visibile ciò che la vostra organizzazione sa già di sé.
               </h1>
             </div>
           </AnimatedSection>
