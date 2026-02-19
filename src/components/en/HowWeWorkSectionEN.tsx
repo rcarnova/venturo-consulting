@@ -7,8 +7,8 @@ const services = [
     title: "Culture & Identity",
     items: [
       "Facilitated workshops that reveal who you really are",
-      "Materials aligned with values",
-      "Concrete employer personas"
+      "Materials that make visible who you already are",
+      "Cultural profiles extracted from real stories"
     ]
   },
   {
@@ -17,15 +17,15 @@ const services = [
     items: [
       "Strategic naming",
       "Shared glossaries",
-      "Tone of voice aligned with culture"
+      "Tone of voice that comes from within, not imposed from outside"
     ]
   },
   {
     icon: Repeat,
     title: "Rituals & Operations",
     items: [
-      "Redesign of meetings and decision-making processes",
-      "Practical frameworks",
+      "Rituals redesigned from the ones that already work",
+      "Decision-making processes that reflect actual culture",
       "Coaching with handover"
     ]
   }
@@ -70,6 +70,17 @@ const HowWeWorkSectionEN = () => {
             </AnimatedSection>
           ))}
         </div>
+
+        {/* Link a Lumen */}
+        <AnimatedSection animation="fade-up" delay={400}>
+          <p className="text-center text-muted-foreground mt-10">
+            The cultural emergence process at the heart of every engagement is{" "}
+            <a href="/en/lumen" className="text-primary font-medium underline underline-offset-4 hover:text-primary/80 transition-colors">
+              Lumen
+            </a>
+            , our proprietary methodology.
+          </p>
+        </AnimatedSection>
 
         {/* Callout finale - Artefatti concreti */}
         <AnimatedSection animation="fade-up" delay={450}>
