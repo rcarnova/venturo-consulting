@@ -26,6 +26,7 @@ import CulturaImplicita from "./pages/magazine/CulturaImplicita";
 import ScrollToHash from "./components/ScrollToHash";
 import ChiSiamo from "./pages/ChiSiamo";
 import AboutEN from "./pages/en/About";
+import LeSfide from "./pages/LeSfide";
 // English case studies
 import CaseStudies from "./pages/en/CaseStudies";
 import RicehouseEN from "./pages/en/cases/Ricehouse";
@@ -46,6 +47,7 @@ const App = () => (
             <Route path="/" element={<Index />} />
             <Route path="/en" element={<IndexEN />} />
             <Route path="/chi-siamo" element={<ChiSiamo />} />
+            <Route path="/le-sfide" element={<LeSfide />} />
             <Route path="/en/about" element={<AboutEN />} />
             <Route path="/lumen" element={<Lumen />} />
             <Route path="/en/lumen" element={<LumenEN />} />

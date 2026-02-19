@@ -13,7 +13,7 @@ import {
 } from "@/components/ui/dropdown-menu";
 
 const navLinks = [
-  { href: "/#le-sfide", label: "Le sfide" },
+  { href: "/le-sfide", label: "Le sfide" },
   { href: "/lumen", label: "Lumen" },
   { href: "/casi-studio", label: "Casi studio" },
   { href: "/chi-siamo", label: "Chi siamo" },
