@@ -8,14 +8,6 @@ import { Button } from "@/components/ui/button";
 
 const cases = [
   {
-    company: "Ricehouse",
-    result: "Da identità forte a candidature qualificate",
-    description: "Ridefinizione completa dell'employer brand e della proposta di valore.",
-    slug: "ricehouse",
-    hasDetail: true,
-    logo: "/logos/ricehouse_white.png",
-  },
-  {
     company: "Randstad",
     result: "Cultura visibile, candidati allineati",
     description: "Campagna employer branding che traduce valori interni in messaggi concreti per il mercato del lavoro.",
@@ -23,6 +15,23 @@ const cases = [
     hasDetail: true,
     logo: "/logos/randstad_blue.svg",
     invertLogo: true,
+  },
+  {
+    company: "Findomestic",
+    result: "Da linguaggio istituzionale a conversazione unificata",
+    description: "Workshop intensivo per unificare il linguaggio tra assistenza clienti e team social.",
+    slug: "findomestic",
+    hasDetail: true,
+    logo: "/logos/findomestic_white.png",
+    logoScale: 2.5,
+  },
+  {
+    company: "Ufficio Pio",
+    result: "Naming che fa cultura",
+    description: "Progetto di naming strategico per dare linguaggio condiviso ai dipartimenti e rendere riconoscibile il percorso dei beneficiari.",
+    slug: "ufficio-pio",
+    hasDetail: true,
+    logo: "/logos/ufficio_pio_white.png",
   },
   {
     company: "Lely",
@@ -34,12 +43,12 @@ const cases = [
     logoScale: 1.3,
   },
   {
-    company: "Ufficio Pio",
-    result: "Naming che fa cultura",
-    description: "Progetto di naming strategico per dare linguaggio condiviso ai dipartimenti e rendere riconoscibile il percorso dei beneficiari.",
-    slug: "ufficio-pio",
+    company: "Ricehouse",
+    result: "Da identità forte a candidature qualificate",
+    description: "Ridefinizione completa dell'employer brand e della proposta di valore.",
+    slug: "ricehouse",
     hasDetail: true,
-    logo: "/logos/ufficio_pio_white.png",
+    logo: "/logos/ricehouse_white.png",
   },
   {
     company: "CVE",
@@ -49,15 +58,6 @@ const cases = [
     hasDetail: true,
     logo: "/logos/cve_mono.png",
     logoScale: 0.8,
-  },
-  {
-    company: "Findomestic",
-    result: "Da linguaggio istituzionale a conversazione unificata",
-    description: "Workshop intensivo per unificare il linguaggio tra assistenza clienti e team social.",
-    slug: "findomestic",
-    hasDetail: true,
-    logo: "/logos/findomestic_white.png",
-    logoScale: 2.5,
   },
   {
     company: "Smart Working",
