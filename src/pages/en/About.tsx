@@ -62,9 +62,10 @@ const AboutEN = () => {
               </p>
               <p className="text-lg text-muted-foreground leading-relaxed">
                 We work selectively with 3-5 clients per year — family businesses 
-                (100-300 people) and scale-ups (50-200 people) — at moments when 
-                culture is most visible: when someone makes a mistake, when decisions 
-                must be made under pressure, when promises meet reality.
+                (100-300 people) and scale-ups (50-200 people). Not for exclusivity, but 
+                because doing this work well requires time and genuine attention. We engage 
+                at moments when culture is most visible: when someone makes a mistake, 
+                when decisions must be made under pressure, when promises meet reality.
               </p>
               <p className="text-lg text-muted-foreground leading-relaxed">
                 Our approach is maieutic. We surface authentic patterns from real 
