@@ -33,7 +33,7 @@ const ChiSiamo = () => {
     <div className="min-h-screen bg-background">
       <SEO
         title="Chi Siamo"
-        description="Venturo è una boutique di consulenza che chiude il gap tra cultura aziendale dichiarata e cultura vissuta. Conosci il team: Rosario, Arianna e Massimo."
+        description="Venturo rende visibile ciò che la vostra organizzazione sa già di sé. Lavoriamo con 3-5 clienti all'anno per far emergere e riprodurre la cultura che già funziona."
         canonical="https://venturo.it/chi-siamo"
         lang="it"
         alternateUrls={{ it: "https://venturo.it/chi-siamo", en: "https://venturo.it/en/about" }}

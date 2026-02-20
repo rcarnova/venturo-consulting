@@ -33,7 +33,7 @@ const AboutEN = () => {
     <div className="min-h-screen bg-background">
       <SEO
         title="About Us"
-        description="Venturo is a boutique consultancy that closes the gap between stated and lived organizational culture. Meet the team: Rosario, Arianna and Massimo."
+        description="Venturo makes visible what your organization already knows about itself. We work with 3-5 clients per year to surface and reproduce the culture that already works."
         canonical="https://venturo.it/en/about"
         lang="en"
         alternateUrls={{ it: "https://venturo.it/chi-siamo", en: "https://venturo.it/en/about" }}
