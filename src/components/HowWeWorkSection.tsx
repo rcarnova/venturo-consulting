@@ -74,11 +74,11 @@ const HowWeWorkSection = () => {
         {/* Link a Lumen */}
         <AnimatedSection animation="fade-up" delay={400}>
           <p className="text-center text-muted-foreground mt-10">
-            Il processo di emersione culturale alla base di ogni intervento è{" "}
+            Per questo abbiamo costruito{" "}
             <a href="/lumen" className="text-primary font-medium underline underline-offset-4 hover:text-primary/80 transition-colors">
               Lumen
             </a>
-            , la nostra metodologia proprietaria.
+            . Non un framework, un modo di ascoltare.
           </p>
         </AnimatedSection>
 
