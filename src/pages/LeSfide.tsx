@@ -100,9 +100,6 @@ const LeSfide = () => {
                     {String(index + 1).padStart(2, "0")}
                   </span>
                   <div className="relative">
-                    <span className="text-xs font-mono text-muted-foreground/50 mb-2 block tabular-nums">
-                      {String(index + 1).padStart(2, "0")}
-                    </span>
                     <h2 className="text-2xl md:text-3xl font-medium text-foreground leading-snug">
                       {challenge.title}
                     </h2>
