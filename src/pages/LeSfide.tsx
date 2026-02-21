@@ -47,6 +47,13 @@ const challenges: Challenge[] = [
     action:
       "Allineiamo chi siete dentro con quello che dite fuori — partendo da dentro, non dall'esterno.",
   },
+  {
+    title: "Lavoro ibrido senza regole condivise",
+    reframing:
+      "L'ibrido è entrato in azienda spesso senza che nessuno decidesse davvero cosa significa lavorare in modo smart. Il risultato sono le domande che circolano nei corridoi: perché Giorgio fa smart working e io no? Perché Milano può e noi no? Perché dipende dal mio capo? Quando le regole mancano o sono applicate in modo disomogeneo, il problema non è logistico. È motivazionale e generazionale — i talenti più giovani considerano la flessibilità una priorità non negoziabile, e se non la trovano, cercano altrove.",
+    action:
+      "Aiutiamo il board e i manager a rispondere a una domanda strategica: cosa significa davvero lavorare smart nella vostra organizzazione? Non come risolvere il lavoro da casa. Come renderlo una leva culturale consapevole.",
+  },
 ];
 
 const LeSfide = () => {
