@@ -1,6 +1,6 @@
 const routeMap: Record<string, string> = {
   "/": "/en",
-  "/le-sfide": "/en",
+  "/le-sfide": "/en/challenges",
   "/casi-studio": "/en/case-studies",
   "/casi-studio/randstad": "/en/case-studies/randstad",
   "/casi-studio/ricehouse": "/en/case-studies/ricehouse",

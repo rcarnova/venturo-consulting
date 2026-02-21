@@ -27,6 +27,7 @@ import ScrollToHash from "./components/ScrollToHash";
 import ChiSiamo from "./pages/ChiSiamo";
 import AboutEN from "./pages/en/About";
 import LeSfide from "./pages/LeSfide";
+import ChallengesEN from "./pages/en/Challenges";
 // English case studies
 import CaseStudies from "./pages/en/CaseStudies";
 import RicehouseEN from "./pages/en/cases/Ricehouse";
@@ -49,6 +50,7 @@ const App = () => (
             <Route path="/chi-siamo" element={<ChiSiamo />} />
             <Route path="/le-sfide" element={<LeSfide />} />
             <Route path="/en/about" element={<AboutEN />} />
+            <Route path="/en/challenges" element={<ChallengesEN />} />
             <Route path="/lumen" element={<Lumen />} />
             <Route path="/en/lumen" element={<LumenEN />} />
             <Route path="/en/case-studies" element={<CaseStudies />} />
