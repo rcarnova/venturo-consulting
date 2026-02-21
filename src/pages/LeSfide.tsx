@@ -90,26 +90,35 @@ const LeSfide = () => {
           {challenges.map((challenge, index) => (
             <AnimatedSection key={index} delay={index * 80}>
               <div className="py-12 md:py-16 border-t border-border first:border-t-0">
-                {/* Index number + title */}
-                <div className="flex items-start gap-6 mb-6">
-                  <span className="text-xs font-mono text-muted-foreground/50 mt-1 tabular-nums pt-1 min-w-[2ch]">
+                {/* Title with large background number */}
+                <div className="relative mb-6">
+                  {/* Large decorative number */}
+                  <span
+                    className="absolute -top-6 -left-2 text-[8rem] md:text-[10rem] font-bold leading-none text-foreground/[0.06] select-none pointer-events-none font-mono"
+                    aria-hidden="true"
+                  >
                     {String(index + 1).padStart(2, "0")}
                   </span>
-                  <h2 className="text-2xl md:text-3xl font-medium text-foreground leading-snug">
-                    {challenge.title}
-                  </h2>
+                  <div className="relative">
+                    <span className="text-xs font-mono text-muted-foreground/50 mb-2 block tabular-nums">
+                      {String(index + 1).padStart(2, "0")}
+                    </span>
+                    <h2 className="text-2xl md:text-3xl font-medium text-foreground leading-snug">
+                      {challenge.title}
+                    </h2>
+                  </div>
                 </div>
 
                 {/* Reframing */}
-                <div className="pl-[calc(2ch+1.5rem)] space-y-6">
+                <div className="space-y-6">
                   <p className="text-base md:text-lg text-muted-foreground leading-relaxed">
                     {challenge.reframing}
                   </p>
 
-                  {/* What we do */}
-                  <div className="flex items-start gap-3 pt-2">
-                    <ArrowRight className="w-4 h-4 text-primary mt-1 flex-shrink-0" />
-                    <p className="text-base text-foreground font-medium leading-relaxed">
+                  {/* What we do — dark block */}
+                  <div className="bg-charcoal rounded-lg px-5 py-4 md:px-6 md:py-5 flex items-start gap-3">
+                    <ArrowRight className="w-4 h-4 text-warm-white/60 mt-1 flex-shrink-0" />
+                    <p className="text-base text-warm-white font-medium leading-relaxed">
                       {challenge.action}
                     </p>
                   </div>
