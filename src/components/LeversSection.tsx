@@ -51,7 +51,7 @@ const LeversSection = () => {
               Le aree di intervento
             </h2>
             <p className="text-subheadline mt-4 text-primary-foreground/70">
-              Le sei leve concrete su cui agiamo dentro le vostre organizzazioni.
+              Sei situazioni che riconosciamo spesso. E su cui sappiamo come lavorare.
             </p>
           </div>
         </AnimatedSection>
