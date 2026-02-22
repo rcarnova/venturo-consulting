@@ -7,6 +7,7 @@ import { Checkbox } from "@/components/ui/checkbox";
 import { useToast } from "@/hooks/use-toast";
 import { Send } from "lucide-react";
 import AnimatedSection from "./AnimatedSection";
+import GlowTitle from "./GlowTitle";
 import { supabase } from "@/integrations/supabase/client";
 
 const ContactSection = () => {
@@ -61,9 +62,9 @@ const ContactSection = () => {
       <div className="container-narrow">
         <AnimatedSection>
           <div className="text-center max-w-xl mx-auto mb-12">
-            <h2 className="text-headline text-warm-white">
+            <GlowTitle className="text-headline text-warm-white" variant="light">
               Iniziamo a parlare
-            </h2>
+            </GlowTitle>
             <p className="text-lg text-warm-white/70 mt-4">
               Raccontaci la tua sfida. Nessun impegno, solo una conversazione per capire se possiamo aiutarti.
             </p>
@@ -79,7 +80,7 @@ const ContactSection = () => {
                 value={formData.name}
                 onChange={(e) => setFormData({ ...formData, name: e.target.value })}
                 required
-                className="bg-warm-white/10 border-warm-white/20 text-warm-white placeholder:text-warm-white/50 focus:border-warm-white h-12"
+                className="bg-warm-white/10 border-warm-white/20 text-warm-white placeholder:text-warm-white/50 focus:border-warm-white h-12 glow-input"
               />
             </div>
             <div>
@@ -89,7 +90,7 @@ const ContactSection = () => {
                 value={formData.email}
                 onChange={(e) => setFormData({ ...formData, email: e.target.value })}
                 required
-                className="bg-warm-white/10 border-warm-white/20 text-warm-white placeholder:text-warm-white/50 focus:border-warm-white h-12"
+                className="bg-warm-white/10 border-warm-white/20 text-warm-white placeholder:text-warm-white/50 focus:border-warm-white h-12 glow-input"
               />
             </div>
             <div>
@@ -99,7 +100,7 @@ const ContactSection = () => {
               onChange={(e) => setFormData({ ...formData, message: e.target.value })}
               required
               rows={4}
-              className="bg-warm-white/10 border-warm-white/20 text-warm-white placeholder:text-warm-white/50 focus:border-warm-white resize-none"
+              className="bg-warm-white/10 border-warm-white/20 text-warm-white placeholder:text-warm-white/50 focus:border-warm-white resize-none glow-input"
             />
           </div>
           <div className="flex items-start gap-3 mt-6 mb-4">
@@ -119,7 +120,7 @@ const ContactSection = () => {
           </div>
           <Button 
             type="submit" 
-            className="w-full bg-warm-white text-charcoal hover:bg-warm-white/90 shadow-medium hover:shadow-elevated text-base px-8 py-6 h-auto"
+            className="w-full bg-warm-white text-charcoal hover:bg-warm-white/90 shadow-medium hover:shadow-elevated text-base px-8 py-6 h-auto glow-btn-light"
             disabled={isSubmitting || !privacyAccepted}
           >
             {isSubmitting ? (

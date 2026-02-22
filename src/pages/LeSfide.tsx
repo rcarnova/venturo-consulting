@@ -96,7 +96,7 @@ const LeSfide = () => {
         <section className="container-narrow space-y-0">
           {challenges.map((challenge, index) => (
             <AnimatedSection key={index} delay={index * 80}>
-              <div className="py-12 md:py-16 border-t border-border first:border-t-0">
+              <div className="py-12 md:py-16 border-t border-border first:border-t-0 rounded-lg px-4 -mx-4 glow-row">
                 {/* Title with large background number */}
                 <div className="relative mb-6">
                   {/* Large decorative number */}
@@ -144,6 +144,7 @@ const LeSfide = () => {
                   onClick={scrollToContact}
                   variant="hero"
                   size="lg"
+                  className="glow-btn-light"
                 >
                   Parliamone
                 </Button>

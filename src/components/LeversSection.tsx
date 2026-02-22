@@ -1,6 +1,7 @@
 import { UserPlus, Sparkles, Users2, Home, Target, Handshake, LucideIcon } from "lucide-react";
 import { Link } from "react-router-dom";
 import AnimatedSection from "./AnimatedSection";
+import GlowTitle from "./GlowTitle";
 
 interface Lever {
   title: string;
@@ -47,9 +48,9 @@ const LeversSection = () => {
       <div className="container-wide">
         <AnimatedSection>
           <div className="text-center max-w-2xl mx-auto mb-12">
-          <h2 className="text-headline text-primary-foreground">
+          <GlowTitle className="text-headline text-primary-foreground" variant="light">
               Le aree di intervento
-            </h2>
+            </GlowTitle>
             <p className="text-subheadline mt-4 text-primary-foreground/70">
               Sei situazioni che riconosciamo spesso. E su cui sappiamo come lavorare.
             </p>

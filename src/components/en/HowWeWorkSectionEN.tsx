@@ -1,5 +1,6 @@
 import { Users, MessageSquare, Repeat, Package } from "lucide-react";
 import AnimatedSection from "../AnimatedSection";
+import GlowTitle from "../GlowTitle";
 
 const services = [
   {
@@ -37,9 +38,9 @@ const HowWeWorkSectionEN = () => {
       <div className="container-wide">
         <AnimatedSection>
           <div className="text-center max-w-2xl mx-auto mb-16">
-            <h2 className="text-headline text-charcoal">
+            <GlowTitle className="text-headline text-charcoal">
               Our method
-            </h2>
+            </GlowTitle>
             <p className="text-subheadline mt-4">
               Three pillars on which we build every intervention.
             </p>

@@ -52,7 +52,7 @@ const Header = () => {
               <a
                 key={link.href}
                 href={link.href}
-                className={`text-sm font-mono transition-colors ${isActive ? 'text-primary font-semibold' : 'text-muted-foreground hover:text-foreground'}`}
+                className={`text-sm font-mono glow-nav ${isActive ? 'text-primary font-semibold' : 'text-muted-foreground hover:text-foreground'}`}
               >
                 {link.label}
               </a>
@@ -83,7 +83,7 @@ const Header = () => {
             </DropdownMenuContent>
           </DropdownMenu>
 
-          <Button onClick={scrollToContact} variant="default" size="default" className="hidden sm:inline-flex">
+          <Button onClick={scrollToContact} variant="default" size="default" className="hidden sm:inline-flex glow-btn">
             Parliamone
           </Button>
           <Sheet open={open} onOpenChange={setOpen}>

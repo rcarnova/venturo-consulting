@@ -1,6 +1,7 @@
 import { ArrowUpRight, ArrowRight, Star } from "lucide-react";
 import { Link } from "react-router-dom";
 import AnimatedSection from "./AnimatedSection";
+import GlowTitle from "./GlowTitle";
 import { Button } from "./ui/button";
 import { allCases } from "@/data/cases";
 
@@ -10,9 +11,9 @@ const CasesSection = () => {
       <div className="container-wide">
         <AnimatedSection>
           <div className="text-center max-w-2xl mx-auto mb-12">
-            <h2 className="text-headline text-charcoal">
+            <GlowTitle className="text-headline text-charcoal">
               Risultati concreti
-            </h2>
+            </GlowTitle>
             <p className="text-subheadline mt-4">
               Alcuni esempi di trasformazioni culturali che abbiamo guidato.
             </p>
@@ -80,7 +81,7 @@ const CasesSection = () => {
         <AnimatedSection delay={600}>
           <div className="text-center mt-12">
             <Button asChild variant="outline" size="lg">
-              <Link to="/casi-studio" className="inline-flex items-center gap-2">
+              <Link to="/casi-studio" className="inline-flex items-center gap-2 glow-btn">
                 Vedi tutti i casi studio
                 <ArrowRight className="w-4 h-4" />
               </Link>

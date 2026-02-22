@@ -1,5 +1,6 @@
 import { Users, Puzzle, Palette, BarChart3, Sparkles, PenTool } from "lucide-react";
 import AnimatedSection from "./AnimatedSection";
+import GlowTitle from "./GlowTitle";
 
 const competenze = [
   { icon: Users, label: "Coaching & facilitazione" },
@@ -16,9 +17,9 @@ const AboutSection = () => {
       <div className="container-wide">
         <AnimatedSection>
           <div className="text-center max-w-3xl mx-auto mb-12">
-            <h2 className="text-headline text-charcoal">
+            <GlowTitle className="text-headline text-charcoal">
               Chi Siamo
-            </h2>
+            </GlowTitle>
             <p className="text-xl font-medium text-charcoal mt-4">
               Uno studio ibrido che conosce le organizzazioni dall'interno
             </p>
@@ -50,7 +51,7 @@ const AboutSection = () => {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
           {competenze.map((competenza, index) => (
             <AnimatedSection key={index} animation="scale" delay={300 + index * 75}>
-              <div className="card-subtle group hover:bg-card hover:shadow-medium transition-all duration-300 flex items-center gap-4 p-5">
+              <div className="card-subtle group hover:bg-card hover:shadow-medium transition-all duration-300 flex items-center gap-4 p-5 glow-card">
                 <div className="w-10 h-10 rounded-lg bg-primary/10 flex items-center justify-center group-hover:bg-primary/20 transition-colors flex-shrink-0">
                   <competenza.icon className="w-5 h-5 text-primary" />
                 </div>

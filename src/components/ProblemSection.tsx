@@ -1,5 +1,6 @@
 import { UserMinus, FileX, MessageSquareWarning, Scale, Lock, LucideIcon } from "lucide-react";
 import AnimatedSection from "./AnimatedSection";
+import GlowTitle from "./GlowTitle";
 
 interface Problem {
   text: string;
@@ -20,10 +21,10 @@ const ProblemSection = () => {
     <section id="le-sfide" className="section-padding bg-charcoal">
       <div className="container-narrow">
         <AnimatedSection>
-          <h2 className="text-headline text-warm-white">
+          <GlowTitle className="text-headline text-warm-white" variant="light">
             Strategia solida, persone competenti.
             <span className="text-warm-white/60 block mt-2">Eppure...</span>
-          </h2>
+          </GlowTitle>
         </AnimatedSection>
 
         <ul className="mt-12 space-y-4">
