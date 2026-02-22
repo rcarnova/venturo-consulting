@@ -1,5 +1,6 @@
 import { UserPlus, Sparkles, Users2, Home, Target, Handshake, LucideIcon } from "lucide-react";
 import AnimatedSection from "../AnimatedSection";
+import GlowTitle from "../GlowTitle";
 
 interface Lever {
   title: string;
@@ -46,9 +47,9 @@ const LeversSectionEN = () => {
       <div className="container-wide">
         <AnimatedSection>
           <div className="text-center max-w-2xl mx-auto mb-12">
-          <h2 className="text-headline text-primary-foreground">
+          <GlowTitle className="text-headline text-primary-foreground" variant="light">
               Intervention areas
-            </h2>
+            </GlowTitle>
             <p className="text-subheadline mt-4 text-primary-foreground/70">
               The six concrete levers we act on inside your organizations.
             </p>

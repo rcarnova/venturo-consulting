@@ -20,10 +20,10 @@ const HeroSection = () => {
           </p>
 
           <div className="mt-12 flex flex-col sm:flex-row gap-4 animate-fade-up-delay-2">
-            <Button onClick={scrollToContact} variant="hero">
+            <Button onClick={scrollToContact} variant="hero" className="glow-btn">
               Parliamone
             </Button>
-            <Button variant="heroOutline" onClick={() => document.getElementById('problema')?.scrollIntoView({ behavior: 'smooth' })}>
+            <Button variant="heroOutline" className="glow-btn" onClick={() => document.getElementById('problema')?.scrollIntoView({ behavior: 'smooth' })}>
               Scopri di più
             </Button>
           </div>
