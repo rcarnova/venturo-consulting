@@ -11,6 +11,7 @@ const team = [
     title: "Business Coach & Brand Strategist",
     image: "/team/rosario.jpg",
     linkedin: "https://www.linkedin.com/in/rosariocarnovale/",
+    bio: "Cresciuto come manager in Oracle, nel 2016 ha cofondato Smartworking Srl — la prima società di consulenza sul lavoro ibrido in Italia. Ha lavorato in boutique e grandi realtà come Deloitte Digital come coach e consulente su progetti di cambiamento organizzativo. Nel 2017 fonda Studio Miller con Massimo Benedetti. Oggi in Venturo porta la visione strategica sulla cultura organizzativa e una delle esperienze più solide in Italia sul lavoro ibrido.",
   },
   {
     name: "Arianna Barisan",
@@ -18,6 +19,7 @@ const team = [
     title: "Art Director",
     image: "/team/arianna.jpg",
     linkedin: "https://www.linkedin.com/in/arianna-barisan/",
+    bio: "Art Director con una traiettoria nel lusso: Miu Miu, Marco Bicego, Panerai — otto anni come responsabile di concept, immagine ed eventi per brand di orologeria e gioielleria internazionale. Dal 2019 lavora come consulente freelance su strategie visive, eventi e processi comunicativi. In Venturo porta rigore estetico e capacità di dare forma visiva a contenuti complessi.",
   },
   {
     name: "Massimo Benedetti",
@@ -25,6 +27,7 @@ const team = [
     title: "Communication & Storytelling Specialist",
     image: "/team/massimo.jpg",
     linkedin: "https://www.linkedin.com/in/massimobenedetti/",
+    bio: "Laureato al Politecnico di Torino, nel 2016 acquisisce la qualifica di Corporate Storytelling Specialist allo IULM. Dal 2017 è formatore presso Innovation School di Talent Garden. Cofondatore di Studio Miller, lavora da anni su strategie di contenuto e narrazione per brand come Randstad, Sambonet, Samsung, Findomestic. In Venturo è il responsabile della dimensione narrativa — trasforma quello che le organizzazioni vivono in storie che le persone riconoscono come proprie.",
   },
 ];
 
@@ -90,6 +93,12 @@ const ChiSiamo = () => {
               </div>
             </AnimatedSection>
 
+            <AnimatedSection delay={50}>
+              <p className="text-lg text-muted-foreground leading-relaxed max-w-3xl mb-16">
+                Ci conosciamo dal 2013, quando abbiamo fondato insieme Bottega Miller — uno spazio per professionisti indipendenti con talenti diversi. Venturo nasce da quella storia.
+              </p>
+            </AnimatedSection>
+
             <div className="grid grid-cols-1 md:grid-cols-3 gap-12 md:gap-16">
               {team.map((member, index) => (
                 <AnimatedSection key={member.name} delay={index * 100}>
@@ -119,8 +128,8 @@ const ChiSiamo = () => {
                       <p className="text-sm font-mono uppercase tracking-widest text-primary">
                         {member.role}
                       </p>
-                      <p className="text-base font-mono text-muted-foreground">
-                        {member.title}
+                      <p className="text-base text-muted-foreground leading-relaxed mt-3">
+                        {member.bio}
                       </p>
                     </div>
                   </div>
