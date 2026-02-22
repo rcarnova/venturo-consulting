@@ -64,10 +64,11 @@ const ChiSiamo = () => {
                 Rendiamo esplicita la cultura che già esiste.
               </p>
               <p className="text-lg text-muted-foreground leading-relaxed">
-                Lavoriamo selettivamente con 3-5 clienti all'anno — imprese familiari 
-                (100-300 persone) e scale-up (50-200 persone). Non per esclusività, ma 
+                Lavoriamo selettivamente con 3-5 clienti all'anno — PMI in crescita e 
+                grandi organizzazioni, accomunate da uno stesso momento: quello in cui la 
+                cultura aziendale diventa visibile e urgente. Non per esclusività, ma 
                 perché fare questo lavoro bene richiede tempo e attenzione vera. Lavoriamo 
-                nei momenti in cui la cultura è più visibile: quando qualcuno fa un errore, 
+                nei momenti in cui la cultura è più esposta: quando qualcuno fa un errore, 
                 quando si devono prendere decisioni sotto pressione, quando le promesse 
                 incontrano la realtà.
               </p>
