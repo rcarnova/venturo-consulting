@@ -38,7 +38,7 @@ const HowWeWorkSection = () => {
       <div className="container-wide">
         <AnimatedSection>
           <div className="text-center max-w-2xl mx-auto mb-16">
-            <GlowTitle className="text-headline text-charcoal">
+            <GlowTitle className="text-2xl md:text-3xl font-medium text-charcoal">
               Il nostro metodo
             </GlowTitle>
             <p className="text-subheadline mt-4">
