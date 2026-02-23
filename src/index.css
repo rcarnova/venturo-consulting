@@ -252,7 +252,7 @@
     transition: text-shadow 0.3s ease, color 0.3s ease;
   }
   .glow-nav:hover {
-    text-shadow: 0 0 12px rgba(225, 255, 0, 0.4), 0 0 24px rgba(225, 255, 0, 0.2);
+    text-shadow: 0 0 16px rgba(225, 255, 0, 0.7), 0 0 32px rgba(225, 255, 0, 0.4);
   }
 
   /* Button glow on hover */
@@ -260,7 +260,7 @@
     transition: box-shadow 0.3s ease, transform 0.3s ease;
   }
   .glow-btn:hover {
-    box-shadow: 0 0 16px rgba(225, 255, 0, 0.3), 0 0 32px rgba(225, 255, 0, 0.15);
+    box-shadow: 0 0 20px rgba(225, 255, 0, 0.5), 0 0 40px rgba(225, 255, 0, 0.25);
   }
 
   /* Button glow — light variant (for dark backgrounds) */
@@ -268,7 +268,7 @@
     transition: box-shadow 0.3s ease, transform 0.3s ease;
   }
   .glow-btn-light:hover {
-    box-shadow: 0 0 16px rgba(225, 255, 0, 0.3), 0 0 32px rgba(225, 255, 0, 0.15);
+    box-shadow: 0 0 20px rgba(225, 255, 0, 0.5), 0 0 40px rgba(225, 255, 0, 0.25);
   }
 
   /* Card glow — neutral */
@@ -284,20 +284,20 @@
     transition: background-color 0.3s ease, box-shadow 0.3s ease;
   }
   .glow-row:hover {
-    background-color: rgba(225, 255, 0, 0.03);
-    box-shadow: inset 0 0 40px rgba(225, 255, 0, 0.04), 0 0 20px rgba(225, 255, 0, 0.08);
+    background-color: rgba(225, 255, 0, 0.06);
+    box-shadow: inset 0 0 40px rgba(225, 255, 0, 0.08), 0 0 24px rgba(225, 255, 0, 0.15);
   }
 
   /* Input glow on focus */
   .glow-input:focus,
   .glow-input:focus-within {
-    box-shadow: 0 0 12px rgba(225, 255, 0, 0.2), 0 0 24px rgba(225, 255, 0, 0.1) !important;
+    box-shadow: 0 0 16px rgba(225, 255, 0, 0.4), 0 0 32px rgba(225, 255, 0, 0.2) !important;
   }
 
   /* Title glow — appears and fades on scroll entry */
   @keyframes titleGlow {
     0% {
-      text-shadow: 0 0 20px rgba(225, 255, 0, 0.4), 0 0 40px rgba(225, 255, 0, 0.2);
+      text-shadow: 0 0 24px rgba(225, 255, 0, 0.7), 0 0 48px rgba(225, 255, 0, 0.35);
     }
     100% {
       text-shadow: none;
@@ -306,7 +306,7 @@
 
   @keyframes titleGlowLight {
     0% {
-      text-shadow: 0 0 20px rgba(225, 255, 0, 0.4), 0 0 40px rgba(225, 255, 0, 0.2);
+      text-shadow: 0 0 24px rgba(225, 255, 0, 0.7), 0 0 48px rgba(225, 255, 0, 0.35);
     }
     100% {
       text-shadow: none;
