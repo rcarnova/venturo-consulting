@@ -21,7 +21,7 @@ const ProblemSection = () => {
     <section id="le-sfide" className="section-padding bg-charcoal">
       <div className="container-narrow">
         <AnimatedSection>
-          <GlowTitle className="text-headline text-warm-white" variant="light">
+          <GlowTitle className="text-2xl md:text-3xl font-medium text-warm-white" variant="light">
             Strategia solida, persone competenti.
             <span className="text-warm-white/60 block mt-2">Eppure...</span>
           </GlowTitle>

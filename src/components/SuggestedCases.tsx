@@ -21,7 +21,7 @@ const SuggestedCases = ({ currentCaseId, allCases }: SuggestedCasesProps) => {
     <section className="section-padding bg-muted/30">
       <div className="container-narrow">
         <AnimatedSection>
-          <h2 className="text-headline text-charcoal mb-8">Altri progetti</h2>
+          <h2 className="text-2xl md:text-3xl font-medium text-charcoal mb-8">Altri progetti</h2>
         </AnimatedSection>
         <div className="grid md:grid-cols-2 gap-6">
           {suggested.map((caseStudy, index) => {
