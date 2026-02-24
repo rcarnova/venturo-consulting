@@ -17,7 +17,7 @@ const AboutSection = () => {
       <div className="container-wide">
         <AnimatedSection>
           <div className="text-center max-w-3xl mx-auto mb-12">
-            <GlowTitle className="text-headline text-charcoal">
+            <GlowTitle className="text-2xl md:text-3xl font-medium text-charcoal">
               Chi Siamo
             </GlowTitle>
             <p className="text-xl font-medium text-charcoal mt-4">

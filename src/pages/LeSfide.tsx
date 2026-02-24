@@ -76,7 +76,7 @@ const LeSfide = () => {
         {/* Intro */}
         <section className="container-narrow mb-20 md:mb-28">
           <AnimatedSection>
-            <h1 className="text-headline text-foreground leading-tight">
+            <h1 className="text-2xl md:text-3xl font-medium text-foreground leading-tight">
               Le sfide
             </h1>
           </AnimatedSection>

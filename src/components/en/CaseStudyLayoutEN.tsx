@@ -118,7 +118,7 @@ const CaseStudyLayoutEN = ({
         <section className="section-padding">
           <div className="container-narrow">
             <AnimatedSection>
-              <h2 className="text-headline text-charcoal mb-6">The challenge</h2>
+              <h2 className="text-2xl md:text-3xl font-medium text-charcoal mb-6">The challenge</h2>
               <p className="text-body-large text-muted-foreground mb-8">
                 {challenge.description}
               </p>
@@ -141,7 +141,7 @@ const CaseStudyLayoutEN = ({
         <section className="section-padding bg-muted/30">
           <div className="container-narrow">
             <AnimatedSection>
-              <h2 className="text-headline text-charcoal mb-12">How we worked</h2>
+              <h2 className="text-2xl md:text-3xl font-medium text-charcoal mb-12">How we worked</h2>
             </AnimatedSection>
             <div className="space-y-8">
               {phases.map((phase, index) => (
@@ -200,7 +200,7 @@ const CaseStudyLayoutEN = ({
         <section className="section-padding">
           <div className="container-narrow">
             <AnimatedSection>
-              <h2 className="text-headline text-charcoal mb-8">Results</h2>
+              <h2 className="text-2xl md:text-3xl font-medium text-charcoal mb-8">Results</h2>
               <div className="grid md:grid-cols-2 gap-4">
                 {results.map((result, index) => (
                   <div
@@ -223,7 +223,7 @@ const CaseStudyLayoutEN = ({
         <section className="py-16 md:py-20 bg-primary text-primary-foreground">
           <div className="container-narrow text-center">
             <AnimatedSection>
-              <h2 className="text-headline text-primary-foreground mb-4">
+              <h2 className="text-2xl md:text-3xl font-medium text-primary-foreground mb-4">
                 Want similar results for your organization?
               </h2>
               <Button

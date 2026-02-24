@@ -176,7 +176,7 @@ const CaseStudies = () => {
         <section className="py-16 md:py-20 bg-muted/50">
           <div className="container-narrow text-center">
             <AnimatedSection>
-              <h2 className="text-headline text-charcoal mb-4">Want similar results?</h2>
+              <h2 className="text-2xl md:text-3xl font-medium text-charcoal mb-4">Want similar results?</h2>
               <Button onClick={scrollToContact} variant="default" size="lg">
                 Let's talk
               </Button>
