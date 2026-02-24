@@ -158,14 +158,6 @@
     @apply text-4xl md:text-5xl lg:text-6xl font-medium leading-tight tracking-tight;
   }
 
-  .text-headline {
-    @apply text-2xl md:text-3xl lg:text-4xl font-medium leading-snug;
-  }
-
-  .text-subheadline {
-    @apply text-lg md:text-xl leading-relaxed text-muted-foreground;
-  }
-
   .text-subheadline {
     @apply text-lg md:text-xl leading-relaxed text-muted-foreground;
   }
