@@ -96,7 +96,7 @@ const ChiSiamo = () => {
 
             <AnimatedSection delay={50}>
               <p className="text-lg text-muted-foreground leading-relaxed max-w-3xl mb-16">
-                Ci conosciamo dal 2013, quando abbiamo fondato insieme Bottega Miller — uno spazio per professionisti indipendenti con talenti diversi. Venturo nasce da quella storia.
+                Venturo nasce dall'incontro di tre partner con background ibridi, accomunati dalla stessa visione: rendere visibile la cultura che già esiste nelle organizzazioni.
               </p>
             </AnimatedSection>
 
