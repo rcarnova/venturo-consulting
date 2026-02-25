@@ -2,6 +2,14 @@ import AnimatedSection from "@/components/AnimatedSection";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 
+const scrollToContact = () => {
+  if (window.location.pathname === '/') {
+    document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' });
+  } else {
+    window.location.href = '/#contact';
+  }
+};
+
 const LumenCTA = () => (
   <section className="py-24 bg-muted/40">
     <div className="container-wide max-w-3xl text-center">
@@ -15,8 +23,8 @@ const LumenCTA = () => (
           è lo strumento giusto per la vostra organizzazione — e in quale formato.
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
-          <Button variant="hero" asChild>
-            <a href="mailto:info@venturoconsulting.it">Parliamone</a>
+          <Button variant="hero" onClick={scrollToContact}>
+            Parliamone
           </Button>
           <Button variant="heroOutline" asChild>
             <Link to="/casi-studio">Vedi i progetti</Link>
