@@ -4,32 +4,32 @@ const challenges = [
   {
     title: "Talenti che abbandonano",
     symptom: "I talenti se ne vanno dopo 18 mesi",
-    diagnosis: "Problema di leggibilità culturale — la cultura interna non corrisponde a quella percepita fuori",
+    revelation: "Problema di leggibilità culturale — la cultura interna non corrisponde a quella percepita fuori",
   },
   {
     title: "Delega che non funziona",
     symptom: "I manager non delegano davvero",
-    diagnosis: "Problema di fiducia culturale — se l'errore non è permesso, nessuno si prende responsabilità",
+    revelation: "Problema di fiducia culturale — se l'errore non è permesso, nessuno si prende responsabilità",
   },
   {
     title: "Innovazione sulla carta",
     symptom: "Le idee non si traducono in azione",
-    diagnosis: "La cultura premia chi non sbaglia più di chi prova cose nuove",
+    revelation: "La cultura premia chi non sbaglia più di chi prova cose nuove",
   },
   {
     title: "Team che non si capiscono",
     symptom: "Problemi di comunicazione tra funzioni",
-    diagnosis: "Culture diverse che convivono senza linguaggio condiviso",
+    revelation: "Culture diverse che convivono senza linguaggio condiviso",
   },
   {
     title: "Gap dentro/fuori",
     symptom: "Le promesse ai clienti non corrispondono alla realtà interna",
-    diagnosis: "Identità esterna costruita senza partire da quella interna",
+    revelation: "Identità esterna costruita senza partire da quella interna",
   },
   {
     title: "Ibrido senza regole",
     symptom: "Ogni manager applica regole diverse",
-    diagnosis: "Mancanza di definizione condivisa di cosa significa lavorare smart",
+    revelation: "Mancanza di definizione condivisa di cosa significa lavorare smart",
   },
 ];
 
@@ -54,8 +54,8 @@ const LumenChallenges = () => (
               <h3 className="font-bold text-base">{c.title}</h3>
               <p className="text-sm text-muted-foreground italic">"{c.symptom}"</p>
               <div className="mt-auto pt-4 border-t border-border/50">
-                <p className="font-mono text-xs uppercase tracking-widest text-primary mb-1">Diagnosi Lumen</p>
-                <p className="text-sm text-foreground leading-relaxed">{c.diagnosis}</p>
+                <p className="font-mono text-xs uppercase tracking-widest text-primary mb-1">Rivelazione Lumen</p>
+                <p className="text-sm text-foreground leading-relaxed">{c.revelation}</p>
               </div>
             </div>
           </AnimatedSection>

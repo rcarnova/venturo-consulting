@@ -22,7 +22,7 @@ const LumenHero = () => (
             E nelle storie, la cultura si rivela da sola.
           </p>
           <p>
-            Il risultato non è una diagnosi. È uno specchio. Un'immagine fedele di come le persone
+            Il risultato non è un giudizio. È uno specchio. Un'immagine fedele di come le persone
             vivono davvero l'organizzazione, non di come pensano che dovrebbero viverla.
           </p>
         </div>
