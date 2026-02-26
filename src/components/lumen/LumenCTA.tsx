@@ -20,7 +20,7 @@ const LumenCTA = () => (
         </h2>
         <p className="text-muted-foreground text-lg mb-10 leading-relaxed">
           Una conversazione esplorativa di 30 minuti è sufficiente per capire se Lumen
-          è lo strumento giusto per la vostra organizzazione — e in quale formato.
+          è lo strumento giusto per la vostra organizzazione - e in quale formato.
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <Button variant="hero" onClick={scrollToContact}>

@@ -18,7 +18,7 @@ const LumenHeroEN = () => (
           </p>
           <p>
             That's why Lumen doesn't use only questionnaires or only interviews. It combines narrative
-            techniques — one-to-one interviews, oblique questions, storytelling workshops — to surface
+            techniques - one-to-one interviews, oblique questions, storytelling workshops - to surface
             stories. And in stories, culture reveals itself on its own.
           </p>
           <p>

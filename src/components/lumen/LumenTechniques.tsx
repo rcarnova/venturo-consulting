@@ -10,22 +10,22 @@ const questions = [
   },
   {
     title: "L'errore permesso",
-    question: "Pensa all'ultima volta che qualcosa è andato storto — una decisione sbagliata, un progetto che non ha funzionato. Come è andata a finire?",
+    question: "Pensa all'ultima volta che qualcosa è andato storto - una decisione sbagliata, un progetto che non ha funzionato. Come è andata a finire?",
     note: "Illumina la tolleranza al fallimento e il rapporto con l'accountability reale.",
   },
   {
     title: "Il nuovo collega",
-    question: "Se dovessi spiegare a un nuovo collega le cose 'non scritte' — quelle che non troverà mai nel manuale — cosa gli diresti?",
+    question: "Se dovessi spiegare a un nuovo collega le cose 'non scritte' - quelle che non troverà mai nel manuale - cosa gli diresti?",
     note: "Porta in superficie le assunzioni di base, il terzo livello di Schein, il più difficile da raggiungere.",
   },
   {
     title: "Il trasloco",
-    question: "Se la vostra azienda si trasferisse, cosa portereste con voi e cosa lascereste — di fisico e di astratto?",
+    question: "Se la vostra azienda si trasferisse, cosa portereste con voi e cosa lascereste - di fisico e di astratto?",
     note: "Rivela artefatti valorizzati, valori reali, e cosa viene tollerato ma non amato.",
   },
   {
     title: "L'ultima decisione",
-    question: "Pensa all'ultima decisione importante presa in azienda — come l'hai saputo?",
+    question: "Pensa all'ultima decisione importante presa in azienda - come l'hai saputo?",
     note: "Rivela sistemi di potere reale, canali di comunicazione, inclusione percepita.",
   },
   {
@@ -40,7 +40,7 @@ const questions = [
   },
   {
     title: "La riunione",
-    question: "Ti trovi in una riunione che fai di frequente — qual è la sensazione che ti lascia appena terminata?",
+    question: "Ti trovi in una riunione che fai di frequente - qual è la sensazione che ti lascia appena terminata?",
     note: "Rivela qualità dei rituali organizzativi e vitalità culturale.",
   },
 ];
@@ -51,14 +51,14 @@ const techniques = [
     icon: MessageCircle,
     label: "Interviste narrative",
     when: "Quando serve profondità più che ampiezza. Quando i temi sono delicati.",
-    reveals: "Episodi concreti, emozioni autentiche, contraddizioni che in gruppo non emergerebbero. Particolarmente efficaci per far emergere le assunzioni di base — quelle credenze così profonde che le persone non sanno di averle finché non raccontano una storia.",
+    reveals: "Episodi concreti, emozioni autentiche, contraddizioni che in gruppo non emergerebbero. Particolarmente efficaci per far emergere le assunzioni di base - quelle credenze così profonde che le persone non sanno di averle finché non raccontano una storia.",
   },
   {
     id: "questionnaire",
     icon: FileText,
     label: "Questionario narrativo",
     when: "Quando serve scala più che profondità. Quando l'organizzazione è ampia e serve comparare risposte tra livelli gerarchici.",
-    reveals: "Meno profondità delle interviste ma maggiore ampiezza. Soprattutto produce tensioni comparative — le stesse domande a board e management rivelano scostamenti che sono già un dato culturale potente.",
+    reveals: "Meno profondità delle interviste ma maggiore ampiezza. Soprattutto produce tensioni comparative - le stesse domande a board e management rivelano scostamenti che sono già un dato culturale potente.",
   },
   {
     id: "workshop",
@@ -81,7 +81,7 @@ const LumenTechniques = () => {
           <p className="font-mono text-xs uppercase tracking-widest text-primary mb-4">Lo strumento</p>
           <h2 className="text-3xl md:text-4xl font-bold mb-4">Le tecniche che compongono Lumen</h2>
           <p className="text-muted-foreground max-w-2xl mb-12 text-lg">
-            Lumen non è una procedura fissa — è un set di tecniche che si combinano in base al progetto.
+            Lumen non è una procedura fissa - è un set di tecniche che si combinano in base al progetto.
             Ogni tecnica ha un ruolo specifico nel processo di rivelazione culturale.
           </p>
         </AnimatedSection>
@@ -139,7 +139,7 @@ const LumenTechniques = () => {
           </div>
         </AnimatedSection>
 
-        {/* Le 8 domande — shown when questionnaire or interviews tab is active */}
+        {/* Le 8 domande - shown when questionnaire or interviews tab is active */}
         {(activeTab === "interviews" || activeTab === "questionnaire") && (
           <>
             <AnimatedSection delay={200}>

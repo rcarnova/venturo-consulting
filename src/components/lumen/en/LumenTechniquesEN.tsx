@@ -10,22 +10,22 @@ const questions = [
   },
   {
     title: "The permitted mistake",
-    question: "Think about the last time something went wrong — a bad decision, a project that didn't work out. How did it end?",
+    question: "Think about the last time something went wrong - a bad decision, a project that didn't work out. How did it end?",
     note: "Illuminates tolerance for failure and the real relationship with accountability.",
   },
   {
     title: "The new colleague",
-    question: "If you had to explain to a new colleague the 'unwritten' things — the ones they'll never find in the manual — what would you tell them?",
+    question: "If you had to explain to a new colleague the 'unwritten' things - the ones they'll never find in the manual - what would you tell them?",
     note: "Surfaces basic assumptions, Schein's third layer, the hardest to reach.",
   },
   {
     title: "The move",
-    question: "If your company were to relocate, what would you bring with you and what would you leave behind — both physical and abstract?",
+    question: "If your company were to relocate, what would you bring with you and what would you leave behind - both physical and abstract?",
     note: "Reveals valued artifacts, real values, and what is tolerated but not loved.",
   },
   {
     title: "The last decision",
-    question: "Think about the last important decision made in the company — how did you find out about it?",
+    question: "Think about the last important decision made in the company - how did you find out about it?",
     note: "Reveals real power systems, communication channels, perceived inclusion.",
   },
   {
@@ -40,7 +40,7 @@ const questions = [
   },
   {
     title: "The meeting",
-    question: "Think of a meeting you attend regularly — what's the feeling it leaves you with right after it ends?",
+    question: "Think of a meeting you attend regularly - what's the feeling it leaves you with right after it ends?",
     note: "Reveals quality of organizational rituals and cultural vitality.",
   },
 ];
@@ -51,14 +51,14 @@ const techniques = [
     icon: MessageCircle,
     label: "Narrative interviews",
     when: "When depth matters more than breadth. When themes are sensitive.",
-    reveals: "Concrete episodes, authentic emotions, contradictions that wouldn't emerge in a group. Particularly effective at surfacing basic assumptions — beliefs so deep that people don't know they hold them until they tell a story.",
+    reveals: "Concrete episodes, authentic emotions, contradictions that wouldn't emerge in a group. Particularly effective at surfacing basic assumptions - beliefs so deep that people don't know they hold them until they tell a story.",
   },
   {
     id: "questionnaire",
     icon: FileText,
     label: "Narrative questionnaire",
     when: "When scale matters more than depth. When the organization is large and responses need to be compared across hierarchical levels.",
-    reveals: "Less depth than interviews but greater breadth. Above all, it produces comparative tensions — the same questions to board and management reveal gaps that are already a powerful cultural insight.",
+    reveals: "Less depth than interviews but greater breadth. Above all, it produces comparative tensions - the same questions to board and management reveal gaps that are already a powerful cultural insight.",
   },
   {
     id: "workshop",
@@ -81,7 +81,7 @@ const LumenTechniquesEN = () => {
           <p className="font-mono text-xs uppercase tracking-widest text-primary mb-4">The instrument</p>
           <h2 className="text-3xl md:text-4xl font-bold mb-4">The techniques that make up Lumen</h2>
           <p className="text-muted-foreground max-w-2xl mb-12 text-lg">
-            Lumen is not a fixed procedure — it's a set of techniques combined based on the project.
+            Lumen is not a fixed procedure - it's a set of techniques combined based on the project.
             Each technique has a specific role in the process of cultural revelation.
           </p>
         </AnimatedSection>

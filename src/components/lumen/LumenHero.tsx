@@ -17,8 +17,8 @@ const LumenHero = () => (
             onnipresente. Le persone respirano le sue regole non scritte ogni giorno, ma faticano a nominarle.
           </p>
           <p>
-            Ecco perché Lumen non usa solo questionari o solo interviste. Combina tecniche narrative —
-            interviste one-to-one, domande oblique, workshop di storytelling — per far emergere storie.
+            Ecco perché Lumen non usa solo questionari o solo interviste. Combina tecniche narrative -
+            interviste one-to-one, domande oblique, workshop di storytelling - per far emergere storie.
             E nelle storie, la cultura si rivela da sola.
           </p>
           <p>
