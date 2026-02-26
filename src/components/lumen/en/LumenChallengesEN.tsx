@@ -4,12 +4,12 @@ const challenges = [
   {
     title: "Talent that leaves",
     symptom: "\"Talent leaves after 18 months\"",
-    revelation: "A cultural readability problem — internal culture doesn't match the one perceived from outside",
+    revelation: "A cultural readability problem - internal culture doesn't match the one perceived from outside",
   },
   {
     title: "Delegation that doesn't work",
     symptom: "\"Managers don't really delegate\"",
-    revelation: "A cultural trust problem — if mistakes aren't allowed, no one takes responsibility",
+    revelation: "A cultural trust problem - if mistakes aren't allowed, no one takes responsibility",
   },
   {
     title: "Innovation on paper",
@@ -40,7 +40,7 @@ const LumenChallengesEN = () => (
         <p className="font-mono text-xs uppercase tracking-widest text-primary mb-4">Common patterns</p>
         <h2 className="text-3xl md:text-4xl font-bold mb-4">The challenges Lumen addresses</h2>
         <p className="text-muted-foreground max-w-2xl mb-12 text-lg">
-          Lumen enters organizations through different doors — employer branding, cultural transformation,
+          Lumen enters organizations through different doors - employer branding, cultural transformation,
           onboarding, internal communication. But whatever the entry point, we always work on the same deep
           dynamics: making the invisible visible, naming what goes unsaid, aligning what is contradictory.
         </p>

@@ -6,7 +6,7 @@ const steps = [
     icon: MessageCircle,
     num: "01",
     title: "Collection",
-    desc: "One-to-one narrative interviews (45min each) and/or narrative questionnaire with the 8 questions, depending on the chosen format. In some projects both are used — interviews for depth, the questionnaire for breadth.",
+    desc: "One-to-one narrative interviews (45min each) and/or narrative questionnaire with the 8 questions, depending on the chosen format. In some projects both are used - interviews for depth, the questionnaire for breadth.",
   },
   {
     icon: Eye,
@@ -18,13 +18,13 @@ const steps = [
     icon: Users,
     num: "03",
     title: "Workshop",
-    desc: "Restitution to the leadership team through a facilitated workshop. Not a report to read: a session where the organization listens to itself through its own voices. Tensions are named collectively. Then co-design follows — subgroup work with dot voting to identify the 2 priority challenges to act on.",
+    desc: "Restitution to the leadership team through a facilitated workshop. Not a report to read: a session where the organization listens to itself through its own voices. Tensions are named collectively. Then co-design follows - subgroup work with dot voting to identify the 2 priority challenges to act on.",
   },
   {
     icon: Target,
     num: "04",
     title: "3-month project",
-    desc: "The 2 selected challenges become concrete projects operating at the level of modifiable artifacts — meetings, onboarding, communication, rituals. Small changes that touch deep assumptions. It's not the final solution — it's the gateway to deeper change.",
+    desc: "The 2 selected challenges become concrete projects operating at the level of modifiable artifacts - meetings, onboarding, communication, rituals. Small changes that touch deep assumptions. It's not the final solution - it's the gateway to deeper change.",
   },
 ];
 
@@ -63,8 +63,8 @@ const LumenProcessEN = () => (
           <p className="font-mono text-xs uppercase tracking-widest text-primary mb-3">The output</p>
           <p className="text-foreground leading-relaxed mb-4">
             Not an 80-page report that ends up in a drawer. Lumen produces a <strong>narrative mirror</strong>:
-            a 15–25 page document in which the organization's people recognize their own voice,
-            their own stories, their own tensions — and finally understand why certain things never change,
+            a 15-25 page document in which the organization's people recognize their own voice,
+            their own stories, their own tensions - and finally understand why certain things never change,
             despite good intentions.
           </p>
           <p className="text-foreground leading-relaxed">

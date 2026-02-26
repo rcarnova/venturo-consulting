@@ -17,11 +17,11 @@ const LumenFormatsEN = () => (
               <h3 className="text-2xl font-bold">Essential</h3>
             </div>
             <ul className="space-y-3 text-sm text-muted-foreground">
-              <li className="flex gap-2"><span className="text-primary mt-0.5">→</span> 8–12 narrative interviews with board and management</li>
-              <li className="flex gap-2"><span className="text-primary mt-0.5">→</span> Full thematic analysis — mapping of key tensions</li>
+              <li className="flex gap-2"><span className="text-primary mt-0.5">→</span> 8-12 narrative interviews with board and management</li>
+              <li className="flex gap-2"><span className="text-primary mt-0.5">→</span> Full thematic analysis - mapping of key tensions</li>
               <li className="flex gap-2"><span className="text-primary mt-0.5">→</span> Narrative mirror (15 pp.)</li>
               <li className="flex gap-2"><span className="text-primary mt-0.5">→</span> 1 restitution & co-design workshop (half day, 3h)</li>
-              <li className="flex gap-2"><span className="text-primary mt-0.5">→</span> Priority levers map — 2 challenges with 3-month project</li>
+              <li className="flex gap-2"><span className="text-primary mt-0.5">→</span> Priority levers map - 2 challenges with 3-month project</li>
             </ul>
 
             <div className="space-y-3 border-t border-border/50 pt-4">
@@ -31,13 +31,13 @@ const LumenFormatsEN = () => (
               </div>
               <div>
                 <p className="font-mono text-xs text-primary mb-1">Small organization variant (8-15 people)</p>
-                <p className="text-xs text-muted-foreground">Workshop only without prior collection — narrative emergence directly in facilitated session</p>
+                <p className="text-xs text-muted-foreground">Workshop only without prior collection - narrative emergence directly in facilitated session</p>
               </div>
             </div>
 
             <div className="mt-auto space-y-1">
               <p className="text-xs font-mono text-muted-foreground">Duration: 3-4 weeks from collection to map</p>
-              <p className="text-xs font-mono text-muted-foreground">Ideal for: first assessment, SMEs, teams of 20–80 people</p>
+              <p className="text-xs font-mono text-muted-foreground">Ideal for: first assessment, SMEs, teams of 20-80 people</p>
             </div>
           </div>
         </AnimatedSection>
@@ -50,9 +50,9 @@ const LumenFormatsEN = () => (
               <h3 className="text-2xl font-bold">Extended</h3>
             </div>
             <ul className="space-y-3 text-sm text-muted-foreground">
-              <li className="flex gap-2"><span className="text-primary mt-0.5">→</span> 15–25 narrative interviews distributed by cluster (board, management, staff)</li>
+              <li className="flex gap-2"><span className="text-primary mt-0.5">→</span> 15-25 narrative interviews distributed by cluster (board, management, staff)</li>
               <li className="flex gap-2"><span className="text-primary mt-0.5">→</span> Narrative questionnaire to entire population or representative sample</li>
-              <li className="flex gap-2"><span className="text-primary mt-0.5">→</span> Analysis by function/level — mapping of multiple coexisting cultures</li>
+              <li className="flex gap-2"><span className="text-primary mt-0.5">→</span> Analysis by function/level - mapping of multiple coexisting cultures</li>
               <li className="flex gap-2"><span className="text-primary mt-0.5">→</span> Narrative mirror (25 pp.) + executive summary (5 pp.)</li>
               <li className="flex gap-2"><span className="text-primary mt-0.5">→</span> 2 workshops: restitution (half day) + co-design (full day)</li>
               <li className="flex gap-2"><span className="text-primary mt-0.5">→</span> 3-month intervention plan with narrative KPIs</li>

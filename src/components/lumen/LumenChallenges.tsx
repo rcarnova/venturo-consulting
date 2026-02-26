@@ -4,12 +4,12 @@ const challenges = [
   {
     title: "Talenti che abbandonano",
     symptom: "I talenti se ne vanno dopo 18 mesi",
-    revelation: "Problema di leggibilità culturale — la cultura interna non corrisponde a quella percepita fuori",
+    revelation: "Problema di leggibilità culturale - la cultura interna non corrisponde a quella percepita fuori",
   },
   {
     title: "Delega che non funziona",
     symptom: "I manager non delegano davvero",
-    revelation: "Problema di fiducia culturale — se l'errore non è permesso, nessuno si prende responsabilità",
+    revelation: "Problema di fiducia culturale - se l'errore non è permesso, nessuno si prende responsabilità",
   },
   {
     title: "Innovazione sulla carta",
@@ -40,7 +40,7 @@ const LumenChallenges = () => (
         <p className="font-mono text-xs uppercase tracking-widest text-primary mb-4">Applicazioni</p>
         <h2 className="text-3xl md:text-4xl font-bold mb-4">Le sfide che Lumen affronta</h2>
         <p className="text-muted-foreground max-w-3xl mb-12 text-lg">
-          Lumen entra nelle organizzazioni da porte diverse — employer branding, trasformazione culturale,
+          Lumen entra nelle organizzazioni da porte diverse - employer branding, trasformazione culturale,
           onboarding, comunicazione interna. Ma qualunque sia il punto di ingresso, lavoriamo sempre sulle
           stesse dinamiche profonde: rendere visibile ciò che è invisibile, nominare ciò che non viene detto,
           allineare ciò che è contraddittorio.

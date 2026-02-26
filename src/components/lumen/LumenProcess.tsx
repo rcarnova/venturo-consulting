@@ -6,7 +6,7 @@ const steps = [
     icon: MessageCircle,
     num: "01",
     title: "Raccolta",
-    desc: "Interviste narrative one-to-one (45min ciascuna) e/o questionario narrativo con le 8 domande, a seconda del formato scelto. In alcuni progetti si usano entrambi — le interviste per profondità, il questionario per ampiezza.",
+    desc: "Interviste narrative one-to-one (45min ciascuna) e/o questionario narrativo con le 8 domande, a seconda del formato scelto. In alcuni progetti si usano entrambi - le interviste per profondità, il questionario per ampiezza.",
   },
   {
     icon: Eye,
@@ -18,13 +18,13 @@ const steps = [
     icon: Users,
     num: "03",
     title: "Workshop",
-    desc: "Restituzione al team di leadership attraverso workshop facilitato. Non un report da leggere: una sessione dove l'organizzazione si ascolta attraverso le proprie voci. Le tensioni vengono nominate collettivamente. Poi si passa alla co-progettazione — lavoro in sottogruppi con dot voting per identificare le 2 sfide prioritarie su cui agire.",
+    desc: "Restituzione al team di leadership attraverso workshop facilitato. Non un report da leggere: una sessione dove l'organizzazione si ascolta attraverso le proprie voci. Le tensioni vengono nominate collettivamente. Poi si passa alla co-progettazione - lavoro in sottogruppi con dot voting per identificare le 2 sfide prioritarie su cui agire.",
   },
   {
     icon: Target,
     num: "04",
     title: "Progetto 3 mesi",
-    desc: "Le 2 sfide selezionate diventano progetti concreti che operano a livello di artefatti modificabili — riunioni, onboarding, comunicazione, rituali. Piccoli cambiamenti che toccano le assunzioni profonde. Non è la soluzione finale — è la porta di ingresso verso un cambiamento più profondo.",
+    desc: "Le 2 sfide selezionate diventano progetti concreti che operano a livello di artefatti modificabili - riunioni, onboarding, comunicazione, rituali. Piccoli cambiamenti che toccano le assunzioni profonde. Non è la soluzione finale - è la porta di ingresso verso un cambiamento più profondo.",
   },
 ];
 
@@ -63,8 +63,8 @@ const LumenProcess = () => (
           <p className="font-mono text-xs uppercase tracking-widest text-primary mb-3">L'output</p>
           <p className="text-foreground leading-relaxed mb-4">
             Non un report di 80 pagine che finisce in un cassetto. Lumen produce uno <strong>specchio narrativo</strong>:
-            un documento di 15–25 pagine in cui le persone dell'organizzazione riconoscono la propria voce,
-            le proprie storie, le proprie tensioni — e capiscono finalmente perché certe cose non cambiano mai,
+            un documento di 15-25 pagine in cui le persone dell'organizzazione riconoscono la propria voce,
+            le proprie storie, le proprie tensioni - e capiscono finalmente perché certe cose non cambiano mai,
             nonostante le buone intenzioni.
           </p>
           <p className="text-foreground leading-relaxed">
