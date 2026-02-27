@@ -73,7 +73,7 @@ const TypewriterIlluminate = ({ words }: TypewriterIlluminateProps) => {
         /* Typing */
         .twi-word--typing {
           animation: twi-type var(--duration, 1s) steps(20, end) forwards;
-          border-right: 3px solid #facc15;
+          border-right: 3px solid #E1FF00;
           animation-name: twi-type, twi-blink;
           animation-duration: var(--duration, 1s), 0.6s;
           animation-timing-function: steps(20, end), step-end;
@@ -94,8 +94,8 @@ const TypewriterIlluminate = ({ words }: TypewriterIlluminateProps) => {
           inset: -40px;
           background: radial-gradient(
             ellipse at center,
-            rgba(250, 204, 21, 0.08) 0%,
-            rgba(250, 204, 21, 0.04) 30%,
+            rgba(225, 255, 0, 0.08) 0%,
+            rgba(225, 255, 0, 0.04) 30%,
             transparent 70%
           );
           z-index: -1;
@@ -109,7 +109,7 @@ const TypewriterIlluminate = ({ words }: TypewriterIlluminateProps) => {
         }
 
         @keyframes twi-blink {
-          0%, 100% { border-right-color: #facc15; }
+          0%, 100% { border-right-color: #E1FF00; }
           50% { border-right-color: transparent; }
         }
 
@@ -119,11 +119,11 @@ const TypewriterIlluminate = ({ words }: TypewriterIlluminateProps) => {
             transform: scale(0.98);
           }
           50% {
-            filter: blur(0) drop-shadow(0 0 24px rgba(250, 204, 21, 0.6));
+            filter: blur(0) drop-shadow(0 0 24px rgba(225, 255, 0, 0.6));
             transform: scale(1.02);
           }
           100% {
-            filter: blur(0) drop-shadow(0 0 16px rgba(250, 204, 21, 0.35));
+            filter: blur(0) drop-shadow(0 0 16px rgba(225, 255, 0, 0.35));
             transform: scale(1);
           }
         }
