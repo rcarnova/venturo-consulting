@@ -5,8 +5,8 @@ const UfficioPio = () => {
   return (
     <>
       <SEO
-        title="Ufficio Pio: Da 'area contrasto povertà' a Traguardi"
-        description="Come una storica organizzazione torinese ha trasformato linguaggio e mentalità interna attraverso un processo di naming partecipato."
+        title="Ufficio Pio: Naming e Cultura Organizzativa"
+        description="Caso studio cultura organizzativa: come Ufficio Pio ha trasformato linguaggio e identità interna attraverso un processo di naming partecipato."
         canonical="https://venturo.it/casi-studio/ufficio-pio"
         lang="it"
         alternateUrls={{

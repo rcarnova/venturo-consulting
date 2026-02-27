@@ -5,8 +5,8 @@ const CVEEN = () => {
   return (
     <>
       <SEO
-        title="CVE: First town hall to align 30 people on values and challenges"
-        description="How a system integrator designed its first company-wide alignment moment after important headcount growth."
+        title="CVE: Town Hall & Cultural Alignment"
+        description="Organizational culture case study: how CVE designed its first company-wide town hall to align 30 people on values and challenges after rapid growth."
         canonical="https://venturo.it/en/case-studies/cve"
         lang="en"
         alternateUrls={{

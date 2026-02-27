@@ -83,7 +83,7 @@ const RuoliVaghi = () => {
     <>
       <SEO
         title="Ruoli vaghi = Tutto rallenta"
-        description="Come chiarire responsabilità senza creare burocrazia. Ownership e ruoli in azienda."
+        description="Come chiarire responsabilità e ownership senza creare burocrazia. Cultura organizzativa e employer branding partono dalla chiarezza dei ruoli."
         canonical="https://venturo.it/magazine/ruoli-vaghi-tutto-rallenta"
         lang="it"
       />

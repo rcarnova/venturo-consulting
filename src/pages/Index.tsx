@@ -14,8 +14,8 @@ const Index = () => {
   return (
     <div className="min-h-screen bg-background">
       <SEO
-        title="Comunicazione Rituali Leadership"
-        description="Aiutiamo le aziende a chiudere il gap tra la cultura dichiarata e quella vissuta ogni giorno. Consulenza in comunicazione, rituali e leadership organizzativa."
+        title="Consulenza Employer Branding e Cultura Organizzativa"
+        description="Consulenza di employer branding e cultura organizzativa. Aiutiamo le aziende a chiudere il gap tra cultura dichiarata e vissuta con comunicazione, rituali e leadership."
         canonical="https://venturo.it"
         lang="it"
         alternateUrls={{ it: "https://venturo.it", en: "https://venturo.it/en" }}

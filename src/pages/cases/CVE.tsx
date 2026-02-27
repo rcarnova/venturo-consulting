@@ -5,8 +5,8 @@ const CVE = () => {
   return (
     <>
       <SEO
-        title="CVE: Prima town hall per allineare 30 persone su valori e sfide"
-        description="Come un system integrator ha progettato il suo primo momento di allineamento aziendale dopo una crescita importante di organico."
+        title="CVE: Town Hall e Allineamento Culturale"
+        description="Caso studio cultura organizzativa: come CVE ha progettato la prima town hall per allineare 30 persone su valori e sfide dopo una crescita importante."
         canonical="https://venturo.it/casi-studio/cve"
         lang="it"
         alternateUrls={{

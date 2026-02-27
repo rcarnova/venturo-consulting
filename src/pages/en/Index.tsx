@@ -16,8 +16,8 @@ const IndexEN = () => {
   return (
     <div className="min-h-screen bg-background">
       <SEO
-        title="Communication Rituals Leadership"
-        description="We help companies close the gap between declared culture and the one lived every day. Consulting in communication, rituals and organizational leadership."
+        title="Employer Branding & Organizational Culture Consulting"
+        description="Employer branding and organizational culture consulting. We help companies close the gap between declared and lived culture through communication, rituals and leadership."
         canonical="https://venturo.it/en"
         lang="en"
         alternateUrls={{ it: "https://venturo.it", en: "https://venturo.it/en" }}
