@@ -35,8 +35,8 @@ const ChiSiamo = () => {
   return (
     <div className="min-h-screen bg-background">
       <SEO
-        title="Chi Siamo"
-        description="Venturo rende visibile ciò che la vostra organizzazione sa già di sé. Lavoriamo con 3-5 clienti all'anno per far emergere e riprodurre la cultura che già funziona."
+        title="Chi Siamo - Consulenza Employer Branding"
+        description="Boutique di consulenza employer branding e cultura organizzativa. Lavoriamo con 3-5 clienti all'anno per far emergere e riprodurre la cultura che già funziona."
         canonical="https://venturo.it/chi-siamo"
         lang="it"
         alternateUrls={{ it: "https://venturo.it/chi-siamo", en: "https://venturo.it/en/about" }}

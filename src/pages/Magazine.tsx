@@ -32,8 +32,8 @@ const Magazine = () => {
   return (
     <div className="min-h-screen bg-background">
       <SEO
-        title="Magazine"
-        description="Cultura organizzativa senza retorica. Articoli su leadership, rituali aziendali e comunicazione interna."
+        title="Magazine - Employer Branding e Cultura Organizzativa"
+        description="Articoli su employer branding, cultura organizzativa, leadership e comunicazione interna. Senza retorica, con esempi concreti."
         canonical="https://venturo.it/magazine"
         lang="it"
       />

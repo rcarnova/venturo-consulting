@@ -5,8 +5,8 @@ const UfficioPioEN = () => {
   return (
     <>
       <SEO
-        title="Ufficio Pio: From 'poverty relief area' to Traguardi"
-        description="How a historic Turin organization transformed its internal language and mindset through a participatory naming process."
+        title="Ufficio Pio: Naming & Organizational Culture"
+        description="Organizational culture case study: how a historic Turin organization transformed its internal language and identity through a participatory naming process."
         canonical="https://venturo.it/en/case-studies/ufficio-pio"
         lang="en"
         alternateUrls={{

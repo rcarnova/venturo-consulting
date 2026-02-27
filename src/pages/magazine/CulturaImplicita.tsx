@@ -121,7 +121,7 @@ const CulturaImplicita = () => {
     <>
       <SEO
         title="Cultura implicita = Cultura inesistente"
-        description="Perché aspettarsi che 'lo capiscano da soli' non funziona. Come codificare i valori aziendali."
+        description="Perché aspettarsi che 'lo capiscano da soli' non funziona. Codificare i valori aziendali e costruire un employer branding coerente."
         canonical="https://venturo.it/magazine/cultura-implicita-cultura-inesistente"
         lang="it"
       />

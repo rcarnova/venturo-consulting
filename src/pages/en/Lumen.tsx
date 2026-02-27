@@ -13,8 +13,8 @@ const LumenEN = () => {
   return (
     <>
       <SEO
-        title="Lumen | Venturo Methodology — Illuminating organizational culture"
-        description="Lumen doesn't measure organizational culture: it illuminates it. Narrative interviews, questionnaire and workshops based on Edgar Schein's model to surface real culture."
+        title="Lumen - Methodology for Organizational Culture & Employer Branding"
+        description="Lumen doesn't measure organizational culture: it illuminates it. Methodology for authentic employer branding based on narrative interviews, questionnaire and workshops (Schein model)."
         canonical="https://venturo.it/en/lumen"
         lang="en"
         alternateUrls={{ it: "https://venturo.it/lumen", en: "https://venturo.it/en/lumen" }}

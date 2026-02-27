@@ -64,8 +64,8 @@ const LeSfide = () => {
   return (
     <div className="min-h-screen bg-background">
       <SEO
-        title="Le sfide culturali delle organizzazioni — Venturo"
-        description="Le organizzazioni che lavorano con noi non sono in crisi. Ma alcune cose non si sbloccano mai. Di solito non è un problema di processo. È un problema culturale."
+        title="Le sfide culturali delle organizzazioni - Venturo"
+        description="Sfide di employer branding e cultura organizzativa: talent retention, delega, innovazione, lavoro ibrido. Consulenza per risolvere problemi culturali, non di processo."
         canonical="https://venturo.it/le-sfide"
         lang="it"
         alternateUrls={{ it: "https://venturo.it/le-sfide", en: "https://venturo.it/en" }}

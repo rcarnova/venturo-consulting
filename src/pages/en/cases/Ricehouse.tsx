@@ -5,8 +5,8 @@ const RicehouseEN = () => {
   return (
     <>
       <SEO
-        title="Ricehouse: From Strong Identity to Qualified Candidates"
-        description="How Ricehouse improved qualified talent attraction through a more explicit and consistent organizational culture."
+        title="Ricehouse: Employer Branding & Talent Attraction"
+        description="Employer branding case study: how Ricehouse improved qualified talent attraction through a more explicit and consistent organizational culture."
         canonical="https://venturo.it/en/case-studies/ricehouse"
         lang="en"
         alternateUrls={{ it: "https://venturo.it/casi-studio/ricehouse", en: "https://venturo.it/en/case-studies/ricehouse" }}

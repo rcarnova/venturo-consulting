@@ -6,7 +6,7 @@ const LelyEN = () => {
     <>
       <SEO
         title="Lely: Concrete Tools for Managing People"
-        description="How Lely gave concrete tools to technical managers to evaluate collaborators on observable behaviors."
+        description="Organizational consulting case study: how Lely gave concrete tools to technical managers to evaluate collaborators on observable behaviors."
         canonical="https://venturo.it/en/case-studies/lely"
         lang="en"
         alternateUrls={{ it: "https://venturo.it/casi-studio/lely", en: "https://venturo.it/en/case-studies/lely" }}

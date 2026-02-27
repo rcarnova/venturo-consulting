@@ -5,8 +5,8 @@ const Findomestic = () => {
   return (
     <>
       <SEO
-        title="Findomestic: Da linguaggio istituzionale a conversazione unificata"
-        description="Come un brand finance ha unificato il linguaggio tra assistenza clienti corporate e team social, creando un vocabolario comune per gestire richieste pubbliche."
+        title="Findomestic: Linguaggio Unificato e Comunicazione Interna"
+        description="Caso studio comunicazione interna: come Findomestic ha unificato il linguaggio tra assistenza clienti e team social, creando un vocabolario comune coerente."
         canonical="https://venturo.it/casi-studio/findomestic"
         lang="it"
         alternateUrls={{

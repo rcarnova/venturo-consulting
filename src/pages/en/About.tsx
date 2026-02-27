@@ -35,8 +35,8 @@ const AboutEN = () => {
   return (
     <div className="min-h-screen bg-background">
       <SEO
-        title="About Us"
-        description="Venturo makes visible what your organization already knows about itself. We work with 3-5 clients per year to surface and reproduce the culture that already works."
+        title="About Us - Employer Branding Consulting"
+        description="Employer branding and organizational culture consulting boutique. We work with 3-5 clients per year to surface and reproduce the culture that already works."
         canonical="https://venturo.it/en/about"
         lang="en"
         alternateUrls={{ it: "https://venturo.it/chi-siamo", en: "https://venturo.it/en/about" }}
