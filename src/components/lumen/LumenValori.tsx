@@ -68,13 +68,13 @@ const LumenValori = () => (
           <p className="font-bold text-sm mb-3">Perché Venturo sa leggere questa tensione</p>
           <div className="space-y-3 text-muted-foreground text-sm leading-relaxed">
             <p>
-              Veniamo dalla strategia di brand. Studio Miller ha costruito identità esterne per anni —
-              sa cos'è una promessa di brand, come si progetta, quando regge e quando crolla.
+              Noi di Venturo veniamo dalla strategia di brand — sappiamo cosa vuol dire sostenere
+              una promessa di brand, come si progetta, quando regge e quando crolla.
             </p>
             <p>
-              Abbiamo visto campagne di employer branding fallire perché la cultura interna non sosteneva
-              la narrativa esterna. Ora lavoriamo dall'altra parte — aiutiamo le organizzazioni a costruire
-              culture che sostengono le loro promesse.
+              Lo stesso vale per la cultura organizzativa. Abbiamo visto campagne di employer branding
+              fallire perché la cultura interna non sosteneva la narrativa esterna. Ora lavoriamo
+              dall'altra parte — aiutiamo le organizzazioni a costruire culture che sostengono le loro promesse.
             </p>
           </div>
         </div>
