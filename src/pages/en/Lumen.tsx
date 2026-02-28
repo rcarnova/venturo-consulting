@@ -3,6 +3,7 @@ import FooterEN from "@/components/en/FooterEN";
 import { SEO } from "@/components/SEO";
 import LumenHeroEN from "@/components/lumen/en/LumenHeroEN";
 import LumenScheinEN from "@/components/lumen/en/LumenScheinEN";
+import LumenValoriEN from "@/components/lumen/en/LumenValoriEN";
 import LumenTechniquesEN from "@/components/lumen/en/LumenTechniquesEN";
 import LumenChallengesEN from "@/components/lumen/en/LumenChallengesEN";
 import LumenProcessEN from "@/components/lumen/en/LumenProcessEN";
@@ -22,6 +23,7 @@ const LumenEN = () => {
       <HeaderEN />
       <LumenHeroEN />
       <LumenScheinEN />
+      <LumenValoriEN />
       <LumenTechniquesEN />
       <LumenChallengesEN />
       <LumenProcessEN />
