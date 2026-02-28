@@ -2,12 +2,11 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { SEO } from "@/components/SEO";
 import LumenHero from "@/components/lumen/LumenHero";
-import LumenSchein from "@/components/lumen/LumenSchein";
-import LumenValori from "@/components/lumen/LumenValori";
 import LumenTechniques from "@/components/lumen/LumenTechniques";
 import LumenChallenges from "@/components/lumen/LumenChallenges";
 import LumenProcess from "@/components/lumen/LumenProcess";
 import LumenFormats from "@/components/lumen/LumenFormats";
+import LumenFondamenti from "@/components/lumen/LumenFondamenti";
 import LumenCTA from "@/components/lumen/LumenCTA";
 
 const Lumen = () => {
@@ -22,12 +21,11 @@ const Lumen = () => {
       />
       <Header />
       <LumenHero />
-      <LumenSchein />
-      <LumenValori />
       <LumenTechniques />
       <LumenChallenges />
       <LumenProcess />
       <LumenFormats />
+      <LumenFondamenti />
       <LumenCTA />
       <Footer />
     </>
