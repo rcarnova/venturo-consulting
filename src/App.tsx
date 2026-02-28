@@ -15,6 +15,8 @@ import Lely from "./pages/cases/Lely";
 import UfficioPio from "./pages/cases/UfficioPio";
 import Lumen from "./pages/Lumen";
 import LumenEN from "./pages/en/Lumen";
+import Principi from "./pages/Principi";
+import PrinciplesEN from "./pages/en/Principles";
 import CVE from "./pages/cases/CVE";
 import UfficioPioEN from "./pages/en/cases/UfficioPio";
 import CVEEN from "./pages/en/cases/CVE";
@@ -53,6 +55,8 @@ const App = () => (
             <Route path="/en/challenges" element={<ChallengesEN />} />
             <Route path="/lumen" element={<Lumen />} />
             <Route path="/en/lumen" element={<LumenEN />} />
+            <Route path="/principi" element={<Principi />} />
+            <Route path="/en/principles" element={<PrinciplesEN />} />
             <Route path="/en/case-studies" element={<CaseStudies />} />
             <Route path="/en/case-studies/ricehouse" element={<RicehouseEN />} />
             <Route path="/en/case-studies/randstad" element={<RandstadEN />} />

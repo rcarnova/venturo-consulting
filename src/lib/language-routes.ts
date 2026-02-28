@@ -11,6 +11,7 @@ const routeMap: Record<string, string> = {
   "/chi-siamo": "/en/about",
   "/magazine": "/en",
   "/lumen": "/en/lumen",
+  "/principi": "/en/principles",
 };
 
 // Build reverse map

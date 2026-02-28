@@ -15,6 +15,7 @@ import {
 const navLinks = [
   { href: "/le-sfide", label: "Le sfide" },
   { href: "/lumen", label: "Lumen" },
+  { href: "/principi", label: "Principi" },
   { href: "/casi-studio", label: "Casi studio" },
   { href: "/chi-siamo", label: "Chi siamo" },
 ];
