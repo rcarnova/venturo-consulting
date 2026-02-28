@@ -2,12 +2,11 @@ import HeaderEN from "@/components/en/HeaderEN";
 import FooterEN from "@/components/en/FooterEN";
 import { SEO } from "@/components/SEO";
 import LumenHeroEN from "@/components/lumen/en/LumenHeroEN";
-import LumenScheinEN from "@/components/lumen/en/LumenScheinEN";
-import LumenValoriEN from "@/components/lumen/en/LumenValoriEN";
 import LumenTechniquesEN from "@/components/lumen/en/LumenTechniquesEN";
 import LumenChallengesEN from "@/components/lumen/en/LumenChallengesEN";
 import LumenProcessEN from "@/components/lumen/en/LumenProcessEN";
 import LumenFormatsEN from "@/components/lumen/en/LumenFormatsEN";
+import LumenFondamenti from "@/components/lumen/LumenFondamenti";
 import LumenCTAEN from "@/components/lumen/en/LumenCTAEN";
 
 const LumenEN = () => {
@@ -22,12 +21,11 @@ const LumenEN = () => {
       />
       <HeaderEN />
       <LumenHeroEN />
-      <LumenScheinEN />
-      <LumenValoriEN />
       <LumenTechniquesEN />
       <LumenChallengesEN />
       <LumenProcessEN />
       <LumenFormatsEN />
+      <LumenFondamenti lang="en" />
       <LumenCTAEN />
       <FooterEN />
     </>
