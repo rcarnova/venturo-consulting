@@ -34,16 +34,16 @@ export const sezioniEN: Sezione[] = [
     intro: "David Aaker and Marty Neumeier taught us that a strong brand is not a logo or a slogan — it's a promise kept over time. And that promise is not kept by marketing. It's kept by organizational culture.",
     libri: [
       {
-        titolo: "Brand Leadership",
-        autore: "David Aaker",
-        concetto: "\"Brand building is not about products, it's about creating relationships and meaning. A strong brand is built from the inside out — it starts with organizational culture and employee engagement.\"\n\nThe strongest brands are those where every person in the organization understands what the brand represents and lives it daily. Without internal alignment, no external campaign holds.",
-        applicazione: "When a client asks for employer branding, we don't start with the external message. We start with internal culture — what do you actually experience? If there's a gap between the external promise and internal reality, talent arrives attracted and leaves disappointed. We work on the infrastructure first, then on communication.",
-      },
-      {
         titolo: "The Brand Flip",
         autore: "Marty Neumeier",
         concetto: "\"In the old model, brands were built through control and consistency. In the new model, brands are co-created with customers and employees. The role of the company is to facilitate, not dictate.\"\n\nThe brand is no longer what the company says about itself — it's what people (clients and employees) say about the company. And employees talk about the lived culture, not the declared one.",
         applicazione: "We use the stories people spontaneously tell about their organization as a mirror of internal brand perception. Those stories are the real brand — not the CEO's slides.",
+      },
+      {
+        titolo: "Brand Leadership",
+        autore: "David Aaker",
+        concetto: "\"Brand building is not about products, it's about creating relationships and meaning. A strong brand is built from the inside out — it starts with organizational culture and employee engagement.\"\n\nThe strongest brands are those where every person in the organization understands what the brand represents and lives it daily. Without internal alignment, no external campaign holds.",
+        applicazione: "When a client asks for employer branding, we don't start with the external message. We start with internal culture — what do you actually experience? If there's a gap between the external promise and internal reality, talent arrives attracted and leaves disappointed. We work on the infrastructure first, then on communication.",
       },
       {
         titolo: "Zag",

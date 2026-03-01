@@ -47,16 +47,16 @@ export const sezioni: Sezione[] = [
     intro: "David Aaker e Marty Neumeier ci hanno insegnato che un brand forte non è un logo o uno slogan — è una promessa mantenuta nel tempo. E quella promessa non la mantiene il marketing. La mantiene la cultura organizzativa.",
     libri: [
       {
-        titolo: "Brand Leadership",
-        autore: "David Aaker",
-        concetto: "\"Brand building is not about products, it's about creating relationships and meaning. A strong brand is built from the inside out — it starts with organizational culture and employee engagement.\"\n\nI brand più forti sono quelli dove ogni persona dell'organizzazione capisce cosa il brand rappresenta e lo vive quotidianamente. Senza allineamento interno, nessuna campagna esterna regge.",
-        applicazione: "Quando un cliente ci chiede employer branding, non partiamo dal messaggio esterno. Partiamo dalla cultura interna — cosa vivete davvero? Se c'è gap tra promessa esterna e realtà interna, i talenti arrivano attratti e se ne vanno delusi. Lavoriamo prima sull'infrastruttura, poi sulla comunicazione.",
-      },
-      {
         titolo: "The Brand Flip",
         autore: "Marty Neumeier",
         concetto: "\"In the old model, brands were built through control and consistency. In the new model, brands are co-created with customers and employees. The role of the company is to facilitate, not dictate.\"\n\nIl brand non è più ciò che l'azienda dice di sé — è ciò che le persone (clienti e dipendenti) dicono dell'azienda. E i dipendenti parlano della cultura vissuta, non di quella dichiarata.",
         applicazione: "Usiamo le storie che le persone raccontano spontaneamente sulla propria organizzazione come specchio della brand perception interna. Quelle storie sono il brand reale — non le slide del CEO.",
+      },
+      {
+        titolo: "Brand Leadership",
+        autore: "David Aaker",
+        concetto: "\"Brand building is not about products, it's about creating relationships and meaning. A strong brand is built from the inside out — it starts with organizational culture and employee engagement.\"\n\nI brand più forti sono quelli dove ogni persona dell'organizzazione capisce cosa il brand rappresenta e lo vive quotidianamente. Senza allineamento interno, nessuna campagna esterna regge.",
+        applicazione: "Quando un cliente ci chiede employer branding, non partiamo dal messaggio esterno. Partiamo dalla cultura interna — cosa vivete davvero? Se c'è gap tra promessa esterna e realtà interna, i talenti arrivano attratti e se ne vanno delusi. Lavoriamo prima sull'infrastruttura, poi sulla comunicazione.",
       },
       {
         titolo: "Zag",
