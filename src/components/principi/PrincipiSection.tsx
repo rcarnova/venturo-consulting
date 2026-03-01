@@ -35,10 +35,10 @@ const PrincipiSection = ({ sezione, index, lang = "it" }: PrincipiSectionProps) 
 
         {/* Editorial layout: cover + intro + anchor book */}
         <AnimatedSection delay={100}>
-          <div className={`flex flex-col ${isEven ? "md:flex-row" : "md:flex-row-reverse"} gap-10 md:gap-14 mb-14`}>
+          <div className={`flex flex-col ${isEven ? "md:flex-row" : "md:flex-row-reverse"} gap-10 md:gap-14 mb-14 md:items-start`}>
             {/* Book cover */}
             {sezione.coverImage && (
-              <div className="shrink-0 flex justify-center md:justify-start">
+              <div className="shrink-0 flex justify-center md:justify-start md:sticky md:top-32">
                 <div className="relative">
                   <img
                     src={sezione.coverImage}
