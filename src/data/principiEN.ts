@@ -4,6 +4,7 @@ export const sezioniEN: Sezione[] = [
   {
     id: "culture-system",
     titolo: "Culture is a three-layered system",
+    coverImage: "/books/schein.jpg",
     intro: "Edgar Schein taught us that organizational culture is not what you say or write — it's what you take for granted. And to truly change it, you need to go from the visible level (artifacts) to the invisible one (basic assumptions).",
     libri: [
       {
@@ -29,6 +30,7 @@ export const sezioniEN: Sezione[] = [
   {
     id: "brand-promise",
     titolo: "Culture is the infrastructure of brand promise",
+    coverImage: "/books/neumeier.jpg",
     intro: "David Aaker and Marty Neumeier taught us that a strong brand is not a logo or a slogan — it's a promise kept over time. And that promise is not kept by marketing. It's kept by organizational culture.",
     libri: [
       {
@@ -60,6 +62,7 @@ export const sezioniEN: Sezione[] = [
   {
     id: "narrative-revelation",
     titolo: "Stories reveal culture better than numbers",
+    coverImage: "/books/heath.jpg",
     intro: "Chip and Dan Heath, Seth Godin, Dave Gray showed us that narratives are not decorations — they are the way human beings make sense of reality. And in the stories people tell spontaneously, culture reveals itself on its own.",
     libri: [
       {
@@ -85,6 +88,7 @@ export const sezioniEN: Sezione[] = [
   {
     id: "innovation-change",
     titolo: "Cultural change follows the same rules as innovation",
+    coverImage: "/books/brown.jpg",
     intro: "Tim Brown, Tom Kelley, John Kotter showed us that innovation and organizational change are not acts of sudden genius — they are structured processes that require empathy, prototyping, and persistence.",
     libri: [
       {
@@ -116,6 +120,7 @@ export const sezioniEN: Sezione[] = [
   {
     id: "thinking-decision",
     titolo: "How people actually think",
+    coverImage: "/books/kahneman.jpg",
     intro: "Daniel Kahneman and Nassim Taleb showed us that humans are not rational — they are narrative, emotional, full of biases. Understanding how people actually think is fundamental to understanding how culture works.",
     libri: [
       {
@@ -135,6 +140,7 @@ export const sezioniEN: Sezione[] = [
   {
     id: "business-strategy",
     titolo: "Organizational excellence is cultural, not technical",
+    coverImage: "/books/collins.jpg",
     intro: "",
     libri: [
       {
