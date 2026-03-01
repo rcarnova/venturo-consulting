@@ -9,6 +9,7 @@ export interface Sezione {
   id: string;
   titolo: string;
   intro: string;
+  coverImage?: string;
   libri: Libro[];
 }
 
@@ -16,6 +17,7 @@ export const sezioni: Sezione[] = [
   {
     id: "cultura-sistema",
     titolo: "La cultura è un sistema a tre livelli",
+    coverImage: "/books/schein.jpg",
     intro: "Edgar Schein ci ha insegnato che la cultura organizzativa non è ciò che si dice o si scrive — è ciò che si dà per scontato. E che per cambiarla davvero bisogna scendere dal livello visibile (artefatti) a quello invisibile (assunzioni di base).",
     libri: [
       {
@@ -41,6 +43,7 @@ export const sezioni: Sezione[] = [
   {
     id: "brand-promessa",
     titolo: "La cultura è l'infrastruttura della promessa di brand",
+    coverImage: "/books/neumeier.jpg",
     intro: "David Aaker e Marty Neumeier ci hanno insegnato che un brand forte non è un logo o uno slogan — è una promessa mantenuta nel tempo. E quella promessa non la mantiene il marketing. La mantiene la cultura organizzativa.",
     libri: [
       {
@@ -72,6 +75,7 @@ export const sezioni: Sezione[] = [
   {
     id: "narrazione-rivelazione",
     titolo: "Le storie rivelano la cultura meglio dei numeri",
+    coverImage: "/books/heath.jpg",
     intro: "Chip e Dan Heath, Seth Godin, Dave Gray ci hanno mostrato che le narrazioni non sono decorazioni — sono il modo in cui gli esseri umani danno senso alla realtà. E nelle storie che le persone raccontano spontaneamente, la cultura si rivela da sola.",
     libri: [
       {
@@ -97,6 +101,7 @@ export const sezioni: Sezione[] = [
   {
     id: "innovazione-cambiamento",
     titolo: "Il cambiamento culturale segue le stesse regole dell'innovazione",
+    coverImage: "/books/brown.jpg",
     intro: "Tim Brown, Tom Kelley, John Kotter ci hanno mostrato che l'innovazione e il cambiamento organizzativo non sono atti di genio improvviso — sono processi strutturati che richiedono empatia, prototipazione, e persistenza.",
     libri: [
       {
@@ -128,6 +133,7 @@ export const sezioni: Sezione[] = [
   {
     id: "pensiero-decisione",
     titolo: "Come le persone pensano davvero",
+    coverImage: "/books/kahneman.jpg",
     intro: "Daniel Kahneman e Nassim Taleb ci hanno mostrato che gli esseri umani non sono razionali — sono narrativi, emotivi, pieni di bias. Capire come le persone pensano davvero è fondamentale per capire come funziona la cultura.",
     libri: [
       {
@@ -147,6 +153,7 @@ export const sezioni: Sezione[] = [
   {
     id: "business-strategia",
     titolo: "L'eccellenza organizzativa è culturale, non tecnica",
+    coverImage: "/books/collins.jpg",
     intro: "",
     libri: [
       {

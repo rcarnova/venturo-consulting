@@ -20,7 +20,7 @@ const Principles = () => {
       <HeaderEN />
       <PrincipiHero lang="en" />
       {sezioniEN.map((sezione, i) => (
-        <PrincipiSection key={sezione.id} sezione={sezione} index={i} />
+        <PrincipiSection key={sezione.id} sezione={sezione} index={i} lang="en" />
       ))}
       <PrincipiIntegration lang="en" />
       <PrincipiCTA lang="en" />
