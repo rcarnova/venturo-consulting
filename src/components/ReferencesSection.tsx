@@ -80,7 +80,7 @@ const ReferencesSection = () => {
               {/* Image column - Right */}
               <div className="order-first md:order-last">
                 <img
-                  src="/workshop/ricehouse-envisioning-fucsia.jpg"
+                  src="/workshop/ricehouse-envisioning-1.jpg"
                   alt="Workshop Ricehouse - Envisioning con il team per definire identità e employer brand"
                   className="w-full h-[400px] md:h-[600px] object-cover rounded-lg"
                 />
