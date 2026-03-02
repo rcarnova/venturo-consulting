@@ -23,44 +23,52 @@ const ReferencesSectionEN = () => {
           </div>
         </AnimatedSection>
 
-        {/* Featured Case - Randstad */}
+        {/* Featured Case - Ricehouse */}
         <AnimatedSection delay={200}>
           <div className="max-w-7xl mx-auto">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-10 md:gap-16 items-center">
               <div className="space-y-8">
                 <div>
                   <p className="text-xl tracking-wide text-foreground">
-                    Randstad
+                    Ricehouse
                   </p>
                   <p className="text-sm text-muted-foreground mt-1">
-                    HR & Recruiting
+                    Green Tech / Circular Economy
                   </p>
-                </div>
-
-                <div>
-                  <div className="flex items-baseline gap-3">
-                    <span className="text-7xl md:text-8xl font-bold text-foreground leading-none">
-                      30
-                    </span>
-                    <span className="text-base text-muted-foreground">
-                      managers involved in the workshop
-                    </span>
-                  </div>
                 </div>
 
                 <h3 className="text-2xl md:text-3xl font-medium leading-tight text-foreground">
-                  From 4.2/5 rating to actual cultural alignment
+                  From rice to green building: finding people who believe in your why
                 </h3>
 
                 <p className="text-muted-foreground leading-relaxed max-w-lg">
-                  Workshop with 30 managers to surface who truly thrives at Randstad.
-                  We didn't create aspirational personas — we extracted patterns from
-                  real stories. Result: candidates pre-filtered for cultural fit before
-                  technical assessment.
+                  Ricehouse transforms rice processing waste into sustainable building
+                  materials. A circular economy startup with a clear challenge: how do
+                  you attract talent when you work with rice straw? Our job: employer
+                  branding that tells the why before the what.
                 </p>
 
+                <div className="grid grid-cols-2 gap-6 pt-6 border-t border-border/50">
+                  <div>
+                    <p className="font-mono text-xs uppercase tracking-wide text-muted-foreground mb-1">
+                      Challenge
+                    </p>
+                    <p className="font-semibold text-foreground">
+                      Employer branding for circular economy
+                    </p>
+                  </div>
+                  <div>
+                    <p className="font-mono text-xs uppercase tracking-wide text-muted-foreground mb-1">
+                      Industry
+                    </p>
+                    <p className="font-semibold text-foreground">
+                      Green Tech / Bio-construction
+                    </p>
+                  </div>
+                </div>
+
                 <Link
-                  to="/en/case-studies/randstad"
+                  to="/en/case-studies/ricehouse"
                   className="inline-flex items-center text-primary font-mono font-medium group hover:underline"
                 >
                   Read the full case study
@@ -70,8 +78,8 @@ const ReferencesSectionEN = () => {
 
               <div className="order-first md:order-last">
                 <img
-                  src="/cases/randstad-envisioning.jpg"
-                  alt="Randstad Workshop - Participants working with visual thinking and materials on the table"
+                  src="/workshop/ricehouse-envisioning-fucsia.jpg"
+                  alt="Ricehouse Workshop - Envisioning session with the team to define identity and employer brand"
                   className="w-full h-[400px] md:h-[600px] object-cover rounded-lg"
                 />
               </div>
