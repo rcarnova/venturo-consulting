@@ -30,9 +30,11 @@ const ReferencesSection = () => {
               {/* Content column - Left */}
               <div className="space-y-8">
                 <div>
-                  <p className="text-xl tracking-wide text-foreground">
-                    Ricehouse
-                  </p>
+                  <img 
+                    src="/logos/ricehouse_logo.png" 
+                    alt="Ricehouse" 
+                    className="h-5 md:h-6 w-auto brightness-0"
+                  />
                   <p className="text-sm text-muted-foreground mt-1">
                     Green Tech / Economia Circolare
                   </p>
