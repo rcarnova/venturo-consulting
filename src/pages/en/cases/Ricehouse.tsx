@@ -16,18 +16,18 @@ const RicehouseEN = () => {
       logo="/logos/ricehouse_white.png"
       logoAlt="Ricehouse"
       title="Ricehouse"
-      subtitle="From strong identity to qualified applications"
+      subtitle="From rice to green building: finding people who believe in your why"
       overview={[
-        { label: "Industry", value: "Circular economy" },
+        { label: "Industry", value: "Green Tech / Bio-construction" },
         { label: "Size", value: "25 people" },
         { label: "Duration", value: "6-8 weeks" },
       ]}
       challenge={{
         description:
-          "Ricehouse, an innovative company in the circular economy, struggled to attract qualified profiles despite a strong sustainability identity. Candidates didn't clearly perceive what it meant to work at Ricehouse and which values guided daily decisions.",
+          "Ricehouse transforms rice processing waste into sustainable building materials. A circular economy startup with a clear challenge: how do you attract talent when you work with rice straw? Traditional job ads didn't communicate the \"why\". Candidates couldn't clearly perceive what it meant to work at Ricehouse and which values guided daily decisions.",
         problems: [
-          "Strong but implicit identity",
-          "Difficulty attracting aligned qualified profiles",
+          "Strong identity but not explicit externally",
+          "Difficulty attracting qualified profiles aligned with the circular mission",
           "Gap between promises and actual candidate experience",
         ],
       }}
@@ -37,20 +37,20 @@ const RicehouseEN = () => {
           description:
             "\"Who do we want with us?\" workshop with founders and management. We didn't ask \"what are your values?\" but \"tell us about the last time someone made a mistake - what happened?\". Identity emerged from facts, not aspirations.",
           image: {
-            src: "/workshop/ricehouse-envisioning-fucsia.jpg",
-            alt: "Envisioning workshop with Ricehouse team",
-            caption: "Envisioning session with the Ricehouse team",
+            src: "/workshop/ricehouse-envisioning-1.jpg",
+            alt: "Ricehouse envisioning workshop - team working on visual thinking and identity definition",
+            caption: "Envisioning workshop: building identity through images and storytelling, 2024",
           },
         },
         {
           title: "Employer Personas (2 weeks)",
           description:
-            "Building concrete personas: who we know will thrive here, who will struggle. Cultural fit definition verifiable from the interview.",
+            "Building concrete personas: who we know will thrive here, who will struggle. Cultural fit definition verifiable from the interview. Not aspirational personas, but patterns extracted from real stories.",
         },
         {
           title: "Operational application (2-3 weeks)",
           description:
-            "Redesign of operational rituals. Weekly meetings went from 90 minutes to 45 minutes while maintaining effectiveness. Job posting and interview process revision to reflect the emerged identity.",
+            "Redesign of operational rituals. Weekly meetings went from 90 minutes to 45 minutes while maintaining effectiveness. Job posting and interview process revision to tell the why before the what.",
         },
       ]}
       results={[
