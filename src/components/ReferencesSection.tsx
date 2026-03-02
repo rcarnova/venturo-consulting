@@ -23,7 +23,7 @@ const ReferencesSection = () => {
           </div>
         </AnimatedSection>
 
-        {/* Featured Case - Randstad */}
+        {/* Featured Case - Ricehouse */}
         <AnimatedSection delay={200}>
           <div className="max-w-7xl mx-auto">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-10 md:gap-16 items-center">
@@ -31,37 +31,45 @@ const ReferencesSection = () => {
               <div className="space-y-8">
                 <div>
                   <p className="text-xl tracking-wide text-foreground">
-                    Randstad
+                    Ricehouse
                   </p>
                   <p className="text-sm text-muted-foreground mt-1">
-                    HR & Recruiting
+                    Green Tech / Economia Circolare
                   </p>
-                </div>
-
-                <div>
-                  <div className="flex items-baseline gap-3">
-                    <span className="text-7xl md:text-8xl font-bold text-foreground leading-none">
-                      30
-                    </span>
-                    <span className="text-base text-muted-foreground">
-                      manager coinvolti nel workshop
-                    </span>
-                  </div>
                 </div>
 
                 <h3 className="text-2xl md:text-3xl font-medium leading-tight text-foreground">
-                  Dal 4.2/5 all'allineamento culturale reale
+                  Dal riso alla bioedilizia: trovare persone che credono nel tuo perché
                 </h3>
 
                 <p className="text-muted-foreground leading-relaxed max-w-lg">
-                  Workshop con 30 manager per far emergere chi funziona davvero in
-                  Randstad. Non abbiamo creato personas aspirazionali, ma estratto
-                  pattern da storie concrete. Risultato: candidati pre-filtrati sul
-                  cultural fit prima dell'assessment tecnico.
+                  Ricehouse trasforma gli scarti della lavorazione del riso in materiali
+                  da costruzione sostenibili. Una startup dell'economia circolare con
+                  una sfida chiara: come attrarre talenti quando lavori con paglia di riso?
+                  Il nostro lavoro: employer branding che racconta il perché prima del cosa.
                 </p>
 
+                <div className="grid grid-cols-2 gap-6 pt-6 border-t border-border/50">
+                  <div>
+                    <p className="font-mono text-xs uppercase tracking-wide text-muted-foreground mb-1">
+                      Challenge
+                    </p>
+                    <p className="font-semibold text-foreground">
+                      Employer branding per economia circolare
+                    </p>
+                  </div>
+                  <div>
+                    <p className="font-mono text-xs uppercase tracking-wide text-muted-foreground mb-1">
+                      Settore
+                    </p>
+                    <p className="font-semibold text-foreground">
+                      Green Tech / Bioedilizia
+                    </p>
+                  </div>
+                </div>
+
                 <Link
-                  to="/casi-studio/randstad"
+                  to="/casi-studio/ricehouse"
                   className="inline-flex items-center text-primary font-mono font-medium group hover:underline"
                 >
                   Leggi il caso completo
@@ -72,8 +80,8 @@ const ReferencesSection = () => {
               {/* Image column - Right */}
               <div className="order-first md:order-last">
                 <img
-                  src="/cases/randstad-envisioning.jpg"
-                  alt="Workshop Randstad - Partecipanti al lavoro con visual thinking e materiali sul tavolo"
+                  src="/workshop/ricehouse-envisioning-fucsia.jpg"
+                  alt="Workshop Ricehouse - Envisioning con il team per definire identità e employer brand"
                   className="w-full h-[400px] md:h-[600px] object-cover rounded-lg"
                 />
               </div>
