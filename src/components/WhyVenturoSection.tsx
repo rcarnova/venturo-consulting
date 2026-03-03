@@ -9,19 +9,22 @@ const WhyVenturoSection = () => {
             <h2 className="text-2xl md:text-3xl font-bold text-foreground mb-8">
               Perché esiste Venturo
             </h2>
-            <p className="text-lg md:text-xl text-muted-foreground leading-relaxed max-w-[60%]">
+            <p className="text-lg md:text-xl text-foreground leading-relaxed max-w-[60%]">
               Venturo nasce da una convinzione: la cultura di un'organizzazione non è un tema soft. Modella i comportamenti, determina i risultati, e si riflette in tutto ciò che l'azienda dice e fa verso l'esterno.
             </p>
 
             <div className="mt-16 grid grid-cols-1 md:grid-cols-3 divide-y md:divide-y-0 md:divide-x divide-border">
               <div className="py-4 md:py-0 md:pr-8">
                 <span className="text-base md:text-lg font-bold text-foreground">Ciò che si vede</span>
+                <p className="text-sm text-muted-foreground mt-2">Spazi, artefatti, comportamenti osservabili</p>
               </div>
               <div className="py-4 md:py-0 md:px-8">
                 <span className="text-base md:text-lg font-bold text-foreground">Ciò che si fa</span>
+                <p className="text-sm text-muted-foreground mt-2">Rituali, abitudini, modi di lavorare</p>
               </div>
               <div className="py-4 md:py-0 md:pl-8">
                 <span className="text-base md:text-lg font-bold text-foreground">Ciò che si dà per scontato</span>
+                <p className="text-sm text-muted-foreground mt-2">Assunti profondi, credenze invisibili, valori non detti</p>
               </div>
             </div>
           </div>
