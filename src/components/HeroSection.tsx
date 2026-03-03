@@ -18,10 +18,6 @@ const HeroSection = () => {
             Le sfide culturali hanno sempre un dentro e un fuori. Venturo le attraversa.
           </p>
 
-          <p className="text-lg md:text-xl text-muted-foreground mt-6 max-w-xl animate-fade-up-delay-2" style={{ animationDelay: '6.15s' }}>
-            Venturo nasce da una convinzione: la cultura di un'organizzazione non è un tema soft. Modella i comportamenti, determina i risultati, e si riflette in tutto ciò che l'azienda dice e fa verso l'esterno. Per questo lavoriamo sulle tre dimensioni della cultura: ciò che si vede, ciò che si fa, ciò che si dà per scontato.
-          </p>
-
           <div className="mt-12 flex flex-col sm:flex-row gap-4 animate-fade-up-delay-2" style={{ animationDelay: '6.3s' }}>
             <Button onClick={scrollToContact} variant="hero" className="glow-btn">
               Parliamone
