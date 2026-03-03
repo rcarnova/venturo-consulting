@@ -1,6 +1,7 @@
 import { SEO } from "@/components/SEO";
 import Header from "@/components/Header";
 import HeroSection from "@/components/HeroSection";
+import WhyVenturoSection from "@/components/WhyVenturoSection";
 import ReferencesSection from "@/components/ReferencesSection";
 import HowWeWorkSection from "@/components/HowWeWorkSection";
 import LeversSection from "@/components/LeversSection";
@@ -23,6 +24,7 @@ const Index = () => {
       <Header />
       <main>
         <HeroSection />
+        <WhyVenturoSection />
         <ReferencesSection />
         <HowWeWorkSection />
         <LeversSection />
