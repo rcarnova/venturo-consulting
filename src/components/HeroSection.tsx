@@ -15,7 +15,7 @@ const HeroSection = () => {
           </h1>
           
           <p className="text-lg md:text-xl text-muted-foreground mt-8 max-w-xl animate-fade-up-delay-2" style={{ animationDelay: '6s' }}>
-            Mettiamo in luce ciò che la vostra organizzazione sa già di sé.
+            Le sfide culturali hanno sempre un dentro e un fuori. Venturo le attraversa.
           </p>
 
           <div className="mt-12 flex flex-col sm:flex-row gap-4 animate-fade-up-delay-2" style={{ animationDelay: '6.3s' }}>
