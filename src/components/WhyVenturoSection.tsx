@@ -2,7 +2,7 @@ import AnimatedSection from "@/components/AnimatedSection";
 
 const WhyVenturoSection = () => {
   return (
-    <section className="py-24 md:py-32 bg-muted/50">
+    <section className="py-12 md:py-16 bg-muted/50">
       <div className="container-wide">
         <AnimatedSection>
           <div>
@@ -13,7 +13,11 @@ const WhyVenturoSection = () => {
               Venturo nasce da una convinzione: la cultura di un'organizzazione non è un tema soft. Modella i comportamenti, determina i risultati, e si riflette in tutto ciò che l'azienda dice e fa verso l'esterno.
             </p>
 
-            <div className="mt-16 grid grid-cols-1 md:grid-cols-3 divide-y md:divide-y-0 md:divide-x divide-border">
+            <p className="text-lg md:text-xl text-foreground mt-8">
+              Per questo lavoriamo su tre livelli:
+            </p>
+
+            <div className="mt-10 grid grid-cols-1 md:grid-cols-3 divide-y md:divide-y-0 md:divide-x divide-border">
               <div className="py-4 md:py-0 md:pr-8">
                 <span className="text-base md:text-lg font-bold text-foreground">Ciò che si vede</span>
                 <p className="text-sm text-muted-foreground mt-2">Spazi, artefatti, comportamenti osservabili</p>
