@@ -9,7 +9,7 @@ const WhyVenturoSection = () => {
             <h2 className="text-2xl md:text-3xl font-bold text-foreground mb-8">
               Perché esiste Venturo
             </h2>
-            <p className="text-lg md:text-xl text-foreground leading-relaxed max-w-[60%]">
+            <p className="text-base md:text-xl text-foreground leading-relaxed text-left md:max-w-[60%]">
               Venturo nasce da una convinzione: la cultura di un'organizzazione non è un tema soft. Modella i comportamenti, determina i risultati, e si riflette in tutto ciò che l'azienda dice e fa verso l'esterno.
             </p>
 
