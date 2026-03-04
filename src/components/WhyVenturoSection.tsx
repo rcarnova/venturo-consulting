@@ -3,13 +3,13 @@ import AnimatedSection from "@/components/AnimatedSection";
 const WhyVenturoSection = () => {
   return (
     <section className="py-12 md:py-16 bg-muted/50">
-      <div className="container-wide">
+      <div className="container-wide px-6 md:px-8">
         <AnimatedSection>
           <div>
             <h2 className="text-2xl md:text-3xl font-bold text-foreground mb-8">
               Perché esiste Venturo
             </h2>
-            <p className="text-base md:text-xl text-foreground leading-relaxed text-left md:max-w-[60%]">
+            <p className="text-[16px] md:text-xl leading-[1.6] md:leading-relaxed text-foreground text-left md:max-w-[60%]">
               Venturo nasce da una convinzione: la cultura di un'organizzazione non è un tema soft. Modella i comportamenti, determina i risultati, e si riflette in tutto ciò che l'azienda dice e fa verso l'esterno.
             </p>
 
