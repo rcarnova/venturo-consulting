@@ -20,15 +20,15 @@ const WhyVenturoSection = () => {
             <div className="mt-10 grid grid-cols-1 md:grid-cols-3 divide-y md:divide-y-0 md:divide-x divide-border">
               <div className="py-4 md:py-0 md:pr-8">
                 <span className="text-base md:text-lg font-bold text-foreground">Ciò che si vede</span>
-                <p className="text-sm text-muted-foreground mt-2">Spazi, artefatti, comportamenti osservabili</p>
+                <p className="text-sm text-muted-foreground mt-2">Come ci si comporta, come si comunica, cosa si celebra</p>
               </div>
               <div className="py-4 md:py-0 md:px-8">
                 <span className="text-base md:text-lg font-bold text-foreground">Ciò che si fa</span>
-                <p className="text-sm text-muted-foreground mt-2">Rituali, abitudini, modi di lavorare</p>
+                <p className="text-sm text-muted-foreground mt-2">I pattern che si ripetono senza che nessuno li abbia scritti</p>
               </div>
               <div className="py-4 md:py-0 md:pl-8">
                 <span className="text-base md:text-lg font-bold text-foreground">Ciò che si dà per scontato</span>
-                <p className="text-sm text-muted-foreground mt-2">Assunti profondi, credenze invisibili, valori non detti</p>
+                <p className="text-sm text-muted-foreground mt-2">Le regole non scritte che nessuno ha deciso ma tutti seguono</p>
               </div>
             </div>
           </div>
