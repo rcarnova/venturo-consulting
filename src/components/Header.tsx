@@ -4,6 +4,7 @@ import { Button } from "@/components/ui/button";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import { Menu, Globe } from "lucide-react";
 import logoVenturo from "@/assets/logo-venturo.png";
+import logoV from "@/assets/logo-v.png";
 import { getEnRoute } from "@/lib/language-routes";
 import {
   DropdownMenu,
@@ -48,17 +49,18 @@ const Header = () => {
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-md border-b border-border/50">
       <div className="container-wide flex items-center justify-between h-16 md:h-20">
-        <a href="/" className="overflow-hidden">
+        <a href="/" className="relative h-6 md:h-8 flex items-center">
           <img
             src={logoVenturo}
             alt="Venturo"
-            className="h-6 md:h-8 transition-all duration-300 ease-in-out"
-            style={{
-              clipPath: scrolled
-                ? "inset(0 78% 0 0)"
-                : "inset(0 0% 0 0)",
-              width: scrolled ? "2rem" : undefined,
-            }}
+            className="h-6 md:h-8 transition-opacity duration-300 ease-in-out"
+            style={{ opacity: scrolled ? 0 : 1 }}
+          />
+          <img
+            src={logoV}
+            alt="V"
+            className="h-5 md:h-7 absolute left-0 transition-opacity duration-300 ease-in-out"
+            style={{ opacity: scrolled ? 1 : 0 }}
           />
         </a>
         
