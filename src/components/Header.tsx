@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { useLocation } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
@@ -22,8 +22,16 @@ const navLinks = [
 
 const Header = () => {
   const [open, setOpen] = useState(false);
+  const [scrolled, setScrolled] = useState(false);
   const location = useLocation();
   const enPath = getEnRoute(location.pathname);
+
+  useEffect(() => {
+    const handleScroll = () => setScrolled(window.scrollY > 50);
+    handleScroll();
+    window.addEventListener("scroll", handleScroll, { passive: true });
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
 
   const scrollToContact = () => {
     if (window.location.pathname === '/') {
@@ -40,8 +48,18 @@ const Header = () => {
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-md border-b border-border/50">
       <div className="container-wide flex items-center justify-between h-16 md:h-20">
-        <a href="/">
-          <img src={logoVenturo} alt="Venturo" className="h-6 md:h-8" />
+        <a href="/" className="overflow-hidden">
+          <img
+            src={logoVenturo}
+            alt="Venturo"
+            className="h-6 md:h-8 transition-all duration-300 ease-in-out"
+            style={{
+              clipPath: scrolled
+                ? "inset(0 78% 0 0)"
+                : "inset(0 0% 0 0)",
+              width: scrolled ? "2rem" : undefined,
+            }}
+          />
         </a>
         
         <nav className="hidden md:flex items-center gap-8">
