@@ -1,4 +1,5 @@
-import { Users, MessageSquare, Repeat, Package } from "lucide-react";
+import { Users, MessageSquare, Repeat, Package, ArrowRight } from "lucide-react";
+import { Link } from "react-router-dom";
 import AnimatedSection from "./AnimatedSection";
 import GlowTitle from "./GlowTitle";
 
@@ -72,15 +73,28 @@ const HowWeWorkSection = () => {
           ))}
         </div>
 
-        {/* Link a Lumen */}
+        {/* Sezione Lumen */}
         <AnimatedSection animation="fade-up" delay={400}>
-          <p className="text-center text-muted-foreground mt-10">
-            Per questo abbiamo costruito{" "}
-            <a href="/lumen" className="text-primary font-medium underline underline-offset-4 hover:text-primary/80 transition-colors">
-              Lumen
-            </a>
-            . Non un framework, un modo di ascoltare.
-          </p>
+          <div className="mt-16 mb-16 py-16 border-t border-border/50">
+            <div className="max-w-2xl">
+              <span className="text-xs font-mono tracking-[0.2em] uppercase text-muted-foreground">
+                Il nostro metodo
+              </span>
+              <h3 className="text-2xl md:text-3xl font-semibold text-foreground mt-4 mb-5">
+                Lumen — Non misuriamo la cultura. La illuminiamo.
+              </h3>
+              <p className="text-base md:text-lg leading-relaxed text-muted-foreground mb-6">
+                La cultura organizzativa è invisibile proprio perché onnipresente. Lumen è il modo in cui la facciamo emergere — attraverso storie, non questionari. Il risultato è uno specchio fedele di come le persone vivono davvero l'organizzazione.
+              </p>
+              <Link
+                to="/lumen"
+                className="inline-flex items-center gap-2 text-foreground font-medium hover:gap-3 transition-all duration-300"
+              >
+                Scopri come funziona Lumen
+                <ArrowRight className="w-4 h-4" />
+              </Link>
+            </div>
+          </div>
         </AnimatedSection>
 
         {/* Callout finale - Artefatti concreti */}
