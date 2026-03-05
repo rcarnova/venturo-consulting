@@ -15,7 +15,7 @@ const ClientsSectionEN = () => {
   return (
     <section className="py-12 bg-[#000000] overflow-hidden">
       <div className="max-w-[1200px] mx-auto px-5">
-        <h2 className="text-center text-[1.5rem] md:text-[2rem] font-semibold text-white opacity-90 mb-10">
+        <h2 className="text-center text-2xl md:text-3xl font-medium text-white opacity-90 mb-10">
           Companies we've worked with
         </h2>
       </div>
