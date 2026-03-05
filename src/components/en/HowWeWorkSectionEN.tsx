@@ -1,4 +1,5 @@
-import { Users, MessageSquare, Repeat, Package } from "lucide-react";
+import { Users, MessageSquare, Repeat, Package, ArrowRight } from "lucide-react";
+import { Link } from "react-router-dom";
 import AnimatedSection from "../AnimatedSection";
 import GlowTitle from "../GlowTitle";
 
@@ -72,18 +73,31 @@ const HowWeWorkSectionEN = () => {
           ))}
         </div>
 
-        {/* Link a Lumen */}
+        {/* Lumen Section */}
         <AnimatedSection animation="fade-up" delay={400}>
-          <p className="text-center text-muted-foreground mt-10">
-            That's why we built{" "}
-            <a href="/en/lumen" className="text-primary font-medium underline underline-offset-4 hover:text-primary/80 transition-colors">
-              Lumen
-            </a>
-            . Not a framework — a way of listening.
-          </p>
+          <div className="mt-16 mb-16 py-16 border-t border-border/50">
+            <div className="max-w-2xl">
+              <span className="text-xs font-mono tracking-[0.2em] uppercase text-muted-foreground">
+                Our method
+              </span>
+              <h3 className="text-2xl md:text-3xl font-semibold text-foreground mt-4 mb-5">
+                Lumen — We don't measure culture. We illuminate it.
+              </h3>
+              <p className="text-base md:text-lg leading-relaxed text-muted-foreground mb-6">
+                Organizational culture is invisible precisely because it's omnipresent. Lumen is how we bring it to the surface — through stories, not questionnaires. The result is a faithful mirror of how people truly experience the organization.
+              </p>
+              <Link
+                to="/en/lumen"
+                className="inline-flex items-center gap-2 text-foreground font-medium hover:gap-3 transition-all duration-300"
+              >
+                Discover how Lumen works
+                <ArrowRight className="w-4 h-4" />
+              </Link>
+            </div>
+          </div>
         </AnimatedSection>
 
-        {/* Callout finale - Artefatti concreti */}
+        {/* Final Callout - Concrete Artifacts */}
         <AnimatedSection animation="fade-up" delay={450}>
           <div 
             className="mt-12 rounded-xl p-8 md:p-10 border-l-[6px] border-l-[#FF006E] flex flex-col md:flex-row items-center md:items-start gap-6 md:gap-8 transition-all duration-300 hover:scale-[1.02] hover:border-l-[8px] cursor-default group callout-glow"
