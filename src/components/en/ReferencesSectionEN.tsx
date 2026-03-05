@@ -12,7 +12,7 @@ const ReferencesSectionEN = () => {
             <p className="text-sm font-mono font-medium tracking-widest uppercase text-primary mb-4">
               References
             </p>
-            <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-foreground leading-tight mb-6">
+            <h2 className="text-2xl md:text-3xl font-medium text-foreground leading-tight mb-6">
               Leading companies ask important questions
             </h2>
             <p className="text-lg text-muted-foreground leading-relaxed max-w-3xl mx-auto">

@@ -80,7 +80,7 @@ const HowWeWorkSectionEN = () => {
               <span className="text-xs font-mono tracking-[0.2em] uppercase text-muted-foreground">
                 Our method
               </span>
-              <h3 className="text-2xl md:text-3xl font-semibold text-foreground mt-4 mb-5">
+              <h3 className="text-2xl md:text-3xl font-medium text-foreground mt-4 mb-5">
                 Lumen — We don't measure culture. We illuminate it.
               </h3>
               <p className="text-base md:text-lg leading-relaxed text-muted-foreground mb-6">
