@@ -78,7 +78,7 @@ const AboutEN = () => {
         <div className="bg-foreground py-20 md:py-32">
           <div className="container-wide">
             <AnimatedSection>
-              <p className="text-sm font-mono uppercase tracking-widest text-primary mb-4">
+              <p className="text-sm font-mono uppercase tracking-widest text-primary-foreground/60 mb-4">
                 Synergy
               </p>
               <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-background mb-10">
@@ -95,7 +95,7 @@ const AboutEN = () => {
                   <strong className="text-background">Rosario</strong> brings culture from the inside — he lived in large organizations for 10 years at Oracle and methodized that experience into proprietary tools like the Smart Working Canvas. He knows that organizations don't change through top-down policies, but by consciously modifying everyday artifacts.
                 </p>
                 <p className="text-lg text-background/80 leading-relaxed">
-                  <strong className="text-background">Massimo</strong> brings narrative as method — he knows that stories reveal more than numbers, and that facilitating deep conversations is a specific competency. <Link to="/en/lumen" className="text-primary hover:underline">Lumen</Link>'s questions are not surveys — they are narrative emergence devices.
+                  <strong className="text-background">Massimo</strong> brings narrative as method — he knows that stories reveal more than numbers, and that facilitating deep conversations is a specific competency. <Link to="/en/lumen" className="text-background hover:underline">Lumen</Link>'s questions are not surveys — they are narrative emergence devices.
                 </p>
                 <p className="text-lg text-background/80 leading-relaxed">
                   <strong className="text-background">Arianna</strong> brings design as materialization — she translates cultural insights into visual artifacts that communicate and reinforce deep meanings. She doesn't "design the logo after the culture has been defined" — she works simultaneously on culture and identity.

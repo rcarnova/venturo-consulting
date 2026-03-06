@@ -78,7 +78,7 @@ const ChiSiamo = () => {
         <div className="bg-foreground py-20 md:py-32">
           <div className="container-wide">
             <AnimatedSection>
-              <p className="text-sm font-mono uppercase tracking-widest text-primary mb-4">
+              <p className="text-sm font-mono uppercase tracking-widest text-primary-foreground/60 mb-4">
                 Sinergia
               </p>
               <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-background mb-10">
@@ -95,7 +95,7 @@ const ChiSiamo = () => {
                   <strong className="text-background">Rosario</strong> porta la cultura dall'interno — ha vissuto le grandi organizzazioni per 10 anni in Oracle e ha metodologizzato quel vissuto in strumenti proprietari come lo Smart Working Canvas. Sa che le organizzazioni non cambiano con policy dall'alto, ma modificando consapevolmente gli artefatti quotidiani.
                 </p>
                 <p className="text-lg text-background/80 leading-relaxed">
-                  <strong className="text-background">Massimo</strong> porta la narrazione come metodo — sa che le storie rivelano più dei numeri, e che facilitare conversazioni profonde è una competenza specifica. Le domande di <Link to="/lumen" className="text-primary hover:underline">Lumen</Link> non sono questionari — sono dispositivi di emersione narrativa.
+                  <strong className="text-background">Massimo</strong> porta la narrazione come metodo — sa che le storie rivelano più dei numeri, e che facilitare conversazioni profonde è una competenza specifica. Le domande di <Link to="/lumen" className="text-background hover:underline">Lumen</Link> non sono questionari — sono dispositivi di emersione narrativa.
                 </p>
                 <p className="text-lg text-background/80 leading-relaxed">
                   <strong className="text-background">Arianna</strong> porta il design come materializzazione — traduce insight culturali in artefatti visivi che comunicano e rinforzano significati profondi. Non "fa il logo dopo che la cultura è stata definita" — lavora simultaneamente su cultura e identità.
