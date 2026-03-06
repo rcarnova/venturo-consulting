@@ -25,11 +25,11 @@ const IndexEN = () => {
       <HeaderEN />
       <main>
         <HeroSectionEN />
+        <ClientsSectionEN />
         <ReferencesSectionEN />
         <ProblemSectionEN />
         <HowWeWorkSectionEN />
         <LeversSectionEN />
-        <ClientsSectionEN />
         <CasesSectionEN />
         <PartnersSectionEN />
         <ContactSectionEN />
