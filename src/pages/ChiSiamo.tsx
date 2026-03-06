@@ -46,47 +46,71 @@ const ChiSiamo = () => {
         alternateUrls={{ it: "https://venturo.it/chi-siamo", en: "https://venturo.it/en/about" }}
       />
       <Header />
-      <main className="pt-32 pb-24 md:pt-40 md:pb-32">
-        <div className="container-wide">
-          {/* Intro Section */}
-          <AnimatedSection className="mb-16 md:mb-24">
-            <div className="max-w-2xl">
+      <main>
+        {/* Intro Section */}
+        <div className="pt-32 pb-16 md:pt-40 md:pb-24">
+          <div className="container-wide">
+            <AnimatedSection className="mb-16 md:mb-24">
+              <div className="max-w-2xl">
+                <p className="text-sm font-mono uppercase tracking-widest text-primary mb-4">
+                  Chi siamo
+                </p>
+                <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-foreground">
+                  Rendiamo visibile ciò che la vostra organizzazione sa già di sé.
+                </h1>
+              </div>
+            </AnimatedSection>
+
+            <AnimatedSection delay={100}>
+              <div className="max-w-3xl space-y-6">
+                <p className="text-lg text-muted-foreground leading-relaxed">
+                  Venturo nasce da una convinzione maturata sul campo: le organizzazioni che non rendono visibile la propria cultura si trovano prima o poi in difficoltà su due fronti. Fuori, con un brand che fatica ad attrarre le persone giuste. Dentro, con persone che faticano a riconoscersi nei valori che vivono ogni giorno.
+                </p>
+                <p className="text-lg text-muted-foreground leading-relaxed">
+                  Noi veniamo da entrambi i mondi. Sappiamo come funziona la cultura organizzativa e sappiamo come si comunica. Lavorare su entrambe le dimensioni insieme non è una scelta strategica. È l'unico modo in cui ha senso farlo.
+                </p>
+              </div>
+            </AnimatedSection>
+          </div>
+        </div>
+
+        {/* Perché lavoriamo insieme — Hero section */}
+        <div className="bg-foreground py-20 md:py-32">
+          <div className="container-wide">
+            <AnimatedSection>
               <p className="text-sm font-mono uppercase tracking-widest text-primary mb-4">
-                Chi siamo
+                Sinergia
               </p>
-              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-foreground">
-                Rendiamo visibile ciò che la vostra organizzazione sa già di sé.
-              </h1>
-            </div>
-          </AnimatedSection>
+              <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-background mb-10">
+                Perché lavoriamo insieme
+              </h2>
+            </AnimatedSection>
 
-          <AnimatedSection delay={100}>
-            <div className="max-w-3xl space-y-6 mb-24">
-              <p className="text-lg text-muted-foreground leading-relaxed">
-                Venturo è una boutique di consulenza che chiude il gap tra cultura 
-                aziendale dichiarata e cultura vissuta. Non creiamo valori aspirazionali. 
-                Rendiamo esplicita la cultura che già esiste.
-              </p>
-              <p className="text-lg text-muted-foreground leading-relaxed">
-                Lavoriamo selettivamente con 3-5 clienti all'anno — PMI in crescita e 
-                grandi organizzazioni, accomunate da uno stesso momento: quello in cui la 
-                cultura aziendale diventa visibile e urgente. Non per esclusività, ma 
-                perché fare questo lavoro bene richiede tempo e attenzione vera. Lavoriamo 
-                nei momenti in cui la cultura è più esposta: quando qualcuno fa un errore, 
-                quando si devono prendere decisioni sotto pressione, quando le promesse 
-                incontrano la realtà.
-              </p>
-              <p className="text-lg text-muted-foreground leading-relaxed">
-                Il nostro approccio è maieutico. Facciamo emergere pattern autentici da 
-                storie reali, non da workshop generici. Lavoriamo su tre pilastri esterni 
-                — Comunicazione, Rituali, Leadership — supportati da sei leve operative 
-                interne. Design culturale chirurgico, non change management generico.
-              </p>
-            </div>
-          </AnimatedSection>
+            <AnimatedSection delay={100}>
+              <div className="max-w-3xl space-y-6">
+                <p className="text-lg text-background/80 leading-relaxed">
+                  Venturo nasce dall'incontro di tre competenze che raramente dialogano.
+                </p>
+                <p className="text-lg text-background/80 leading-relaxed">
+                  <strong className="text-background">Rosario</strong> porta la cultura dall'interno — ha vissuto le grandi organizzazioni per 10 anni in Oracle e ha metodologizzato quel vissuto in strumenti proprietari come lo Smart Working Canvas. Sa che le organizzazioni non cambiano con policy dall'alto, ma modificando consapevolmente gli artefatti quotidiani.
+                </p>
+                <p className="text-lg text-background/80 leading-relaxed">
+                  <strong className="text-background">Massimo</strong> porta la narrazione come metodo — sa che le storie rivelano più dei numeri, e che facilitare conversazioni profonde è una competenza specifica. Le domande di <Link to="/lumen" className="text-primary hover:underline">Lumen</Link> non sono questionari — sono dispositivi di emersione narrativa.
+                </p>
+                <p className="text-lg text-background/80 leading-relaxed">
+                  <strong className="text-background">Arianna</strong> porta il design come materializzazione — traduce insight culturali in artefatti visivi che comunicano e rinforzano significati profondi. Non "fa il logo dopo che la cultura è stata definita" — lavora simultaneamente su cultura e identità.
+                </p>
+                <p className="text-lg text-background/80 leading-relaxed">
+                  Questa combinazione ci permette di fare qualcosa che pochi altri fanno: lavorare sulla cultura come infrastruttura della promessa di brand — ciò che rende credibile o falsa ogni comunicazione esterna, ogni selezione, ogni proposta al cliente.
+                </p>
+              </div>
+            </AnimatedSection>
+          </div>
+        </div>
 
-          {/* Team Section */}
-          <div className="border-t border-border pt-16 md:pt-24">
+        {/* Team Section */}
+        <div className="py-16 md:py-24">
+          <div className="container-wide">
             <AnimatedSection>
               <div className="max-w-2xl mb-12">
                 <p className="text-sm font-mono uppercase tracking-widest text-primary mb-4">
@@ -144,40 +168,6 @@ const ChiSiamo = () => {
                 </AnimatedSection>
               ))}
             </div>
-          </div>
-
-          {/* Perché lavoriamo insieme */}
-          <div className="border-t border-border mt-20 pt-16 md:pt-24">
-            <AnimatedSection>
-              <div className="max-w-2xl mb-8">
-                <p className="text-sm font-mono uppercase tracking-widest text-primary mb-4">
-                  Sinergia
-                </p>
-                <h2 className="text-3xl md:text-4xl font-bold text-foreground">
-                  Perché lavoriamo insieme
-                </h2>
-              </div>
-            </AnimatedSection>
-
-            <AnimatedSection delay={100}>
-              <div className="max-w-3xl space-y-6">
-                <p className="text-lg text-muted-foreground leading-relaxed">
-                  Venturo nasce dall'incontro di tre competenze che raramente dialogano.
-                </p>
-                <p className="text-lg text-muted-foreground leading-relaxed">
-                  <strong className="text-foreground">Rosario</strong> porta la cultura dall'interno — ha vissuto le grandi organizzazioni per 10 anni in Oracle e ha metodologizzato quel vissuto in strumenti proprietari come lo Smart Working Canvas. Sa che le organizzazioni non cambiano con policy dall'alto, ma modificando consapevolmente gli artefatti quotidiani.
-                </p>
-                <p className="text-lg text-muted-foreground leading-relaxed">
-                  <strong className="text-foreground">Massimo</strong> porta la narrazione come metodo — sa che le storie rivelano più dei numeri, e che facilitare conversazioni profonde è una competenza specifica. Le domande di <Link to="/lumen" className="text-primary hover:underline">Lumen</Link> non sono questionari — sono dispositivi di emersione narrativa.
-                </p>
-                <p className="text-lg text-muted-foreground leading-relaxed">
-                  <strong className="text-foreground">Arianna</strong> porta il design come materializzazione — traduce insight culturali in artefatti visivi che comunicano e rinforzano significati profondi. Non "fa il logo dopo che la cultura è stata definita" — lavora simultaneamente su cultura e identità.
-                </p>
-                <p className="text-lg text-muted-foreground leading-relaxed">
-                  Questa combinazione ci permette di fare qualcosa che pochi altri fanno: lavorare sulla cultura come infrastruttura della promessa di brand — ciò che rende credibile o falsa ogni comunicazione esterna, ogni selezione, ogni proposta al cliente.
-                </p>
-              </div>
-            </AnimatedSection>
           </div>
         </div>
       </main>
