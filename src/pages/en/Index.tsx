@@ -6,6 +6,7 @@ import HowWeWorkSectionEN from "@/components/en/HowWeWorkSectionEN";
 import ReferencesSectionEN from "@/components/en/ReferencesSectionEN";
 import LeversSectionEN from "@/components/en/LeversSectionEN";
 import CasesSectionEN from "@/components/en/CasesSectionEN";
+import ResultCalloutEN from "@/components/en/ResultCalloutEN";
 import PartnersSectionEN from "@/components/en/PartnersSectionEN";
 import TeamPreviewSectionEN from "@/components/en/TeamPreviewSectionEN";
 import ClientsSectionEN from "@/components/en/ClientsSectionEN";
@@ -31,6 +32,7 @@ const IndexEN = () => {
         <ReferencesSectionEN />
         <LeversSectionEN />
         <CasesSectionEN />
+        <ResultCalloutEN />
         <PartnersSectionEN />
         <TeamPreviewSectionEN />
         <ContactSectionEN />
