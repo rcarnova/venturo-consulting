@@ -98,7 +98,7 @@ const CaseStudyLayoutEN = ({
         <section className="py-12 bg-accent/50">
           <div className="container-narrow">
             <AnimatedSection>
-              <div className="grid md:grid-cols-3 gap-6 text-center">
+              <div className={`grid gap-6 text-center ${overview.length <= 3 ? 'md:grid-cols-3' : overview.length === 4 ? 'md:grid-cols-4' : 'md:grid-cols-3 lg:grid-cols-5'}`}>
                 {overview.map((item, index) => (
                   <div key={index}>
                     <p className="text-sm font-mono text-muted-foreground uppercase tracking-wider mb-1">

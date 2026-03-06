@@ -25,6 +25,7 @@ const CVE = () => {
           { label: "Settore", value: "System integration, video & security" },
           { label: "Dimensione", value: "~30 persone (Milano e Roma)" },
           { label: "Durata", value: "6 settimane (progettazione + primo evento)" },
+          { label: "Interlocutori", value: "CEO, Leadership team" },
         ]}
         challenge={{
           description:

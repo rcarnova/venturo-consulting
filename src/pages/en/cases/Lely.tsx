@@ -21,6 +21,7 @@ const LelyEN = () => {
         { label: "Industry", value: "Agriculture / Agritech" },
         { label: "Size", value: "Agricultural entrepreneurs" },
         { label: "Duration", value: "1 day + 2 weeks" },
+        { label: "Stakeholders", value: "Marketing, HR" },
       ]}
       challenge={{
         description:

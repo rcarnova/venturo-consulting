@@ -24,6 +24,7 @@ const FindomesticEN = () => {
           { label: "Sector", value: "Finance & consumer credit" },
           { label: "Teams involved", value: "Customer service + Social media" },
           { label: "Duration", value: "2-day intensive workshop + follow-up" },
+          { label: "Stakeholders", value: "HR, Marketing & Communications" },
         ]}
         challenge={{
           description:

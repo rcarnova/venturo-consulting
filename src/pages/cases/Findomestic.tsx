@@ -24,6 +24,7 @@ const Findomestic = () => {
           { label: "Settore", value: "Finance & consumer credit" },
           { label: "Team coinvolti", value: "Assistenza clienti + Social media" },
           { label: "Durata", value: "2 giorni workshop intensivo + follow-up" },
+          { label: "Interlocutori", value: "HR, Marketing e Comunicazione" },
         ]}
         challenge={{
           description:

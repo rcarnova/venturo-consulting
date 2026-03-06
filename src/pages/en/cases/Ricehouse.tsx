@@ -21,6 +21,7 @@ const RicehouseEN = () => {
         { label: "Industry", value: "Green Tech / Bio-construction" },
         { label: "Size", value: "25 people" },
         { label: "Duration", value: "6-8 weeks" },
+        { label: "Stakeholders", value: "Founder, HR, Marketing" },
       ]}
       challenge={{
         description:
