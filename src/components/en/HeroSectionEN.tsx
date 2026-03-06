@@ -10,10 +10,10 @@ const HeroSectionEN = () => {
       <div className="container-wide relative z-10">
         <div className="max-w-4xl">
           <h1 className="text-[2.6rem] sm:text-6xl md:text-7xl lg:text-8xl font-bold leading-[0.95] tracking-tight text-foreground">
-            Every organization has a why. We make it visible.
+            Every organization has a why.<br />We make it visible.
           </h1>
           
-          <p className="text-lg md:text-xl text-muted-foreground mt-8 max-w-xl animate-fade-up-delay-2" style={{ animationDelay: '6s' }}>
+          <p className="text-base md:text-lg text-muted-foreground mt-8 max-w-none whitespace-nowrap animate-fade-up-delay-2" style={{ animationDelay: '6s' }}>
             We help organizations see and reproduce what already works.
           </p>
 

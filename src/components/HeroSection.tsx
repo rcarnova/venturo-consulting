@@ -10,10 +10,10 @@ const HeroSection = () => {
       <div className="container-wide relative z-10">
         <div className="max-w-4xl">
           <h1 className="text-[2.6rem] sm:text-6xl md:text-7xl lg:text-8xl font-bold leading-[0.95] tracking-tight text-foreground">
-            Ogni organizzazione ha un perché. Noi lo rendiamo visibile.
+            Ogni organizzazione ha un perché.<br />Noi lo rendiamo visibile.
           </h1>
           
-          <p className="text-lg md:text-xl text-muted-foreground mt-8 max-w-xl animate-fade-up-delay-2" style={{ animationDelay: '6s' }}>
+          <p className="text-base md:text-lg text-muted-foreground mt-8 max-w-none whitespace-nowrap animate-fade-up-delay-2" style={{ animationDelay: '6s' }}>
             Le sfide culturali hanno sempre un dentro e un fuori. Venturo le attraversa.
           </p>
 
