@@ -63,12 +63,29 @@ const LeversSection = () => {
 
         {/* Tabs */}
         <AnimatedSection animation="fade-up" delay={200}>
-          <div className="flex gap-2 md:gap-3 overflow-x-auto pb-2 -mx-4 px-4 md:mx-0 md:px-0 md:justify-center flex-nowrap scrollbar-hide">
+          {/* Mobile: single scrollable row */}
+          <div className="flex gap-2 overflow-x-auto pb-2 -mx-4 px-4 flex-nowrap scrollbar-hide md:hidden">
             {levers.map((lever, index) => (
               <button
                 key={index}
                 onClick={() => setActiveIndex(index)}
-                className={`flex-shrink-0 px-4 py-2.5 md:px-5 md:py-3 rounded-lg text-sm md:text-base font-medium transition-all duration-200 whitespace-nowrap ${
+                className={`flex-shrink-0 px-6 py-3 rounded-lg text-sm font-medium transition-all duration-200 whitespace-nowrap ${
+                  index === activeIndex
+                    ? "bg-white text-foreground shadow-lg"
+                    : "bg-transparent text-white border border-white/60 hover:border-white"
+                }`}
+              >
+                {lever.title}
+              </button>
+            ))}
+          </div>
+          {/* Desktop: 2 rows of 3 */}
+          <div className="hidden md:grid md:grid-cols-3 gap-3 max-w-4xl mx-auto">
+            {levers.map((lever, index) => (
+              <button
+                key={index}
+                onClick={() => setActiveIndex(index)}
+                className={`px-6 py-3 rounded-lg text-base font-medium transition-all duration-200 text-center ${
                   index === activeIndex
                     ? "bg-white text-foreground shadow-lg"
                     : "bg-transparent text-white border border-white/60 hover:border-white"
