@@ -1,12 +1,21 @@
 import AnimatedSection from "@/components/AnimatedSection";
 
-const LumenFormatsEN = () => (
-  <section className="py-24 bg-background">
-    <div className="container-wide max-w-5xl">
-      <AnimatedSection>
-        <p className="font-mono text-xs uppercase tracking-widest text-primary mb-4">Delivery formats</p>
-        <h2 className="text-3xl md:text-4xl font-bold mb-12">Two formats, one goal.</h2>
-      </AnimatedSection>
+const LumenFormatsEN = ({ embedded }: { embedded?: boolean }) => {
+  const Wrapper = embedded ? "div" : "section";
+  return (
+  <Wrapper className={embedded ? "pb-8" : "py-24 bg-background"}>
+    <div className={embedded ? "" : "container-wide max-w-5xl"}>
+      {!embedded && (
+        <AnimatedSection>
+          <p className="font-mono text-xs uppercase tracking-widest text-primary mb-4">Delivery formats</p>
+          <h2 className="text-3xl md:text-4xl font-bold mb-12">Two formats, one goal.</h2>
+        </AnimatedSection>
+      )}
+      {embedded && (
+        <AnimatedSection>
+          <h3 className="text-xl font-bold mb-8">Two formats, one goal.</h3>
+        </AnimatedSection>
+      )}
 
       <div className="grid md:grid-cols-2 gap-8">
         {/* Essential */}
@@ -74,7 +83,8 @@ const LumenFormatsEN = () => (
         </AnimatedSection>
       </div>
     </div>
-  </section>
-);
+  </Wrapper>
+  );
+};
 
 export default LumenFormatsEN;

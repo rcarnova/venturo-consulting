@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 
 interface Props {
   lang?: "it" | "en";
+  embedded?: boolean;
 }
 
 const copy = {
@@ -33,15 +34,20 @@ const copy = {
   },
 };
 
-const LumenFondamenti = ({ lang = "it" }: Props) => {
+const LumenFondamenti = ({ lang = "it", embedded }: Props) => {
   const t = copy[lang];
+  const Wrapper = embedded ? "div" : "section";
 
   return (
-    <section className="py-24 bg-muted/40">
-      <div className="container-wide max-w-4xl">
+    <Wrapper className={embedded ? "pb-8" : "py-24 bg-muted/40"}>
+      <div className={embedded ? "" : "container-wide max-w-4xl"}>
+        {!embedded && (
+          <AnimatedSection>
+            <p className="font-mono text-xs uppercase tracking-widest text-primary mb-4">{t.label}</p>
+            <h2 className="text-3xl md:text-4xl font-bold mb-2">{t.title}</h2>
+          </AnimatedSection>
+        )}
         <AnimatedSection>
-          <p className="font-mono text-xs uppercase tracking-widest text-primary mb-4">{t.label}</p>
-          <h2 className="text-3xl md:text-4xl font-bold mb-2">{t.title}</h2>
           <p className="text-muted-foreground text-sm uppercase tracking-wide mb-8">{t.subtitle}</p>
         </AnimatedSection>
 
@@ -62,8 +68,8 @@ const LumenFondamenti = ({ lang = "it" }: Props) => {
             </Button>
           </div>
         </AnimatedSection>
-      </div>
-    </section>
+    </div>
+    </Wrapper>
   );
 };
 

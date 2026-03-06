@@ -33,12 +33,18 @@ const challenges = [
   },
 ];
 
-const LumenChallengesEN = () => (
-  <section className="py-24 bg-background">
-    <div className="container-wide max-w-5xl">
+const LumenChallengesEN = ({ embedded }: { embedded?: boolean }) => {
+  const Wrapper = embedded ? "div" : "section";
+  return (
+  <Wrapper className={embedded ? "pb-8" : "py-24 bg-background"}>
+    <div className={embedded ? "" : "container-wide max-w-5xl"}>
+      {!embedded && (
+        <AnimatedSection>
+          <p className="font-mono text-xs uppercase tracking-widest text-primary mb-4">Common patterns</p>
+          <h2 className="text-3xl md:text-4xl font-bold mb-4">The challenges Lumen addresses</h2>
+        </AnimatedSection>
+      )}
       <AnimatedSection>
-        <p className="font-mono text-xs uppercase tracking-widest text-primary mb-4">Common patterns</p>
-        <h2 className="text-3xl md:text-4xl font-bold mb-4">The challenges Lumen addresses</h2>
         <p className="text-muted-foreground max-w-2xl mb-12 text-lg">
           Lumen enters organizations through different doors - employer branding, cultural transformation,
           onboarding, internal communication. But whatever the entry point, we always work on the same deep
@@ -67,7 +73,8 @@ const LumenChallengesEN = () => (
         </p>
       </AnimatedSection>
     </div>
-  </section>
-);
+  </Wrapper>
+  );
+};
 
 export default LumenChallengesEN;

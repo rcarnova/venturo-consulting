@@ -69,17 +69,23 @@ const techniques = [
   },
 ];
 
-const LumenTechniquesEN = () => {
+const LumenTechniquesEN = ({ embedded }: { embedded?: boolean }) => {
   const [activeTab, setActiveTab] = useState("interviews");
   const active = techniques.find((t) => t.id === activeTab)!;
   const ActiveIcon = active.icon;
 
+  const Wrapper = embedded ? "div" : "section";
+
   return (
-    <section className="py-24 bg-background">
-      <div className="container-wide max-w-5xl">
+    <Wrapper className={embedded ? "pb-8" : "py-24 bg-background"}>
+      <div className={embedded ? "" : "container-wide max-w-5xl"}>
+        {!embedded && (
+          <AnimatedSection>
+            <p className="font-mono text-xs uppercase tracking-widest text-primary mb-4">The instrument</p>
+            <h2 className="text-3xl md:text-4xl font-bold mb-4">The techniques that make up Lumen</h2>
+          </AnimatedSection>
+        )}
         <AnimatedSection>
-          <p className="font-mono text-xs uppercase tracking-widest text-primary mb-4">The instrument</p>
-          <h2 className="text-3xl md:text-4xl font-bold mb-4">The techniques that make up Lumen</h2>
           <p className="text-muted-foreground max-w-2xl mb-12 text-lg">
             Lumen is not a fixed procedure - it's a set of techniques combined based on the project.
             Each technique has a specific role in the process of cultural revelation.
@@ -163,7 +169,7 @@ const LumenTechniquesEN = () => {
           </>
         )}
       </div>
-    </section>
+    </Wrapper>
   );
 };
 

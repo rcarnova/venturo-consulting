@@ -33,12 +33,18 @@ const challenges = [
   },
 ];
 
-const LumenChallenges = () => (
-  <section className="py-24 bg-background">
-    <div className="container-wide max-w-5xl">
+const LumenChallenges = ({ embedded }: { embedded?: boolean }) => {
+  const Wrapper = embedded ? "div" : "section";
+  return (
+  <Wrapper className={embedded ? "pb-8" : "py-24 bg-background"}>
+    <div className={embedded ? "" : "container-wide max-w-5xl"}>
+      {!embedded && (
+        <AnimatedSection>
+          <p className="font-mono text-xs uppercase tracking-widest text-primary mb-4">Applicazioni</p>
+          <h2 className="text-3xl md:text-4xl font-bold mb-4">Le sfide che Lumen affronta</h2>
+        </AnimatedSection>
+      )}
       <AnimatedSection>
-        <p className="font-mono text-xs uppercase tracking-widest text-primary mb-4">Applicazioni</p>
-        <h2 className="text-3xl md:text-4xl font-bold mb-4">Le sfide che Lumen affronta</h2>
         <p className="text-muted-foreground max-w-3xl mb-12 text-lg">
           Lumen entra nelle organizzazioni da porte diverse - employer branding, trasformazione culturale,
           onboarding, comunicazione interna. Ma qualunque sia il punto di ingresso, lavoriamo sempre sulle
@@ -68,7 +74,8 @@ const LumenChallenges = () => (
         </p>
       </AnimatedSection>
     </div>
-  </section>
-);
+  </Wrapper>
+  );
+};
 
 export default LumenChallenges;
