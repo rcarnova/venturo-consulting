@@ -75,24 +75,39 @@ const HowWeWorkSection = () => {
 
         {/* Sezione Lumen */}
         <AnimatedSection animation="fade-up" delay={400}>
-          <div className="mt-16 mb-16 py-16 border-t border-border/50">
-            <div className="max-w-2xl">
-              <span className="text-xs font-mono tracking-[0.2em] uppercase text-muted-foreground">
-                Il nostro metodo
-              </span>
-              <h3 className="text-2xl md:text-3xl font-medium text-foreground mt-4 mb-5">
-                Lumen — Non misuriamo la cultura. La illuminiamo.
-              </h3>
-              <p className="text-base md:text-lg leading-relaxed text-muted-foreground mb-6">
-                La cultura organizzativa è invisibile proprio perché onnipresente. Lumen è il modo in cui la facciamo emergere — attraverso storie, non questionari. Il risultato è uno specchio fedele di come le persone vivono davvero l'organizzazione.
-              </p>
-              <Link
-                to="/lumen"
-                className="inline-flex items-center gap-2 text-foreground font-medium hover:gap-3 transition-all duration-300"
-              >
-                Scopri come funziona Lumen
-                <ArrowRight className="w-4 h-4" />
-              </Link>
+          <div className="mt-16 mb-16 rounded-2xl p-8 md:p-12 lg:p-16" style={{ background: 'linear-gradient(135deg, #1a1a1a 0%, #000000 100%)' }}>
+            <div className="grid md:grid-cols-5 gap-10 md:gap-12 items-start">
+              {/* Colonna sinistra - 60% */}
+              <div className="md:col-span-3">
+                <span className="text-xs font-mono tracking-[0.2em] uppercase text-white/50">
+                  Il nostro metodo
+                </span>
+                <h3 className="text-2xl md:text-3xl font-medium text-white mt-4 mb-5">
+                  Lumen — Non misuriamo la cultura. La illuminiamo.
+                </h3>
+                <p className="text-base md:text-lg leading-relaxed text-white/70 mb-6">
+                  La cultura organizzativa è invisibile proprio perché onnipresente. Lumen è il modo in cui la facciamo emergere — attraverso storie, non questionari. Il risultato è uno specchio fedele di come le persone vivono davvero l'organizzazione.
+                </p>
+                <Link
+                  to="/lumen"
+                  className="inline-flex items-center gap-2 text-white font-medium underline underline-offset-4 hover:gap-3 transition-all duration-300"
+                >
+                  Scopri come funziona Lumen
+                  <ArrowRight className="w-4 h-4" />
+                </Link>
+              </div>
+
+              {/* Colonna destra - 40% */}
+              <div className="md:col-span-2">
+                <div className="rounded-xl bg-white/[0.06] border border-white/[0.08] p-6 md:p-8">
+                  <span className="text-xs font-mono tracking-[0.15em] uppercase text-white/40 block mb-4">
+                    Una delle domande che facciamo
+                  </span>
+                  <p className="text-lg md:text-xl italic leading-relaxed text-white/90">
+                    "Immagina di incontrare un amico che non vedi da mesi. Lui ti chiede com'è lavorare qui. Cosa gli racconti, in due minuti?"
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
         </AnimatedSection>
