@@ -21,9 +21,6 @@ const HeroSectionEN = () => {
             <Button onClick={scrollToContact} variant="hero" className="glow-btn">
               Let's talk about your culture
             </Button>
-            <Button variant="heroOutline" className="glow-btn" onClick={() => document.getElementById('problem')?.scrollIntoView({ behavior: 'smooth' })}>
-              Discover our method
-            </Button>
           </div>
         </div>
       </div>
