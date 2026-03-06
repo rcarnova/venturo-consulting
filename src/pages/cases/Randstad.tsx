@@ -22,6 +22,7 @@ const Randstad = () => {
         { label: "Settore", value: "Ricerca e selezione HR" },
         { label: "Dimensione", value: "Multinazionale - 40 paesi" },
         { label: "Durata", value: "3-4 mesi" },
+        { label: "Interlocutori", value: "HR Manager, Marketing e Comunicazione" },
       ]}
       challenge={{
         description:

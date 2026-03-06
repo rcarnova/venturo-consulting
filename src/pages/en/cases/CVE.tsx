@@ -25,6 +25,7 @@ const CVEEN = () => {
           { label: "Sector", value: "System integration, video & security" },
           { label: "Size", value: "~30 people (Milan and Rome)" },
           { label: "Duration", value: "6 weeks (design + first event)" },
+          { label: "Stakeholders", value: "CEO, Leadership team" },
         ]}
         challenge={{
           description:

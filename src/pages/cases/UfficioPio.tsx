@@ -24,6 +24,7 @@ const UfficioPio = () => {
           { label: "Settore", value: "Non-profit storico (dal 1595)" },
           { label: "Dimensione", value: "~50 operatori + volontari" },
           { label: "Durata", value: "4 mesi" },
+          { label: "Interlocutori", value: "Direzione, Marketing e Comunicazione" },
         ]}
         challenge={{
           description:

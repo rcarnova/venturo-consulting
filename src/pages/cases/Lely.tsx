@@ -21,6 +21,7 @@ const Lely = () => {
         { label: "Settore", value: "Agricoltura / Agritech" },
         { label: "Dimensione", value: "Imprenditori agricoli" },
         { label: "Durata", value: "1 giornata + 2 settimane" },
+        { label: "Interlocutori", value: "Marketing, HR" },
       ]}
       challenge={{
         description:

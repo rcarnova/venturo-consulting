@@ -24,6 +24,7 @@ const UfficioPioEN = () => {
           { label: "Sector", value: "Historic non-profit (since 1595)" },
           { label: "Size", value: "~50 staff + volunteers" },
           { label: "Duration", value: "4 months" },
+          { label: "Stakeholders", value: "Leadership, Marketing & Communications" },
         ]}
         challenge={{
           description:
