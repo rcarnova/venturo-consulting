@@ -62,15 +62,15 @@ const LeversSectionEN = () => {
 
         {/* Tabs */}
         <AnimatedSection animation="fade-up" delay={200}>
-          <div className="flex gap-2 md:gap-3 overflow-x-auto pb-2 -mx-4 px-4 md:mx-0 md:px-0 md:flex-wrap md:justify-center scrollbar-hide">
+          <div className="flex gap-2 md:gap-3 overflow-x-auto pb-2 -mx-4 px-4 md:mx-0 md:px-0 md:justify-center flex-nowrap scrollbar-hide">
             {levers.map((lever, index) => (
               <button
                 key={index}
                 onClick={() => setActiveIndex(index)}
                 className={`flex-shrink-0 px-4 py-2.5 md:px-5 md:py-3 rounded-lg text-sm md:text-base font-medium transition-all duration-200 whitespace-nowrap ${
                   index === activeIndex
-                    ? "bg-foreground text-background shadow-lg"
-                    : "bg-white/90 text-foreground hover:bg-white"
+                    ? "bg-white text-foreground shadow-lg"
+                    : "bg-transparent text-white border border-white/60 hover:border-white"
                 }`}
               >
                 {lever.title}
