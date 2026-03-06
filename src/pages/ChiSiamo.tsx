@@ -55,8 +55,8 @@ const ChiSiamo = () => {
                 <p className="text-sm font-mono uppercase tracking-widest text-primary mb-4">
                   Chi siamo
                 </p>
-                <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-foreground">
-                  Rendiamo visibile ciò che la vostra organizzazione sa già di sé.
+              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-foreground">
+                La cultura organizzativa è la promessa più importante che un'azienda fa. Al mercato e alle sue persone.
                 </h1>
               </div>
             </AnimatedSection>
