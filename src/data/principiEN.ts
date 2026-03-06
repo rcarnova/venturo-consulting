@@ -14,6 +14,12 @@ export const sezioniEN: Sezione[] = [
         applicazione: "Lumen is designed to reach the third level. Narrative questions bypass rational filters and surface deep assumptions — the ones people don't even know they have until they tell a story.",
       },
       {
+        titolo: "Start With Why",
+        autore: "Simon Sinek",
+        concetto: "\"People don't buy what you do, they buy why you do it. And what you do simply proves what you believe.\"\n\nOrganizations that attract the right people are not those with the best conditions: they are those that can answer a simple question: why do we exist? That why is not a slogan. It's the meaning people seek in their work every day.",
+        applicazione: "Lumen doesn't just seek to map culture: it seeks the deep why that runs through it. In the stories people tell, something bigger than the role or the process always emerges: the meaning they give to their work, the way that work reflects who they are. When that why is visible and shared, culture stops being an HR topic and becomes the foundation of everything.",
+      },
+      {
         titolo: "Reinventing Organizations",
         autore: "Frederic Laloux",
         concetto: "\"The way we think about organizations is evolving. The most innovative organizations are those that have learned to operate with distributed authority, wholeness, and evolutionary purpose.\"\n\nTeal organizations don't need rigid hierarchies because they have deep cultural clarity. Everyone knows what truly matters, and this guides decisions without centralized control.",

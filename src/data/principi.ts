@@ -27,6 +27,12 @@ export const sezioni: Sezione[] = [
         applicazione: "Lumen è progettato per arrivare al terzo livello. Le domande narrative aggirano i filtri razionali e fanno emergere le assunzioni profonde — quelle che le persone non sanno nemmeno di avere finché non raccontano una storia.",
       },
       {
+        titolo: "Start With Why",
+        autore: "Simon Sinek",
+        concetto: "\"People don't buy what you do, they buy why you do it. And what you do simply proves what you believe.\"\n\nLe organizzazioni che attraggono le persone giuste non sono quelle con le condizioni migliori: sono quelle che sanno rispondere a una domanda semplice: perché esistiamo? Quel perché non è uno slogan. È il senso che le persone cercano nel proprio lavoro ogni giorno.",
+        applicazione: "Lumen non cerca solo di mappare la cultura: cerca il perché profondo che la attraversa. Nelle storie che le persone raccontano emerge sempre qualcosa di più grande del ruolo o del processo: il senso che danno al proprio lavoro, il modo in cui quel lavoro rispecchia chi sono. Quando quel perché è visibile e condiviso, la cultura smette di essere un tema HR e diventa il fondamento di tutto.",
+      },
+      {
         titolo: "Reinventing Organizations",
         autore: "Frederic Laloux",
         concetto: "\"The way we think about organizations is evolving. The most innovative organizations are those that have learned to operate with distributed authority, wholeness, and evolutionary purpose.\"\n\nLe organizzazioni \"teal\" non hanno bisogno di gerarchie rigide perché hanno chiarezza culturale profonda. Tutti sanno cosa conta davvero, e questo guida le decisioni senza bisogno di controllo centralizzato.",
