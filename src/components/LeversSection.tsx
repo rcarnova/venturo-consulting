@@ -13,7 +13,7 @@ interface Lever {
 const levers: Lever[] = [
   {
     title: "Attrazione Talenti",
-    description: "I candidati migliori accettano e poi se ne vanno entro un anno. Oppure non arrivano proprio. Spesso il problema non è l'offerta, è che dall'esterno non si capisce chi siete davvero. Rendiamo la vostra identità culturale leggibile e verificabile già dal primo colloquio.",
+    description: "I candidati arrivano con aspettative che non corrispondono alla realtà. O non arrivano affatto. Il problema non è l'offerta economica né il settore: è che il brand comunica qualcosa di generico che non racconta chi siete davvero. Le persone giuste non si riconoscono, e quelle sbagliate accettano e se ne vanno dopo un anno.",
     icon: UserPlus
   },
   {
@@ -33,7 +33,7 @@ const levers: Lever[] = [
   },
   {
     title: "Marketing & Coerenza Esterna",
-    description: "Il vostro marketing racconta un'azienda che le persone interne non riconoscono. I clienti prima o poi se ne accorgono. Allineiamo chi siete dentro con quello che dite fuori — partendo da dentro.",
+    description: "Il marketing racconta un'azienda che le persone interne non riconoscono. I clienti lo percepiscono. I candidati lo scoprono dopo il primo mese. Il problema non è il messaggio: è che l'identità esterna è stata costruita senza partire da quella interna. Allineiamo chi siete dentro con quello che comunicate fuori. Partendo da dentro, non dall'esterno.",
     icon: Target
   },
   {
