@@ -26,8 +26,9 @@ const IndexEN = () => {
       <main>
         <HeroSectionEN />
         <ClientsSectionEN />
-        <ReferencesSectionEN />
         <ProblemSectionEN />
+        <HowWeWorkSectionEN />
+        <ReferencesSectionEN />
         <HowWeWorkSectionEN />
         <LeversSectionEN />
         <CasesSectionEN />
