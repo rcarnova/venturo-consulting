@@ -56,7 +56,7 @@ const AboutEN = () => {
                   About us
                 </p>
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-foreground">
-                Organizational culture is the most important promise a company makes. To the market and to its people.
+                Organizational culture is the most important promise a company makes.<br /> To the market and to its people.
                 </h1>
               </div>
             </AnimatedSection>
