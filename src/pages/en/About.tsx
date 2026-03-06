@@ -46,46 +46,71 @@ const AboutEN = () => {
         alternateUrls={{ it: "https://venturo.it/chi-siamo", en: "https://venturo.it/en/about" }}
       />
       <HeaderEN />
-      <main className="pt-32 pb-24 md:pt-40 md:pb-32">
-        <div className="container-wide">
-          {/* Intro Section */}
-          <AnimatedSection className="mb-16 md:mb-24">
-            <div className="max-w-2xl">
+      <main>
+        {/* Intro Section */}
+        <div className="pt-32 pb-16 md:pt-40 md:pb-24">
+          <div className="container-wide">
+            <AnimatedSection className="mb-16 md:mb-24">
+              <div className="max-w-2xl">
+                <p className="text-sm font-mono uppercase tracking-widest text-primary mb-4">
+                  About us
+                </p>
+                <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-foreground">
+                  We make visible what your organization already knows about itself.
+                </h1>
+              </div>
+            </AnimatedSection>
+
+            <AnimatedSection delay={100}>
+              <div className="max-w-3xl space-y-6">
+                <p className="text-lg text-muted-foreground leading-relaxed">
+                  Venturo was born from a conviction forged in the field: organizations that don't make their culture visible eventually struggle on two fronts. Externally, with a brand that fails to attract the right people. Internally, with people who struggle to recognize themselves in the values they live every day.
+                </p>
+                <p className="text-lg text-muted-foreground leading-relaxed">
+                  We come from both worlds. We know how organizational culture works and we know how to communicate it. Working on both dimensions together is not a strategic choice. It's the only way it makes sense.
+                </p>
+              </div>
+            </AnimatedSection>
+          </div>
+        </div>
+
+        {/* Why we work together — Hero section */}
+        <div className="bg-foreground py-20 md:py-32">
+          <div className="container-wide">
+            <AnimatedSection>
               <p className="text-sm font-mono uppercase tracking-widest text-primary mb-4">
-                About us
+                Synergy
               </p>
-              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-foreground">
-                We make visible what your organization already knows about itself.
-              </h1>
-            </div>
-          </AnimatedSection>
+              <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-background mb-10">
+                Why we work together
+              </h2>
+            </AnimatedSection>
 
-          <AnimatedSection delay={100}>
-            <div className="max-w-3xl space-y-6 mb-24">
-              <p className="text-lg text-muted-foreground leading-relaxed">
-                Venturo is a boutique consultancy that closes the gap between stated 
-                and lived organizational culture. We don't create aspirational values. 
-                We make explicit the culture that already exists.
-              </p>
-              <p className="text-lg text-muted-foreground leading-relaxed">
-                We work selectively with 3-5 clients per year — growing SMEs and large 
-                organizations, united by the same moment: when organizational culture 
-                becomes visible and urgent. Not for exclusivity, but because doing this 
-                work well requires time and genuine attention. We engage at moments when 
-                culture is most exposed: when someone makes a mistake, when decisions must 
-                be made under pressure, when promises meet reality.
-              </p>
-              <p className="text-lg text-muted-foreground leading-relaxed">
-                Our approach is maieutic. We surface authentic patterns from real 
-                stories, not from generic workshops. We work on three external pillars 
-                — Communication, Rituals, Leadership — supported by six internal 
-                operational levers. Surgical cultural design, not generic change management.
-              </p>
-            </div>
-          </AnimatedSection>
+            <AnimatedSection delay={100}>
+              <div className="max-w-3xl space-y-6">
+                <p className="text-lg text-background/80 leading-relaxed">
+                  Venturo was born from the convergence of three competencies that rarely speak to each other.
+                </p>
+                <p className="text-lg text-background/80 leading-relaxed">
+                  <strong className="text-background">Rosario</strong> brings culture from the inside — he lived in large organizations for 10 years at Oracle and methodized that experience into proprietary tools like the Smart Working Canvas. He knows that organizations don't change through top-down policies, but by consciously modifying everyday artifacts.
+                </p>
+                <p className="text-lg text-background/80 leading-relaxed">
+                  <strong className="text-background">Massimo</strong> brings narrative as method — he knows that stories reveal more than numbers, and that facilitating deep conversations is a specific competency. <Link to="/en/lumen" className="text-primary hover:underline">Lumen</Link>'s questions are not surveys — they are narrative emergence devices.
+                </p>
+                <p className="text-lg text-background/80 leading-relaxed">
+                  <strong className="text-background">Arianna</strong> brings design as materialization — she translates cultural insights into visual artifacts that communicate and reinforce deep meanings. She doesn't "design the logo after the culture has been defined" — she works simultaneously on culture and identity.
+                </p>
+                <p className="text-lg text-background/80 leading-relaxed">
+                  This combination allows us to do something few others do: work on culture as the infrastructure of the brand promise — what makes every external communication, every hire, every client proposal credible or false.
+                </p>
+              </div>
+            </AnimatedSection>
+          </div>
+        </div>
 
-          {/* Team Section */}
-          <div className="border-t border-border pt-16 md:pt-24">
+        {/* Team Section */}
+        <div className="py-16 md:py-24">
+          <div className="container-wide">
             <AnimatedSection>
               <div className="max-w-2xl mb-12">
                 <p className="text-sm font-mono uppercase tracking-widest text-primary mb-4">
@@ -143,40 +168,6 @@ const AboutEN = () => {
                 </AnimatedSection>
               ))}
             </div>
-          </div>
-
-          {/* Why we work together */}
-          <div className="border-t border-border mt-20 pt-16 md:pt-24">
-            <AnimatedSection>
-              <div className="max-w-2xl mb-8">
-                <p className="text-sm font-mono uppercase tracking-widest text-primary mb-4">
-                  Synergy
-                </p>
-                <h2 className="text-3xl md:text-4xl font-bold text-foreground">
-                  Why we work together
-                </h2>
-              </div>
-            </AnimatedSection>
-
-            <AnimatedSection delay={100}>
-              <div className="max-w-3xl space-y-6">
-                <p className="text-lg text-muted-foreground leading-relaxed">
-                  Venturo was born from the convergence of three competencies that rarely speak to each other.
-                </p>
-                <p className="text-lg text-muted-foreground leading-relaxed">
-                  <strong className="text-foreground">Rosario</strong> brings culture from the inside — he lived in large organizations for 10 years at Oracle and methodized that experience into proprietary tools like the Smart Working Canvas. He knows that organizations don't change through top-down policies, but by consciously modifying everyday artifacts.
-                </p>
-                <p className="text-lg text-muted-foreground leading-relaxed">
-                  <strong className="text-foreground">Massimo</strong> brings narrative as method — he knows that stories reveal more than numbers, and that facilitating deep conversations is a specific competency. <Link to="/en/lumen" className="text-primary hover:underline">Lumen</Link>'s questions are not surveys — they are narrative emergence devices.
-                </p>
-                <p className="text-lg text-muted-foreground leading-relaxed">
-                  <strong className="text-foreground">Arianna</strong> brings design as materialization — she translates cultural insights into visual artifacts that communicate and reinforce deep meanings. She doesn't "design the logo after the culture has been defined" — she works simultaneously on culture and identity.
-                </p>
-                <p className="text-lg text-muted-foreground leading-relaxed">
-                  This combination allows us to do something few others do: work on culture as the infrastructure of the brand promise — what makes every external communication, every hire, every client proposal credible or false.
-                </p>
-              </div>
-            </AnimatedSection>
           </div>
         </div>
       </main>
