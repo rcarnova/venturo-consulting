@@ -2,7 +2,7 @@ import AnimatedSection from "@/components/AnimatedSection";
 
 const WhyVenturoSectionEN = () => {
   return (
-    <section className="py-12 md:py-16 bg-muted/50">
+    <section className="pt-[80px] pb-[60px] bg-muted/50">
       <div className="container-wide px-6 md:px-8">
         <AnimatedSection>
           <div>

@@ -58,7 +58,7 @@ const ContactSection = () => {
   };
 
   return (
-    <section id="contact" className="section-padding bg-charcoal">
+    <section id="contact" className="pt-[80px] pb-20 md:pb-28 lg:pb-32 bg-charcoal">
       <div className="container-narrow">
         <AnimatedSection>
           <div className="text-center max-w-xl mx-auto mb-12">

@@ -3,7 +3,7 @@ import AnimatedSection from "./AnimatedSection";
 
 const ResultCallout = () => {
   return (
-    <section className="section-padding pb-0">
+    <section className="pt-[40px] pb-0">
       <div className="container-wide">
         <AnimatedSection animation="fade-up">
           <div 

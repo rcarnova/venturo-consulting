@@ -35,11 +35,11 @@ const services = [
 
 const HowWeWorkSection = () => {
   return (
-    <section id="come-lavoriamo" className="section-padding">
+    <section id="come-lavoriamo" className="pt-0 pb-[60px]">
       <div className="container-wide">
         {/* Sezione Lumen */}
         <AnimatedSection animation="fade-up" delay={400}>
-          <div className="mt-16 mb-16 rounded-2xl p-8 md:p-12 lg:p-16" style={{ background: 'linear-gradient(135deg, #1a1a1a 0%, #000000 100%)' }}>
+          <div className="mb-16 rounded-2xl p-8 md:p-12 lg:p-16" style={{ background: 'linear-gradient(135deg, #1a1a1a 0%, #000000 100%)' }}>
             <div className="grid md:grid-cols-5 gap-10 md:gap-12 items-start">
               {/* Colonna sinistra - 60% */}
               <div className="md:col-span-3">
