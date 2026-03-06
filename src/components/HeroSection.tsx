@@ -6,14 +6,14 @@ const HeroSection = () => {
   };
 
   return (
-    <section className="relative min-h-screen flex items-center pt-20 bg-background">
-      <div className="container-wide relative z-10">
+    <section className="relative min-h-screen flex items-center pt-20 bg-background overflow-x-hidden">
+      <div className="container-wide relative z-10 px-5 md:px-8">
         <div className="max-w-4xl">
-          <h1 className="text-hero tracking-tight text-foreground md:!text-[80px]">
+          <h1 className="text-[36px] md:!text-[80px] font-bold leading-[1.15] tracking-tight text-foreground">
             Ogni organizzazione ha un perché.<br />Noi lo rendiamo visibile.
           </h1>
           
-          <p className="text-body text-muted-foreground mt-8 max-w-none whitespace-nowrap animate-fade-up-delay-2" style={{ animationDelay: '6s' }}>
+          <p className="text-body text-muted-foreground mt-8 max-w-none md:whitespace-nowrap animate-fade-up-delay-2" style={{ animationDelay: '6s' }}>
             Le sfide culturali hanno sempre un dentro e un fuori. Venturo le attraversa.
           </p>
 
