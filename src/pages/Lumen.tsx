@@ -30,24 +30,24 @@ const Lumen = () => {
 
       <div className="bg-background">
         <div className="container-wide max-w-5xl py-8">
-          <Accordion type="multiple" className="space-y-4">
-            <AccordionItem value="techniques" className="border border-border rounded-xl px-6 overflow-hidden">
-              <AccordionTrigger className="text-xl md:text-2xl font-bold py-6 hover:no-underline">
+          <Accordion type="multiple" className="w-full space-y-4">
+            <AccordionItem value="techniques" className="border border-border rounded-xl overflow-hidden">
+              <AccordionTrigger className="text-xl md:text-2xl font-bold py-6 px-8 hover:no-underline">
                 Le tecniche che compongono Lumen
               </AccordionTrigger>
-              <AccordionContent className="pb-0">
-                <div className="-mx-6">
+              <AccordionContent>
+                <div className="px-8 pb-4">
                   <LumenTechniques embedded />
                 </div>
               </AccordionContent>
             </AccordionItem>
 
-            <AccordionItem value="challenges" className="border border-border rounded-xl px-6 overflow-hidden">
-              <AccordionTrigger className="text-xl md:text-2xl font-bold py-6 hover:no-underline">
+            <AccordionItem value="challenges" className="border border-border rounded-xl overflow-hidden">
+              <AccordionTrigger className="text-xl md:text-2xl font-bold py-6 px-8 hover:no-underline">
                 Le sfide che Lumen affronta
               </AccordionTrigger>
-              <AccordionContent className="pb-0">
-                <div className="-mx-6">
+              <AccordionContent>
+                <div className="px-8 pb-4">
                   <LumenChallenges embedded />
                 </div>
               </AccordionContent>
@@ -60,24 +60,24 @@ const Lumen = () => {
 
       <div className="bg-background">
         <div className="container-wide max-w-5xl py-8">
-          <Accordion type="multiple" className="space-y-4">
-            <AccordionItem value="formats" className="border border-border rounded-xl px-6 overflow-hidden">
-              <AccordionTrigger className="text-xl md:text-2xl font-bold py-6 hover:no-underline">
+          <Accordion type="multiple" className="w-full space-y-4">
+            <AccordionItem value="formats" className="border border-border rounded-xl overflow-hidden">
+              <AccordionTrigger className="text-xl md:text-2xl font-bold py-6 px-8 hover:no-underline">
                 Modalità di erogazione
               </AccordionTrigger>
-              <AccordionContent className="pb-0">
-                <div className="-mx-6">
+              <AccordionContent>
+                <div className="px-8 pb-4">
                   <LumenFormats embedded />
                 </div>
               </AccordionContent>
             </AccordionItem>
 
-            <AccordionItem value="fondamenti" className="border border-border rounded-xl px-6 overflow-hidden">
-              <AccordionTrigger className="text-xl md:text-2xl font-bold py-6 hover:no-underline">
+            <AccordionItem value="fondamenti" className="border border-border rounded-xl overflow-hidden">
+              <AccordionTrigger className="text-xl md:text-2xl font-bold py-6 px-8 hover:no-underline">
                 Fondamenti
               </AccordionTrigger>
-              <AccordionContent className="pb-0">
-                <div className="-mx-6">
+              <AccordionContent>
+                <div className="px-8 pb-4">
                   <LumenFondamenti embedded />
                 </div>
               </AccordionContent>
