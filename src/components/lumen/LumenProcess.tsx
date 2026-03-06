@@ -32,8 +32,8 @@ const LumenProcess = () => (
   <section className="py-24 bg-muted/40">
     <div className="container-wide max-w-5xl">
       <AnimatedSection>
-        <p className="font-mono text-xs uppercase tracking-widest text-primary mb-4">Come funziona</p>
-        <h2 className="text-3xl md:text-4xl font-bold mb-4">Dallo specchio all'azione</h2>
+        <p className="text-eyebrow font-mono text-primary mb-4">Come funziona</p>
+        <h2 className="text-section mb-4">Dallo specchio all'azione</h2>
         <p className="text-muted-foreground max-w-2xl mb-12 text-lg">
           Lumen non si esaurisce nella rilevazione. Ogni fase prepara la successiva,
           fino a trasformare la comprensione in progetto concreto.

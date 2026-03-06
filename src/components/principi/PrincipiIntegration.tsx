@@ -38,8 +38,8 @@ const PrincipiIntegration = ({ lang = "it" }: Props) => {
     <section className="py-24 bg-muted/40">
       <div className="container-wide max-w-5xl">
         <AnimatedSection>
-          <p className="font-mono text-xs uppercase tracking-widest text-primary mb-4">{t.label}</p>
-          <h2 className="text-3xl md:text-4xl font-bold mb-6">{t.title}</h2>
+          <p className="text-eyebrow font-mono text-primary mb-4">{t.label}</p>
+          <h2 className="text-section mb-6">{t.title}</h2>
           <p className="text-muted-foreground text-lg max-w-3xl mb-10 leading-relaxed">{t.intro}</p>
         </AnimatedSection>
 

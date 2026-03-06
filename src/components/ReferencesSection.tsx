@@ -9,13 +9,13 @@ const ReferencesSection = () => {
         {/* Header */}
         <AnimatedSection>
           <div className="max-w-4xl mx-auto text-center mb-20">
-            <p className="text-sm font-mono font-medium tracking-widest uppercase text-primary mb-4">
+            <p className="text-eyebrow font-mono text-primary mb-4">
               Referenze
             </p>
-            <h2 className="text-2xl md:text-3xl font-medium text-foreground leading-tight mb-6">
+            <h2 className="text-section text-foreground mb-6">
               Le aziende leader si fanno domande importanti
             </h2>
-            <p className="text-lg text-muted-foreground leading-relaxed max-w-3xl mx-auto">
+            <p className="text-body text-muted-foreground max-w-3xl mx-auto">
               Non "come miglioriamo i valori?", ma "quali valori viviamo già?".
               Non "come motiviamo le persone?", ma "perché le persone rimangono?".
               Ecco chi lavora con noi per rispondere a queste domande.
@@ -35,16 +35,16 @@ const ReferencesSection = () => {
                     alt="Ricehouse" 
                     className="h-5 md:h-6 w-auto brightness-0"
                   />
-                  <p className="text-sm text-muted-foreground mt-1">
+                  <p className="text-small text-muted-foreground mt-1">
                     Green Tech / Economia Circolare
                   </p>
                 </div>
 
-                <h3 className="text-2xl md:text-3xl font-medium leading-tight text-foreground">
+                <h3 className="text-subtitle text-foreground">
                   Dal riso alla bioedilizia: trovare persone che credono nel tuo perché
                 </h3>
 
-                <p className="text-muted-foreground leading-relaxed max-w-lg">
+                <p className="text-body text-muted-foreground max-w-lg">
                   Ricehouse trasforma gli scarti della lavorazione del riso in materiali
                   da costruzione sostenibili. Una startup dell'economia circolare con
                   una sfida chiara: come attrarre talenti quando lavori con paglia di riso?

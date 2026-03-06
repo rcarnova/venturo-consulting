@@ -73,7 +73,7 @@ const PrincipiSection = ({ sezione, index, lang = "it" }: PrincipiSectionProps) 
           <p className="font-mono text-xs uppercase tracking-widest text-primary mb-4">
             {String(index + 1).padStart(2, "0")}
           </p>
-          <h2 className="text-3xl md:text-4xl font-bold mb-4">{sezione.titolo}</h2>
+          <h2 className="text-section mb-4">{sezione.titolo}</h2>
           {sezione.intro && (
             <p className="text-muted-foreground text-lg leading-relaxed mb-10">
               {sezione.intro}

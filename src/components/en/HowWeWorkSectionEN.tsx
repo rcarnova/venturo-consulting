@@ -43,13 +43,13 @@ const HowWeWorkSectionEN = () => {
             <div className="grid md:grid-cols-5 gap-10 md:gap-12 items-start">
               {/* Left column - 60% */}
               <div className="md:col-span-3">
-                <span className="text-xs font-mono tracking-[0.2em] uppercase text-white/50">
+                <span className="text-eyebrow font-mono text-white/50">
                   Our method
                 </span>
-                <h3 className="text-2xl md:text-3xl font-medium text-white mt-4 mb-5">
+                <h3 className="text-section text-white mt-4 mb-5">
                   Lumen — We don't measure culture. We illuminate it.
                 </h3>
-                <p className="text-base md:text-lg leading-relaxed text-white/70 mb-6">
+                <p className="text-body text-white/70 mb-6">
                   Organizational culture is invisible precisely because it's omnipresent. Lumen is how we bring it to the surface — through stories, not questionnaires. The result is a faithful mirror of how people truly experience the organization.
                 </p>
                 <Link
@@ -64,7 +64,7 @@ const HowWeWorkSectionEN = () => {
               {/* Right column - 40% */}
               <div className="md:col-span-2">
                 <div className="rounded-xl bg-white/[0.06] border border-white/[0.08] p-6 md:p-8">
-                  <span className="text-xs font-mono tracking-[0.15em] uppercase text-white/40 block mb-4">
+                  <span className="text-eyebrow font-mono text-white/40 block mb-4">
                     One of the questions we ask
                   </span>
                   <p className="text-lg md:text-xl italic leading-relaxed text-white/90">

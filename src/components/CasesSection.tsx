@@ -11,7 +11,7 @@ const CasesSection = () => {
       <div className="container-wide">
         <AnimatedSection>
           <div className="text-center max-w-2xl mx-auto mb-12">
-            <GlowTitle className="text-2xl md:text-3xl font-medium text-charcoal">
+            <GlowTitle className="text-section text-charcoal">
               Risultati concreti
             </GlowTitle>
             <p className="text-subheadline mt-4">
@@ -43,7 +43,7 @@ const CasesSection = () => {
                         </span>
                       )}
                     </div>
-                    <h3 className="text-xl font-semibold text-charcoal mt-2">
+                    <h3 className="text-subtitle text-charcoal mt-2">
                       {caseStudy.result}
                     </h3>
                     {caseStudy.rating && (

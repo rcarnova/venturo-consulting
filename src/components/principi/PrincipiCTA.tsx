@@ -44,8 +44,8 @@ const PrincipiCTA = ({ lang = "it" }: Props) => {
     <section className="py-24 bg-background">
       <div className="container-wide max-w-3xl text-center">
         <AnimatedSection>
-          <p className="font-mono text-xs uppercase tracking-widest text-primary mb-6">{t.label}</p>
-          <h2 className="text-3xl md:text-4xl font-bold mb-6">{t.title}</h2>
+          <p className="text-eyebrow font-mono text-primary mb-6">{t.label}</p>
+          <h2 className="text-section mb-6">{t.title}</h2>
           <p className="text-muted-foreground text-lg mb-10 leading-relaxed">{t.desc}</p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button variant="hero" onClick={scrollToContact}>

@@ -52,7 +52,7 @@ const LeversSection = () => {
       <div className="container-wide">
         <AnimatedSection>
           <div className="text-center max-w-2xl mx-auto mb-12">
-            <GlowTitle className="text-2xl md:text-3xl font-medium text-primary-foreground" variant="light">
+            <GlowTitle className="text-section text-primary-foreground" variant="light">
               Le aree di intervento
             </GlowTitle>
             <p className="text-subheadline mt-4 text-primary-foreground/70">
@@ -105,10 +105,10 @@ const LeversSection = () => {
               className="bg-white rounded-xl p-8 md:p-12 border border-black/[0.06] shadow-[0_4px_12px_rgba(0,0,0,0.12)] animate-fade-in"
             >
               <ActiveIcon className="w-8 h-8 md:w-10 md:h-10 text-foreground mb-6" strokeWidth={1.5} />
-              <h3 className="text-xl md:text-2xl font-semibold text-foreground mb-4">
+              <h3 className="text-subtitle text-foreground mb-4">
                 {levers[activeIndex].title}
               </h3>
-              <p className="text-base md:text-lg text-muted-foreground leading-relaxed max-w-3xl">
+              <p className="text-body text-muted-foreground max-w-3xl">
                 {levers[activeIndex].description}
               </p>
             </div>

@@ -4,14 +4,14 @@ const LumenHeroEN = () => (
   <section className="pt-32 pb-24 bg-background">
     <div className="container-wide max-w-4xl">
       <AnimatedSection>
-        <p className="font-mono text-xs uppercase tracking-widest text-primary mb-6">Methodology</p>
-        <h1 className="text-5xl md:text-6xl font-bold leading-tight mb-8">
+        <p className="text-eyebrow font-mono text-primary mb-6">Methodology</p>
+        <h1 className="text-hero mb-8">
           We don't measure culture.<br />
           <span className="text-primary">We illuminate it.</span>
         </h1>
       </AnimatedSection>
       <AnimatedSection delay={100}>
-        <div className="space-y-5 text-lg text-muted-foreground max-w-3xl leading-relaxed">
+        <div className="space-y-5 text-body text-muted-foreground max-w-3xl">
           <p>
             Organizational culture is like water for those swimming in it: invisible precisely because
             it's everywhere. People breathe its unwritten rules every day, but struggle to name them.
