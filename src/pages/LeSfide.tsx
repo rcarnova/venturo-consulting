@@ -82,7 +82,7 @@ const LeSfide = () => {
               </p>
             </AnimatedSection>
             <AnimatedSection delay={100}>
-              <h1 className="text-hero text-foreground max-w-3xl">
+              <h1 className="text-hero md:!text-[52px] text-foreground max-w-3xl">
                 Rendere visibile il perché di un'organizzazione non è sempre semplice.
               </h1>
             </AnimatedSection>
