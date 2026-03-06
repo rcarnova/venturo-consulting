@@ -56,7 +56,7 @@ const ChiSiamo = () => {
                   Chi siamo
                 </p>
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-foreground">
-                La cultura organizzativa è la promessa più importante che un'azienda fa. Al mercato e alle sue persone.
+                La cultura organizzativa è la promessa più importante che un'azienda fa.<br /> Al mercato e alle sue persone.
                 </h1>
               </div>
             </AnimatedSection>
