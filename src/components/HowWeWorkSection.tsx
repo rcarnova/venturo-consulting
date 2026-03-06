@@ -37,42 +37,6 @@ const HowWeWorkSection = () => {
   return (
     <section id="come-lavoriamo" className="section-padding">
       <div className="container-wide">
-        <AnimatedSection>
-          <div className="text-center max-w-2xl mx-auto mb-16">
-            <GlowTitle className="text-2xl md:text-3xl font-medium text-charcoal">
-              Il nostro metodo
-            </GlowTitle>
-            <p className="text-subheadline mt-4">
-              Tre pilastri su cui costruiamo ogni intervento.
-            </p>
-          </div>
-        </AnimatedSection>
-
-        <div className="grid md:grid-cols-3 gap-6 lg:gap-8">
-          {services.map((service, index) => (
-            <AnimatedSection key={index} animation="scale" delay={index * 150}>
-              <div className="card-elevated group transition-all duration-300 h-full callout-glow hover:scale-[1.02]">
-                <div className="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center mb-6 group-hover:bg-primary/20 transition-colors">
-                  <service.icon className="w-6 h-6 text-primary" />
-                </div>
-                
-                <h3 className="text-xl font-semibold text-charcoal mb-4">
-                  {service.title}
-                </h3>
-                
-                <ul className="space-y-3">
-                  {service.items.map((item, idx) => (
-                    <li key={idx} className="flex items-start gap-3 text-muted-foreground">
-                      <span className="w-1.5 h-1.5 rounded-full bg-primary mt-2 flex-shrink-0" />
-                      <span>{item}</span>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            </AnimatedSection>
-          ))}
-        </div>
-
         {/* Sezione Lumen */}
         <AnimatedSection animation="fade-up" delay={400}>
           <div className="mt-16 mb-16 rounded-2xl p-8 md:p-12 lg:p-16" style={{ background: 'linear-gradient(135deg, #1a1a1a 0%, #000000 100%)' }}>
