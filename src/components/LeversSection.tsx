@@ -56,7 +56,7 @@ const LeversSection = () => {
               Le aree di intervento
             </GlowTitle>
             <p className="text-subheadline mt-4 text-primary-foreground/70">
-              Sei situazioni che riconosciamo spesso. E su cui sappiamo come lavorare.
+              Rendere visibile il perché di un'organizzazione non è sempre semplice. Ecco le sfide che riconosciamo più spesso.
             </p>
           </div>
         </AnimatedSection>
