@@ -13,11 +13,11 @@ interface Challenge {
 
 const challenges: Challenge[] = [
   {
-    title: "Talents leaving after 18 months",
+    title: "Your brand doesn't attract the right people",
     reframing:
-      "Talents don't leave because of the market or salary. They leave because the culture they found inside didn't match what they perceived from the outside. The problem isn't retention — it's cultural readability.",
+      "Candidates arrive with expectations that don't match reality. Or they don't arrive at all. The problem isn't the salary or the industry: it's that your brand communicates something generic that doesn't tell who you really are. The right people don't recognize themselves, and the wrong ones accept and leave after a year.",
     action:
-      "We make explicit who you really are, before someone figures it out on their own after a year.",
+      "We make your cultural identity readable from the very first touchpoint. Not with a campaign, but starting from who you really are.",
   },
   {
     title: "Delegation that doesn't work",
@@ -34,18 +34,18 @@ const challenges: Challenge[] = [
       "We identify which internal rituals and language are sabotaging innovation before it even starts.",
   },
   {
-    title: "Teams that don't understand each other because they speak different languages",
+    title: "Internal communication doesn't work because there's no shared language",
     reframing:
-      "It's not a communication problem. It's a problem of different cultures coexisting without knowing it — generations, functions, different company histories. Each group has its unspoken assumptions and no one has ever put them side by side.",
+      "Meetings that lead to no decisions. Emails that go unread. Messages interpreted differently from function to function. It's not a tools or channels problem: it's that different cultures coexist without ever having built a common vocabulary.",
     action:
       "We surface the invisible cultures that coexist within the same organization and build a shared language that respects them all.",
   },
   {
-    title: "Gap between promises to clients and internal reality",
+    title: "What you say outside doesn't match what you live inside",
     reframing:
-      "When marketing promises something that people inside don't experience, the problem isn't marketing. It's that the external identity was built without starting from the internal one. Clients feel it. Internal people feel it even more.",
+      "Marketing tells the story of a company that internal people don't recognize. Clients perceive it. Candidates discover it after the first month. The problem isn't the message: it's that the external identity was built without starting from the internal one.",
     action:
-      "We align who you are inside with what you say outside — starting from the inside, not the outside.",
+      "We align who you are inside with what you communicate outside. Starting from the inside, not the outside.",
   },
   {
     title: "Hybrid work without shared rules",

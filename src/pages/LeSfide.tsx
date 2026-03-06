@@ -13,11 +13,11 @@ interface Challenge {
 
 const challenges: Challenge[] = [
   {
-    title: "Talenti che abbandonano dopo 18 mesi",
+    title: "Il brand non attrae le persone giuste",
     reframing:
-      "I talenti non se ne vanno per il mercato o per lo stipendio. Se ne vanno perché la cultura che hanno trovato dentro non corrispondeva a quella che avevano percepito fuori. Il problema non è la retention, è la leggibilità culturale.",
+      "I candidati arrivano con aspettative che non corrispondono alla realtà. O non arrivano affatto. Il problema non è l'offerta economica né il settore: è che il brand comunica qualcosa di generico che non racconta chi siete davvero. Le persone giuste non si riconoscono, e quelle sbagliate accettano e se ne vanno dopo un anno.",
     action:
-      "Rendiamo esplicito chi siete davvero, prima che qualcuno lo scopra da solo dopo un anno.",
+      "Rendiamo la vostra identità culturale leggibile già dal primo contatto. Non con una campagna, ma partendo da chi siete davvero.",
   },
   {
     title: "Processo di delega che non funziona",
@@ -34,18 +34,18 @@ const challenges: Challenge[] = [
       "Identifichiamo quali rituali e linguaggi interni stanno sabotando l'innovazione prima ancora che parta.",
   },
   {
-    title: "Team che non si capiscono perché parlano lingue diverse",
+    title: "La comunicazione interna non funziona perché manca un linguaggio condiviso",
     reframing:
-      "Non è un problema di comunicazione. È un problema di culture diverse che convivono senza saperlo — generazioni, funzioni, storie aziendali diverse. Ogni gruppo ha le sue assunzioni non dette e nessuno le ha mai messe a confronto.",
+      "Riunioni che non portano a decisioni. Email che non vengono lette. Messaggi interpretati in modo diverso da funzione a funzione. Non è un problema di strumenti o di canali: è che convivono culture diverse che non hanno mai costruito un vocabolario comune.",
     action:
       "Facciamo emergere le culture invisibili che coesistono nella stessa organizzazione e costruiamo un linguaggio condiviso che le rispetti tutte.",
   },
   {
-    title: "Gap tra promesse ai clienti e realtà interna",
+    title: "Quello che dite fuori non corrisponde a quello che vivete dentro",
     reframing:
-      "Quando il marketing promette qualcosa che le persone interne non vivono, il problema non è il marketing. È che l'identità esterna è stata costruita senza partire da quella interna. I clienti lo sentono. Le persone interne lo sentono di più.",
+      "Il marketing racconta un'azienda che le persone interne non riconoscono. I clienti lo percepiscono. I candidati lo scoprono dopo il primo mese. Il problema non è il messaggio: è che l'identità esterna è stata costruita senza partire da quella interna.",
     action:
-      "Allineiamo chi siete dentro con quello che dite fuori — partendo da dentro, non dall'esterno.",
+      "Allineiamo chi siete dentro con quello che comunicate fuori. Partendo da dentro, non dall'esterno.",
   },
   {
     title: "Lavoro ibrido senza regole condivise",
