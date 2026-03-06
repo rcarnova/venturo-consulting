@@ -81,13 +81,8 @@ const Challenges = () => {
             </h1>
           </AnimatedSection>
           <AnimatedSection delay={150}>
-            <p className="mt-8 text-lg md:text-xl text-muted-foreground max-w-2xl leading-relaxed">
-              The organizations we work with aren't in crisis. They have
-              strategy, people, and intentions. But some things never get
-              unblocked.{" "}
-              <span className="text-foreground font-medium">
-                Usually it's not a process problem. It's a cultural problem.
-              </span>
+            <p className="mt-8 text-xl md:text-2xl text-foreground font-medium max-w-2xl leading-relaxed">
+              Making an organization's purpose visible isn't always simple. Here are the challenges we recognize most often.
             </p>
           </AnimatedSection>
         </section>

@@ -81,13 +81,8 @@ const LeSfide = () => {
             </h1>
           </AnimatedSection>
           <AnimatedSection delay={150}>
-            <p className="mt-8 text-lg md:text-xl text-muted-foreground max-w-2xl leading-relaxed">
-              Le organizzazioni che lavorano con noi non sono in crisi. Hanno
-              strategia, hanno persone, hanno intenzioni. Ma alcune cose non si
-              sbloccano mai.{" "}
-              <span className="text-foreground font-medium">
-                Di solito non è un problema di processo. È un problema culturale.
-              </span>
+            <p className="mt-8 text-xl md:text-2xl text-foreground font-medium max-w-2xl leading-relaxed">
+              Rendere visibile il perché di un'organizzazione non è sempre semplice. Ecco le sfide che riconosciamo più spesso.
             </p>
           </AnimatedSection>
         </section>
