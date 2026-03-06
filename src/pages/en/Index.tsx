@@ -1,16 +1,16 @@
 import { SEO } from "@/components/SEO";
 import HeaderEN from "@/components/en/HeaderEN";
 import HeroSectionEN from "@/components/en/HeroSectionEN";
-import ProblemSectionEN from "@/components/en/ProblemSectionEN";
+import WhyVenturoSectionEN from "@/components/en/WhyVenturoSectionEN";
 import HowWeWorkSectionEN from "@/components/en/HowWeWorkSectionEN";
+import ReferencesSectionEN from "@/components/en/ReferencesSectionEN";
 import LeversSectionEN from "@/components/en/LeversSectionEN";
 import CasesSectionEN from "@/components/en/CasesSectionEN";
-
 import PartnersSectionEN from "@/components/en/PartnersSectionEN";
+import TeamPreviewSectionEN from "@/components/en/TeamPreviewSectionEN";
 import ClientsSectionEN from "@/components/en/ClientsSectionEN";
 import ContactSectionEN from "@/components/en/ContactSectionEN";
 import FooterEN from "@/components/en/FooterEN";
-import ReferencesSectionEN from "@/components/en/ReferencesSectionEN";
 
 const IndexEN = () => {
   return (
@@ -26,13 +26,13 @@ const IndexEN = () => {
       <main>
         <HeroSectionEN />
         <ClientsSectionEN />
-        <ProblemSectionEN />
+        <WhyVenturoSectionEN />
         <HowWeWorkSectionEN />
         <ReferencesSectionEN />
-        <HowWeWorkSectionEN />
         <LeversSectionEN />
         <CasesSectionEN />
         <PartnersSectionEN />
+        <TeamPreviewSectionEN />
         <ContactSectionEN />
       </main>
       <FooterEN />
