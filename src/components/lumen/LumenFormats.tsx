@@ -1,12 +1,21 @@
 import AnimatedSection from "@/components/AnimatedSection";
 
-const LumenFormats = () => (
-  <section className="py-24 bg-background">
-    <div className="container-wide max-w-5xl">
-      <AnimatedSection>
-        <p className="font-mono text-xs uppercase tracking-widest text-primary mb-4">Modalità di erogazione</p>
-        <h2 className="text-3xl md:text-4xl font-bold mb-12">Due formati, un solo obiettivo.</h2>
-      </AnimatedSection>
+const LumenFormats = ({ embedded }: { embedded?: boolean }) => {
+  const Wrapper = embedded ? "div" : "section";
+  return (
+  <Wrapper className={embedded ? "pb-8" : "py-24 bg-background"}>
+    <div className={embedded ? "" : "container-wide max-w-5xl"}>
+      {!embedded && (
+        <AnimatedSection>
+          <p className="font-mono text-xs uppercase tracking-widest text-primary mb-4">Modalità di erogazione</p>
+          <h2 className="text-3xl md:text-4xl font-bold mb-12">Due formati, un solo obiettivo.</h2>
+        </AnimatedSection>
+      )}
+      {embedded && (
+        <AnimatedSection>
+          <h3 className="text-xl font-bold mb-8">Due formati, un solo obiettivo.</h3>
+        </AnimatedSection>
+      )}
 
       <div className="grid md:grid-cols-2 gap-8">
         {/* Essenziale */}
@@ -74,7 +83,8 @@ const LumenFormats = () => (
         </AnimatedSection>
       </div>
     </div>
-  </section>
-);
+  </Wrapper>
+  );
+};
 
 export default LumenFormats;
