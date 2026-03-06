@@ -9,7 +9,7 @@ const HeroSection = () => {
     <section className="relative min-h-screen flex items-center pt-20 bg-background">
       <div className="container-wide relative z-10">
         <div className="max-w-4xl">
-          <h1 className="text-hero tracking-tight text-foreground">
+          <h1 className="text-hero tracking-tight text-foreground md:!text-[80px]">
             Ogni organizzazione ha un perché.<br />Noi lo rendiamo visibile.
           </h1>
           
