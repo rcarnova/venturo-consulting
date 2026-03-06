@@ -72,19 +72,26 @@ const Challenges = () => {
       />
       <HeaderEN />
 
-      <main className="pt-28 md:pt-36 pb-24">
-        {/* Intro */}
-        <section className="container-narrow mb-20 md:mb-28">
-          <AnimatedSection>
-            <h1 className="text-2xl md:text-3xl font-medium text-foreground leading-tight">
-              The challenges
-            </h1>
-          </AnimatedSection>
-          <AnimatedSection delay={150}>
-            <p className="mt-8 text-xl md:text-2xl text-foreground font-medium max-w-2xl leading-relaxed">
-              Making an organization's purpose visible isn't always simple. Here are the challenges we recognize most often.
-            </p>
-          </AnimatedSection>
+      <main className="pb-24">
+        {/* Hero */}
+        <section className="pt-32 md:pt-44 pb-20 md:pb-28">
+          <div className="container-narrow">
+            <AnimatedSection>
+              <p className="text-xs md:text-sm font-mono uppercase tracking-widest text-muted-foreground mb-6">
+                The challenges
+              </p>
+            </AnimatedSection>
+            <AnimatedSection delay={100}>
+              <h1 className="text-3xl md:text-5xl font-medium text-foreground leading-tight max-w-3xl">
+                Making an organization's purpose visible isn't always simple.
+              </h1>
+            </AnimatedSection>
+            <AnimatedSection delay={200}>
+              <p className="mt-6 text-lg md:text-xl text-muted-foreground max-w-2xl leading-relaxed">
+                Here are the challenges we recognize most often.
+              </p>
+            </AnimatedSection>
+          </div>
         </section>
 
         {/* Challenges */}

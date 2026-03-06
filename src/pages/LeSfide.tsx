@@ -72,19 +72,26 @@ const LeSfide = () => {
       />
       <Header />
 
-      <main className="pt-28 md:pt-36 pb-24">
-        {/* Intro */}
-        <section className="container-narrow mb-20 md:mb-28">
-          <AnimatedSection>
-            <h1 className="text-2xl md:text-3xl font-medium text-foreground leading-tight">
-              Le sfide
-            </h1>
-          </AnimatedSection>
-          <AnimatedSection delay={150}>
-            <p className="mt-8 text-xl md:text-2xl text-foreground font-medium max-w-2xl leading-relaxed">
-              Rendere visibile il perché di un'organizzazione non è sempre semplice. Ecco le sfide che riconosciamo più spesso.
-            </p>
-          </AnimatedSection>
+      <main className="pb-24">
+        {/* Hero */}
+        <section className="pt-32 md:pt-44 pb-20 md:pb-28">
+          <div className="container-narrow">
+            <AnimatedSection>
+              <p className="text-xs md:text-sm font-mono uppercase tracking-widest text-muted-foreground mb-6">
+                Le sfide
+              </p>
+            </AnimatedSection>
+            <AnimatedSection delay={100}>
+              <h1 className="text-3xl md:text-5xl font-medium text-foreground leading-tight max-w-3xl">
+                Rendere visibile il perché di un'organizzazione non è sempre semplice.
+              </h1>
+            </AnimatedSection>
+            <AnimatedSection delay={200}>
+              <p className="mt-6 text-lg md:text-xl text-muted-foreground max-w-2xl leading-relaxed">
+                Ecco le sfide che riconosciamo più spesso.
+              </p>
+            </AnimatedSection>
+          </div>
         </section>
 
         {/* Challenges */}
