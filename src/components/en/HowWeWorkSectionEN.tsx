@@ -1,4 +1,4 @@
-import { Users, MessageSquare, Repeat, Package, ArrowRight } from "lucide-react";
+import { Users, MessageSquare, Repeat, ArrowRight } from "lucide-react";
 import { Link } from "react-router-dom";
 import AnimatedSection from "../AnimatedSection";
 import GlowTitle from "../GlowTitle";
@@ -112,27 +112,6 @@ const HowWeWorkSectionEN = () => {
           </div>
         </AnimatedSection>
 
-        {/* Final Callout - Concrete Artifacts */}
-        <AnimatedSection animation="fade-up" delay={450}>
-          <div 
-            className="mt-12 rounded-xl p-8 md:p-10 border-l-[6px] border-l-[#FF006E] flex flex-col md:flex-row items-center md:items-start gap-6 md:gap-8 transition-all duration-300 hover:scale-[1.02] hover:border-l-[8px] cursor-default group callout-glow"
-            style={{ 
-              background: 'linear-gradient(135deg, #1a1a1a 0%, #000000 100%)'
-            }}
-          >
-            <div className="flex-shrink-0">
-              <Package className="w-12 h-12 text-white opacity-90" />
-            </div>
-            <div className="text-center md:text-left">
-               <h3 className="text-xl md:text-2xl font-bold text-white mb-4">
-                 The result? Concrete artifacts
-              </h3>
-              <p className="text-base md:text-lg leading-relaxed text-white/90">
-                Our projects don't end with summary slides. We produce tools that stay in your company and get used: operational playbooks, decision canvases, toolkits for managers. We don't leave you with insights, we leave you with what you need to act.
-              </p>
-            </div>
-          </div>
-        </AnimatedSection>
       </div>
     </section>
   );
