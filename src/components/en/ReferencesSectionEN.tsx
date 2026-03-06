@@ -9,13 +9,13 @@ const ReferencesSectionEN = () => {
         {/* Header */}
         <AnimatedSection>
           <div className="max-w-4xl mx-auto text-center mb-20">
-            <p className="text-sm font-mono font-medium tracking-widest uppercase text-primary mb-4">
+            <p className="text-eyebrow font-mono text-primary mb-4">
               References
             </p>
-            <h2 className="text-2xl md:text-3xl font-medium text-foreground leading-tight mb-6">
+            <h2 className="text-section text-foreground mb-6">
               Leading companies ask important questions
             </h2>
-            <p className="text-lg text-muted-foreground leading-relaxed max-w-3xl mx-auto">
+            <p className="text-body text-muted-foreground max-w-3xl mx-auto">
               Not "how do we improve our values?", but "which values do we already live?".
               Not "how do we motivate people?", but "why do people stay?".
               Here's who works with us to answer these questions.
@@ -34,16 +34,16 @@ const ReferencesSectionEN = () => {
                     alt="Ricehouse" 
                     className="h-5 md:h-6 w-auto brightness-0"
                   />
-                  <p className="text-sm text-muted-foreground mt-1">
+                  <p className="text-small text-muted-foreground mt-1">
                     Green Tech / Circular Economy
                   </p>
                 </div>
 
-                <h3 className="text-2xl md:text-3xl font-medium leading-tight text-foreground">
+                <h3 className="text-subtitle text-foreground">
                   From rice to green building: finding people who believe in your why
                 </h3>
 
-                <p className="text-muted-foreground leading-relaxed max-w-lg">
+                <p className="text-body text-muted-foreground max-w-lg">
                   Ricehouse transforms rice processing waste into sustainable building
                   materials. A circular economy startup with a clear challenge: how do
                   you attract talent when you work with rice straw? Our job: employer

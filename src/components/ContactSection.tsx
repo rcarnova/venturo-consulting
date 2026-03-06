@@ -62,10 +62,10 @@ const ContactSection = () => {
       <div className="container-narrow">
         <AnimatedSection>
           <div className="text-center max-w-xl mx-auto mb-12">
-            <GlowTitle className="text-2xl md:text-3xl font-medium text-warm-white" variant="light">
+            <GlowTitle className="text-section text-warm-white" variant="light">
               Iniziamo a parlare
             </GlowTitle>
-            <p className="text-lg text-warm-white/70 mt-4">
+            <p className="text-body text-warm-white/70 mt-4">
               Raccontaci la tua sfida. Nessun impegno, solo una conversazione per capire se possiamo aiutarti.
             </p>
           </div>

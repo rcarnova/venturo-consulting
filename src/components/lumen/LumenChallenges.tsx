@@ -40,8 +40,8 @@ const LumenChallenges = ({ embedded }: { embedded?: boolean }) => {
     <div className={embedded ? "" : "container-wide max-w-5xl"}>
       {!embedded && (
         <AnimatedSection>
-          <p className="font-mono text-xs uppercase tracking-widest text-primary mb-4">Applicazioni</p>
-          <h2 className="text-3xl md:text-4xl font-bold mb-4">Le sfide che Lumen affronta</h2>
+          <p className="text-eyebrow font-mono text-primary mb-4">Applicazioni</p>
+          <h2 className="text-section mb-4">Le sfide che Lumen affronta</h2>
         </AnimatedSection>
       )}
       <AnimatedSection>

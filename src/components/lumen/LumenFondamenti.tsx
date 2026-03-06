@@ -43,8 +43,8 @@ const LumenFondamenti = ({ lang = "it", embedded }: Props) => {
       <div className={embedded ? "" : "container-wide max-w-4xl"}>
         {!embedded && (
           <AnimatedSection>
-            <p className="font-mono text-xs uppercase tracking-widest text-primary mb-4">{t.label}</p>
-            <h2 className="text-3xl md:text-4xl font-bold mb-2">{t.title}</h2>
+            <p className="text-eyebrow font-mono text-primary mb-4">{t.label}</p>
+            <h2 className="text-section mb-2">{t.title}</h2>
           </AnimatedSection>
         )}
         <AnimatedSection>

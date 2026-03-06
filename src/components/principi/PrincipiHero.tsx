@@ -26,11 +26,11 @@ const PrincipiHero = ({ lang = "it" }: PrincipiHeroProps) => {
     <section className="pt-32 pb-24 bg-background">
       <div className="container-wide max-w-4xl">
         <AnimatedSection>
-          <p className="font-mono text-xs uppercase tracking-widest text-primary mb-6">{t.label}</p>
-          <h1 className="text-5xl md:text-6xl font-bold leading-tight mb-8">{t.title}</h1>
+          <p className="text-eyebrow font-mono text-primary mb-6">{t.label}</p>
+          <h1 className="text-hero mb-8">{t.title}</h1>
         </AnimatedSection>
         <AnimatedSection delay={100}>
-          <div className="space-y-5 text-lg text-muted-foreground max-w-3xl leading-relaxed">
+          <div className="space-y-5 text-body text-muted-foreground max-w-3xl">
             <p>{t.p1}</p>
             <p>{t.p2}</p>
           </div>

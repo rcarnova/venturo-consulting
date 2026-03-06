@@ -153,17 +153,81 @@
     @apply max-w-7xl mx-auto px-5 md:px-8;
   }
 
-  /* Typography */
+  /* Typography Scale */
+  .text-hero {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1.15;
+  }
+  @media (min-width: 768px) {
+    .text-hero {
+      font-size: 64px;
+    }
+  }
+
   .text-display {
-    @apply text-4xl md:text-5xl lg:text-6xl font-medium leading-tight tracking-tight;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1.15;
+  }
+  @media (min-width: 768px) {
+    .text-display {
+      font-size: 64px;
+    }
+  }
+
+  .text-section {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 1.15;
+  }
+  @media (min-width: 768px) {
+    .text-section {
+      font-size: 44px;
+    }
+  }
+
+  .text-subtitle {
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 1.15;
+  }
+  @media (min-width: 768px) {
+    .text-subtitle {
+      font-size: 28px;
+    }
+  }
+
+  .text-body {
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 1.65;
+  }
+
+  .text-eyebrow {
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+  }
+
+  .text-small {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 1.65;
   }
 
   .text-subheadline {
-    @apply text-lg md:text-xl leading-relaxed text-muted-foreground;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 1.65;
+    @apply text-muted-foreground;
   }
 
   .text-body-large {
-    @apply text-lg leading-relaxed;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 1.65;
   }
 
   /* Cards */

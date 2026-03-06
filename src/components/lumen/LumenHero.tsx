@@ -4,14 +4,14 @@ const LumenHero = () => (
   <section className="pt-32 pb-24 bg-background">
     <div className="container-wide max-w-4xl">
       <AnimatedSection>
-        <p className="font-mono text-xs uppercase tracking-widest text-primary mb-6">Metodologia</p>
-        <h1 className="text-5xl md:text-6xl font-bold leading-tight mb-8">
+        <p className="text-eyebrow font-mono text-primary mb-6">Metodologia</p>
+        <h1 className="text-hero mb-8">
           Non misuriamo la cultura.<br />
           <span className="text-primary">La illuminiamo.</span>
         </h1>
       </AnimatedSection>
       <AnimatedSection delay={100}>
-        <div className="space-y-5 text-lg text-muted-foreground max-w-3xl leading-relaxed">
+        <div className="space-y-5 text-body text-muted-foreground max-w-3xl">
           <p>
             La cultura organizzativa è come l'acqua per chi ci nuota dentro: invisibile proprio perché
             onnipresente. Le persone respirano le sue regole non scritte ogni giorno, ma faticano a nominarle.

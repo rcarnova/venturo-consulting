@@ -14,8 +14,8 @@ const LumenCTA = () => (
   <section className="py-24 bg-muted/40">
     <div className="container-wide max-w-3xl text-center">
       <AnimatedSection>
-        <p className="font-mono text-xs uppercase tracking-widest text-primary mb-6">Prossimo passo</p>
-        <h2 className="text-3xl md:text-4xl font-bold mb-6">
+        <p className="text-eyebrow font-mono text-primary mb-6">Prossimo passo</p>
+        <h2 className="text-section mb-6">
           Volete vedere cosa emerge<br />quando le persone raccontano davvero?
         </h2>
         <p className="text-muted-foreground text-lg mb-10 leading-relaxed">

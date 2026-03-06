@@ -7,8 +7,8 @@ const LumenFormatsEN = ({ embedded }: { embedded?: boolean }) => {
     <div className={embedded ? "" : "container-wide max-w-5xl"}>
       {!embedded && (
         <AnimatedSection>
-          <p className="font-mono text-xs uppercase tracking-widest text-primary mb-4">Delivery formats</p>
-          <h2 className="text-3xl md:text-4xl font-bold mb-12">Two formats, one goal.</h2>
+          <p className="text-eyebrow font-mono text-primary mb-4">Delivery formats</p>
+          <h2 className="text-section mb-12">Two formats, one goal.</h2>
         </AnimatedSection>
       )}
       {embedded && (

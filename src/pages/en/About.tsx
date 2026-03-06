@@ -52,10 +52,10 @@ const AboutEN = () => {
           <div className="container-wide">
             <AnimatedSection className="mb-16 md:mb-24">
               <div className="max-w-2xl">
-                <p className="text-sm font-mono uppercase tracking-widest text-primary mb-4">
+                <p className="text-eyebrow font-mono text-primary mb-4">
                   About us
                 </p>
-              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-foreground">
+              <h1 className="text-hero text-foreground">
                 Organizational culture is the most important promise a company makes.<br /> To the market and to its people.
                 </h1>
               </div>
@@ -63,10 +63,10 @@ const AboutEN = () => {
 
             <AnimatedSection delay={100}>
               <div className="max-w-3xl space-y-6">
-                <p className="text-lg text-muted-foreground leading-relaxed">
+                 <p className="text-body text-muted-foreground">
                   Venturo was born from a conviction forged in the field: organizations that don't make their culture visible eventually struggle on two fronts. Externally, with a brand that fails to attract the right people. Internally, with people who struggle to recognize themselves in the values they live every day.
                 </p>
-                <p className="text-lg text-muted-foreground leading-relaxed">
+                <p className="text-body text-muted-foreground">
                   We come from both worlds. We know how organizational culture works and we know how to communicate it. Working on both dimensions together is not a strategic choice. It's the only way it makes sense.
                 </p>
               </div>
@@ -78,29 +78,29 @@ const AboutEN = () => {
         <div className="bg-foreground py-20 md:py-32">
           <div className="container-wide">
             <AnimatedSection>
-              <p className="text-sm font-mono uppercase tracking-widest text-primary-foreground/60 mb-4">
+              <p className="text-eyebrow font-mono text-primary-foreground/60 mb-4">
                 Synergy
               </p>
-              <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-background mb-10">
+              <h2 className="text-section text-background mb-10">
                 Why we work together
               </h2>
             </AnimatedSection>
 
             <AnimatedSection delay={100}>
               <div className="max-w-3xl space-y-6">
-                <p className="text-lg text-background/80 leading-relaxed">
+                 <p className="text-body text-background/80">
                   Venturo was born from the convergence of three competencies that rarely speak to each other.
                 </p>
-                <p className="text-lg text-background/80 leading-relaxed">
+                 <p className="text-body text-background/80">
                   <strong className="text-background">Rosario</strong> brings culture from the inside — he lived in large organizations for 10 years at Oracle and methodized that experience into proprietary tools like the Smart Working Canvas. He knows that organizations don't change through top-down policies, but by consciously modifying everyday artifacts.
                 </p>
-                <p className="text-lg text-background/80 leading-relaxed">
+                 <p className="text-body text-background/80">
                   <strong className="text-background">Massimo</strong> brings narrative as method — he knows that stories reveal more than numbers, and that facilitating deep conversations is a specific competency. <Link to="/en/lumen" className="text-background hover:underline">Lumen</Link>'s questions are not surveys — they are narrative emergence devices.
                 </p>
-                <p className="text-lg text-background/80 leading-relaxed">
+                 <p className="text-body text-background/80">
                   <strong className="text-background">Arianna</strong> brings design as materialization — she translates cultural insights into visual artifacts that communicate and reinforce deep meanings. She doesn't "design the logo after the culture has been defined" — she works simultaneously on culture and identity.
                 </p>
-                <p className="text-lg text-background/80 leading-relaxed">
+                <p className="text-body text-background/80">
                   This combination allows us to do something few others do: work on culture as the infrastructure of the brand promise — what makes every external communication, every hire, every client proposal credible or false.
                 </p>
               </div>
@@ -113,17 +113,17 @@ const AboutEN = () => {
           <div className="container-wide">
             <AnimatedSection>
               <div className="max-w-2xl mb-12">
-                <p className="text-sm font-mono uppercase tracking-widest text-primary mb-4">
+                <p className="text-eyebrow font-mono text-primary mb-4">
                   Team
                 </p>
-                <h2 className="text-3xl md:text-4xl font-bold text-foreground">
+                <h2 className="text-section text-foreground">
                   Partners
                 </h2>
               </div>
             </AnimatedSection>
 
             <AnimatedSection delay={50}>
-              <p className="text-lg text-muted-foreground leading-relaxed max-w-3xl mb-16">
+              <p className="text-body text-muted-foreground max-w-3xl mb-16">
                 We've known each other since 2013, when we co-founded Bottega Miller — a space for independent professionals with different talents. Venturo was born from that story.
               </p>
             </AnimatedSection>

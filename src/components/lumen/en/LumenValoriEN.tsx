@@ -4,8 +4,8 @@ const LumenValoriEN = () => (
   <section className="py-24 bg-background">
     <div className="container-wide max-w-5xl">
       <AnimatedSection>
-        <p className="font-mono text-xs uppercase tracking-widest text-primary mb-4">Positioning</p>
-        <h2 className="text-3xl md:text-4xl font-bold mb-4">Values as promises</h2>
+        <p className="text-eyebrow font-mono text-primary mb-4">Positioning</p>
+        <h2 className="text-section mb-4">Values as promises</h2>
         <p className="text-muted-foreground text-sm uppercase tracking-wide mb-8">
           Culture is the infrastructure of brand promise
         </p>

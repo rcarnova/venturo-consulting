@@ -77,17 +77,17 @@ const Challenges = () => {
         <section className="pt-32 md:pt-44 pb-20 md:pb-28">
           <div className="container-narrow">
             <AnimatedSection>
-              <p className="text-xs md:text-sm font-mono uppercase tracking-widest text-muted-foreground mb-6">
+              <p className="text-eyebrow font-mono text-muted-foreground mb-6">
                 The challenges
               </p>
             </AnimatedSection>
             <AnimatedSection delay={100}>
-              <h1 className="text-3xl md:text-5xl font-medium text-foreground leading-tight max-w-3xl">
+              <h1 className="text-hero text-foreground max-w-3xl">
                 Making an organization's purpose visible isn't always simple.
               </h1>
             </AnimatedSection>
             <AnimatedSection delay={200}>
-              <p className="mt-6 text-lg md:text-xl text-muted-foreground max-w-2xl leading-relaxed">
+              <p className="mt-6 text-body text-muted-foreground max-w-2xl">
                 Here are the challenges we recognize most often.
               </p>
             </AnimatedSection>
@@ -108,7 +108,7 @@ const Challenges = () => {
                     {String(index + 1).padStart(2, "0")}
                   </span>
                   <div className="relative">
-                    <h2 className="text-2xl md:text-3xl font-medium text-foreground leading-snug">
+                    <h2 className="text-section text-foreground leading-snug">
                       {challenge.title}
                     </h2>
                   </div>
@@ -116,7 +116,7 @@ const Challenges = () => {
 
                 {/* Reframing */}
                 <div className="space-y-6">
-                  <p className="text-base md:text-lg text-muted-foreground leading-relaxed">
+                  <p className="text-body text-muted-foreground">
                     {challenge.reframing}
                   </p>
 
@@ -137,7 +137,7 @@ const Challenges = () => {
         <section className="mt-20 md:mt-28 bg-charcoal">
           <div className="container-narrow py-20 md:py-24 text-center">
             <AnimatedSection>
-              <p className="text-2xl md:text-3xl font-medium text-warm-white leading-snug">
+              <p className="text-section text-warm-white leading-snug">
                 Do you recognize yourself in any of these situations?
               </p>
               <div className="mt-10">

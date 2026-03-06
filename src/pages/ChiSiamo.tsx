@@ -52,10 +52,10 @@ const ChiSiamo = () => {
           <div className="container-wide">
             <AnimatedSection className="mb-16 md:mb-24">
               <div className="max-w-2xl">
-                <p className="text-sm font-mono uppercase tracking-widest text-primary mb-4">
+                <p className="text-eyebrow font-mono text-primary mb-4">
                   Chi siamo
                 </p>
-              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-foreground">
+              <h1 className="text-hero text-foreground">
                 La cultura organizzativa è la promessa più importante che un'azienda fa.<br /> Al mercato e alle sue persone.
                 </h1>
               </div>
@@ -63,10 +63,10 @@ const ChiSiamo = () => {
 
             <AnimatedSection delay={100}>
               <div className="max-w-3xl space-y-6">
-                <p className="text-lg text-muted-foreground leading-relaxed">
+                 <p className="text-body text-muted-foreground">
                   Venturo nasce da una convinzione maturata sul campo: le organizzazioni che non rendono visibile la propria cultura si trovano prima o poi in difficoltà su due fronti. Fuori, con un brand che fatica ad attrarre le persone giuste. Dentro, con persone che faticano a riconoscersi nei valori che vivono ogni giorno.
                 </p>
-                <p className="text-lg text-muted-foreground leading-relaxed">
+                <p className="text-body text-muted-foreground">
                   Noi veniamo da entrambi i mondi. Sappiamo come funziona la cultura organizzativa e sappiamo come si comunica. Lavorare su entrambe le dimensioni insieme non è una scelta strategica. È l'unico modo in cui ha senso farlo.
                 </p>
               </div>
@@ -78,29 +78,29 @@ const ChiSiamo = () => {
         <div className="bg-foreground py-20 md:py-32">
           <div className="container-wide">
             <AnimatedSection>
-              <p className="text-sm font-mono uppercase tracking-widest text-primary-foreground/60 mb-4">
+              <p className="text-eyebrow font-mono text-primary-foreground/60 mb-4">
                 Sinergia
               </p>
-              <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-background mb-10">
+              <h2 className="text-section text-background mb-10">
                 Perché lavoriamo insieme
               </h2>
             </AnimatedSection>
 
             <AnimatedSection delay={100}>
               <div className="max-w-3xl space-y-6">
-                <p className="text-lg text-background/80 leading-relaxed">
+                 <p className="text-body text-background/80">
                   Venturo nasce dall'incontro di tre competenze che raramente dialogano.
                 </p>
-                <p className="text-lg text-background/80 leading-relaxed">
+                 <p className="text-body text-background/80">
                   <strong className="text-background">Rosario</strong> porta la cultura dall'interno — ha vissuto le grandi organizzazioni per 10 anni in Oracle e ha metodologizzato quel vissuto in strumenti proprietari come lo Smart Working Canvas. Sa che le organizzazioni non cambiano con policy dall'alto, ma modificando consapevolmente gli artefatti quotidiani.
                 </p>
-                <p className="text-lg text-background/80 leading-relaxed">
+                 <p className="text-body text-background/80">
                   <strong className="text-background">Massimo</strong> porta la narrazione come metodo — sa che le storie rivelano più dei numeri, e che facilitare conversazioni profonde è una competenza specifica. Le domande di <Link to="/lumen" className="text-background hover:underline">Lumen</Link> non sono questionari — sono dispositivi di emersione narrativa.
                 </p>
-                <p className="text-lg text-background/80 leading-relaxed">
+                 <p className="text-body text-background/80">
                   <strong className="text-background">Arianna</strong> porta il design come materializzazione — traduce insight culturali in artefatti visivi che comunicano e rinforzano significati profondi. Non "fa il logo dopo che la cultura è stata definita" — lavora simultaneamente su cultura e identità.
                 </p>
-                <p className="text-lg text-background/80 leading-relaxed">
+                <p className="text-body text-background/80">
                   Questa combinazione ci permette di fare qualcosa che pochi altri fanno: lavorare sulla cultura come infrastruttura della promessa di brand — ciò che rende credibile o falsa ogni comunicazione esterna, ogni selezione, ogni proposta al cliente.
                 </p>
               </div>
@@ -113,17 +113,17 @@ const ChiSiamo = () => {
           <div className="container-wide">
             <AnimatedSection>
               <div className="max-w-2xl mb-12">
-                <p className="text-sm font-mono uppercase tracking-widest text-primary mb-4">
+                <p className="text-eyebrow font-mono text-primary mb-4">
                   Team
                 </p>
-                <h2 className="text-3xl md:text-4xl font-bold text-foreground">
+                <h2 className="text-section text-foreground">
                   I partner
                 </h2>
               </div>
             </AnimatedSection>
 
             <AnimatedSection delay={50}>
-              <p className="text-lg text-muted-foreground leading-relaxed max-w-3xl mb-16">
+              <p className="text-body text-muted-foreground max-w-3xl mb-16">
                 Venturo nasce dall'incontro di tre partner con background ibridi, accomunati dalla stessa visione: rendere visibile la cultura che già esiste nelle organizzazioni.
               </p>
             </AnimatedSection>
