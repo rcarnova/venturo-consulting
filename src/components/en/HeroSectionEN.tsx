@@ -1,5 +1,4 @@
 import { Button } from "@/components/ui/button";
-import TypewriterIlluminate from "@/components/TypewriterIlluminate";
 
 const HeroSectionEN = () => {
   const scrollToContact = () => {
@@ -11,7 +10,7 @@ const HeroSectionEN = () => {
       <div className="container-wide relative z-10">
         <div className="max-w-4xl">
           <h1 className="text-[2.6rem] sm:text-6xl md:text-7xl lg:text-8xl font-bold leading-[0.95] tracking-tight text-foreground">
-            <TypewriterIlluminate words={['Communication', 'Rituals', 'Leadership']} />
+            Every organization has a why. We make it visible.
           </h1>
           
           <p className="text-lg md:text-xl text-muted-foreground mt-8 max-w-xl animate-fade-up-delay-2" style={{ animationDelay: '6s' }}>
