@@ -129,10 +129,15 @@ const LeSfide = () => {
                   </p>
 
                   {/* What we do — dark block */}
-                  <div className="bg-charcoal rounded-lg px-5 py-4 md:px-6 md:py-5 flex items-start gap-3">
-                    <ArrowRight className="w-4 h-4 text-warm-white/60 mt-1 flex-shrink-0" />
-                    <p className="text-base text-warm-white font-medium leading-relaxed">
-                      {challenge.action}
+                  <div className="bg-charcoal rounded-lg px-5 py-4 md:px-6 md:py-5">
+                    <div className="flex items-start gap-3">
+                      <ArrowRight className="w-4 h-4 text-warm-white/60 mt-1 flex-shrink-0" />
+                      <p className="text-base text-warm-white font-medium leading-relaxed">
+                        {challenge.action}
+                      </p>
+                    </div>
+                    <p className="mt-3 text-sm text-warm-white/50">
+                      Approccio: {challenge.approccio}
                     </p>
                   </div>
                 </div>
