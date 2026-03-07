@@ -2,10 +2,10 @@ import { useEffect } from "react";
 
 const EnglishMeta = () => {
   useEffect(() => {
-    document.title = "Venturo | Employer Branding & Organizational Culture Consulting";
+    document.title = "Venturo — Organizational Culture & Employer Branding Consulting";
     
     const metaDesc = document.querySelector('meta[name="description"]');
-    if (metaDesc) metaDesc.setAttribute("content", "Employer branding and organizational culture consulting. We help companies close the gap between declared and lived culture. Communication, rituals and leadership.");
+    if (metaDesc) metaDesc.setAttribute("content", "We make your organization's culture visible. Venturo works on employer branding, internal communication and cultural transformation for companies that want to attract and retain the right talent.");
 
     const ogTitle = document.querySelector('meta[property="og:title"]');
     if (ogTitle) ogTitle.setAttribute("content", "Venturo | Employer Branding & Organizational Culture Consulting");
