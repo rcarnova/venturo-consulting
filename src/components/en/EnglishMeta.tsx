@@ -8,16 +8,16 @@ const EnglishMeta = () => {
     if (metaDesc) metaDesc.setAttribute("content", "We make your organization's culture visible. Venturo works on employer branding, internal communication and cultural transformation for companies that want to attract and retain the right talent.");
 
     const ogTitle = document.querySelector('meta[property="og:title"]');
-    if (ogTitle) ogTitle.setAttribute("content", "Venturo | Employer Branding & Organizational Culture Consulting");
+    if (ogTitle) ogTitle.setAttribute("content", "Venturo — Organizational Culture & Employer Branding Consulting");
 
     const ogDesc = document.querySelector('meta[property="og:description"]');
-    if (ogDesc) ogDesc.setAttribute("content", "Employer branding and organizational culture consulting. We help companies close the gap between declared and lived culture. Communication, rituals and leadership.");
+    if (ogDesc) ogDesc.setAttribute("content", "We make your organization's culture visible. Venturo works on employer branding, internal communication and cultural transformation for companies that want to attract and retain the right talent.");
 
     const twTitle = document.querySelector('meta[name="twitter:title"]');
-    if (twTitle) twTitle.setAttribute("content", "Venturo | Employer Branding & Organizational Culture Consulting");
+    if (twTitle) twTitle.setAttribute("content", "Venturo — Organizational Culture & Employer Branding Consulting");
 
     const twDesc = document.querySelector('meta[name="twitter:description"]');
-    if (twDesc) twDesc.setAttribute("content", "Employer branding and organizational culture consulting. We help companies close the gap between declared and lived culture. Communication, rituals and leadership.");
+    if (twDesc) twDesc.setAttribute("content", "We make your organization's culture visible. Venturo works on employer branding, internal communication and cultural transformation for companies that want to attract and retain the right talent.");
 
     return () => {
       document.title = "Venturo | Comunicazione Rituali Leadership";
