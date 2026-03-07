@@ -32,38 +32,37 @@ const PartnersSection = () => {
           <h2 className="text-section text-foreground mb-2">
             Partner
           </h2>
-          <p className="text-base text-muted-foreground max-w-xl mx-auto">
-            Per progetti che richiedono employer intelligence strutturata, 
-            collaboriamo con partner tecnologici.
-          </p>
         </AnimatedSection>
 
-        <div className="flex flex-col items-center gap-6">
-          {partners.map((partner, index) => (
-            <AnimatedSection
-              key={partner.name}
-              animation="fade-up"
-              delay={index * 100}
-            >
+        <AnimatedSection animation="fade-up">
+          <div className="flex flex-col md:flex-row gap-8 items-start">
+            <div className="flex-1">
               <a
-                href={partner.link}
+                href="https://ingaze.ai"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="group flex flex-col items-center gap-3 hover:opacity-80 transition-opacity"
+                className="inline-block mb-4 hover:opacity-80 transition-opacity"
               >
                 <img
-                  src={partner.logo}
-                  alt={`${partner.name} logo`}
-                  className="h-8 md:h-10 w-auto object-contain opacity-70 group-hover:opacity-100 transition-opacity"
+                  src={logoIngaze}
+                  alt="Ingaze logo"
+                  className="h-8 md:h-10 w-auto object-contain"
                 />
-                <span className="text-xs text-muted-foreground group-hover:text-foreground transition-colors flex items-center gap-1">
-                  {partner.tagline}
-                  <ArrowRight className="w-3 h-3" />
-                </span>
               </a>
-            </AnimatedSection>
-          ))}
-        </div>
+              <p className="text-[16px] leading-[1.65] text-[#444444]">
+                Per i progetti che richiedono un ancoraggio ai dati, collaboriamo con Ingaze. Una piattaforma che dà accesso a insight reali, analisi del sentiment e confronti con i competitor. Per capire dalle recensioni cosa funziona davvero e cosa sta allontanando i talenti. Non uno strumento tecnico ma una partnership metodologica che rafforza ciò che Lumen illumina dall'interno.
+              </p>
+            </div>
+            <div className="flex-1 w-full">
+              <img
+                src="/partners/ingaze-dashboard.png"
+                alt="Ingaze dashboard"
+                className="w-full rounded-xl"
+                style={{ boxShadow: '0 4px 24px rgba(0,0,0,0.10)' }}
+              />
+            </div>
+          </div>
+        </AnimatedSection>
       </div>
     </section>
   );
