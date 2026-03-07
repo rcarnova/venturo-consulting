@@ -13,17 +13,17 @@ const HeroSection = () => {
             <span
               className="inline-block animate-[heroFadeUp_0.8s_ease-out_0.1s_both]"
             >
-              Ogni organizzazione ha un perché.
+              Ogni organizzazione ha un perché<span className="text-[75%]">.</span>
             </span>
             <br />
             <span
               className="inline-block animate-[heroBlurIn_1.2s_ease-out_0.8s_both]"
             >
-              Noi lo rendiamo visibile.
+              Noi lo rendiamo visibile<span className="text-[75%]">.</span>
             </span>
           </h1>
           
-          <p className="text-body text-muted-foreground mt-8 max-w-none md:whitespace-nowrap animate-fade-up-delay-2" style={{ animationDelay: '6s' }}>
+          <p className="text-[20px] leading-[1.65] text-[#444444] mt-8 max-w-none md:whitespace-nowrap animate-fade-up-delay-2" style={{ animationDelay: '6s' }}>
             Le sfide culturali hanno sempre un dentro e un fuori. Venturo le attraversa.
           </p>
 
