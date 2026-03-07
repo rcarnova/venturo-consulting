@@ -5,8 +5,8 @@ const CVEEN = () => {
   return (
     <>
       <SEO
-        title="CVE: Town Hall & Cultural Alignment"
-        description="Organizational culture case study: how CVE designed its first company-wide town hall to align 30 people on values and challenges after rapid growth."
+        title="Facilitation and organizational culture for an energy company — Venturo"
+        description="Design and facilitation of CVE's first company Town Hall. A landmark moment to align leadership and people on values and strategic direction."
         canonical="https://venturo.it/en/case-studies/cve"
         lang="en"
         alternateUrls={{
