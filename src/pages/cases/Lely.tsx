@@ -5,8 +5,8 @@ const Lely = () => {
   return (
     <>
       <SEO
-        title="Lely: Strumenti per gestire persone"
-        description="Caso studio consulenza organizzativa: come Lely ha dato strumenti concreti a manager tecnici per valutare collaboratori su comportamenti osservabili."
+        title="Leadership e gestione team per azienda manifatturiera — Venturo"
+        description="Framework pratico per manager tecnici che devono guidare team senza esperienza HR nel settore agricolo e manifatturiero."
         canonical="https://venturo.it/casi-studio/lely"
         lang="it"
         alternateUrls={{ it: "https://venturo.it/casi-studio/lely", en: "https://venturo.it/en/case-studies/lely" }}
