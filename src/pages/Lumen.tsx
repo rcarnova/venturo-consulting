@@ -19,8 +19,8 @@ const Lumen = () => {
   return (
     <>
       <SEO
-        title="Lumen - Metodologia per Cultura Organizzativa ed Employer Branding"
-        description="Lumen non misura la cultura aziendale: la illumina. Metodologia per employer branding autentico basata su interviste narrative, questionario e workshop (modello Schein)."
+        title="Lumen — Metodo di analisi della cultura organizzativa — Venturo"
+        description="Lumen è il metodo proprietario di Venturo per far emergere la cultura organizzativa attraverso storie, non questionari. Interviste narrative, workshop e specchio culturale."
         canonical="https://venturo.it/lumen"
         lang="it"
         alternateUrls={{ it: "https://venturo.it/lumen", en: "https://venturo.it/en/lumen" }}

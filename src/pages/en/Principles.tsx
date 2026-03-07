@@ -11,8 +11,8 @@ const Principles = () => {
   return (
     <>
       <SEO
-        title="Our Principles - Employer Branding & Organizational Culture Consulting | Venturo"
-        description="The books and principles that guide our approach: from Schein to Neumeier, from Kahneman to Kotter. Brand strategy, organizational culture and design thinking for authentic employer branding."
+        title="Our Principles — Venturo's Theoretical Foundations"
+        description="From Edgar Schein to Simon Sinek, from David Aaker to Daniel Kahneman. The established principles behind Venturo's cultural consulting method."
         canonical="https://venturo.it/en/principles"
         lang="en"
         alternateUrls={{ it: "https://venturo.it/principi", en: "https://venturo.it/en/principles" }}

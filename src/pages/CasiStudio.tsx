@@ -76,8 +76,8 @@ const CasiStudio = () => {
   return (
     <div className="min-h-screen bg-background">
       <SEO
-        title="Casi Studio"
-        description="Progetti di cultura organizzativa realizzati con aziende italiane. Employer branding, leadership, rituali e comunicazione interna."
+        title="Casi studio — Progetti di cultura organizzativa ed employer branding — Venturo"
+        description="Employer branding, comunicazione interna, naming strategico, facilitazione. Progetti reali in cui la cultura organizzativa è diventata visibile."
         canonical="https://venturo.it/casi-studio"
         lang="it"
         alternateUrls={{ it: "https://venturo.it/casi-studio", en: "https://venturo.it/en/case-studies" }}

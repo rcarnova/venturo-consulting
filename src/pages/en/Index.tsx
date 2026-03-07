@@ -17,8 +17,8 @@ const IndexEN = () => {
   return (
     <div className="min-h-screen bg-background">
       <SEO
-        title="Employer Branding & Organizational Culture Consulting"
-        description="Employer branding and organizational culture consulting. We help companies close the gap between declared and lived culture through communication, rituals and leadership."
+        title="Venturo — Organizational Culture & Employer Branding Consulting"
+        description="We make your organization's culture visible. Venturo works on employer branding, internal communication and cultural transformation for companies that want to attract and retain the right talent."
         canonical="https://venturo.it/en"
         lang="en"
         alternateUrls={{ it: "https://venturo.it", en: "https://venturo.it/en" }}
