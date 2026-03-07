@@ -13,13 +13,13 @@ const HeroSection = () => {
             <span
               className="inline-block animate-[heroFadeUp_0.8s_ease-out_0.1s_both]"
             >
-              Ogni organizzazione ha un perché.
+              Ogni organizzazione ha un perché<span className="text-[75%]">.</span>
             </span>
             <br />
             <span
               className="inline-block animate-[heroBlurIn_1.2s_ease-out_0.8s_both]"
             >
-              Noi lo rendiamo visibile.
+              Noi lo rendiamo visibile<span className="text-[75%]">.</span>
             </span>
           </h1>
           
