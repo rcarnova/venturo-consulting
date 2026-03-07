@@ -377,6 +377,28 @@
     animation: titleGlowLight 2s ease-out forwards;
   }
 }
+@keyframes heroFadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(16px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes heroBlurIn {
+  from {
+    opacity: 0;
+    filter: blur(12px);
+  }
+  to {
+    opacity: 1;
+    filter: blur(0px);
+  }
+}
+
 @keyframes fadeUp {
   from {
     opacity: 0;

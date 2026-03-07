@@ -10,7 +10,17 @@ const HeroSection = () => {
       <div className="container-wide relative z-10 px-5 md:px-8">
         <div className="max-w-4xl">
           <h1 className="text-[36px] md:!text-[80px] font-bold leading-[1.15] tracking-tight text-foreground">
-            Ogni organizzazione ha un perché.<br />Noi lo rendiamo visibile.
+            <span
+              className="inline-block animate-[heroFadeUp_0.8s_ease-out_0.1s_both]"
+            >
+              Ogni organizzazione ha un perché.
+            </span>
+            <br />
+            <span
+              className="inline-block animate-[heroBlurIn_1.2s_ease-out_0.8s_both]"
+            >
+              Noi lo rendiamo visibile.
+            </span>
           </h1>
           
           <p className="text-body text-muted-foreground mt-8 max-w-none md:whitespace-nowrap animate-fade-up-delay-2" style={{ animationDelay: '6s' }}>
