@@ -17,19 +17,9 @@ const levers: Lever[] = [
     icon: UserPlus
   },
   {
-    title: "Innovazione & AI Readiness",
-    description: "Avete investito in strumenti, formazione, hackathon. Ma le idee si fermano sempre allo stesso punto. Se la cultura interna punisce l'errore, nessuna tecnologia vi renderà innovativi. Lavoriamo sugli assunti invisibili che bloccano il cambiamento prima che parta.",
-    icon: Sparkles
-  },
-  {
-    title: "Generazioni al lavoro",
+    title: "Comunicazione Interna",
     description: "I senior difendono un modo di fare che ha funzionato. I nuovi arrivati ne portano un altro. Nessuno dei due ha torto, ma non si parlano. Facciamo emergere le culture diverse che convivono nella stessa organizzazione e costruiamo un linguaggio condiviso.",
     icon: Users2
-  },
-  {
-    title: "Cultura del Lavoro Ibrido",
-    description: "L'ibrido c'è, ma funziona come un compromesso più che come una scelta. La fiducia è fragile, la visibilità conta più del risultato. Progettiamo sistemi di responsabilità e fiducia che funzionano anche senza presenza fisica.",
-    icon: Home
   },
   {
     title: "Marketing & Coerenza Esterna",
@@ -37,9 +27,19 @@ const levers: Lever[] = [
     icon: Target
   },
   {
-    title: "Vendita & Relazione Cliente",
+    title: "Processo di Delega",
     description: "Il team commerciale vende in un modo che non somiglia all'azienda. Oppure la relazione col cliente dipende da una persona sola. In contesti B2B complessi, rendiamo il modello di vendita coerente con la vostra identità reale.",
     icon: Handshake
+  },
+  {
+    title: "Innovazione & AI Readiness",
+    description: "Avete investito in strumenti, formazione, hackathon. Ma le idee si fermano sempre allo stesso punto. Se la cultura interna punisce l'errore, nessuna tecnologia vi renderà innovativi. Lavoriamo sugli assunti invisibili che bloccano il cambiamento prima che parta.",
+    icon: Sparkles
+  },
+  {
+    title: "Cultura del Lavoro Ibrido",
+    description: "L'ibrido c'è, ma funziona come un compromesso più che come una scelta. La fiducia è fragile, la visibilità conta più del risultato. Progettiamo sistemi di responsabilità e fiducia che funzionano anche senza presenza fisica.",
+    icon: Home
   }
 ];
 
