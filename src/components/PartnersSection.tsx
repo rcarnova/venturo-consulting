@@ -1,28 +1,5 @@
-import { ArrowRight } from "lucide-react";
 import AnimatedSection from "./AnimatedSection";
 import logoIngaze from "@/assets/logo-ingaze.png";
-
-interface Partner {
-  name: string;
-  logo: string;
-  tagline: string;
-  description: string;
-  link: string;
-  linkText: string;
-}
-
-const partners: Partner[] = [
-  {
-    name: "Ingaze",
-    logo: logoIngaze,
-    tagline: "Employer intelligence & analytics",
-    description: `Quando servono dati strutturati su employer branding e talent attraction, Ingaze fornisce la piattaforma analytics. Noi traduciamo quei dati in strategie culturali applicabili.
-
-La partnership funziona così: Ingaze misura percezione e posizionamento employer, Venturo progetta gli interventi per colmare i gap emersi. Dati che diventano azione.`,
-    link: "https://ingaze.ai",
-    linkText: "Scopri Ingaze",
-  },
-];
 
 const PartnersSection = () => {
   return (
