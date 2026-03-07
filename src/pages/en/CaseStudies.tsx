@@ -77,8 +77,8 @@ const CaseStudies = () => {
   return (
     <div className="min-h-screen bg-background">
       <SEO
-        title="Case Studies"
-        description="Organizational culture projects with Italian companies. Employer branding, leadership, rituals and internal communication."
+        title="Case Studies — Organizational Culture & Employer Branding Projects — Venturo"
+        description="Employer branding, internal communication, strategic naming, facilitation. Real projects where organizational culture became visible."
         canonical="https://venturo.it/en/case-studies"
         lang="en"
         alternateUrls={{ it: "https://venturo.it/casi-studio", en: "https://venturo.it/en/case-studies" }}

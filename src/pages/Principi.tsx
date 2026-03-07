@@ -11,8 +11,8 @@ const Principi = () => {
   return (
     <>
       <SEO
-        title="I nostri principi - Consulenza Employer Branding e Cultura Organizzativa | Venturo"
-        description="I libri e i principi che guidano il nostro approccio: da Schein a Neumeier, da Kahneman a Kotter. Brand strategy, cultura organizzativa e design thinking al servizio dell'employer branding."
+        title="I nostri principi — Fondamenti teorici di Venturo"
+        description="Da Edgar Schein a Simon Sinek, da David Aaker a Daniel Kahneman. I principi consolidati su cui si basa il metodo Venturo per la consulenza culturale."
         canonical="https://venturo.it/principi"
         lang="it"
         alternateUrls={{ it: "https://venturo.it/principi", en: "https://venturo.it/en/principles" }}

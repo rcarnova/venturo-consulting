@@ -64,8 +64,8 @@ const Challenges = () => {
   return (
     <div className="min-h-screen bg-background">
       <SEO
-        title="Organizational Culture & Employer Branding Challenges"
-        description="Employer branding and organizational culture challenges: talent retention, delegation, innovation, hybrid work. Consulting to solve cultural problems, not process ones."
+        title="Organizational Culture Challenges — Venturo"
+        description="Talent leaving, ineffective internal communication, gap between external brand and internal culture. Recognize any of these? Here's how we address them."
         canonical="https://venturo.it/en/challenges"
         lang="en"
         alternateUrls={{ it: "https://venturo.it/le-sfide", en: "https://venturo.it/en/challenges" }}
