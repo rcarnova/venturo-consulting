@@ -5,8 +5,8 @@ const Ricehouse = () => {
   return (
     <>
       <SEO
-        title="Ricehouse: Employer Branding e Talent Attraction"
-        description="Caso studio employer branding: come Ricehouse ha migliorato l'attrazione di talenti qualificati grazie a una cultura organizzativa più esplicita e coerente."
+        title="Employer branding per startup green tech ed economia circolare — Venturo"
+        description="Come Ricehouse ha reso visibile la propria identità culturale per attrarre talenti che credono nell'economia circolare e nella bioedilizia."
         canonical="https://venturo.it/casi-studio/ricehouse"
         lang="it"
         alternateUrls={{ it: "https://venturo.it/casi-studio/ricehouse", en: "https://venturo.it/en/case-studies/ricehouse" }}
