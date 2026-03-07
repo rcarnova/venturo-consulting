@@ -15,7 +15,7 @@ const CasesSection = () => {
               Risultati concreti
             </GlowTitle>
             <p className="text-subheadline mt-4">
-              Alcuni esempi di trasformazioni culturali che abbiamo guidato.
+              Alcuni progetti in cui la cultura è diventata visibile.
             </p>
           </div>
         </AnimatedSection>
