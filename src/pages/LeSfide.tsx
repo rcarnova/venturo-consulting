@@ -9,6 +9,7 @@ interface Challenge {
   title: string;
   reframing: string;
   action: string;
+  approccio: string;
 }
 
 const challenges: Challenge[] = [
@@ -18,20 +19,7 @@ const challenges: Challenge[] = [
       "I candidati arrivano con aspettative che non corrispondono alla realtà. O non arrivano affatto. Il problema non è l'offerta economica né il settore: è che il brand comunica qualcosa di generico che non racconta chi siete davvero. Le persone giuste non si riconoscono, e quelle sbagliate accettano e se ne vanno dopo un anno.",
     action:
       "Rendiamo la vostra identità culturale leggibile già dal primo contatto. Non con una campagna, ma partendo da chi siete davvero.",
-  },
-  {
-    title: "Processo di delega che non funziona",
-    reframing:
-      "La delega non è un problema di processo o di strumenti. È un problema di fiducia culturale. Se l'errore non è permesso, nessuno si prende responsabilità. Se il potere non è mai stato distribuito davvero, nessun framework lo distribuirà. E senza una relazione solida tra manager e collaboratore, il feedback non passa e l'autonomia non attecchisce.",
-    action:
-      "Lavoriamo sulla qualità della relazione come infrastruttura necessaria per il feedback reale e per l'autonomia sostenibile. Non sul processo di delega in sé.",
-  },
-  {
-    title: "Innovazione che resta sulla carta",
-    reframing:
-      "L'innovazione non si blocca per mancanza di idee o di budget. Si blocca perché la cultura premia chi non sbaglia più di chi prova cose nuove. Cambiare tool o lanciare un hackathon non cambia questa equazione.",
-    action:
-      "Identifichiamo quali rituali e linguaggi interni stanno sabotando l'innovazione prima ancora che parta.",
+    approccio: "Lumen + Ingaze + Employer branding + Workshop identità culturale",
   },
   {
     title: "La comunicazione interna non funziona perché manca un linguaggio condiviso",
@@ -39,6 +27,7 @@ const challenges: Challenge[] = [
       "Riunioni che non portano a decisioni. Email che non vengono lette. Messaggi interpretati in modo diverso da funzione a funzione. Non è un problema di strumenti o di canali: è che convivono culture diverse che non hanno mai costruito un vocabolario comune.",
     action:
       "Facciamo emergere le culture invisibili che coesistono nella stessa organizzazione e costruiamo un linguaggio condiviso che le rispetti tutte.",
+    approccio: "Lumen + Comunicazione interna + Workshop team",
   },
   {
     title: "Quello che dite fuori non corrisponde a quello che vivete dentro",
@@ -46,6 +35,23 @@ const challenges: Challenge[] = [
       "Il marketing racconta un'azienda che le persone interne non riconoscono. I clienti lo percepiscono. I candidati lo scoprono dopo il primo mese. Il problema non è il messaggio: è che l'identità esterna è stata costruita senza partire da quella interna.",
     action:
       "Allineiamo chi siete dentro con quello che comunicate fuori. Partendo da dentro, non dall'esterno.",
+    approccio: "Lumen + Brand strategy",
+  },
+  {
+    title: "Processo di delega che non funziona",
+    reframing:
+      "La delega non è un problema di processo o di strumenti. È un problema di fiducia culturale. Se l'errore non è permesso, nessuno si prende responsabilità. Se il potere non è mai stato distribuito davvero, nessun framework lo distribuirà. E senza una relazione solida tra manager e collaboratore, il feedback non passa e l'autonomia non attecchisce.",
+    action:
+      "Lavoriamo sulla qualità della relazione come infrastruttura necessaria per il feedback reale e per l'autonomia sostenibile. Non sul processo di delega in sé.",
+    approccio: "Lumen + Coaching leadership",
+  },
+  {
+    title: "Innovazione che resta sulla carta",
+    reframing:
+      "L'innovazione non si blocca per mancanza di idee o di budget. Si blocca perché la cultura premia chi non sbaglia più di chi prova cose nuove. Cambiare tool o lanciare un hackathon non cambia questa equazione.",
+    action:
+      "Identifichiamo quali rituali e linguaggi interni stanno sabotando l'innovazione prima ancora che parta.",
+    approccio: "Lumen + Workshop rituali e linguaggi",
   },
   {
     title: "Lavoro ibrido senza regole condivise",
@@ -53,6 +59,7 @@ const challenges: Challenge[] = [
       "L'ibrido è entrato in azienda spesso senza che nessuno decidesse davvero cosa significa lavorare in modo smart. Il risultato sono le domande che circolano nei corridoi: perché Giorgio fa smart working e io no? Perché Milano può e noi no? Perché dipende dal mio capo? Quando le regole mancano o sono applicate in modo disomogeneo, il problema non è logistico. È motivazionale e generazionale — i talenti più giovani considerano la flessibilità una priorità non negoziabile, e se non la trovano, cercano altrove.",
     action:
       "Aiutiamo il board e i manager a rispondere a una domanda strategica: cosa significa davvero lavorare smart nella vostra organizzazione? Non come risolvere il lavoro da casa. Come renderlo una leva culturale consapevole.",
+    approccio: "Workshop strategico + Facilitazione board",
   },
 ];
 
@@ -122,10 +129,15 @@ const LeSfide = () => {
                   </p>
 
                   {/* What we do — dark block */}
-                  <div className="bg-charcoal rounded-lg px-5 py-4 md:px-6 md:py-5 flex items-start gap-3">
-                    <ArrowRight className="w-4 h-4 text-warm-white/60 mt-1 flex-shrink-0" />
-                    <p className="text-base text-warm-white font-medium leading-relaxed">
-                      {challenge.action}
+                  <div className="bg-charcoal rounded-lg px-5 py-4 md:px-6 md:py-5">
+                    <div className="flex items-start gap-3">
+                      <ArrowRight className="w-4 h-4 text-warm-white/60 mt-1 flex-shrink-0" />
+                      <p className="text-base text-warm-white font-medium leading-relaxed">
+                        {challenge.action}
+                      </p>
+                    </div>
+                    <p className="mt-3 text-sm text-warm-white/50">
+                      Approccio: {challenge.approccio}
                     </p>
                   </div>
                 </div>
