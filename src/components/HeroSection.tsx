@@ -23,7 +23,7 @@ const HeroSection = () => {
             </span>
           </h1>
           
-          <p className="text-body text-muted-foreground mt-8 max-w-none md:whitespace-nowrap animate-fade-up-delay-2" style={{ animationDelay: '6s' }}>
+          <p className="text-[20px] leading-[1.65] text-[#444444] mt-8 max-w-none md:whitespace-nowrap animate-fade-up-delay-2" style={{ animationDelay: '6s' }}>
             Le sfide culturali hanno sempre un dentro e un fuori. Venturo le attraversa.
           </p>
 
