@@ -5,8 +5,8 @@ const LelyEN = () => {
   return (
     <>
       <SEO
-        title="Lely: Concrete Tools for Managing People"
-        description="Organizational consulting case study: how Lely gave concrete tools to technical managers to evaluate collaborators on observable behaviors."
+        title="Leadership and team management for a manufacturing company — Venturo"
+        description="A practical framework for technical managers who need to lead teams without HR experience in the agricultural and manufacturing sector."
         canonical="https://venturo.it/en/case-studies/lely"
         lang="en"
         alternateUrls={{ it: "https://venturo.it/casi-studio/lely", en: "https://venturo.it/en/case-studies/lely" }}

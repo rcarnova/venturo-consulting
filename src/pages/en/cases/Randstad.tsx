@@ -5,8 +5,8 @@ const RandstadEN = () => {
   return (
     <>
       <SEO
-        title="Randstad: Employer Branding & Visible Culture"
-        description="Employer branding case study: how Randstad Italia translated company culture into credible content through employees' voices."
+        title="Employer branding and cultural identity for a recruiting agency — Venturo"
+        description="How we helped Randstad make its organizational culture visible to attract candidates more aligned with company values."
         canonical="https://venturo.it/en/case-studies/randstad"
         lang="en"
         alternateUrls={{ it: "https://venturo.it/casi-studio/randstad", en: "https://venturo.it/en/case-studies/randstad" }}
