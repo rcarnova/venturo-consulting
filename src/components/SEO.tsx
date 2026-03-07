@@ -20,7 +20,7 @@ export const SEO = ({
   lang = 'it',
   alternateUrls
 }: SEOProps) => {
-  const fullTitle = `${title} | Venturo`;
+  const fullTitle = title;
   
   return (
     <Helmet>
