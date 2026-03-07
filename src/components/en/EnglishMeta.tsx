@@ -20,12 +20,12 @@ const EnglishMeta = () => {
     if (twDesc) twDesc.setAttribute("content", "We make your organization's culture visible. Venturo works on employer branding, internal communication and cultural transformation for companies that want to attract and retain the right talent.");
 
     return () => {
-      document.title = "Venturo | Comunicazione Rituali Leadership";
-      if (metaDesc) metaDesc.setAttribute("content", "Comunicazione Rituali Leadership. La cultura non è quello che dite di essere. È quello che fate quando nessuno vi guarda. Consulenza culturale per aziende.");
-      if (ogTitle) ogTitle.setAttribute("content", "Venturo | Comunicazione Rituali Leadership");
-      if (ogDesc) ogDesc.setAttribute("content", "Comunicazione Rituali Leadership. La cultura non è quello che dite di essere. È quello che fate quando nessuno vi guarda. Consulenza culturale per aziende.");
-      if (twTitle) twTitle.setAttribute("content", "Venturo | Comunicazione Rituali Leadership");
-      if (twDesc) twDesc.setAttribute("content", "Comunicazione Rituali Leadership. La cultura non è quello che dite di essere. È quello che fate quando nessuno vi guarda. Consulenza culturale per aziende.");
+      document.title = "Venturo — Consulenza Cultura Organizzativa ed Employer Branding";
+      if (metaDesc) metaDesc.setAttribute("content", "Rendiamo visibile la cultura della tua organizzazione. Venturo lavora su employer branding, comunicazione interna e trasformazione culturale per aziende che vogliono attrarre e trattenere i talenti giusti.");
+      if (ogTitle) ogTitle.setAttribute("content", "Venturo — Consulenza Cultura Organizzativa ed Employer Branding");
+      if (ogDesc) ogDesc.setAttribute("content", "Rendiamo visibile la cultura della tua organizzazione. Venturo lavora su employer branding, comunicazione interna e trasformazione culturale per aziende che vogliono attrarre e trattenere i talenti giusti.");
+      if (twTitle) twTitle.setAttribute("content", "Venturo — Consulenza Cultura Organizzativa ed Employer Branding");
+      if (twDesc) twDesc.setAttribute("content", "Rendiamo visibile la cultura della tua organizzazione. Venturo lavora su employer branding, comunicazione interna e trasformazione culturale per aziende che vogliono attrarre e trattenere i talenti giusti.");
     };
   }, []);
 
