@@ -71,6 +71,11 @@ const LeadMagnetSection = () => {
               >
                 {isSubmitting ? "..." : "Scarica"}
               </Button>
+              {error && (
+                <p className="text-destructive text-sm sm:col-span-2">
+                  Qualcosa è andato storto. Riprova tra poco.
+                </p>
+              )}
             </form>
           </div>
         )}
