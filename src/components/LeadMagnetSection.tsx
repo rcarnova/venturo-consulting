@@ -1,23 +1,27 @@
 import { useState } from "react";
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
+import { supabase } from "@/integrations/supabase/client";
 
 const LeadMagnetSection = () => {
   const [email, setEmail] = useState("");
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [isSuccess, setIsSuccess] = useState(false);
+  const [error, setError] = useState(false);
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setIsSubmitting(true);
+    setError(false);
     try {
-      await fetch("/api/lead-magnet", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ email }),
+      const { data, error: fnError } = await supabase.functions.invoke('lead-magnet-signup', {
+        body: { email },
       });
-    } catch {}
-    setIsSuccess(true);
+      if (fnError || !data?.success) throw new Error("Failed");
+      setIsSuccess(true);
+    } catch {
+      setError(true);
+    }
     setIsSubmitting(false);
   };
 
