@@ -27,6 +27,11 @@ const IndexEN = () => {
       <main>
         <HeroSectionEN />
         <ClientsSectionEN />
+        <div className="flex justify-center px-6 pt-12 pb-12">
+          <p style={{ fontSize: '16px', color: '#555555', lineHeight: 1.6, maxWidth: '720px', textAlign: 'left', borderLeft: '3px solid #000000', paddingLeft: '20px' }}>
+            Venturo is a consulting firm specializing in organizational culture and employer branding. We work with Italian companies that want to make their cultural identity visible, to attract the right talent, align internal and external communication, and build organizations that are coherent with their values.
+          </p>
+        </div>
         <WhyVenturoSectionEN />
         <HowWeWorkSectionEN />
         <ReferencesSectionEN />

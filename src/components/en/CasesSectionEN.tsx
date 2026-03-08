@@ -47,8 +47,8 @@ const cases = [
   },
   {
     company: "Findomestic",
-    result: "Smart Working that actually works",
-    description: "Design and implementation of a hybrid work model with measurable impact on satisfaction and productivity.",
+    result: "From corporate language to unified conversation",
+    description: "Intensive workshop to unify language between customer service and social media team.",
     logo: "/logos/findomestic_white.png",
     logoScale: 2.5,
     slug: "findomestic",
@@ -61,11 +61,11 @@ const CasesSectionEN = () => {
       <div className="container-wide">
         <AnimatedSection>
           <div className="text-center max-w-2xl mx-auto mb-12">
-            <GlowTitle className="text-section text-charcoal">
+            <GlowTitle className="text-section text-charcoal md:!text-[40px]">
               Concrete results
             </GlowTitle>
             <p className="text-subheadline mt-4">
-              Some examples of cultural transformations we've guided.
+              Some projects where culture became visible.
             </p>
           </div>
         </AnimatedSection>
@@ -78,7 +78,7 @@ const CasesSectionEN = () => {
                   <div>
                     <div className="flex items-center gap-3 mb-2">
                       {caseStudy.logo && (
-                        <div className="bg-charcoal rounded px-3 py-1.5 inline-flex items-center justify-center">
+                        <div className="bg-charcoal rounded px-4 py-2.5 inline-flex items-center justify-center">
                           <img 
                             src={caseStudy.logo} 
                             alt={caseStudy.company} 

@@ -95,7 +95,7 @@ const ContactSectionEN = () => {
             </div>
             <div>
             <Textarea
-              placeholder="What cultural challenge are you facing?"
+              placeholder="Briefly describe the situation you want to address"
               value={formData.message}
               onChange={(e) => setFormData({ ...formData, message: e.target.value })}
               required

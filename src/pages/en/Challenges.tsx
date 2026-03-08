@@ -9,6 +9,7 @@ interface Challenge {
   title: string;
   reframing: string;
   action: string;
+  approccio: string;
 }
 
 const challenges: Challenge[] = [
@@ -18,20 +19,7 @@ const challenges: Challenge[] = [
       "Candidates arrive with expectations that don't match reality. Or they don't arrive at all. The problem isn't the salary or the industry: it's that your brand communicates something generic that doesn't tell who you really are. The right people don't recognize themselves, and the wrong ones accept and leave after a year.",
     action:
       "We make your cultural identity readable from the very first touchpoint. Not with a campaign, but starting from who you really are.",
-  },
-  {
-    title: "Delegation that doesn't work",
-    reframing:
-      "Delegation isn't a process or tools problem. It's a problem of cultural trust. If mistakes aren't allowed, no one takes responsibility. If power has never truly been distributed, no framework will distribute it. And without a solid relationship between manager and collaborator, feedback doesn't flow and autonomy doesn't take root.",
-    action:
-      "We work on the quality of the relationship as the necessary infrastructure for real feedback and sustainable autonomy. Not on the delegation process itself.",
-  },
-  {
-    title: "Innovation that stays on paper",
-    reframing:
-      "Innovation doesn't stall because of a lack of ideas or budget. It stalls because the culture rewards those who don't fail more than those who try new things. Changing tools or launching a hackathon doesn't change this equation.",
-    action:
-      "We identify which internal rituals and language are sabotaging innovation before it even starts.",
+    approccio: "Lumen + Ingaze + Employer branding + Cultural identity workshop",
   },
   {
     title: "Internal communication doesn't work because there's no shared language",
@@ -39,6 +27,7 @@ const challenges: Challenge[] = [
       "Meetings that lead to no decisions. Emails that go unread. Messages interpreted differently from function to function. It's not a tools or channels problem: it's that different cultures coexist without ever having built a common vocabulary.",
     action:
       "We surface the invisible cultures that coexist within the same organization and build a shared language that respects them all.",
+    approccio: "Lumen + Internal communication + Team workshop",
   },
   {
     title: "What you say outside doesn't match what you live inside",
@@ -46,6 +35,23 @@ const challenges: Challenge[] = [
       "Marketing tells the story of a company that internal people don't recognize. Clients perceive it. Candidates discover it after the first month. The problem isn't the message: it's that the external identity was built without starting from the internal one.",
     action:
       "We align who you are inside with what you communicate outside. Starting from the inside, not the outside.",
+    approccio: "Lumen + Brand strategy",
+  },
+  {
+    title: "Delegation that doesn't work",
+    reframing:
+      "Delegation isn't a process or tools problem. It's a problem of cultural trust. If mistakes aren't allowed, no one takes responsibility. If power has never truly been distributed, no framework will distribute it. And without a solid relationship between manager and collaborator, feedback doesn't flow and autonomy doesn't take root.",
+    action:
+      "We work on the quality of the relationship as the necessary infrastructure for real feedback and sustainable autonomy. Not on the delegation process itself.",
+    approccio: "Lumen + Leadership coaching",
+  },
+  {
+    title: "Innovation that stays on paper",
+    reframing:
+      "Innovation doesn't stall because of a lack of ideas or budget. It stalls because the culture rewards those who don't fail more than those who try new things. Changing tools or launching a hackathon doesn't change this equation.",
+    action:
+      "We identify which internal rituals and language are sabotaging innovation before it even starts.",
+    approccio: "Lumen + Rituals & language workshop",
   },
   {
     title: "Hybrid work without shared rules",
@@ -53,6 +59,7 @@ const challenges: Challenge[] = [
       "Hybrid work entered companies often without anyone truly deciding what working smart means. The result is questions circulating in the hallways: why does Giorgio get to work remotely and I don't? Why can Milan do it and we can't? Why does it depend on my boss? When rules are missing or applied inconsistently, the problem isn't logistical. It's motivational and generational — younger talents consider flexibility a non-negotiable priority, and if they don't find it, they look elsewhere.",
     action:
       "We help the board and managers answer a strategic question: what does working smart truly mean in your organization? Not how to solve working from home. How to make it a conscious cultural lever.",
+    approccio: "Strategic workshop + Board facilitation",
   },
 ];
 
@@ -82,7 +89,7 @@ const Challenges = () => {
               </p>
             </AnimatedSection>
             <AnimatedSection delay={100}>
-              <h1 className="text-hero text-foreground max-w-3xl">
+              <h1 className="text-hero md:!text-[52px] text-foreground max-w-3xl">
                 Making an organization's purpose visible isn't always simple.
               </h1>
             </AnimatedSection>
@@ -121,10 +128,15 @@ const Challenges = () => {
                   </p>
 
                   {/* What we do — dark block */}
-                  <div className="bg-charcoal rounded-lg px-5 py-4 md:px-6 md:py-5 flex items-start gap-3">
-                    <ArrowRight className="w-4 h-4 text-warm-white/60 mt-1 flex-shrink-0" />
-                    <p className="text-base text-warm-white font-medium leading-relaxed">
-                      {challenge.action}
+                  <div className="bg-charcoal rounded-lg px-5 py-4 md:px-6 md:py-5">
+                    <div className="flex items-start gap-3">
+                      <ArrowRight className="w-4 h-4 text-warm-white/60 mt-1 flex-shrink-0" />
+                      <p className="text-base text-warm-white font-medium leading-relaxed">
+                        {challenge.action}
+                      </p>
+                    </div>
+                    <p className="mt-3 text-sm text-warm-white/50">
+                      Approach: {challenge.approccio}
                     </p>
                   </div>
                 </div>

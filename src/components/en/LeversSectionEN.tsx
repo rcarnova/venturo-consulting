@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { UserPlus, Sparkles, Users2, Home, Target, Handshake, LucideIcon } from "lucide-react";
+import { Link } from "react-router-dom";
 import AnimatedSection from "../AnimatedSection";
 import GlowTitle from "../GlowTitle";
 
@@ -12,33 +13,33 @@ interface Lever {
 const levers: Lever[] = [
   {
     title: "Talent Attraction",
-    description: "Make your cultural identity explicit and verifiable from the interview. Candidates know what they're getting into, they don't discover it later.",
+    description: "Candidates arrive with expectations that don't match reality. Or they don't arrive at all. The problem isn't the salary or the industry: it's that your brand communicates something generic that doesn't tell who you really are. The right people don't recognize themselves, and the wrong ones accept and leave after a year.",
     icon: UserPlus
   },
   {
-    title: "Innovation & AI Readiness",
-    description: "Work on the cultural assumptions that block innovation. AI amplifies your culture: if mistakes aren't allowed, no tool will make you innovative.",
-    icon: Sparkles
-  },
-  {
-    title: "Generations at Work",
-    description: "Bridge the gap between old guard and new managers. Recognize the value of each culture, create shared language, design integration rituals.",
+    title: "Internal Communication",
+    description: "Seniors defend a way of doing things that has worked. Newcomers bring a different one. Neither is wrong, but they don't talk to each other. We surface the different cultures that coexist within the same organization and build a shared language.",
     icon: Users2
   },
   {
-    title: "Hybrid Work Culture",
-    description: "Transform hybrid work from a passive benefit to a strategic lever. Define trust and accountability systems that work without physical visibility.",
-    icon: Home
-  },
-  {
     title: "Marketing & External Coherence",
-    description: "Align internal identity with external promise. Marketing becomes credible when it represents reality, not aspiration.",
+    description: "Marketing tells the story of a company that internal people don't recognize. Clients perceive it. Candidates discover it after the first month. The problem isn't the message: it's that the external identity was built without starting from the internal one. We align who you are inside with what you communicate outside. Starting from the inside, not the outside.",
     icon: Target
   },
   {
-    title: "Sales & Client Relationships",
-    description: "Make your sales model coherent with your company identity. In complex B2B contexts, relationships are assets that must be protected.",
+    title: "Delegation Process",
+    description: "The sales team sells in a way that doesn't resemble the company. Or the client relationship depends on a single person. In complex B2B contexts, we make the sales model coherent with your real identity.",
     icon: Handshake
+  },
+  {
+    title: "Innovation & AI Readiness",
+    description: "You've invested in tools, training, hackathons. But ideas always stop at the same point. If the internal culture punishes mistakes, no technology will make you innovative. We work on the invisible assumptions that block change before it starts.",
+    icon: Sparkles
+  },
+  {
+    title: "Hybrid Work Culture",
+    description: "Hybrid work exists, but it works more as a compromise than a choice. Trust is fragile, visibility counts more than results. We design accountability and trust systems that work even without physical presence.",
+    icon: Home
   }
 ];
 
@@ -51,11 +52,11 @@ const LeversSectionEN = () => {
       <div className="container-wide">
         <AnimatedSection>
           <div className="text-center max-w-2xl mx-auto mb-12">
-            <GlowTitle className="text-section text-primary-foreground" variant="light">
+            <GlowTitle className="text-section text-primary-foreground md:!text-[40px]" variant="light">
               Intervention areas
             </GlowTitle>
             <p className="text-subheadline mt-4 text-primary-foreground/70">
-              The six concrete levers we act on inside your organizations.
+              Making an organization's purpose visible isn't always simple. Here are the challenges we recognize most often.
             </p>
           </div>
         </AnimatedSection>
@@ -68,7 +69,7 @@ const LeversSectionEN = () => {
               <button
                 key={index}
                 onClick={() => setActiveIndex(index)}
-                className={`flex-shrink-0 px-6 py-3 rounded-lg text-sm font-medium transition-all duration-200 whitespace-nowrap ${
+                className={`flex-shrink-0 px-6 py-3 rounded-lg text-sm font-medium transition-all duration-200 whitespace-nowrap glow-yellow ${
                   index === activeIndex
                     ? "bg-white text-foreground shadow-lg"
                     : "bg-transparent text-white border border-white/60 hover:border-white"
@@ -84,7 +85,7 @@ const LeversSectionEN = () => {
               <button
                 key={index}
                 onClick={() => setActiveIndex(index)}
-                className={`px-6 py-3 rounded-lg text-base font-medium transition-all duration-200 text-center ${
+                className={`px-6 py-3 rounded-lg text-base font-medium transition-all duration-200 text-center glow-yellow ${
                   index === activeIndex
                     ? "bg-white text-foreground shadow-lg"
                     : "bg-transparent text-white border border-white/60 hover:border-white"
@@ -111,6 +112,17 @@ const LeversSectionEN = () => {
                 {levers[activeIndex].description}
               </p>
             </div>
+          </div>
+        </AnimatedSection>
+
+        <AnimatedSection delay={600}>
+          <div className="text-center mt-16">
+            <Link
+              to="/en/challenges"
+              className="inline-flex items-center text-primary-foreground/90 hover:text-primary-foreground font-medium text-lg underline underline-offset-4 decoration-primary-foreground/40 hover:decoration-primary-foreground transition-all duration-300"
+            >
+              Recognize any of these situations? Read how we address them.
+            </Link>
           </div>
         </AnimatedSection>
       </div>
