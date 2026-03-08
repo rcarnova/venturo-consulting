@@ -44,10 +44,7 @@ const LeadMagnetSection = () => {
             </div>
 
             {/* Center — descriptor */}
-            <p className="text-muted-foreground whitespace-nowrap hidden lg:block" style={{ fontSize: "14px" }}>
-              Uno strumento per HR prima di lanciare una campagna.
-            </p>
-            <p className="text-muted-foreground lg:hidden" style={{ fontSize: "14px" }}>
+            <p className="text-muted-foreground mt-1" style={{ fontSize: "14px" }}>
               Uno strumento per HR prima di lanciare una campagna.
             </p>
 
