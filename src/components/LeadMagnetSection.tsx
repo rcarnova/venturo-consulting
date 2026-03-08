@@ -23,36 +23,34 @@ const LeadMagnetSection = () => {
 
   return (
     <section
-      className="py-7 border-t border-b"
+      className="py-9 border-t border-b"
       style={{ backgroundColor: "#F7F7F7", borderColor: "#E5E5E5" }}
     >
       <div className="container-narrow">
         {isSuccess ? (
-          <p className="font-display font-semibold text-foreground text-center text-sm">
+          <p className="font-display font-semibold text-foreground text-center" style={{ fontSize: "17px" }}>
             Controlla la tua email — la guida è in arrivo.
           </p>
         ) : (
-          <div className="flex flex-col lg:flex-row lg:items-center gap-4 lg:gap-8">
+          <div className="flex flex-col lg:flex-row lg:items-center gap-5 lg:gap-10">
             <img
               src="/guides/lead-magnet-cover.png"
               alt="Cover guida 10 domande sull'employer branding"
-              className="w-16 h-auto rounded-sm shrink-0 hidden sm:block"
+              className="w-20 h-auto rounded-sm shrink-0 hidden sm:block"
               style={{ boxShadow: "4px 6px 16px rgba(0,0,0,0.25), 1px 2px 4px rgba(0,0,0,0.12)" }}
             />
             <div className="shrink-0">
-              <span className="font-mono uppercase tracking-wider text-muted-foreground" style={{ fontSize: "11px" }}>
+              <span className="font-mono uppercase tracking-wider text-muted-foreground" style={{ fontSize: "13px" }}>
                 Guida gratuita
               </span>
-              <h2 className="font-display font-semibold text-foreground leading-snug mt-1" style={{ fontSize: "18px" }}>
+              <h2 className="font-display font-semibold text-foreground leading-snug mt-1" style={{ fontSize: "22px" }}>
                 10 domande sull'employer branding
               </h2>
-              <p className="text-muted-foreground mt-1" style={{ fontSize: "14px" }}>
+              <p className="text-muted-foreground mt-1" style={{ fontSize: "17px" }}>
                 Uno strumento per HR prima di lanciare una campagna.
               </p>
             </div>
 
-
-            {/* Right — form */}
             <form onSubmit={handleSubmit} className="flex flex-col sm:flex-row gap-2 lg:ml-auto shrink-0">
               <Input
                 type="email"
@@ -60,12 +58,12 @@ const LeadMagnetSection = () => {
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
                 required
-                className="h-10 bg-background border-border text-foreground placeholder:text-muted-foreground text-sm w-full sm:w-52"
+                className="h-12 bg-background border-border text-foreground placeholder:text-muted-foreground text-base w-full sm:w-64"
               />
               <Button
                 type="submit"
                 disabled={isSubmitting}
-                className="h-10 bg-primary text-primary-foreground hover:bg-primary/90 font-display font-semibold text-sm px-5 rounded-sm whitespace-nowrap"
+                className="h-12 bg-primary text-primary-foreground hover:bg-primary/90 font-display font-semibold text-base px-6 rounded-sm whitespace-nowrap"
               >
                 {isSubmitting ? "..." : "Scarica"}
               </Button>
@@ -73,7 +71,7 @@ const LeadMagnetSection = () => {
           </div>
         )}
         {!isSuccess && (
-          <p className="text-muted-foreground mt-2 lg:text-right" style={{ fontSize: "11px" }}>
+          <p className="text-muted-foreground mt-2 lg:text-right" style={{ fontSize: "13px" }}>
             Nessuno spam.
           </p>
         )}
