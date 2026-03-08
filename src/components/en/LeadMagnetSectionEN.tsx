@@ -36,7 +36,7 @@ const LeadMagnetSectionEN = () => {
             Check your email — the guide is on its way.
           </p>
         ) : (
-          <div className="flex flex-col lg:flex-row lg:items-center gap-5 lg:gap-10">
+          <div className="flex flex-col lg:flex-row lg:items-center gap-5 lg:gap-8 overflow-hidden">
             <img
               src="/guides/lead-magnet-cover.png"
               alt="Free guide cover: 10 employer branding questions to assess your organizational culture"
@@ -55,14 +55,14 @@ const LeadMagnetSectionEN = () => {
               </p>
             </div>
 
-            <form onSubmit={handleSubmit} className="flex flex-col sm:flex-row gap-2 lg:ml-auto shrink-0 w-full lg:w-auto">
+            <form onSubmit={handleSubmit} className="flex flex-col sm:flex-row gap-2 lg:ml-auto w-full lg:w-auto">
               <Input
                 type="email"
                 placeholder="Your email"
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
                 required
-                className="h-12 bg-background border-border text-foreground placeholder:text-muted-foreground text-base w-full sm:w-64"
+                className="h-12 bg-background border-border text-foreground placeholder:text-muted-foreground text-base w-full sm:w-52 lg:w-48"
               />
               <Button
                 type="submit"
