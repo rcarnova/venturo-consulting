@@ -13,13 +13,17 @@ const LeadMagnetSection = () => {
     e.preventDefault();
     setIsSubmitting(true);
     setError(false);
+    console.log("[LeadMagnet] Submitting email:", email);
     try {
       const { data, error: fnError } = await supabase.functions.invoke('lead-magnet-signup', {
         body: { email },
       });
+      console.log("[LeadMagnet] Response:", data, "Error:", fnError);
       if (fnError || !data?.success) throw new Error("Failed");
+      console.log("[LeadMagnet] Success!");
       setIsSuccess(true);
-    } catch {
+    } catch (err) {
+      console.error("[LeadMagnet] Caught error:", err);
       setError(true);
     }
     setIsSubmitting(false);
