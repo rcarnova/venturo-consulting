@@ -43,15 +43,14 @@ serve(async (req: Request) => {
       }),
     });
 
+    const brevoBody = await res.text();
+    console.log("Brevo /contacts status:", res.status, "body:", brevoBody);
+
     if (res.status === 204 || res.status === 201) {
       console.log("Contact added to Brevo (status " + res.status + "):", email);
-    } else {
-      const data = await res.json();
-      if (!res.ok) {
-        console.error("Brevo API error:", data);
-        throw new Error(data.message || "Failed to add contact to Brevo");
-      }
-      console.log("Contact added to Brevo:", email);
+    } else if (!res.ok) {
+      console.error("Brevo API error:", brevoBody);
+      throw new Error(brevoBody || "Failed to add contact to Brevo");
     }
 
     // Send transactional email with guide link
