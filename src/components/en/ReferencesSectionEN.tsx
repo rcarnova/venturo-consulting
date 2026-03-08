@@ -31,8 +31,11 @@ const ReferencesSectionEN = () => {
                 <div>
                   <img 
                     src="/logos/ricehouse_logo.png" 
-                    alt="Ricehouse" 
+                    alt="Ricehouse logo - circular economy green building startup" 
                     className="h-5 md:h-6 w-auto brightness-0"
+                    width={120}
+                    height={24}
+                    loading="lazy"
                   />
                   <p className="text-small text-muted-foreground mt-1">
                     Green Tech / Circular Economy
