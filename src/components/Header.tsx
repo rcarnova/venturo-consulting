@@ -49,22 +49,18 @@ const Header = () => {
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-md border-b border-border/50">
       <div className="container-wide flex items-center justify-between h-16 md:h-20">
-        <a href="/" className="relative h-6 md:h-8 flex items-center">
+        <a href="/" className="relative h-6 md:h-8 flex items-center" style={{ minWidth: scrolled ? 28 : 120 }}>
           <img
             src={logoVenturo}
             alt="Venturo - consulenza cultura organizzativa ed employer branding"
-            className="h-6 md:h-8 transition-opacity duration-300 ease-in-out"
+            className="h-6 md:h-8 w-auto object-contain transition-opacity duration-300 ease-in-out"
             style={{ opacity: scrolled ? 0 : 1 }}
-            width={140}
-            height={32}
           />
           <img
             src={logoV}
             alt="Venturo"
-            className="h-5 md:h-7 absolute left-0 transition-opacity duration-300 ease-in-out"
+            className="h-5 md:h-7 w-auto object-contain absolute left-0 top-1/2 -translate-y-1/2 transition-opacity duration-300 ease-in-out"
             style={{ opacity: scrolled ? 1 : 0 }}
-            width={28}
-            height={28}
           />
         </a>
         
