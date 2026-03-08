@@ -1,0 +1,67 @@
+import { serve } from "https://deno.land/std@0.190.0/http/server.ts";
+
+const BREVO_API_KEY = Deno.env.get("BREVO_API_KEY");
+
+const corsHeaders = {
+  "Access-Control-Allow-Origin": "*",
+  "Access-Control-Allow-Headers":
+    "authorization, x-client-info, apikey, content-type, x-supabase-client-platform, x-supabase-client-platform-version, x-supabase-client-runtime, x-supabase-client-runtime-version",
+};
+
+serve(async (req: Request) => {
+  if (req.method === "OPTIONS") {
+    return new Response(null, { headers: corsHeaders });
+  }
+
+  try {
+    if (!BREVO_API_KEY) {
+      throw new Error("BREVO_API_KEY is not configured");
+    }
+
+    const { email } = await req.json();
+
+    if (!email || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
+      return new Response(
+        JSON.stringify({ success: false, error: "Invalid email" }),
+        { status: 400, headers: { "Content-Type": "application/json", ...corsHeaders } }
+      );
+    }
+
+    const res = await fetch("https://api.brevo.com/v3/contacts", {
+      method: "POST",
+      headers: {
+        "api-key": BREVO_API_KEY,
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({
+        email,
+        listIds: [39],
+        updateEnabled: true,
+        attributes: {
+          SOURCE: "lead-magnet-employer-branding",
+        },
+      }),
+    });
+
+    const data = await res.json();
+
+    if (!res.ok && res.status !== 204) {
+      console.error("Brevo API error:", data);
+      throw new Error(data.message || "Failed to add contact to Brevo");
+    }
+
+    console.log("Contact added to Brevo:", email);
+
+    return new Response(JSON.stringify({ success: true }), {
+      status: 200,
+      headers: { "Content-Type": "application/json", ...corsHeaders },
+    });
+  } catch (error: unknown) {
+    console.error("Error in lead-magnet-signup:", error);
+    const msg = error instanceof Error ? error.message : "Unknown error";
+    return new Response(
+      JSON.stringify({ success: false, error: msg }),
+      { status: 500, headers: { "Content-Type": "application/json", ...corsHeaders } }
+    );
+  }
+});
