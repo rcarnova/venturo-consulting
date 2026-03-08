@@ -39,19 +39,19 @@ const LeadMagnetSectionEN = () => {
           <div className="flex flex-col lg:flex-row lg:items-center gap-5 lg:gap-10">
             <img
               src="/guides/lead-magnet-cover.png"
-              alt="Cover guide: 10 questions on employer branding"
+              alt="Free guide cover: 10 employer branding questions to assess your organizational culture"
               className="w-20 h-auto rounded-sm shrink-0 hidden sm:block"
               style={{ boxShadow: "4px 6px 16px rgba(0,0,0,0.25), 1px 2px 4px rgba(0,0,0,0.12)" }}
             />
             <div className="shrink-0">
               <span className="font-mono uppercase tracking-wider text-muted-foreground" style={{ fontSize: "13px" }}>
-                Free guide
+                Free guide — Employer Branding
               </span>
               <h2 className="font-display font-semibold text-foreground leading-snug mt-1" style={{ fontSize: "22px" }}>
-                10 questions on employer branding
+                10 questions on organizational culture before doing employer branding
               </h2>
               <p className="text-muted-foreground mt-1" style={{ fontSize: "17px" }}>
-                A practical tool for HR before launching a campaign.
+                A practical tool for HR and managers before launching a campaign.
               </p>
             </div>
 
