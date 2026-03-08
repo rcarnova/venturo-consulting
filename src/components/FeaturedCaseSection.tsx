@@ -15,8 +15,11 @@ const FeaturedCaseSection = () => {
                 <div>
                   <img 
                     src="/logos/randstad_blue.svg" 
-                    alt="Randstad" 
+                    alt="Logo Randstad - agenzia HR e recruiting" 
                     className="h-6 md:h-7 w-auto brightness-0"
+                    width={140}
+                    height={28}
+                    loading="lazy"
                   />
                   <p className="text-sm text-muted-foreground mt-1">
                     HR & Recruiting
