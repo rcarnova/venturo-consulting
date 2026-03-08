@@ -55,7 +55,7 @@ const LeadMagnetSectionEN = () => {
               </p>
             </div>
 
-            <form onSubmit={handleSubmit} className="flex flex-col sm:flex-row gap-2 lg:ml-auto shrink-0 w-full lg:w-auto">
+            <form onSubmit={handleSubmit} className="flex flex-col sm:flex-row gap-2 lg:ml-auto w-full lg:w-auto">
               <Input
                 type="email"
                 placeholder="Your email"
