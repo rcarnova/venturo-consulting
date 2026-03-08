@@ -62,7 +62,7 @@ const LeadMagnetSection = () => {
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
                 required
-                className="h-12 bg-background border-border text-foreground placeholder:text-muted-foreground text-base w-full sm:w-64"
+                className="h-12 bg-background border-border text-foreground placeholder:text-muted-foreground text-base w-full sm:w-52 lg:w-48"
               />
               <Button
                 type="submit"
