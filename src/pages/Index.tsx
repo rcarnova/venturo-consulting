@@ -17,8 +17,8 @@ const Index = () => {
   return (
     <div className="min-h-screen bg-background">
       <SEO
-        title="Venturo — Consulenza Cultura Organizzativa ed Employer Branding"
-        description="Rendiamo visibile la cultura della tua organizzazione. Venturo lavora su employer branding, comunicazione interna e trasformazione culturale per aziende che vogliono attrarre e trattenere i talenti giusti."
+        title="Venturo — Cultura Organizzativa ed Employer Branding"
+        description="Rendiamo visibile la cultura della tua organizzazione. Lavoriamo su employer branding, comunicazione interna e trasformazione culturale per attrarre i talenti giusti."
         canonical="https://venturo.it"
         lang="it"
         alternateUrls={{ it: "https://venturo.it", en: "https://venturo.it/en" }}
