@@ -45,10 +45,6 @@ const LeadMagnetSection = () => {
               </p>
             </div>
 
-            {/* Center — descriptor */}
-            <p className="text-muted-foreground mt-1" style={{ fontSize: "14px" }}>
-              Uno strumento per HR prima di lanciare una campagna.
-            </p>
 
             {/* Right — form */}
             <form onSubmit={handleSubmit} className="flex flex-col sm:flex-row gap-2 lg:ml-auto shrink-0">

@@ -40,14 +40,10 @@ const LeadMagnetSectionEN = () => {
               <h2 className="font-display font-semibold text-foreground leading-snug mt-1" style={{ fontSize: "18px" }}>
                 10 questions on employer branding
               </h2>
+              <p className="text-muted-foreground mt-1" style={{ fontSize: "14px" }}>
+                A practical tool for HR before launching a campaign.
+              </p>
             </div>
-
-            <p className="text-muted-foreground whitespace-nowrap hidden lg:block" style={{ fontSize: "14px" }}>
-              A practical tool for HR before launching a campaign.
-            </p>
-            <p className="text-muted-foreground lg:hidden" style={{ fontSize: "14px" }}>
-              A practical tool for HR before launching a campaign.
-            </p>
 
             <form onSubmit={handleSubmit} className="flex flex-col sm:flex-row gap-2 lg:ml-auto shrink-0">
               <Input
