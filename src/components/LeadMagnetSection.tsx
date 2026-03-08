@@ -33,7 +33,6 @@ const LeadMagnetSection = () => {
           </p>
         ) : (
           <div className="flex flex-col lg:flex-row lg:items-center gap-4 lg:gap-8">
-            {/* Left — label + title */}
             <div className="shrink-0">
               <span className="font-mono uppercase tracking-wider text-muted-foreground" style={{ fontSize: "11px" }}>
                 Guida gratuita
@@ -41,6 +40,9 @@ const LeadMagnetSection = () => {
               <h2 className="font-display font-semibold text-foreground leading-snug mt-1" style={{ fontSize: "18px" }}>
                 10 domande sull'employer branding
               </h2>
+              <p className="text-muted-foreground mt-1" style={{ fontSize: "14px" }}>
+                Uno strumento per HR prima di lanciare una campagna.
+              </p>
             </div>
 
             {/* Center — descriptor */}
