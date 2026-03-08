@@ -10,6 +10,7 @@ import ResultCalloutEN from "@/components/en/ResultCalloutEN";
 import PartnersSectionEN from "@/components/en/PartnersSectionEN";
 import TeamPreviewSectionEN from "@/components/en/TeamPreviewSectionEN";
 import ClientsSectionEN from "@/components/en/ClientsSectionEN";
+import LeadMagnetSectionEN from "@/components/en/LeadMagnetSectionEN";
 import ContactSectionEN from "@/components/en/ContactSectionEN";
 import FooterEN from "@/components/en/FooterEN";
 
@@ -40,6 +41,7 @@ const IndexEN = () => {
         <ResultCalloutEN />
         <PartnersSectionEN />
         <TeamPreviewSectionEN />
+        <LeadMagnetSectionEN />
         <ContactSectionEN />
       </main>
       <FooterEN />

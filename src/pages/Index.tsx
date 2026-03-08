@@ -11,6 +11,7 @@ import ResultCallout from "@/components/ResultCallout";
 import PartnersSection from "@/components/PartnersSection";
 import TeamPreviewSection from "@/components/TeamPreviewSection";
 import ClientsSection from "@/components/ClientsSection";
+import LeadMagnetSection from "@/components/LeadMagnetSection";
 import ContactSection from "@/components/ContactSection";
 import Footer from "@/components/Footer";
 
@@ -62,6 +63,7 @@ const Index = () => {
         <ResultCallout />
         <PartnersSection />
         <TeamPreviewSection />
+        <LeadMagnetSection />
         <ContactSection />
       </main>
       <Footer />
