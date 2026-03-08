@@ -23,6 +23,23 @@ const Index = () => {
         lang="it"
         alternateUrls={{ it: "https://venturo.it", en: "https://venturo.it/en" }}
       />
+      <script type="application/ld+json">{JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "ProfessionalService",
+        "name": "Venturo",
+        "url": "https://venturoconsulting.it",
+        "logo": "https://venturoconsulting.it/logo.png",
+        "email": "info@venturoconsulting.it",
+        "description": "Consulenza specializzata in cultura organizzativa ed employer branding. Rendiamo visibile il perché delle organizzazioni.",
+        "areaServed": "IT",
+        "knowsLanguage": ["it", "en"],
+        "sameAs": ["https://linkedin.com/company/venturo-consulting"],
+        "founder": [
+          { "@type": "Person", "name": "Rosario Carnovale" },
+          { "@type": "Person", "name": "Massimo Benedetti" },
+          { "@type": "Person", "name": "Arianna Barisan" }
+        ]
+      })}</script>
       <Header />
       <main>
         <HeroSection />
