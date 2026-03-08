@@ -52,6 +52,30 @@ serve(async (req: Request) => {
 
     console.log("Contact added to Brevo:", email);
 
+    // Send transactional email with guide link
+    const emailRes = await fetch("https://api.brevo.com/v3/smtp/email", {
+      method: "POST",
+      headers: {
+        "api-key": BREVO_API_KEY,
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({
+        to: [{ email }],
+        templateId: 13,
+        params: {
+          GUIDE_LINK: "https://drive.google.com/drive/folders/1CUZtF8UhfnGeZunjlHQ_tjEHoJ-yXMR8",
+        },
+      }),
+    });
+
+    if (!emailRes.ok) {
+      const emailData = await emailRes.json();
+      console.error("Brevo email send error:", emailData);
+      // Don't throw — contact was added, email send is best-effort
+    } else {
+      console.log("Guide email sent to:", email);
+    }
+
     return new Response(JSON.stringify({ success: true }), {
       status: 200,
       headers: { "Content-Type": "application/json", ...corsHeaders },
