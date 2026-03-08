@@ -35,7 +35,7 @@ serve(async (req: Request) => {
       },
       body: JSON.stringify({
         email,
-        listIds: [39],
+        listIds: [13],
         updateEnabled: true,
         attributes: {
           SOURCE: "lead-magnet-employer-branding",
