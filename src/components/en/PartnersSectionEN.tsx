@@ -23,8 +23,11 @@ const PartnersSectionEN = () => {
               >
                 <img
                   src={logoIngaze}
-                  alt="Ingaze logo"
+                  alt="Ingaze logo - AI-powered employer intelligence platform"
                   className="h-8 md:h-10 w-auto object-contain"
+                  width={120}
+                  height={40}
+                  loading="lazy"
                 />
               </a>
               <p className="text-[16px] leading-[1.65] text-muted-foreground">
@@ -34,9 +37,12 @@ const PartnersSectionEN = () => {
             <div className="flex-1 w-full">
               <img
                 src="/partners/ingaze-dashboard.png"
-                alt="Ingaze dashboard"
+                alt="Ingaze dashboard showing sentiment analysis and employer branding benchmarks"
                 className="w-full"
                 style={{ borderRadius: '12px', boxShadow: '0 4px 24px rgba(0,0,0,0.10)' }}
+                width={1200}
+                height={675}
+                loading="lazy"
               />
             </div>
           </div>

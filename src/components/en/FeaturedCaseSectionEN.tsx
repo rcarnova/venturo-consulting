@@ -15,8 +15,11 @@ const FeaturedCaseSectionEN = () => {
                 <div>
                   <img 
                     src="/logos/randstad_blue.svg" 
-                    alt="Randstad" 
+                    alt="Randstad logo - HR and recruiting agency" 
                     className="h-6 md:h-7 w-auto brightness-0"
+                    width={140}
+                    height={28}
+                    loading="lazy"
                   />
                   <p className="text-sm text-muted-foreground mt-1">
                     HR & Recruiting
@@ -64,6 +67,9 @@ const FeaturedCaseSectionEN = () => {
                   src="/cases/randstad-envisioning.jpg"
                   alt="Randstad Workshop - Participants working with visual thinking and materials on the table"
                   className="w-full h-[400px] md:h-[600px] object-cover rounded-lg"
+                  width={800}
+                  height={600}
+                  loading="lazy"
                 />
               </div>
             </div>

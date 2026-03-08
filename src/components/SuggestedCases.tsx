@@ -34,9 +34,12 @@ const SuggestedCases = ({ currentCaseId, allCases }: SuggestedCasesProps) => {
                         <div className="bg-charcoal rounded px-3 py-1.5 inline-flex items-center justify-center">
                           <img
                             src={caseStudy.logo}
-                            alt={caseStudy.company}
+                            alt={`Logo ${caseStudy.company}`}
                             className={`h-5 w-auto ${caseStudy.invertLogo ? "invert brightness-0 invert" : ""}`}
                             style={{ transform: `scale(${caseStudy.logoScale || 1})` }}
+                            width={80}
+                            height={20}
+                            loading="lazy"
                           />
                         </div>
                       ) : (

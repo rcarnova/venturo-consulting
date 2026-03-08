@@ -40,6 +40,9 @@ const ArticleCard = ({
             src={imageUrl}
             alt={title}
             className="w-full aspect-video object-cover transition-all duration-400 ease-out group-hover:scale-[1.03] group-hover:opacity-95"
+            width={600}
+            height={338}
+            loading="lazy"
           />
         </div>
 

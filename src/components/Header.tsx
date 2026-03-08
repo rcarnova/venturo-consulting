@@ -52,15 +52,19 @@ const Header = () => {
         <a href="/" className="relative h-6 md:h-8 flex items-center">
           <img
             src={logoVenturo}
-            alt="Venturo"
+            alt="Venturo - consulenza cultura organizzativa ed employer branding"
             className="h-6 md:h-8 transition-opacity duration-300 ease-in-out"
             style={{ opacity: scrolled ? 0 : 1 }}
+            width={140}
+            height={32}
           />
           <img
             src={logoV}
-            alt="V"
+            alt="Venturo"
             className="h-5 md:h-7 absolute left-0 transition-opacity duration-300 ease-in-out"
             style={{ opacity: scrolled ? 1 : 0 }}
+            width={28}
+            height={28}
           />
         </a>
         

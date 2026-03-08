@@ -37,8 +37,11 @@ const TeamPreviewSection = () => {
                 <div className="aspect-square overflow-hidden rounded-lg mb-5 bg-muted max-w-[280px] mx-auto">
                   <img
                     src={member.image}
-                    alt={member.name}
+                    alt={`${member.name} - Partner Venturo, consulenza cultura organizzativa`}
                     className="w-full h-full object-cover object-[center_30%] grayscale hover:grayscale-0 transition-all duration-500"
+                    width={280}
+                    height={280}
+                    loading="lazy"
                   />
                 </div>
                 <h3 className="text-xl font-bold text-foreground">{member.name}</h3>

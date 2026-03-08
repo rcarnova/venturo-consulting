@@ -31,8 +31,11 @@ const ReferencesSectionEN = () => {
                 <div>
                   <img 
                     src="/logos/ricehouse_logo.png" 
-                    alt="Ricehouse" 
+                    alt="Ricehouse logo - circular economy green building startup" 
                     className="h-5 md:h-6 w-auto brightness-0"
+                    width={120}
+                    height={24}
+                    loading="lazy"
                   />
                   <p className="text-small text-muted-foreground mt-1">
                     Green Tech / Circular Economy
@@ -83,6 +86,9 @@ const ReferencesSectionEN = () => {
                   src="/workshop/ricehouse-envisioning-1.jpg"
                   alt="Ricehouse Workshop - Envisioning session with the team to define identity and employer brand"
                   className="w-full h-[400px] md:h-[600px] object-cover rounded-lg"
+                  width={800}
+                  height={600}
+                  loading="lazy"
                 />
               </div>
             </div>

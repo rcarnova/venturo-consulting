@@ -42,9 +42,11 @@ const ClientsSectionEN = () => {
             >
               <img
                 src={client.logo}
-                alt={client.name}
+                alt={`${client.name} logo - Venturo client`}
                 style={{ transform: `scale(${client.scale})` }}
                 className={`max-w-full max-h-full object-contain opacity-60 hover:opacity-90 transition-opacity duration-300 ${client.invert ? 'invert brightness-0 invert' : ''}`}
+                width={150}
+                height={75}
               />
             </div>
           ))}

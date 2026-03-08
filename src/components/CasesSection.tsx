@@ -31,9 +31,12 @@ const CasesSection = () => {
                         <div className="bg-charcoal rounded px-4 py-2.5 inline-flex items-center justify-center">
                           <img 
                             src={caseStudy.logo} 
-                            alt={caseStudy.company} 
+                            alt={`Logo ${caseStudy.company}`} 
                             className={`h-5 w-auto ${caseStudy.invertLogo ? 'invert brightness-0 invert' : ''}`}
                             style={{ transform: `scale(${caseStudy.logoScale || 1})` }}
+                            width={80}
+                            height={20}
+                            loading="lazy"
                           />
                         </div>
                       )}
