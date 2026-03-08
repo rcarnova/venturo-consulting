@@ -28,7 +28,7 @@ const PartnersSectionEN = () => {
                 />
               </a>
               <p className="text-[16px] leading-[1.65] text-muted-foreground">
-                For projects requiring data-driven insights, we partner with Ingaze. A platform providing access to real insights, sentiment analysis and competitor benchmarks. To understand from reviews what truly works and what is driving talent away. Not a technical tool but a methodological partnership that strengthens what Lumen illuminates from within.
+                For projects requiring data-driven foundations, we partner with Ingaze. An employer intelligence platform providing access to real insights, sentiment analysis and competitor benchmarks. To understand from reviews what truly works and what is driving talent away from your organization. A methodological partnership that brings concrete data to employer branding strategy and strengthens what Lumen illuminates from within.
               </p>
             </div>
             <div className="flex-1 w-full">
