@@ -23,8 +23,11 @@ const PartnersSectionEN = () => {
               >
                 <img
                   src={logoIngaze}
-                  alt="Ingaze logo"
+                  alt="Ingaze logo - AI-powered employer intelligence platform"
                   className="h-8 md:h-10 w-auto object-contain"
+                  width={120}
+                  height={40}
+                  loading="lazy"
                 />
               </a>
               <p className="text-[16px] leading-[1.65] text-muted-foreground">
