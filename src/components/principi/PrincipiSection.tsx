@@ -90,7 +90,7 @@ const PrincipiSection = ({ sezione, index, lang = "it" }: PrincipiSectionProps) 
                 <AccordionItem
                   key={libro.titolo}
                   value={libro.titolo}
-                  className="border border-border rounded-xl overflow-hidden bg-background"
+                  className="border border-border rounded-xl overflow-hidden bg-background glow-yellow hover:scale-[1.02] transition-transform duration-300"
                 >
                   <AccordionTrigger className="px-8 py-6 hover:no-underline">
                     <div className="flex items-center gap-3 text-left">

@@ -85,7 +85,7 @@ const LeversSection = () => {
               <button
                 key={index}
                 onClick={() => setActiveIndex(index)}
-                className={`px-6 py-3 rounded-lg text-base font-medium transition-all duration-200 text-center ${
+                className={`px-6 py-3 rounded-lg text-base font-medium transition-all duration-200 text-center glow-yellow ${
                   index === activeIndex
                     ? "bg-white text-foreground shadow-lg"
                     : "bg-transparent text-white border border-white/60 hover:border-white"

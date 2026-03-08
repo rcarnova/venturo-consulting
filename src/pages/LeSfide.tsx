@@ -105,7 +105,7 @@ const LeSfide = () => {
         <section className="container-narrow space-y-0">
           {challenges.map((challenge, index) => (
             <AnimatedSection key={index} delay={index * 80}>
-              <div className="py-12 md:py-16 border-t border-border first:border-t-0 rounded-lg px-4 -mx-4 glow-row">
+              <div className="py-12 md:py-16 border-t border-border first:border-t-0 rounded-lg px-4 -mx-4 glow-row glow-yellow hover:scale-[1.02] transition-transform duration-300">
                 {/* Title with large background number */}
                 <div className="relative mb-6">
                   {/* Large decorative number */}
