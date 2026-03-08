@@ -36,7 +36,7 @@ const LeadMagnetSection = () => {
             Controlla la tua email — la guida è in arrivo.
           </p>
         ) : (
-          <div className="flex flex-col lg:flex-row lg:items-center gap-5 lg:gap-10">
+          <div className="flex flex-col lg:flex-row lg:items-center gap-5 lg:gap-8 overflow-hidden">
             <img
               src="/guides/lead-magnet-cover.png"
               alt="Copertina guida gratuita: 10 domande sull'employer branding per valutare la cultura organizzativa aziendale"
