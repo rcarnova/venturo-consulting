@@ -69,7 +69,7 @@ const LeversSection = () => {
               <button
                 key={index}
                 onClick={() => setActiveIndex(index)}
-                className={`flex-shrink-0 px-6 py-3 rounded-lg text-sm font-medium transition-all duration-200 whitespace-nowrap ${
+                className={`flex-shrink-0 px-6 py-3 rounded-lg text-sm font-medium transition-all duration-200 whitespace-nowrap glow-yellow ${
                   index === activeIndex
                     ? "bg-white text-foreground shadow-lg"
                     : "bg-transparent text-white border border-white/60 hover:border-white"
@@ -85,7 +85,7 @@ const LeversSection = () => {
               <button
                 key={index}
                 onClick={() => setActiveIndex(index)}
-                className={`px-6 py-3 rounded-lg text-base font-medium transition-all duration-200 text-center ${
+                className={`px-6 py-3 rounded-lg text-base font-medium transition-all duration-200 text-center glow-yellow ${
                   index === activeIndex
                     ? "bg-white text-foreground shadow-lg"
                     : "bg-transparent text-white border border-white/60 hover:border-white"
