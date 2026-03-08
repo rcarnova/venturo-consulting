@@ -1,4 +1,5 @@
 import { SEO } from "@/components/SEO";
+import { Helmet } from "react-helmet-async";
 import Header from "@/components/Header";
 import HeroSection from "@/components/HeroSection";
 import WhyVenturoSection from "@/components/WhyVenturoSection";
@@ -13,6 +14,24 @@ import ClientsSection from "@/components/ClientsSection";
 import ContactSection from "@/components/ContactSection";
 import Footer from "@/components/Footer";
 
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "ProfessionalService",
+  "name": "Venturo",
+  "url": "https://venturoconsulting.it",
+  "logo": "https://venturoconsulting.it/logo.png",
+  "email": "info@venturoconsulting.it",
+  "description": "Consulenza specializzata in cultura organizzativa ed employer branding. Rendiamo visibile il perché delle organizzazioni.",
+  "areaServed": "IT",
+  "knowsLanguage": ["it", "en"],
+  "sameAs": ["https://linkedin.com/company/venturo-consulting"],
+  "founder": [
+    { "@type": "Person", "name": "Rosario Carnovale" },
+    { "@type": "Person", "name": "Massimo Benedetti" },
+    { "@type": "Person", "name": "Arianna Barisan" }
+  ]
+};
+
 const Index = () => {
   return (
     <div className="min-h-screen bg-background">
@@ -23,6 +42,9 @@ const Index = () => {
         lang="it"
         alternateUrls={{ it: "https://venturo.it", en: "https://venturo.it/en" }}
       />
+      <Helmet>
+        <script type="application/ld+json">{JSON.stringify(jsonLd)}</script>
+      </Helmet>
       <Header />
       <main>
         <HeroSection />
