@@ -62,7 +62,7 @@ serve(async (req: Request) => {
       },
       body: JSON.stringify({
         to: [{ email }],
-        templateId: 13,
+        templateId: 40,
         params: {
           GUIDE_LINK: "https://drive.google.com/drive/folders/1CUZtF8UhfnGeZunjlHQ_tjEHoJ-yXMR8",
         },
