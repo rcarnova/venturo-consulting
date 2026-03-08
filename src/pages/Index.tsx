@@ -63,6 +63,7 @@ const Index = () => {
         <ResultCallout />
         <PartnersSection />
         <TeamPreviewSection />
+        <LeadMagnetSection />
         <ContactSection />
       </main>
       <Footer />

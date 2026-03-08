@@ -41,6 +41,7 @@ const IndexEN = () => {
         <ResultCalloutEN />
         <PartnersSectionEN />
         <TeamPreviewSectionEN />
+        <LeadMagnetSectionEN />
         <ContactSectionEN />
       </main>
       <FooterEN />
