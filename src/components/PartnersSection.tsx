@@ -28,7 +28,7 @@ const PartnersSection = () => {
                 />
               </a>
               <p className="text-[16px] leading-[1.65] text-muted-foreground">
-                Per i progetti che richiedono un ancoraggio ai dati, collaboriamo con Ingaze. Una piattaforma che dà accesso a insight reali, analisi del sentiment e confronti con i competitor. Per capire dalle recensioni cosa funziona davvero e cosa sta allontanando i talenti. Non uno strumento tecnico ma una partnership metodologica che rafforza ciò che Lumen illumina dall'interno.
+                Per i progetti che richiedono un ancoraggio ai dati, collaboriamo con Ingaze. Una piattaforma di employer intelligence che dà accesso a insight reali, analisi del sentiment e confronti con i competitor. Per capire dalle recensioni cosa funziona davvero e cosa sta allontanando i talenti dalla vostra organizzazione. Una partnership metodologica che porta dati concreti alla strategia di employer branding e rafforza ciò che Lumen illumina dall'interno.
               </p>
             </div>
             <div className="flex-1 w-full">
