@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 /* Venturo Design System - Cultural Consulting */
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300;400;500;600;700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+/* Fonts loaded via index.html with media=print trick for non-blocking load */
 
 @layer base {
   :root {
