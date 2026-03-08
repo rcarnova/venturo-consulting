@@ -36,7 +36,7 @@ const LeadMagnetSectionEN = () => {
             Check your email — the guide is on its way.
           </p>
         ) : (
-          <div className="flex flex-col lg:flex-row lg:items-center gap-5 lg:gap-10">
+          <div className="flex flex-col lg:flex-row lg:items-center gap-5 lg:gap-8 overflow-hidden">
             <img
               src="/guides/lead-magnet-cover.png"
               alt="Free guide cover: 10 employer branding questions to assess your organizational culture"
