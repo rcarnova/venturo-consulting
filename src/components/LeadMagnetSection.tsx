@@ -43,7 +43,7 @@ const LeadMagnetSection = () => {
               className="w-20 h-auto rounded-sm shrink-0 hidden sm:block"
               style={{ boxShadow: "4px 6px 16px rgba(0,0,0,0.25), 1px 2px 4px rgba(0,0,0,0.12)" }}
             />
-            <div className="shrink-0">
+            <div className="min-w-0 flex-1">
               <span className="font-mono uppercase tracking-wider text-muted-foreground" style={{ fontSize: "13px" }}>
                 Guida gratuita — Employer Branding
               </span>
@@ -55,7 +55,7 @@ const LeadMagnetSection = () => {
               </p>
             </div>
 
-            <form onSubmit={handleSubmit} className="flex flex-col sm:flex-row gap-2 lg:ml-auto shrink-0">
+            <form onSubmit={handleSubmit} className="flex flex-col sm:flex-row gap-2 lg:ml-auto shrink-0 w-full lg:w-auto">
               <Input
                 type="email"
                 placeholder="La tua email"
