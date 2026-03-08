@@ -70,11 +70,6 @@ const LeadMagnetSectionEN = () => {
             </form>
           </div>
         )}
-        {!isSuccess && (
-          <p className="text-muted-foreground mt-2 lg:text-right" style={{ fontSize: "13px" }}>
-            No spam.
-          </p>
-        )}
       </div>
     </section>
   );
