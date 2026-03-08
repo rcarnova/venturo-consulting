@@ -50,6 +50,8 @@ const ArticleLayout = ({
                   aspectRatio: "21/9",
                   maxHeight: "400px",
                 }}
+                width={1200}
+                height={514}
               />
             </div>
           </div>

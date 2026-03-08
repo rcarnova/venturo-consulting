@@ -29,12 +29,5 @@ export default defineConfig(({ mode }) => ({
     },
     cssCodeSplit: true,
     target: "es2020",
-    minify: "terser",
-    terserOptions: {
-      compress: {
-        drop_console: mode === "production",
-        drop_debugger: true,
-      },
-    },
   },
 }));

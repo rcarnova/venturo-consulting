@@ -86,6 +86,9 @@ const ReferencesSectionEN = () => {
                   src="/workshop/ricehouse-envisioning-1.jpg"
                   alt="Ricehouse Workshop - Envisioning session with the team to define identity and employer brand"
                   className="w-full h-[400px] md:h-[600px] object-cover rounded-lg"
+                  width={800}
+                  height={600}
+                  loading="lazy"
                 />
               </div>
             </div>

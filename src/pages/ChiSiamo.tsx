@@ -135,8 +135,11 @@ const ChiSiamo = () => {
                     <div className="aspect-square overflow-hidden rounded-lg mb-6 bg-muted">
                       <img
                         src={member.image}
-                        alt={member.name}
+                        alt={`${member.name} - ${member.title}, Partner Venturo`}
                         className="w-full h-full object-cover object-[center_30%] grayscale group-hover:grayscale-0 transition-all duration-500"
+                        width={400}
+                        height={400}
+                        loading="lazy"
                       />
                     </div>
                     <div className="space-y-1">

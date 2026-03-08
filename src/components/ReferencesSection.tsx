@@ -86,8 +86,11 @@ const ReferencesSection = () => {
               <div className="order-first md:order-last">
                 <img
                   src="/workshop/ricehouse-envisioning-1.jpg"
-                  alt="Workshop Ricehouse - Envisioning con il team per definire identità e employer brand"
+                  alt="Workshop Ricehouse - Sessione di envisioning con il team per definire identità e employer brand"
                   className="w-full h-[400px] md:h-[600px] object-cover rounded-lg"
+                  width={800}
+                  height={600}
+                  loading="lazy"
                 />
               </div>
             </div>

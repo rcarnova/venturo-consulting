@@ -41,7 +41,7 @@ const HeaderEN = () => {
     <header className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-md border-b border-border/50">
       <div className="container-wide flex items-center justify-between h-16 md:h-20">
         <a href="/en">
-          <img src={logoVenturo} alt="Venturo" className="h-6 md:h-8" />
+          <img src={logoVenturo} alt="Venturo - organizational culture and employer branding consulting" className="h-6 md:h-8" width={140} height={32} />
         </a>
         
         <nav className="hidden md:flex items-center gap-8">

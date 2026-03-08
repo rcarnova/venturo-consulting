@@ -67,6 +67,9 @@ const FeaturedCaseSection = () => {
                   src="/cases/randstad-envisioning.jpg"
                   alt="Workshop Randstad - Partecipanti al lavoro con visual thinking e materiali sul tavolo"
                   className="w-full h-[400px] md:h-[600px] object-cover rounded-lg"
+                  width={800}
+                  height={600}
+                  loading="lazy"
                 />
               </div>
             </div>

@@ -170,6 +170,8 @@ const CaseStudyLayoutEN = ({
                             alt={phase.image.alt}
                             className="w-full h-auto max-h-[600px] object-cover rounded-lg"
                             loading="lazy"
+                            width={600}
+                            height={400}
                           />
                           <p className="text-sm text-muted-foreground mt-3 italic">
                             {phase.image.caption}

@@ -37,9 +37,12 @@ const PartnersSectionEN = () => {
             <div className="flex-1 w-full">
               <img
                 src="/partners/ingaze-dashboard.png"
-                alt="Ingaze dashboard"
+                alt="Ingaze dashboard showing sentiment analysis and employer branding benchmarks"
                 className="w-full"
                 style={{ borderRadius: '12px', boxShadow: '0 4px 24px rgba(0,0,0,0.10)' }}
+                width={1200}
+                height={675}
+                loading="lazy"
               />
             </div>
           </div>
