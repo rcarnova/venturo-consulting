@@ -33,6 +33,11 @@ const LeadMagnetSectionEN = () => {
           </p>
         ) : (
           <div className="flex flex-col lg:flex-row lg:items-center gap-4 lg:gap-8">
+            <img
+              src="/guides/lead-magnet-cover.png"
+              alt="Cover guide: 10 questions on employer branding"
+              className="w-16 h-auto rounded-sm shrink-0 hidden sm:block"
+            />
             <div className="shrink-0">
               <span className="font-mono uppercase tracking-wider text-muted-foreground" style={{ fontSize: "11px" }}>
                 Free guide
