@@ -18,7 +18,7 @@ serve(async (req: Request) => {
       throw new Error("BREVO_API_KEY is not configured");
     }
 
-    const { email } = await req.json();
+    const { email, marketingConsent } = await req.json();
 
     if (!email || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
       return new Response(
