@@ -65,7 +65,7 @@ serve(async (req: Request) => {
         to: [{ email }],
         templateId: 40,
         params: {
-          GUIDE_LINK: "https://drive.google.com/drive/folders/1CUZtF8UhfnGeZunjlHQ_tjEHoJ-yXMR8",
+          GUIDE_LINK: "https://drive.google.com/file/d/1HwEZz-rxBD8JZM7_GcmUPlPqWcI-z5w6/view?usp=sharing",
         },
       }),
     });
