@@ -39,6 +39,7 @@ serve(async (req: Request) => {
         updateEnabled: true,
         attributes: {
           SOURCE: "lead-magnet-employer-branding",
+          MARKETING_CONSENT: marketingConsent === true,
         },
       }),
     });

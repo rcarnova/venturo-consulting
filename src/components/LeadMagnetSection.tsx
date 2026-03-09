@@ -78,8 +78,22 @@ const LeadMagnetSection = () => {
               >
                 {isSubmitting ? "..." : "Scarica"}
               </Button>
+              </div>
+              <div className="flex items-start gap-2 mt-1">
+                <input
+                  type="checkbox"
+                  id="marketing-consent"
+                  checked={marketingConsent}
+                  onChange={(e) => setMarketingConsent(e.target.checked)}
+                  className="mt-0.5 shrink-0"
+                />
+                <label htmlFor="marketing-consent" className="text-xs text-muted-foreground leading-snug">
+                  Acconsento a ricevere contenuti e aggiornamenti da Venturo. Leggi la{" "}
+                  <Link to="/privacy" className="underline hover:text-foreground transition-colors">privacy policy</Link>.
+                </label>
+              </div>
               {error && (
-                <p className="text-destructive text-sm sm:col-span-2">
+                <p className="text-destructive text-sm">
                   Qualcosa è andato storto. Riprova tra poco.
                 </p>
               )}
