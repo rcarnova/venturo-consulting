@@ -17,7 +17,7 @@ const LeadMagnetSectionEN = () => {
     setError(false);
     try {
       const { data, error: fnError } = await supabase.functions.invoke('lead-magnet-signup', {
-        body: { email },
+        body: { email, marketingConsent },
       });
       if (fnError || !data?.success) throw new Error("Failed");
       setIsSuccess(true);
