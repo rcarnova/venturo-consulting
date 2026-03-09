@@ -73,9 +73,30 @@ serve(async (req: Request) => {
     if (!emailRes.ok) {
       const emailData = await emailRes.json();
       console.error("Brevo email send error:", emailData);
-      // Don't throw — contact was added, email send is best-effort
     } else {
       console.log("Guide email sent to:", email);
+    }
+
+    // Send notification email to Venturo
+    const notifyRes = await fetch("https://api.brevo.com/v3/smtp/email", {
+      method: "POST",
+      headers: {
+        "api-key": BREVO_API_KEY,
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({
+        to: [{ email: "info@venturoconsulting.it" }],
+        sender: { email: "info@venturoconsulting.it", name: "Venturo" },
+        subject: "Nuovo download — Guida Employer Branding",
+        htmlContent: `<p>Nuovo contatto ha scaricato la guida.</p><p>Email: ${email}</p><p>OPT_IN: ${marketingConsent === true}</p>`,
+      }),
+    });
+
+    if (!notifyRes.ok) {
+      const notifyData = await notifyRes.json();
+      console.error("Brevo notify email error:", notifyData);
+    } else {
+      console.log("Notification email sent for:", email);
     }
 
     return new Response(JSON.stringify({ success: true }), {
