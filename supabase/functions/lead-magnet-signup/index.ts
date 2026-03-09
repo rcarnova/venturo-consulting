@@ -99,6 +99,28 @@ serve(async (req: Request) => {
       console.log("Notification email sent for:", email);
     }
 
+    // Send notification email to Rosario
+    const notifyRes2 = await fetch("https://api.brevo.com/v3/smtp/email", {
+      method: "POST",
+      headers: {
+        "api-key": BREVO_API_KEY,
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({
+        to: [{ email: "rosario.carnovale@gmail.com" }],
+        sender: { email: "info@venturoconsulting.it", name: "Venturo" },
+        subject: "Nuovo download — Guida Employer Branding",
+        htmlContent: `<p>Nuovo contatto ha scaricato la guida.</p><p>Email: ${email}</p><p>OPT_IN marketing: ${marketingConsent === true}</p>`,
+      }),
+    });
+
+    if (!notifyRes2.ok) {
+      const notifyData2 = await notifyRes2.json();
+      console.error("Brevo notify email error (Rosario):", notifyData2);
+    } else {
+      console.log("Notification email sent to Rosario for:", email);
+    }
+
     return new Response(JSON.stringify({ success: true }), {
       status: 200,
       headers: { "Content-Type": "application/json", ...corsHeaders },
