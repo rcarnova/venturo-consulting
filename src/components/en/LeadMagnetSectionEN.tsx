@@ -27,8 +27,8 @@ const LeadMagnetSectionEN = () => {
 
   return (
     <section
-      className="py-9 border-t border-b"
-      style={{ backgroundColor: "#F7F7F7", borderColor: "#E5E5E5" }}
+      className="py-9 border-b"
+      style={{ backgroundColor: "#F7F7F7", borderColor: "#E5E5E5", borderTop: "3px solid #E1FF00" }}
     >
       <div className="container-narrow">
         {isSuccess ? (
