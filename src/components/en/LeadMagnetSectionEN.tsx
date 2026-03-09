@@ -67,7 +67,7 @@ const LeadMagnetSectionEN = () => {
               <Button
                 type="submit"
                 disabled={isSubmitting}
-                className="h-12 bg-primary text-primary-foreground hover:bg-primary/90 font-display font-semibold text-base px-6 rounded-sm whitespace-nowrap"
+                className="h-12 bg-primary text-primary-foreground hover:bg-primary/90 font-mono font-semibold text-base px-6 rounded-sm whitespace-nowrap"
               >
                 {isSubmitting ? "..." : "Download"}
               </Button>
