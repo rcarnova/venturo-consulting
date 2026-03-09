@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
 import { supabase } from "@/integrations/supabase/client";
@@ -8,6 +9,7 @@ const LeadMagnetSection = () => {
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [isSuccess, setIsSuccess] = useState(false);
   const [error, setError] = useState(false);
+  const [marketingConsent, setMarketingConsent] = useState(false);
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -16,7 +18,7 @@ const LeadMagnetSection = () => {
     console.log("[LeadMagnet] Submitting email:", email);
     try {
       const { data, error: fnError } = await supabase.functions.invoke('lead-magnet-signup', {
-        body: { email },
+        body: { email, marketingConsent },
       });
       console.log("[LeadMagnet] Response:", data, "Error:", fnError);
       if (fnError || !data?.success) throw new Error("Failed");
@@ -59,7 +61,8 @@ const LeadMagnetSection = () => {
               </p>
             </div>
 
-            <form onSubmit={handleSubmit} className="flex flex-col sm:flex-row gap-2 lg:ml-auto w-full lg:w-auto">
+            <form onSubmit={handleSubmit} className="flex flex-col gap-2 lg:ml-auto w-full lg:w-auto">
+              <div className="flex flex-col sm:flex-row gap-2">
               <Input
                 type="email"
                 placeholder="La tua email"
@@ -75,8 +78,22 @@ const LeadMagnetSection = () => {
               >
                 {isSubmitting ? "..." : "Scarica"}
               </Button>
+              </div>
+              <div className="flex items-start gap-2 mt-1">
+                <input
+                  type="checkbox"
+                  id="marketing-consent"
+                  checked={marketingConsent}
+                  onChange={(e) => setMarketingConsent(e.target.checked)}
+                  className="mt-0.5 shrink-0"
+                />
+                <label htmlFor="marketing-consent" className="text-xs text-muted-foreground leading-snug">
+                  Acconsento a ricevere contenuti e aggiornamenti da Venturo. Leggi la{" "}
+                  <Link to="/privacy" className="underline hover:text-foreground transition-colors">privacy policy</Link>.
+                </label>
+              </div>
               {error && (
-                <p className="text-destructive text-sm sm:col-span-2">
+                <p className="text-destructive text-sm">
                   Qualcosa è andato storto. Riprova tra poco.
                 </p>
               )}
