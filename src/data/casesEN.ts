@@ -69,4 +69,16 @@ export const allCasesEN: CaseData[] = [
     hasDetail: true,
     url: "/en/case-studies/findomestic",
   },
+  {
+    id: "randstad-professionals",
+    company: "Randstad Professionals",
+    result: "Brand identity for those who select the best",
+    description: "EVP, Talent Personas and employer branding videos for Randstad's top management division.",
+    logo: "/logos/randstad_blue.svg",
+    logoScale: 1,
+    invertLogo: true,
+    slug: "randstad-professionals",
+    hasDetail: true,
+    url: "/en/case-studies/randstad-professionals",
+  },
 ];

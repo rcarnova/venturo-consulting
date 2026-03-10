@@ -40,6 +40,8 @@ const CaseStudies = lazy(() => import("./pages/en/CaseStudies"));
 const RicehouseEN = lazy(() => import("./pages/en/cases/Ricehouse"));
 const RandstadEN = lazy(() => import("./pages/en/cases/Randstad"));
 const LelyEN = lazy(() => import("./pages/en/cases/Lely"));
+const RandstadProfessionals = lazy(() => import("./pages/cases/RandstadProfessionals"));
+const RandstadProfessionalsEN = lazy(() => import("./pages/en/cases/RandstadProfessionals"));
 
 const queryClient = new QueryClient();
 
@@ -77,7 +79,9 @@ const App = () => (
               <Route path="/en/case-studies/ufficio-pio" element={<UfficioPioEN />} />
               <Route path="/en/case-studies/cve" element={<CVEEN />} />
               <Route path="/casi-studio/findomestic" element={<Findomestic />} />
+              <Route path="/casi-studio/randstad-professionals" element={<RandstadProfessionals />} />
               <Route path="/en/case-studies/findomestic" element={<FindomesticEN />} />
+              <Route path="/en/case-studies/randstad-professionals" element={<RandstadProfessionalsEN />} />
               <Route path="/magazine" element={<Magazine />} />
               <Route path="/magazine/la-responsabilita-non-si-delega" element={<ResponsabilitaNonSiDelega />} />
               <Route path="/magazine/i-valori-non-sono-poster" element={<ValoriNonSonoPoster />} />
