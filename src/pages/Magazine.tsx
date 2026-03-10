@@ -2,8 +2,6 @@ import { SEO } from "@/components/SEO";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import ArticleCard from "@/components/ArticleCard";
-import confusioneNeiRuoli from "@/assets/confusione-nei-ruoli.png";
-import culturaOrg from "@/assets/cultura-org.png";
 
 const articles = [
   {
@@ -14,19 +12,19 @@ const articles = [
     date: "10 mar 2026",
     readTime: "4 min",
     link: "/magazine/la-cultura-non-e-mai-sbagliata",
-    imageUrl: culturaOrg,
     author: "Rosario",
     tags: ["cultura organizzativa", "cambiamento"],
   },
   {
     category: "Organizzazione",
-    title: "Ruoli vaghi = Tutto rallenta",
+    title: "La responsabilità non si delega. Si conquista.",
     excerpt:
-      '"Pensavo lo facessi tu." Se questa frase circola nella tua azienda, hai un problema di ownership. Non di persone.',
-    date: "22 gen 2025",
-    readTime: "6 min",
-    link: "/magazine/ruoli-vaghi-tutto-rallenta",
-    imageUrl: confusioneNeiRuoli,
+      "Nelle organizzazioni sane le persone non aspettano che qualcuno assegni loro responsabilità. Le pretendono.",
+    date: "10 mar 2026",
+    readTime: "4 min",
+    link: "/magazine/la-responsabilita-non-si-delega",
+    author: "Rosario",
+    tags: ["organizzazione"],
   },
   {
     category: "Cultura",
@@ -36,7 +34,6 @@ const articles = [
     date: "29 gen 2025",
     readTime: "7 min",
     link: "/magazine/cultura-implicita-cultura-inesistente",
-    imageUrl: culturaOrg,
   },
 ];
 

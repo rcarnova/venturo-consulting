@@ -29,7 +29,7 @@ const CVEEN = lazy(() => import("./pages/en/cases/CVE"));
 const Findomestic = lazy(() => import("./pages/cases/Findomestic"));
 const FindomesticEN = lazy(() => import("./pages/en/cases/Findomestic"));
 const Magazine = lazy(() => import("./pages/Magazine"));
-const RuoliVaghi = lazy(() => import("./pages/magazine/RuoliVaghi"));
+const ResponsabilitaNonSiDelega = lazy(() => import("./pages/magazine/ResponsabilitaNonSiDelega"));
 const CulturaImplicita = lazy(() => import("./pages/magazine/CulturaImplicita"));
 const LaCulturaNonEMaiSbagliata = lazy(() => import("./pages/magazine/LaCulturaNonEMaiSbagliata"));
 const ChiSiamo = lazy(() => import("./pages/ChiSiamo"));
@@ -79,7 +79,7 @@ const App = () => (
               <Route path="/casi-studio/findomestic" element={<Findomestic />} />
               <Route path="/en/case-studies/findomestic" element={<FindomesticEN />} />
               <Route path="/magazine" element={<Magazine />} />
-              <Route path="/magazine/ruoli-vaghi-tutto-rallenta" element={<RuoliVaghi />} />
+              <Route path="/magazine/la-responsabilita-non-si-delega" element={<ResponsabilitaNonSiDelega />} />
               <Route path="/magazine/cultura-implicita-cultura-inesistente" element={<CulturaImplicita />} />
               <Route path="/magazine/la-cultura-non-e-mai-sbagliata" element={<LaCulturaNonEMaiSbagliata />} />
               {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
