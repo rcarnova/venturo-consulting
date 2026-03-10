@@ -67,6 +67,16 @@ const cases = [
     logoScale: 2.5,
     tags: ["CMO / Marketing", "CHO / HR"],
   },
+  {
+    company: "Randstad Professionals",
+    result: "Brand identity for those who select the best",
+    description: "EVP, Talent Personas and employer branding videos for Randstad's top management division.",
+    slug: "randstad-professionals",
+    hasDetail: true,
+    logo: "/logos/randstad_blue.svg",
+    invertLogo: true,
+    tags: ["CHO / HR", "CMO / Marketing"],
+  },
 ];
 
 const CaseStudies = () => {

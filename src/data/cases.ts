@@ -81,4 +81,16 @@ export const allCases: CaseData[] = [
     hasDetail: true,
     url: "/casi-studio/cve",
   },
+  {
+    id: "randstad-professionals",
+    company: "Randstad Professionals",
+    result: "Identità di marca per chi seleziona i migliori",
+    description: "EVP, Talent Personas e video employer branding per la divisione top management di Randstad.",
+    logo: "/logos/randstad_blue.svg",
+    logoScale: 1,
+    invertLogo: true,
+    slug: "randstad-professionals",
+    hasDetail: true,
+    url: "/casi-studio/randstad-professionals",
+  },
 ];
