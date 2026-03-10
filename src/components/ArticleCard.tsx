@@ -71,15 +71,6 @@ const ArticleCard = ({
             {category}
           </span>
 
-          {/* Title */}
-          <h3
-            className="text-xl md:text-2xl font-bold text-foreground leading-tight mb-3 transition-colors duration-200 group-hover:text-[#FF006E] line-clamp-2"
-            style={{ lineHeight: 1.3 }}
-          >
-            {title}
-          </h3>
-
-          {/* Excerpt */}
           <p
             className="text-sm text-muted-foreground mb-4 line-clamp-3"
             style={{ lineHeight: 1.6, color: "#444" }}
