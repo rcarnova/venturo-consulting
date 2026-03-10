@@ -31,6 +31,7 @@ const FindomesticEN = lazy(() => import("./pages/en/cases/Findomestic"));
 const Magazine = lazy(() => import("./pages/Magazine"));
 const RuoliVaghi = lazy(() => import("./pages/magazine/RuoliVaghi"));
 const CulturaImplicita = lazy(() => import("./pages/magazine/CulturaImplicita"));
+const LaCulturaNonEMaiSbagliata = lazy(() => import("./pages/magazine/LaCulturaNonEMaiSbagliata"));
 const ChiSiamo = lazy(() => import("./pages/ChiSiamo"));
 const AboutEN = lazy(() => import("./pages/en/About"));
 const LeSfide = lazy(() => import("./pages/LeSfide"));
