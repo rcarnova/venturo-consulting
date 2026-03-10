@@ -30,7 +30,7 @@ const Findomestic = lazy(() => import("./pages/cases/Findomestic"));
 const FindomesticEN = lazy(() => import("./pages/en/cases/Findomestic"));
 const Magazine = lazy(() => import("./pages/Magazine"));
 const ResponsabilitaNonSiDelega = lazy(() => import("./pages/magazine/ResponsabilitaNonSiDelega"));
-const CulturaImplicita = lazy(() => import("./pages/magazine/CulturaImplicita"));
+const ValoriNonSonoPoster = lazy(() => import("./pages/magazine/ValoriNonSonoPoster"));
 const LaCulturaNonEMaiSbagliata = lazy(() => import("./pages/magazine/LaCulturaNonEMaiSbagliata"));
 const ChiSiamo = lazy(() => import("./pages/ChiSiamo"));
 const AboutEN = lazy(() => import("./pages/en/About"));
