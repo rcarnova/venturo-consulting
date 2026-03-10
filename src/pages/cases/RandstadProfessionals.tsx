@@ -17,7 +17,7 @@ const RandstadProfessionals = () => {
         logoAlt="Randstad Professionals"
         logoClassName="h-12 sm:h-16 md:h-20 lg:h-24 w-auto object-contain mx-auto mb-8 brightness-0"
         title="Randstad Professionals"
-        subtitle="Da divisione invisibile a identità riconoscibile"
+        subtitle="Una divisione che si racconta con le voci delle sue persone"
         overview={[
           { label: "Settore", value: "Ricerca e selezione HR" },
           { label: "Dimensione", value: "Divisione specializzata — Italia" },
