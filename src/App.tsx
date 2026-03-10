@@ -80,7 +80,7 @@ const App = () => (
               <Route path="/en/case-studies/findomestic" element={<FindomesticEN />} />
               <Route path="/magazine" element={<Magazine />} />
               <Route path="/magazine/la-responsabilita-non-si-delega" element={<ResponsabilitaNonSiDelega />} />
-              <Route path="/magazine/cultura-implicita-cultura-inesistente" element={<CulturaImplicita />} />
+              <Route path="/magazine/i-valori-non-sono-poster" element={<ValoriNonSonoPoster />} />
               <Route path="/magazine/la-cultura-non-e-mai-sbagliata" element={<LaCulturaNonEMaiSbagliata />} />
               {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
               <Route path="*" element={<NotFound />} />

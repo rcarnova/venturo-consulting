@@ -28,12 +28,14 @@ const articles = [
   },
   {
     category: "Cultura",
-    title: "Cultura implicita = Cultura inesistente",
+    title: "I valori non sono poster. Sono promesse.",
     excerpt:
-      "I tuoi valori non sono sui poster. Sono nei comportamenti per cui assumi, promuovi e licenzi. Se non li rendi espliciti, ogni manager li interpreta a modo suo.",
-    date: "29 gen 2025",
-    readTime: "7 min",
-    link: "/magazine/cultura-implicita-cultura-inesistente",
+      "Le aziende fanno promesse continuamente. Ma come ci hanno insegnato da bambini: le promesse vanno mantenute.",
+    date: "10 mar 2026",
+    readTime: "4 min",
+    link: "/magazine/i-valori-non-sono-poster",
+    author: "Rosario",
+    tags: ["cultura organizzativa"],
   },
 ];
 
