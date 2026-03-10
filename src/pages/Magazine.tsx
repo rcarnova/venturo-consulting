@@ -52,7 +52,7 @@ const Magazine = () => {
       <Header />
       <main className="pt-20">
         {/* Editorial Header */}
-        <section className="bg-white py-24 md:py-32">
+        <section className="bg-white py-16 md:py-20 pb-0">
           <div className="max-w-[1200px] mx-auto px-5 md:px-8">
             <h1
               className="text-[80px] md:text-[120px] lg:text-[160px] font-bold tracking-tight leading-none text-foreground"
