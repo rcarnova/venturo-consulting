@@ -19,6 +19,7 @@ const navLinks = [
   { href: "/casi-studio", label: "Casi studio" },
   { href: "/principi", label: "Principi" },
   { href: "/chi-siamo", label: "Chi siamo" },
+  { href: "/magazine", label: "Articoli" },
 ];
 
 const Header = () => {

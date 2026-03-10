@@ -7,6 +7,18 @@ import culturaOrg from "@/assets/cultura-org.png";
 
 const articles = [
   {
+    category: "cultura organizzativa",
+    title: "La cultura non è mai sbagliata. È solo cultura.",
+    excerpt:
+      "Ho visto molte aziende arrendersi. Non parlo di business. Parlo di cultura.",
+    date: "10 mar 2026",
+    readTime: "4 min",
+    link: "/magazine/la-cultura-non-e-mai-sbagliata",
+    imageUrl: culturaOrg,
+    author: "Rosario",
+    tags: ["cultura organizzativa", "cambiamento"],
+  },
+  {
     category: "Organizzazione",
     title: "Ruoli vaghi = Tutto rallenta",
     excerpt:
@@ -32,27 +44,31 @@ const Magazine = () => {
   return (
     <div className="min-h-screen bg-background">
       <SEO
-        title="Magazine - Employer Branding e Cultura Organizzativa"
-        description="Articoli su employer branding, cultura organizzativa, leadership e comunicazione interna. Senza retorica, con esempi concreti."
+        title="WHY — Articoli su cultura organizzativa ed employer branding"
+        description="Ogni organizzazione ha un perché. Articoli su employer branding, cultura organizzativa, leadership e comunicazione interna."
         canonical="https://venturo.it/magazine"
         lang="it"
       />
       <Header />
       <main className="pt-20">
-        {/* Hero Section */}
-        <section className="bg-white py-16">
+        {/* Editorial Header */}
+        <section className="bg-white py-24 md:py-32">
           <div className="max-w-[1200px] mx-auto px-5 md:px-8">
             <h1
-              className="text-3xl md:text-5xl font-extrabold text-foreground mb-4"
+              className="text-[80px] md:text-[120px] lg:text-[160px] font-bold tracking-tight leading-none text-foreground"
               style={{ fontFamily: "'Space Grotesk', system-ui, sans-serif" }}
             >
-              Magazine
+              WHY
             </h1>
             <p
-              className="text-lg md:text-xl font-normal"
-              style={{ color: "#444" }}
+              className="mt-4 text-sm md:text-base font-mono tracking-wide uppercase"
+              style={{
+                fontFamily: "'IBM Plex Mono', monospace",
+                color: "#666",
+                letterSpacing: "0.08em",
+              }}
             >
-              Cultura organizzativa senza retorica
+              ogni organizzazione ha un perché.
             </p>
           </div>
         </section>
