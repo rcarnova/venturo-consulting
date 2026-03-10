@@ -18,6 +18,7 @@ const navLinks = [
   { href: "/en/principles", label: "Principles" },
   { href: "/en/case-studies", label: "Case Studies" },
   { href: "/en/about", label: "About Us" },
+  { href: "/magazine", label: "Articles" },
 ];
 
 const HeaderEN = () => {
