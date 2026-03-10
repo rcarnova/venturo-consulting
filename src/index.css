@@ -155,7 +155,7 @@
 
   /* Typography Scale */
   .text-hero {
-    font-size: 40px;
+    font-size: 44px;
     font-weight: 700;
     line-height: 1.15;
   }
@@ -166,7 +166,7 @@
   }
 
   .text-display {
-    font-size: 40px;
+    font-size: 44px;
     font-weight: 700;
     line-height: 1.15;
   }
@@ -177,7 +177,7 @@
   }
 
   .text-section {
-    font-size: 32px;
+    font-size: 36px;
     font-weight: 700;
     line-height: 1.15;
   }
@@ -188,7 +188,7 @@
   }
 
   .text-subtitle {
-    font-size: 22px;
+    font-size: 24px;
     font-weight: 600;
     line-height: 1.15;
   }
