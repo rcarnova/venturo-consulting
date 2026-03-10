@@ -52,7 +52,7 @@ const LeversSection = () => {
       <div className="container-wide">
         <AnimatedSection>
           <div className="text-center max-w-2xl mx-auto mb-12">
-            <GlowTitle className="text-section text-primary-foreground md:!text-[40px]" variant="light">
+            <GlowTitle className="text-section text-primary-foreground" variant="light">
               Le aree di intervento
             </GlowTitle>
             <p className="text-subheadline mt-4 text-primary-foreground/70">

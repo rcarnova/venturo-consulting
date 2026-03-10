@@ -11,7 +11,7 @@ const CasesSection = () => {
       <div className="container-wide">
         <AnimatedSection>
           <div className="text-center max-w-2xl mx-auto mb-12">
-            <GlowTitle className="text-section text-charcoal md:!text-[40px]">
+            <GlowTitle className="text-section text-charcoal">
               Risultati concreti
             </GlowTitle>
             <p className="text-subheadline mt-4">
