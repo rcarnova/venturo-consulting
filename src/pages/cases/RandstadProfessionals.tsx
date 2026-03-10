@@ -5,11 +5,12 @@ const RandstadProfessionals = () => {
   return (
     <>
       <SEO
-        title="EVP e employer branding per divisione top management — Randstad Professionals — Venturo"
-        description="EVP, Talent Personas e video employer branding per costruire un'identità distintiva per Randstad Professionals, la divisione dedicata ai profili middle e top management."
-        canonical="https://venturo.it/casi-studio/randstad-professionals"
+        title="Randstad Professionals — Venturo"
+        description="Una divisione che si racconta con le voci delle sue persone. EVP, Talent Personas e video employer branding per Randstad Professionals."
+        canonical="https://venturoconsulting.it/casi-studio/randstad-professionals"
+        ogImage="https://venturoconsulting.it/cases/randstad-professionals-envisioning.jpg"
         lang="it"
-        alternateUrls={{ it: "https://venturo.it/casi-studio/randstad-professionals", en: "https://venturo.it/en/case-studies/randstad-professionals" }}
+        alternateUrls={{ it: "https://venturoconsulting.it/casi-studio/randstad-professionals", en: "https://venturoconsulting.it/en/case-studies/randstad-professionals" }}
       />
       <CaseStudyLayout
         caseId="randstad-professionals"
