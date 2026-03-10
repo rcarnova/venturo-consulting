@@ -6,14 +6,6 @@ import { Button } from "../ui/button";
 
 const cases = [
   {
-    company: "Ricehouse",
-    result: "From strong identity to qualified applications",
-    description: "Complete redefinition of employer brand and value proposition.",
-    logo: "/logos/ricehouse_white.png",
-    logoScale: 1,
-    slug: "ricehouse",
-  },
-  {
     company: "Randstad",
     result: "Visible culture, aligned candidates",
     description: "Employer branding campaign that translates internal values into concrete messages for the job market.",
@@ -23,27 +15,21 @@ const cases = [
     slug: "randstad",
   },
   {
-    company: "Lely",
-    result: "Tool for managing people without HR experience",
-    description: "Practical framework for technical managers who need to lead teams.",
-    logo: "/logos/lely_white.svg",
-    logoScale: 1.3,
-    slug: "lely",
+    company: "Randstad Professionals",
+    result: "Brand identity for those who select the best",
+    description: "EVP, Talent Personas and employer branding videos for Randstad's top management division.",
+    logo: "/logos/randstad_blue.svg",
+    logoScale: 1,
+    invertLogo: true,
+    slug: "randstad-professionals",
   },
   {
-    company: "Ufficio Pio",
-    result: "Naming that builds culture",
-    description: "Strategic naming project to give shared language to departments and make beneficiaries' journeys recognizable.",
-    logo: "/logos/ufficio_pio_white.png",
-    logoScale: 1
-  },
-  {
-    company: "CVE",
-    result: "The First Company Town Hall",
-    rating: "4.3/5",
-    description: "Design and facilitation of a historic moment for the company.",
-    logo: "/logos/cve_mono.png",
-    logoScale: 0.8
+    company: "Ricehouse",
+    result: "From strong identity to qualified applications",
+    description: "Complete redefinition of employer brand and value proposition.",
+    logo: "/logos/ricehouse_white.png",
+    logoScale: 1,
+    slug: "ricehouse",
   },
   {
     company: "Findomestic",
@@ -52,7 +38,22 @@ const cases = [
     logo: "/logos/findomestic_white.png",
     logoScale: 2.5,
     slug: "findomestic",
-  }
+  },
+  {
+    company: "Ufficio Pio",
+    result: "Naming that builds culture",
+    description: "Strategic naming project to give shared language to departments and make beneficiaries' journeys recognizable.",
+    logo: "/logos/ufficio_pio_white.png",
+    logoScale: 1,
+  },
+  {
+    company: "CVE",
+    result: "The First Company Town Hall",
+    rating: "4.3/5",
+    description: "Design and facilitation of a historic moment for the company.",
+    logo: "/logos/cve_mono.png",
+    logoScale: 0.8,
+  },
 ];
 
 const CasesSectionEN = () => {
