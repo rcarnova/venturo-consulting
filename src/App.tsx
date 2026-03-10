@@ -40,6 +40,8 @@ const CaseStudies = lazy(() => import("./pages/en/CaseStudies"));
 const RicehouseEN = lazy(() => import("./pages/en/cases/Ricehouse"));
 const RandstadEN = lazy(() => import("./pages/en/cases/Randstad"));
 const LelyEN = lazy(() => import("./pages/en/cases/Lely"));
+const RandstadProfessionals = lazy(() => import("./pages/cases/RandstadProfessionals"));
+const RandstadProfessionalsEN = lazy(() => import("./pages/en/cases/RandstadProfessionals"));
 
 const queryClient = new QueryClient();
 
