@@ -19,6 +19,16 @@ const cases = [
     tags: ["CMO / Marketing", "CHO / HR"],
   },
   {
+    company: "Randstad Professionals",
+    result: "Identità di marca per chi seleziona i migliori",
+    description: "EVP, Talent Personas e video employer branding per la divisione top management di Randstad.",
+    slug: "randstad-professionals",
+    hasDetail: true,
+    logo: "/logos/randstad_blue.svg",
+    invertLogo: true,
+    tags: ["CHO / HR", "CMO / Marketing"],
+  },
+  {
     company: "Findomestic",
     result: "Da linguaggio istituzionale a conversazione unificata",
     description: "Workshop intensivo per unificare il linguaggio tra assistenza clienti e team social.",
@@ -65,16 +75,6 @@ const cases = [
     logo: "/logos/cve_mono.png",
     logoScale: 0.8,
     tags: ["CEO / Leadership"],
-  },
-  {
-    company: "Randstad Professionals",
-    result: "Identità di marca per chi seleziona i migliori",
-    description: "EVP, Talent Personas e video employer branding per la divisione top management di Randstad.",
-    slug: "randstad-professionals",
-    hasDetail: true,
-    logo: "/logos/randstad_blue.svg",
-    invertLogo: true,
-    tags: ["CHO / HR", "CMO / Marketing"],
   },
 ];
 
