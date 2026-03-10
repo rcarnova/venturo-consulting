@@ -29,7 +29,7 @@ const CVEEN = lazy(() => import("./pages/en/cases/CVE"));
 const Findomestic = lazy(() => import("./pages/cases/Findomestic"));
 const FindomesticEN = lazy(() => import("./pages/en/cases/Findomestic"));
 const Magazine = lazy(() => import("./pages/Magazine"));
-const RuoliVaghi = lazy(() => import("./pages/magazine/RuoliVaghi"));
+const ResponsabilitaNonSiDelega = lazy(() => import("./pages/magazine/ResponsabilitaNonSiDelega"));
 const CulturaImplicita = lazy(() => import("./pages/magazine/CulturaImplicita"));
 const LaCulturaNonEMaiSbagliata = lazy(() => import("./pages/magazine/LaCulturaNonEMaiSbagliata"));
 const ChiSiamo = lazy(() => import("./pages/ChiSiamo"));
