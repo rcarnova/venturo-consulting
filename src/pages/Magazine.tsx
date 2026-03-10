@@ -2,8 +2,6 @@ import { SEO } from "@/components/SEO";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import ArticleCard from "@/components/ArticleCard";
-import confusioneNeiRuoli from "@/assets/confusione-nei-ruoli.png";
-import culturaOrg from "@/assets/cultura-org.png";
 
 const articles = [
   {
