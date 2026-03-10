@@ -21,7 +21,7 @@ const CasesSection = () => {
         </AnimatedSection>
 
         <div className="grid md:grid-cols-2 gap-6">
-          {allCases.map((caseStudy, index) => {
+          {allCases.filter(c => c.showOnHomepage !== false).map((caseStudy, index) => {
             const content = (
               <div className="card-subtle group hover:bg-card transition-all duration-300 cursor-pointer h-full glow-yellow hover:scale-[1.02]">
                 <div className="flex items-start justify-between">
