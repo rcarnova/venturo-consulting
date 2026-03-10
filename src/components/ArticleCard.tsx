@@ -7,7 +7,9 @@ interface ArticleCardProps {
   date: string;
   readTime: string;
   link: string;
-  imageUrl: string;
+  imageUrl?: string;
+  author?: string;
+  tags?: string[];
 }
 
 const ArticleCard = ({
@@ -17,7 +19,6 @@ const ArticleCard = ({
   date,
   readTime,
   link,
-  imageUrl,
 }: ArticleCardProps) => {
   return (
     <Link to={link} className="group block">
@@ -34,16 +35,27 @@ const ArticleCard = ({
           e.currentTarget.style.boxShadow = "0 2px 8px rgba(0,0,0,0.06)";
         }}
       >
-        {/* Image */}
-        <div className="overflow-hidden">
-          <img
-            src={imageUrl}
-            alt={title}
-            className="w-full aspect-video object-cover transition-all duration-400 ease-out group-hover:scale-[1.03] group-hover:opacity-95"
-            width={600}
-            height={338}
-            loading="lazy"
-          />
+        {/* Typographic Cover */}
+        <div
+          className="relative w-full overflow-hidden flex items-end p-6"
+          style={{
+            aspectRatio: "16/9",
+            backgroundColor: "#141414",
+          }}
+        >
+          <span
+            className="text-white font-bold text-2xl md:text-3xl leading-tight"
+            style={{
+              fontFamily: "'Space Grotesk', system-ui, sans-serif",
+              lineHeight: 1.1,
+              display: "-webkit-box",
+              WebkitLineClamp: 4,
+              WebkitBoxOrient: "vertical",
+              overflow: "hidden",
+            }}
+          >
+            {title}
+          </span>
         </div>
 
         {/* Content */}
