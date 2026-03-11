@@ -14,7 +14,7 @@ const EuPromotionsEN = () => {
       />
       <CaseStudyLayoutEN
         caseId="eupromotions"
-        logo="/logos/eupromotion_logo.jpg"
+        logo="/logos/eupromotion_white.png"
         logoAlt="Eu.promotions"
         logoNeedsInvert={false}
         logoClassName="h-12 sm:h-16 md:h-20 lg:h-24 w-auto object-contain mx-auto mb-8 brightness-0"
