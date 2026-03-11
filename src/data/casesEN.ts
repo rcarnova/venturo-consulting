@@ -76,6 +76,18 @@ export const allCasesEN: CaseData[] = [
     showOnHomepage: false,
   },
   {
+    id: "eupromotions",
+    company: "Eu.promotions",
+    result: "Identity discovered, not invented",
+    description: "Brand identity and content strategy for an international SME in loyalty & retail marketing.",
+    logo: "/logos/eupromotion_logo.jpg",
+    logoScale: 1,
+    slug: "eupromotions",
+    hasDetail: true,
+    url: "/en/case-studies/eupromotions",
+    showOnHomepage: true,
+  },
+  {
     id: "cve",
     company: "CVE",
     result: "The First Company Town Hall",
