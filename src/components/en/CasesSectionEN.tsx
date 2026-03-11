@@ -51,7 +51,7 @@ const cases = [
     result: "Identity discovered, not invented",
     description: "Brand identity and content strategy for an international SME in loyalty & retail marketing.",
     logo: "/logos/eupromotion_white.png",
-    logoScale: 1.5,
+    logoScale: 3,
     slug: "eupromotions",
   },
   {
