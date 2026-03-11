@@ -73,9 +73,9 @@ const LeSfide = () => {
       <SEO
         title="Le sfide culturali delle organizzazioni — Venturo"
         description="Talenti che se ne vanno, comunicazione interna inefficace, gap tra brand esterno e cultura interna. Riconosci una di queste situazioni? Ecco come le affrontiamo."
-        canonical="https://venturo.it/le-sfide"
+        canonical="https://venturoconsulting.it/le-sfide"
         lang="it"
-        alternateUrls={{ it: "https://venturo.it/le-sfide", en: "https://venturo.it/en" }}
+        alternateUrls={{ it: "https://venturoconsulting.it/le-sfide", en: "https://venturoconsulting.it/en/challenges" }}
       />
       <Header />
 

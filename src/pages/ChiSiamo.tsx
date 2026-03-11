@@ -41,9 +41,9 @@ const ChiSiamo = () => {
       <SEO
         title="Chi siamo — Venturo, consulenza cultura organizzativa Italia"
         description="Venturo è fondato da professionisti con background in HR, marketing e comunicazione. Lavoriamo con aziende italiane per rendere visibile la cultura organizzativa."
-        canonical="https://venturo.it/chi-siamo"
+        canonical="https://venturoconsulting.it/chi-siamo"
         lang="it"
-        alternateUrls={{ it: "https://venturo.it/chi-siamo", en: "https://venturo.it/en/about" }}
+        alternateUrls={{ it: "https://venturoconsulting.it/chi-siamo", en: "https://venturoconsulting.it/en/about" }}
       />
       <Header />
       <main>

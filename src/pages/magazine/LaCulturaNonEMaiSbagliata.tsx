@@ -11,7 +11,7 @@ const LaCulturaNonEMaiSbagliata = () => {
       <SEO
         title="La cultura non è mai sbagliata. È solo cultura."
         description="Ho visto molte aziende arrendersi. Non parlo di business. Parlo di cultura."
-        canonical="https://venturo.it/magazine/la-cultura-non-e-mai-sbagliata"
+        canonical="https://venturoconsulting.it/magazine/la-cultura-non-e-mai-sbagliata"
         lang="it"
       />
       <Header />

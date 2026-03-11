@@ -21,9 +21,9 @@ const Lumen = () => {
       <SEO
         title="Lumen — Metodo di analisi della cultura organizzativa — Venturo"
         description="Lumen è il metodo proprietario di Venturo per far emergere la cultura organizzativa attraverso storie, non questionari. Interviste narrative, workshop e specchio culturale."
-        canonical="https://venturo.it/lumen"
+        canonical="https://venturoconsulting.it/lumen"
         lang="it"
-        alternateUrls={{ it: "https://venturo.it/lumen", en: "https://venturo.it/en/lumen" }}
+        alternateUrls={{ it: "https://venturoconsulting.it/lumen", en: "https://venturoconsulting.it/en/lumen" }}
       />
       <Header />
       <LumenHero />

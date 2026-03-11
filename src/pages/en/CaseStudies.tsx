@@ -89,9 +89,9 @@ const CaseStudies = () => {
       <SEO
         title="Case Studies — Organizational Culture & Employer Branding Projects — Venturo"
         description="Employer branding, internal communication, strategic naming, facilitation. Real projects where organizational culture became visible."
-        canonical="https://venturo.it/en/case-studies"
+        canonical="https://venturoconsulting.it/en/case-studies"
         lang="en"
-        alternateUrls={{ it: "https://venturo.it/casi-studio", en: "https://venturo.it/en/case-studies" }}
+        alternateUrls={{ it: "https://venturoconsulting.it/casi-studio", en: "https://venturoconsulting.it/en/case-studies" }}
       />
       <HeaderEN />
       <main className="pt-20">

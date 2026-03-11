@@ -41,9 +41,9 @@ const AboutEN = () => {
       <SEO
         title="About Us — Venturo, Organizational Culture Consulting Italy"
         description="Venturo is founded by professionals with backgrounds in HR, marketing and communication. We work with Italian companies to make organizational culture visible."
-        canonical="https://venturo.it/en/about"
+        canonical="https://venturoconsulting.it/en/about"
         lang="en"
-        alternateUrls={{ it: "https://venturo.it/chi-siamo", en: "https://venturo.it/en/about" }}
+        alternateUrls={{ it: "https://venturoconsulting.it/chi-siamo", en: "https://venturoconsulting.it/en/about" }}
       />
       <HeaderEN />
       <main>

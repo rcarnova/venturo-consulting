@@ -73,9 +73,9 @@ const Challenges = () => {
       <SEO
         title="Organizational Culture Challenges — Venturo"
         description="Talent leaving, ineffective internal communication, gap between external brand and internal culture. Recognize any of these? Here's how we address them."
-        canonical="https://venturo.it/en/challenges"
+        canonical="https://venturoconsulting.it/en/challenges"
         lang="en"
-        alternateUrls={{ it: "https://venturo.it/le-sfide", en: "https://venturo.it/en/challenges" }}
+        alternateUrls={{ it: "https://venturoconsulting.it/le-sfide", en: "https://venturoconsulting.it/en/challenges" }}
       />
       <HeaderEN />
 

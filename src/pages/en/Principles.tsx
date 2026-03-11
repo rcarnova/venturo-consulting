@@ -13,9 +13,9 @@ const Principles = () => {
       <SEO
         title="Our Principles — Venturo's Theoretical Foundations"
         description="From Edgar Schein to Simon Sinek, from David Aaker to Daniel Kahneman. The established principles behind Venturo's cultural consulting method."
-        canonical="https://venturo.it/en/principles"
+        canonical="https://venturoconsulting.it/en/principles"
         lang="en"
-        alternateUrls={{ it: "https://venturo.it/principi", en: "https://venturo.it/en/principles" }}
+        alternateUrls={{ it: "https://venturoconsulting.it/principi", en: "https://venturoconsulting.it/en/principles" }}
       />
       <HeaderEN />
       <PrincipiHero lang="en" />
