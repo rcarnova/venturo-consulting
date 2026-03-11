@@ -94,7 +94,7 @@ export const allCases: CaseData[] = [
     result: "Identità scoperta, non inventata",
     description: "Brand identity e strategia contenuti per una PMI internazionale nel loyalty & retail marketing.",
     logo: "/logos/eupromotion_white.png",
-    logoScale: 1,
+    logoScale: 1.5,
     invertLogo: false,
     slug: "eupromotions",
     hasDetail: true,
