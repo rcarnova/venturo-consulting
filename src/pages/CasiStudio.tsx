@@ -67,6 +67,16 @@ const cases = [
     tags: ["CHO / HR", "CMO / Marketing"],
   },
   {
+    company: "Eu.promotions",
+    result: "Identità scoperta, non inventata",
+    description: "Brand identity e strategia contenuti per una PMI internazionale nel loyalty & retail marketing.",
+    slug: "eupromotions",
+    hasDetail: true,
+    logo: "/logos/eupromotion_logo.jpg",
+    invertLogo: true,
+    tags: ["CEO / Leadership", "CMO / Marketing"],
+  },
+  {
     company: "CVE",
     result: "La Prima Town Hall aziendale",
     description: "Progettazione e facilitazione di un momento storico per l'azienda.",
