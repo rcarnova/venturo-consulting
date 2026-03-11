@@ -82,6 +82,7 @@ export const allCasesEN: CaseData[] = [
     description: "Brand identity and content strategy for an international SME in loyalty & retail marketing.",
     logo: "/logos/eupromotion_logo.jpg",
     logoScale: 1,
+    invertLogo: true,
     slug: "eupromotions",
     hasDetail: true,
     url: "/en/case-studies/eupromotions",

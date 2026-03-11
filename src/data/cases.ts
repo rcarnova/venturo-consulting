@@ -95,6 +95,7 @@ export const allCases: CaseData[] = [
     description: "Brand identity e strategia contenuti per una PMI internazionale nel loyalty & retail marketing.",
     logo: "/logos/eupromotion_logo.jpg",
     logoScale: 1,
+    invertLogo: true,
     slug: "eupromotions",
     hasDetail: true,
     url: "/casi-studio/eupromotions",

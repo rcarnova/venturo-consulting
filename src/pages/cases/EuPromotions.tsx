@@ -17,7 +17,7 @@ const EuPromotions = () => {
         logo="/logos/eupromotion_logo.jpg"
         logoAlt="Eu.promotions"
         logoNeedsInvert={false}
-        logoClassName="h-12 sm:h-16 md:h-20 lg:h-24 w-auto object-contain mx-auto mb-8"
+        logoClassName="h-12 sm:h-16 md:h-20 lg:h-24 w-auto object-contain mx-auto mb-8 brightness-0"
         title="Eu.promotions"
         subtitle="Identità scoperta, non inventata"
         overview={[
