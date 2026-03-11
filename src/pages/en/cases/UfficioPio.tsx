@@ -7,11 +7,11 @@ const UfficioPioEN = () => {
       <SEO
         title="Strategic naming and cultural identity for the non-profit sector — Venturo"
         description="Strategic naming project to create shared language across departments and make beneficiaries' journeys recognizable."
-        canonical="https://venturo.it/en/case-studies/ufficio-pio"
+        canonical="https://venturoconsulting.it/en/case-studies/ufficio-pio"
         lang="en"
         alternateUrls={{
-          it: "https://venturo.it/casi-studio/ufficio-pio",
-          en: "https://venturo.it/en/case-studies/ufficio-pio",
+          it: "https://venturoconsulting.it/casi-studio/ufficio-pio",
+          en: "https://venturoconsulting.it/en/case-studies/ufficio-pio",
         }}
       />
       <CaseStudyLayoutEN

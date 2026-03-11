@@ -7,9 +7,9 @@ const Ricehouse = () => {
       <SEO
         title="Employer branding per startup green tech ed economia circolare — Venturo"
         description="Come Ricehouse ha reso visibile la propria identità culturale per attrarre talenti che credono nell'economia circolare e nella bioedilizia."
-        canonical="https://venturo.it/casi-studio/ricehouse"
+        canonical="https://venturoconsulting.it/casi-studio/ricehouse"
         lang="it"
-        alternateUrls={{ it: "https://venturo.it/casi-studio/ricehouse", en: "https://venturo.it/en/case-studies/ricehouse" }}
+        alternateUrls={{ it: "https://venturoconsulting.it/casi-studio/ricehouse", en: "https://venturoconsulting.it/en/case-studies/ricehouse" }}
       />
       <CaseStudyLayout
       caseId="ricehouse"

@@ -7,11 +7,11 @@ const CVEEN = () => {
       <SEO
         title="Facilitation and organizational culture for an energy company — Venturo"
         description="Design and facilitation of CVE's first company Town Hall. A landmark moment to align leadership and people on values and strategic direction."
-        canonical="https://venturo.it/en/case-studies/cve"
+        canonical="https://venturoconsulting.it/en/case-studies/cve"
         lang="en"
         alternateUrls={{
-          it: "https://venturo.it/casi-studio/cve",
-          en: "https://venturo.it/en/case-studies/cve",
+          it: "https://venturoconsulting.it/casi-studio/cve",
+          en: "https://venturoconsulting.it/en/case-studies/cve",
         }}
       />
       <CaseStudyLayoutEN

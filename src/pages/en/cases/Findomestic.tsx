@@ -7,11 +7,11 @@ const FindomesticEN = () => {
       <SEO
         title="Internal communication and organizational culture in the financial sector — Venturo"
         description="Intensive workshop to unify language between customer service and social team in one of Italy's leading consumer credit companies."
-        canonical="https://venturo.it/en/case-studies/findomestic"
+        canonical="https://venturoconsulting.it/en/case-studies/findomestic"
         lang="en"
         alternateUrls={{
-          it: "https://venturo.it/casi-studio/findomestic",
-          en: "https://venturo.it/en/case-studies/findomestic"
+          it: "https://venturoconsulting.it/casi-studio/findomestic",
+          en: "https://venturoconsulting.it/en/case-studies/findomestic"
         }}
       />
       <CaseStudyLayoutEN
