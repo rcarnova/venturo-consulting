@@ -47,6 +47,14 @@ const cases = [
     logoScale: 1,
   },
   {
+    company: "Eu.promotions",
+    result: "Identity discovered, not invented",
+    description: "Brand identity and content strategy for an international SME in loyalty & retail marketing.",
+    logo: "/logos/eupromotion_white.png",
+    logoScale: 1.5,
+    slug: "eupromotions",
+  },
+  {
     company: "CVE",
     result: "The First Company Town Hall",
     rating: "4.3/5",
