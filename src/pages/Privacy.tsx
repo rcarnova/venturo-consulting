@@ -9,7 +9,7 @@ const Privacy = () => {
       <SEO
         title="Informativa Privacy"
         description="Informativa privacy di Venturo. Come trattiamo i tuoi dati personali raccolti tramite i form di contatto e download."
-        canonical="https://venturo.it/privacy"
+        canonical="https://venturoconsulting.it/privacy"
         lang="it"
       />
       <div className="max-w-[800px] mx-auto px-6 md:px-12 py-12">

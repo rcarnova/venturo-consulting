@@ -11,7 +11,7 @@ const ResponsabilitaNonSiDelega = () => {
       <SEO
         title="La responsabilità non si delega. Si conquista."
         description="Nelle organizzazioni sane le persone non aspettano che qualcuno assegni loro responsabilità. Le pretendono."
-        canonical="https://venturo.it/magazine/la-responsabilita-non-si-delega"
+        canonical="https://venturoconsulting.it/magazine/la-responsabilita-non-si-delega"
         lang="it"
       />
       <Header />

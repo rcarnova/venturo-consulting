@@ -7,11 +7,11 @@ const CVE = () => {
       <SEO
         title="Facilitazione e cultura organizzativa per azienda energetica — Venturo"
         description="Progettazione e facilitazione della prima Town Hall aziendale di CVE. Un momento storico per allineare leadership e persone su valori e direzione strategica."
-        canonical="https://venturo.it/casi-studio/cve"
+        canonical="https://venturoconsulting.it/casi-studio/cve"
         lang="it"
         alternateUrls={{
-          it: "https://venturo.it/casi-studio/cve",
-          en: "https://venturo.it/en/case-studies/cve",
+          it: "https://venturoconsulting.it/casi-studio/cve",
+          en: "https://venturoconsulting.it/en/case-studies/cve",
         }}
       />
       <CaseStudyLayout

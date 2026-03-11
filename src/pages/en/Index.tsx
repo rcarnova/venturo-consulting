@@ -20,9 +20,9 @@ const IndexEN = () => {
       <SEO
         title="Venturo — Organizational Culture & Employer Branding Consulting"
         description="We make your organization's culture visible. Venturo works on employer branding, internal communication and cultural transformation for companies that want to attract and retain the right talent."
-        canonical="https://venturo.it/en"
+        canonical="https://venturoconsulting.it/en"
         lang="en"
-        alternateUrls={{ it: "https://venturo.it", en: "https://venturo.it/en" }}
+        alternateUrls={{ it: "https://venturoconsulting.it", en: "https://venturoconsulting.it/en" }}
       />
       <HeaderEN />
       <main>

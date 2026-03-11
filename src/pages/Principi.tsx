@@ -13,9 +13,9 @@ const Principi = () => {
       <SEO
         title="I nostri principi — Fondamenti teorici di Venturo"
         description="Da Edgar Schein a Simon Sinek, da David Aaker a Daniel Kahneman. I principi consolidati su cui si basa il metodo Venturo per la consulenza culturale."
-        canonical="https://venturo.it/principi"
+        canonical="https://venturoconsulting.it/principi"
         lang="it"
-        alternateUrls={{ it: "https://venturo.it/principi", en: "https://venturo.it/en/principles" }}
+        alternateUrls={{ it: "https://venturoconsulting.it/principi", en: "https://venturoconsulting.it/en/principles" }}
       />
       <Header />
       <PrincipiHero />

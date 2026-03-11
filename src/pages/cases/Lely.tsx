@@ -7,9 +7,9 @@ const Lely = () => {
       <SEO
         title="Leadership e gestione team per azienda manifatturiera — Venturo"
         description="Framework pratico per manager tecnici che devono guidare team senza esperienza HR nel settore agricolo e manifatturiero."
-        canonical="https://venturo.it/casi-studio/lely"
+        canonical="https://venturoconsulting.it/casi-studio/lely"
         lang="it"
-        alternateUrls={{ it: "https://venturo.it/casi-studio/lely", en: "https://venturo.it/en/case-studies/lely" }}
+        alternateUrls={{ it: "https://venturoconsulting.it/casi-studio/lely", en: "https://venturoconsulting.it/en/case-studies/lely" }}
       />
       <CaseStudyLayout
       caseId="lely"

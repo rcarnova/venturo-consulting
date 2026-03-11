@@ -32,7 +32,7 @@ const ValoriNonSonoPoster = () => {
       <SEO
         title="I valori non sono poster. Sono promesse."
         description="Le aziende fanno promesse continuamente. Ma come ci hanno insegnato da bambini: le promesse vanno mantenute."
-        canonical="https://venturo.it/magazine/i-valori-non-sono-poster"
+        canonical="https://venturoconsulting.it/magazine/i-valori-non-sono-poster"
         lang="it"
       />
       <ArticleLayout
