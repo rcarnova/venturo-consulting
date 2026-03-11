@@ -84,6 +84,8 @@ const App = () => (
               <Route path="/casi-studio/randstad-professionals" element={<RandstadProfessionals />} />
               <Route path="/en/case-studies/findomestic" element={<FindomesticEN />} />
               <Route path="/en/case-studies/randstad-professionals" element={<RandstadProfessionalsEN />} />
+              <Route path="/casi-studio/eupromotions" element={<EuPromotions />} />
+              <Route path="/en/case-studies/eupromotions" element={<EuPromotionsEN />} />
               <Route path="/magazine" element={<Magazine />} />
               <Route path="/magazine/la-responsabilita-non-si-delega" element={<ResponsabilitaNonSiDelega />} />
               <Route path="/magazine/i-valori-non-sono-poster" element={<ValoriNonSonoPoster />} />
