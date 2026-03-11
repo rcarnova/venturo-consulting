@@ -157,6 +157,21 @@
     <priority>0.8</priority>
   </url>
 
+  <url>
+    <loc>https://venturoconsulting.it/casi-studio/eupromotions</loc>
+    <xhtml:link rel="alternate" hreflang="it" href="https://venturoconsulting.it/casi-studio/eupromotions"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://venturoconsulting.it/en/case-studies/eupromotions"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://venturoconsulting.it/en/case-studies/eupromotions</loc>
+    <xhtml:link rel="alternate" hreflang="it" href="https://venturoconsulting.it/casi-studio/eupromotions"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://venturoconsulting.it/en/case-studies/eupromotions"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
   <!-- Principi -->
   <url>
     <loc>https://venturoconsulting.it/principi</loc>

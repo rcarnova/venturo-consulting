@@ -89,6 +89,18 @@ export const allCases: CaseData[] = [
     showOnHomepage: true,
   },
   {
+    id: "eupromotions",
+    company: "Eu.promotions",
+    result: "Identità scoperta, non inventata",
+    description: "Brand identity e strategia contenuti per una PMI internazionale nel loyalty & retail marketing.",
+    logo: "/logos/eupromotion_logo.jpg",
+    logoScale: 1,
+    slug: "eupromotions",
+    hasDetail: true,
+    url: "/casi-studio/eupromotions",
+    showOnHomepage: true,
+  },
+  {
     id: "cve",
     company: "CVE",
     result: "La Prima Town Hall aziendale",
