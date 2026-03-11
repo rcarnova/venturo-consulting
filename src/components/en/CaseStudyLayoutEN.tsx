@@ -81,9 +81,7 @@ const CaseStudyLayoutEN = ({
                 <img
                   src={logo}
                   alt={logoAlt || title}
-                  className={logoClassName || `h-24 md:h-32 mx-auto mb-8 ${logoNeedsInvert ? 'invert' : ''}`}
-                  width={200}
-                  height={128}
+                  className={logoClassName || `h-24 md:h-32 w-auto object-contain mx-auto mb-8 ${logoNeedsInvert ? 'invert' : ''}`}
                 />
               ) : (
                 <div className="inline-block px-8 py-4 bg-charcoal text-warm-white text-2xl font-semibold rounded-lg mb-8">
