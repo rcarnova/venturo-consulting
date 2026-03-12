@@ -5,8 +5,8 @@ const EuPromotionsEN = () => {
   return (
     <>
       <SEO
-        title="Eu.promotions — Venturo"
-        description="Identity discovered, not invented. Brand identity and content strategy for eu.promotions, an international SME in loyalty & retail marketing."
+        title="Eu.promotions — Brand Identity & Organizational Culture | Venturo"
+        description="How we built eu.promotions' brand identity starting from the team's real culture. Envisioning workshop, content strategy and EVP for an international SME in loyalty & retail marketing."
         canonical="https://venturoconsulting.it/en/case-studies/eupromotions"
         ogImage="https://venturoconsulting.it/cases/eupromotion-envisioning.png"
         lang="en"
