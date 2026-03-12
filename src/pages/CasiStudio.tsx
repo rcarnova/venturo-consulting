@@ -74,6 +74,7 @@ const cases = [
     hasDetail: true,
     logo: "/logos/eupromotion_white.png",
     invertLogo: false,
+    logoScale: 3,
     tags: ["CEO / Leadership", "CMO / Marketing"],
   },
   {
