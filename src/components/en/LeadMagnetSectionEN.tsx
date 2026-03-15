@@ -22,6 +22,9 @@ const LeadMagnetSectionEN = () => {
       });
       if (fnError || !data?.success) throw new Error("Failed");
       setIsSuccess(true);
+      setTimeout(() => {
+        successMessageRef.current?.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      }, 100);
     } catch {
       setError(true);
     }

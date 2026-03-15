@@ -25,6 +25,9 @@ const LeadMagnetSection = () => {
       if (fnError || !data?.success) throw new Error("Failed");
       console.log("[LeadMagnet] Success!");
       setIsSuccess(true);
+      setTimeout(() => {
+        successMessageRef.current?.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      }, 100);
     } catch (err) {
       console.error("[LeadMagnet] Caught error:", err);
       setError(true);
