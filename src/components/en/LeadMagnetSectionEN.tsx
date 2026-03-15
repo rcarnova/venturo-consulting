@@ -38,7 +38,7 @@ const LeadMagnetSectionEN = () => {
     >
       <div className="container-narrow">
         {isSuccess ? (
-          <p className="font-display font-semibold text-foreground text-center" style={{ fontSize: "17px" }}>
+          <p ref={successMessageRef} className="font-display font-semibold text-foreground text-center" style={{ fontSize: "17px" }}>
             Check your email — the guide is on its way.
           </p>
         ) : (
