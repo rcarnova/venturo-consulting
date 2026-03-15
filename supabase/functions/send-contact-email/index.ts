@@ -2,11 +2,36 @@ import { serve } from "https://deno.land/std@0.190.0/http/server.ts";
 
 const RESEND_API_KEY = Deno.env.get("RESEND_API_KEY");
 
+const ALLOWED_ORIGIN = "https://venturoconsulting.it";
+
 const corsHeaders = {
-  "Access-Control-Allow-Origin": "*",
+  "Access-Control-Allow-Origin": ALLOWED_ORIGIN,
   "Access-Control-Allow-Headers":
     "authorization, x-client-info, apikey, content-type, x-supabase-client-platform, x-supabase-client-platform-version, x-supabase-client-runtime, x-supabase-client-runtime-version",
 };
+
+// --- Rate limiting: 3 requests per IP per minute ---
+const rateLimitMap = new Map<string, number[]>();
+const RATE_LIMIT_WINDOW_MS = 60_000;
+const RATE_LIMIT_MAX = 3;
+
+function isRateLimited(ip: string): boolean {
+  const now = Date.now();
+  const timestamps = rateLimitMap.get(ip)?.filter((t) => now - t < RATE_LIMIT_WINDOW_MS) ?? [];
+  rateLimitMap.set(ip, timestamps);
+  if (timestamps.length >= RATE_LIMIT_MAX) return true;
+  timestamps.push(now);
+  return false;
+}
+
+// --- HTML sanitization ---
+function escapeHtml(str: string): string {
+  return str
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;");
+}
 
 interface ContactRequest {
   name: string;
@@ -15,9 +40,16 @@ interface ContactRequest {
 }
 
 const handler = async (req: Request): Promise<Response> => {
-  // Handle CORS preflight requests
   if (req.method === "OPTIONS") {
     return new Response(null, { headers: corsHeaders });
+  }
+
+  const clientIp = req.headers.get("x-forwarded-for")?.split(",")[0]?.trim() ?? "unknown";
+  if (isRateLimited(clientIp)) {
+    return new Response(
+      JSON.stringify({ success: false, error: "Too many requests. Try again in a minute." }),
+      { status: 429, headers: { "Content-Type": "application/json", ...corsHeaders } }
+    );
   }
 
   try {
@@ -28,22 +60,19 @@ const handler = async (req: Request): Promise<Response> => {
 
     const { name, email, message }: ContactRequest = await req.json();
 
-    // Validate required fields
     if (!name || !email || !message) {
-      console.error("Missing required fields:", { name: !!name, email: !!email, message: !!message });
       throw new Error("Missing required fields: name, email, and message are required");
     }
 
-    // Validate email format
     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     if (!emailRegex.test(email)) {
-      console.error("Invalid email format:", email);
       throw new Error("Invalid email format");
     }
 
-    console.log("Sending contact email from:", email, "name:", name);
+    const safeName = escapeHtml(name);
+    const safeEmail = escapeHtml(email);
+    const safeMessage = escapeHtml(message).replace(/\n/g, "<br>");
 
-    // Use Resend API directly via fetch
     const res = await fetch("https://api.resend.com/emails", {
       method: "POST",
       headers: {
@@ -54,13 +83,13 @@ const handler = async (req: Request): Promise<Response> => {
         from: "Venturo Contact Form <onboarding@resend.dev>",
         to: ["rosario.carnovale@gmail.com"],
         reply_to: email,
-        subject: `Nuovo messaggio da ${name} - Venturo`,
+        subject: `Nuovo messaggio da ${safeName} - Venturo`,
         html: `
           <h2>Nuovo messaggio dal form contatti Venturo</h2>
-          <p><strong>Nome:</strong> ${name}</p>
-          <p><strong>Email:</strong> ${email}</p>
+          <p><strong>Nome:</strong> ${safeName}</p>
+          <p><strong>Email:</strong> ${safeEmail}</p>
           <p><strong>Messaggio:</strong></p>
-          <p>${message.replace(/\n/g, '<br>')}</p>
+          <p>${safeMessage}</p>
           <hr>
           <p style="color: #666; font-size: 12px;">Questo messaggio è stato inviato tramite il form contatti di Venturo.</p>
         `,
@@ -74,24 +103,16 @@ const handler = async (req: Request): Promise<Response> => {
       throw new Error(emailResponse.message || "Failed to send email");
     }
 
-    console.log("Email sent successfully:", emailResponse);
-
     return new Response(JSON.stringify({ success: true, data: emailResponse }), {
       status: 200,
-      headers: {
-        "Content-Type": "application/json",
-        ...corsHeaders,
-      },
+      headers: { "Content-Type": "application/json", ...corsHeaders },
     });
   } catch (error: unknown) {
     console.error("Error in send-contact-email function:", error);
     const errorMessage = error instanceof Error ? error.message : "Unknown error";
     return new Response(
       JSON.stringify({ success: false, error: errorMessage }),
-      {
-        status: 500,
-        headers: { "Content-Type": "application/json", ...corsHeaders },
-      }
+      { status: 500, headers: { "Content-Type": "application/json", ...corsHeaders } }
     );
   }
 };
