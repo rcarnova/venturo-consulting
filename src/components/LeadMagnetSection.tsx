@@ -6,7 +6,7 @@ import { supabase } from "@/integrations/supabase/client";
 
 const LeadMagnetSection = () => {
   const [email, setEmail] = useState("");
-  const [isSubmitting, setIsSubmitting] = useState(false);
+  const [isLoading, setIsLoading] = useState(false);
   const [isSuccess, setIsSuccess] = useState(false);
   const [error, setError] = useState(false);
   const [marketingConsent, setMarketingConsent] = useState(false);
@@ -14,25 +14,22 @@ const LeadMagnetSection = () => {
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    setIsSubmitting(true);
+    if (isLoading) return;
+    setIsLoading(true);
     setError(false);
-    console.log("[LeadMagnet] Submitting email:", email);
     try {
       const { data, error: fnError } = await supabase.functions.invoke('lead-magnet-signup', {
         body: { email, marketingConsent },
       });
-      console.log("[LeadMagnet] Response:", data, "Error:", fnError);
       if (fnError || !data?.success) throw new Error("Failed");
-      console.log("[LeadMagnet] Success!");
       setIsSuccess(true);
       setTimeout(() => {
         successMessageRef.current?.scrollIntoView({ behavior: 'smooth', block: 'center' });
       }, 100);
-    } catch (err) {
-      console.error("[LeadMagnet] Caught error:", err);
+    } catch {
       setError(true);
     }
-    setIsSubmitting(false);
+    setIsLoading(false);
   };
 
   return (
@@ -77,10 +74,10 @@ const LeadMagnetSection = () => {
               />
               <Button
                 type="submit"
-                disabled={isSubmitting}
+                disabled={isLoading}
                 className="h-12 bg-primary text-primary-foreground hover:bg-primary/90 font-mono text-base px-6 rounded-sm whitespace-nowrap"
               >
-                {isSubmitting ? "..." : "Scarica"}
+                {isLoading ? "..." : "Scarica"}
               </Button>
               </div>
               <div className="flex items-start gap-2 mt-1">
