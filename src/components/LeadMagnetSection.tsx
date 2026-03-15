@@ -10,6 +10,7 @@ const LeadMagnetSection = () => {
   const [isSuccess, setIsSuccess] = useState(false);
   const [error, setError] = useState(false);
   const [marketingConsent, setMarketingConsent] = useState(false);
+  const successMessageRef = useRef<HTMLParagraphElement>(null);
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
