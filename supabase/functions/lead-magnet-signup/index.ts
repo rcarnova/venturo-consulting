@@ -2,15 +2,48 @@ import { serve } from "https://deno.land/std@0.190.0/http/server.ts";
 
 const BREVO_API_KEY = Deno.env.get("BREVO_API_KEY");
 
+const ALLOWED_ORIGIN = "https://venturoconsulting.it";
+
 const corsHeaders = {
-  "Access-Control-Allow-Origin": "*",
+  "Access-Control-Allow-Origin": ALLOWED_ORIGIN,
   "Access-Control-Allow-Headers":
     "authorization, x-client-info, apikey, content-type, x-supabase-client-platform, x-supabase-client-platform-version, x-supabase-client-runtime, x-supabase-client-runtime-version",
 };
 
+// --- Rate limiting: 3 requests per IP per minute ---
+const rateLimitMap = new Map<string, number[]>();
+const RATE_LIMIT_WINDOW_MS = 60_000;
+const RATE_LIMIT_MAX = 3;
+
+function isRateLimited(ip: string): boolean {
+  const now = Date.now();
+  const timestamps = rateLimitMap.get(ip)?.filter((t) => now - t < RATE_LIMIT_WINDOW_MS) ?? [];
+  rateLimitMap.set(ip, timestamps);
+  if (timestamps.length >= RATE_LIMIT_MAX) return true;
+  timestamps.push(now);
+  return false;
+}
+
+// --- HTML sanitization ---
+function escapeHtml(str: string): string {
+  return str
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;");
+}
+
 serve(async (req: Request) => {
   if (req.method === "OPTIONS") {
     return new Response(null, { headers: corsHeaders });
+  }
+
+  const clientIp = req.headers.get("x-forwarded-for")?.split(",")[0]?.trim() ?? "unknown";
+  if (isRateLimited(clientIp)) {
+    return new Response(
+      JSON.stringify({ success: false, error: "Too many requests. Try again in a minute." }),
+      { status: 429, headers: { "Content-Type": "application/json", ...corsHeaders } }
+    );
   }
 
   try {
@@ -26,6 +59,8 @@ serve(async (req: Request) => {
         { status: 400, headers: { "Content-Type": "application/json", ...corsHeaders } }
       );
     }
+
+    const safeEmail = escapeHtml(email);
 
     const res = await fetch("https://api.brevo.com/v3/contacts", {
       method: "POST",
@@ -88,7 +123,7 @@ serve(async (req: Request) => {
         to: [{ email: "info@venturoconsulting.it" }],
         sender: { email: "info@venturoconsulting.it", name: "Venturo" },
         subject: "Nuovo download — Guida Employer Branding",
-        htmlContent: `<p>Nuovo contatto ha scaricato la guida.</p><p>Email: ${email}</p><p>OPT_IN: ${marketingConsent === true}</p>`,
+        htmlContent: `<p>Nuovo contatto ha scaricato la guida.</p><p>Email: ${safeEmail}</p><p>OPT_IN: ${marketingConsent === true}</p>`,
       }),
     });
 
@@ -110,7 +145,7 @@ serve(async (req: Request) => {
         to: [{ email: "rosario.carnovale@gmail.com" }],
         sender: { email: "info@venturoconsulting.it", name: "Venturo" },
         subject: "Nuovo download — Guida Employer Branding",
-        htmlContent: `<p>Nuovo contatto ha scaricato la guida.</p><p>Email: ${email}</p><p>OPT_IN marketing: ${marketingConsent === true}</p>`,
+        htmlContent: `<p>Nuovo contatto ha scaricato la guida.</p><p>Email: ${safeEmail}</p><p>OPT_IN marketing: ${marketingConsent === true}</p>`,
       }),
     });
 
