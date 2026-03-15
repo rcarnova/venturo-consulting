@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useRef } from "react";
 import { Link } from "react-router-dom";
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
@@ -10,6 +10,7 @@ const LeadMagnetSection = () => {
   const [isSuccess, setIsSuccess] = useState(false);
   const [error, setError] = useState(false);
   const [marketingConsent, setMarketingConsent] = useState(false);
+  const successMessageRef = useRef<HTMLParagraphElement>(null);
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -24,6 +25,9 @@ const LeadMagnetSection = () => {
       if (fnError || !data?.success) throw new Error("Failed");
       console.log("[LeadMagnet] Success!");
       setIsSuccess(true);
+      setTimeout(() => {
+        successMessageRef.current?.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      }, 100);
     } catch (err) {
       console.error("[LeadMagnet] Caught error:", err);
       setError(true);
@@ -38,7 +42,7 @@ const LeadMagnetSection = () => {
     >
       <div className="container-narrow">
         {isSuccess ? (
-          <p className="font-display font-semibold text-foreground text-center" style={{ fontSize: "17px" }}>
+          <p ref={successMessageRef} className="font-display font-semibold text-foreground text-center" style={{ fontSize: "17px" }}>
             Controlla la tua email — la guida è in arrivo.
           </p>
         ) : (
