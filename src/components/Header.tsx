@@ -105,7 +105,7 @@ const Header = () => {
             </DropdownMenuContent>
           </DropdownMenu>
 
-          <Button onClick={scrollToContact} variant="default" size="default" className="hidden sm:inline-flex glow-btn">
+          <Button onClick={scrollToContact} variant="default" size="default" className="glow-btn px-4 py-2 text-xs sm:px-6 sm:py-2.5 sm:text-sm">
             Parliamone
           </Button>
           <Sheet open={open} onOpenChange={setOpen}>
