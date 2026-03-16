@@ -16,7 +16,7 @@ export const SEO = ({
   title, 
   description, 
   canonical, 
-  ogImage = 'https://venturo-consulting.lovable.app/og-image.png',
+  ogImage = 'https://venturoconsulting.it/og-image.png',
   lang = 'it',
   alternateUrls
 }: SEOProps) => {
