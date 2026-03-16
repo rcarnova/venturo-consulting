@@ -46,7 +46,7 @@ const FooterEN = () => {
             </Link>
           </div>
           <p className="text-[0.85rem] font-mono text-muted-foreground mt-2">
-            © 2025 Venturo - P.IVA 02662900022
+            © {new Date().getFullYear()} Venturo - P.IVA 02662900022
           </p>
         </div>
       </div>
