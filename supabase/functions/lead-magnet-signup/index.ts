@@ -51,6 +51,9 @@ serve(async (req: Request) => {
     if (!BREVO_API_KEY) {
       throw new Error("BREVO_API_KEY is not configured");
     }
+    if (!PDF_URL) {
+      throw new Error("PDF_URL is not configured");
+    }
 
     const { email, marketingConsent } = await req.json();
 
