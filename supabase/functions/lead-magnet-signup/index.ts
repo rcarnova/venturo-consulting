@@ -1,6 +1,7 @@
 import { serve } from "https://deno.land/std@0.190.0/http/server.ts";
 
 const BREVO_API_KEY = Deno.env.get("BREVO_API_KEY");
+const PDF_URL = Deno.env.get("PDF_URL");
 
 const ALLOWED_ORIGIN = "https://venturoconsulting.it";
 
@@ -49,6 +50,9 @@ serve(async (req: Request) => {
   try {
     if (!BREVO_API_KEY) {
       throw new Error("BREVO_API_KEY is not configured");
+    }
+    if (!PDF_URL) {
+      throw new Error("PDF_URL is not configured");
     }
 
     const { email, marketingConsent } = await req.json();
@@ -100,7 +104,7 @@ serve(async (req: Request) => {
         to: [{ email }],
         templateId: 40,
         params: {
-          GUIDE_LINK: "https://drive.google.com/file/d/1HwEZz-rxBD8JZM7_GcmUPlPqWcI-z5w6/view?usp=sharing",
+          GUIDE_LINK: PDF_URL,
         },
       }),
     });
