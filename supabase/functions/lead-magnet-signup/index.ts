@@ -1,6 +1,7 @@
 import { serve } from "https://deno.land/std@0.190.0/http/server.ts";
 
 const BREVO_API_KEY = Deno.env.get("BREVO_API_KEY");
+const PDF_URL = Deno.env.get("PDF_URL");
 
 const ALLOWED_ORIGIN = "https://venturoconsulting.it";
 
