@@ -1,19 +1,21 @@
+import { lazy, Suspense } from "react";
 import { SEO } from "@/components/SEO";
 import { Helmet } from "react-helmet-async";
 import Header from "@/components/Header";
 import HeroSection from "@/components/HeroSection";
-import WhyVenturoSection from "@/components/WhyVenturoSection";
-import ReferencesSection from "@/components/ReferencesSection";
-import HowWeWorkSection from "@/components/HowWeWorkSection";
-import LeversSection from "@/components/LeversSection";
-import CasesSection from "@/components/CasesSection";
-import ResultCallout from "@/components/ResultCallout";
-import PartnersSection from "@/components/PartnersSection";
-import TeamPreviewSection from "@/components/TeamPreviewSection";
 import ClientsSection from "@/components/ClientsSection";
-import LeadMagnetSection from "@/components/LeadMagnetSection";
-import ContactSection from "@/components/ContactSection";
-import Footer from "@/components/Footer";
+
+const WhyVenturoSection = lazy(() => import("@/components/WhyVenturoSection"));
+const HowWeWorkSection = lazy(() => import("@/components/HowWeWorkSection"));
+const ReferencesSection = lazy(() => import("@/components/ReferencesSection"));
+const LeversSection = lazy(() => import("@/components/LeversSection"));
+const CasesSection = lazy(() => import("@/components/CasesSection"));
+const ResultCallout = lazy(() => import("@/components/ResultCallout"));
+const PartnersSection = lazy(() => import("@/components/PartnersSection"));
+const TeamPreviewSection = lazy(() => import("@/components/TeamPreviewSection"));
+const LeadMagnetSection = lazy(() => import("@/components/LeadMagnetSection"));
+const ContactSection = lazy(() => import("@/components/ContactSection"));
+const Footer = lazy(() => import("@/components/Footer"));
 
 const jsonLd = {
   "@context": "https://schema.org",
@@ -32,6 +34,8 @@ const jsonLd = {
     { "@type": "Person", "name": "Arianna Barisan" }
   ]
 };
+
+const LazyFallback = <div />;
 
 const Index = () => {
   return (
@@ -55,18 +59,22 @@ const Index = () => {
             Venturo è una società di consulenza specializzata in cultura organizzativa ed employer branding. Lavoriamo con aziende italiane che vogliono rendere visibile la propria identità culturale, per attrarre i talenti giusti, allineare comunicazione interna ed esterna, e costruire organizzazioni coerenti con i propri valori.
           </p>
         </div>
-        <WhyVenturoSection />
-        <HowWeWorkSection />
-        <ReferencesSection />
-        <LeversSection />
-        <CasesSection />
-        <ResultCallout />
-        <PartnersSection />
-        <TeamPreviewSection />
-        <LeadMagnetSection />
-        <ContactSection />
+        <Suspense fallback={LazyFallback}>
+          <WhyVenturoSection />
+          <HowWeWorkSection />
+          <ReferencesSection />
+          <LeversSection />
+          <CasesSection />
+          <ResultCallout />
+          <PartnersSection />
+          <TeamPreviewSection />
+          <LeadMagnetSection />
+          <ContactSection />
+        </Suspense>
       </main>
-      <Footer />
+      <Suspense fallback={LazyFallback}>
+        <Footer />
+      </Suspense>
     </div>
   );
 };
