@@ -464,3 +464,12 @@
   border-right: 3px solid hsl(var(--foreground));
   animation: typing 0.6s steps(11, end) 1.6s forwards, blink-caret 0.75s step-end 2.2s infinite;
 }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
