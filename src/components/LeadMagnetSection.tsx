@@ -49,6 +49,7 @@ const LeadMagnetSection = () => {
               alt="Copertina guida gratuita: 10 domande sull'employer branding per valutare la cultura organizzativa aziendale"
               className="w-20 h-auto rounded-sm shrink-0 hidden sm:block"
               style={{ boxShadow: "4px 6px 16px rgba(0,0,0,0.25), 1px 2px 4px rgba(0,0,0,0.12)" }}
+              loading="lazy"
             />
             <div className="min-w-0 flex-1">
               <span className="font-mono uppercase tracking-wider text-muted-foreground" style={{ fontSize: "13px" }}>
