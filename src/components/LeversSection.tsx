@@ -65,7 +65,7 @@ const LeversSection = () => {
             ))}
           </div>
           {/* Desktop: 2 rows of 3 */}
-          <div className="hidden md:grid md:grid-cols-3 gap-3 max-w-4xl mx-auto">
+          <div className="hidden md:grid md:grid-cols-3 gap-3 max-w-3xl mx-auto">
             {levers.map((lever, index) => (
               <button
                 key={index}

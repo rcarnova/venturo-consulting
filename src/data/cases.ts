@@ -112,6 +112,6 @@ export const allCases: CaseData[] = [
     slug: "cve",
     hasDetail: true,
     url: "/casi-studio/cve",
-    showOnHomepage: true,
+    showOnHomepage: false,
   },
 ];
