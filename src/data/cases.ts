@@ -79,7 +79,7 @@ export const allCases: CaseData[] = [
   {
     id: "ricehouse",
     company: "Ricehouse",
-    result: "Da identità forte a candidature qualificate",
+    result: "Dal riso alla bioedilizia: trovare persone che credono nel tuo perché",
     description: "Ridefinizione completa dell'employer brand e della proposta di valore.",
     logo: "/logos/ricehouse_white.png",
     logoScale: 1,
