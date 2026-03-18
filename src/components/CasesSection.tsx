@@ -1,9 +1,8 @@
-import { ArrowUpRight, ArrowRight, Star } from "lucide-react";
+import { ArrowRight } from "lucide-react";
 import { Link } from "react-router-dom";
 import AnimatedSection from "./AnimatedSection";
 import GlowTitle from "./GlowTitle";
 import { Button } from "./ui/button";
-import { allCases } from "@/data/cases";
 
 const CasesSection = () => {
   return (
@@ -11,77 +10,67 @@ const CasesSection = () => {
       <div className="container-wide">
         <AnimatedSection>
           <div className="text-center max-w-2xl mx-auto mb-12">
-            <GlowTitle className="text-3xl md:text-section text-charcoal">
+            <GlowTitle className="text-3xl md:text-section text-foreground">
               Risultati concreti
             </GlowTitle>
-            <p className="text-subheadline mt-4">
+            <p className="text-subheadline mt-4 text-muted-foreground">
               Alcuni progetti in cui la cultura è diventata visibile.
             </p>
           </div>
         </AnimatedSection>
 
-        <div className="grid md:grid-cols-2 gap-6">
-          {allCases.filter(c => c.showOnHomepage !== false).map((caseStudy, index) => {
-            const content = (
-              <div className="card-subtle group hover:bg-card transition-all duration-300 cursor-pointer h-full glow-yellow hover:scale-[1.02]">
-                <div className="flex items-start justify-between">
-                  <div>
-                    <div className="flex items-center gap-3 mb-2">
-                      {caseStudy.logo && (
-                        <div className={`bg-charcoal rounded-lg overflow-hidden py-2.5 inline-flex items-center justify-center ${(caseStudy.logoScale || 1) >= 3 ? 'px-6' : 'px-4'}`}>
-                          <img 
-                            src={caseStudy.logo} 
-                            alt={`Logo ${caseStudy.company}`} 
-                            className={`h-5 w-auto ${caseStudy.invertLogo ? 'invert brightness-0 invert' : ''}`}
-                            style={{ transform: `scale(${caseStudy.logoScale || 1})` }}
-                            width={80}
-                            height={20}
-                            loading="lazy"
-                          />
-                        </div>
-                      )}
-                      {!caseStudy.logo && (
-                        <span className="text-sm font-medium text-primary uppercase tracking-wider">
-                          {caseStudy.company}
-                        </span>
-                      )}
-                    </div>
-                    <h3 className="text-subtitle text-charcoal mt-2">
-                      {caseStudy.result}
-                    </h3>
-                    {caseStudy.rating && (
-                      <div className="flex items-center gap-1 mt-2">
-                        <Star className="w-4 h-4 text-primary fill-primary" />
-                        <span className="text-sm font-medium text-primary">{caseStudy.rating}</span>
-                      </div>
-                    )}
-                  </div>
-                  <div className="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center group-hover:bg-primary group-hover:text-primary-foreground transition-all">
-                    <ArrowUpRight className="w-5 h-5 text-primary group-hover:text-primary-foreground" />
-                  </div>
-                </div>
-                <p className="text-muted-foreground mt-4">
-                  {caseStudy.description}
-                </p>
+        <AnimatedSection>
+          <div className="max-w-7xl mx-auto">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-0 items-stretch">
+              {/* Image column */}
+              <div className="order-first">
+                <img
+                  src="/cases/randstad-professionals-envisioning.jpg"
+                  alt="Workshop di envisioning con il team Randstad Professionals"
+                  className="w-full h-[360px] md:h-full object-cover md:rounded-l-lg"
+                  width={800}
+                  height={600}
+                  loading="lazy"
+                />
               </div>
-            );
 
-            return (
-              <AnimatedSection key={index} animation="fade-up" delay={index * 100}>
-                {caseStudy.slug ? (
-                  <Link to={`/casi-studio/${caseStudy.slug}`} className="block h-full">
-                    {content}
-                  </Link>
-                ) : (
-                  content
-                )}
-              </AnimatedSection>
-            );
-          })}
-        </div>
+              {/* Content column */}
+              <div className="flex flex-col justify-center p-8 md:p-12 lg:p-16 space-y-6 bg-card md:rounded-r-lg">
+                {/* Label */}
+                <p className="font-mono text-xs uppercase tracking-[0.2em] text-muted-foreground">
+                  Caso studio
+                </p>
+
+                {/* Category tag */}
+                <span className="inline-block self-start rounded-full border border-border px-3 py-1 text-xs font-medium text-muted-foreground">
+                  Talent Strategy / Employer Branding
+                </span>
+
+                {/* Title */}
+                <h3 className="text-2xl md:text-3xl font-medium leading-tight text-foreground">
+                  Identità di marca per chi seleziona i migliori
+                </h3>
+
+                {/* Body */}
+                <p className="text-muted-foreground leading-relaxed">
+                  EVP, Talent Personas e video employer branding per la divisione top management di Randstad. Un lavoro che parte dall'interno — dalla cultura del team — per costruire una proposta di valore credibile verso il mercato.
+                </p>
+
+                {/* CTA */}
+                <Link
+                  to="/casi-studio/randstad-professionals"
+                  className="inline-flex items-center text-primary font-mono font-medium group hover:underline"
+                >
+                  Leggi il caso completo
+                  <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
+                </Link>
+              </div>
+            </div>
+          </div>
+        </AnimatedSection>
 
         {/* Link to all cases */}
-        <AnimatedSection delay={600}>
+        <AnimatedSection delay={200}>
           <div className="text-center mt-12">
             <Button asChild variant="outline" size="lg">
               <Link to="/casi-studio" className="inline-flex items-center gap-2 glow-btn">
