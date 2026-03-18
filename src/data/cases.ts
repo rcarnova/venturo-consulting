@@ -62,7 +62,7 @@ export const allCases: CaseData[] = [
     slug: "ufficio-pio",
     hasDetail: true,
     url: "/casi-studio/ufficio-pio",
-    showOnHomepage: true,
+    showOnHomepage: false,
   },
   {
     id: "lely",
