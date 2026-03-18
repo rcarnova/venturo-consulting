@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { UserPlus, Sparkles, Users2, Home, Target, Handshake, LucideIcon } from "lucide-react";
+import { UserPlus, Users2, Target, LucideIcon } from "lucide-react";
 import { Link } from "react-router-dom";
 import AnimatedSection from "./AnimatedSection";
 import GlowTitle from "./GlowTitle";
