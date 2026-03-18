@@ -25,7 +25,7 @@ export const allCases: CaseData[] = [
     slug: "randstad",
     hasDetail: true,
     url: "/casi-studio/randstad",
-    showOnHomepage: true,
+    showOnHomepage: false,
   },
   {
     id: "randstad-professionals",
