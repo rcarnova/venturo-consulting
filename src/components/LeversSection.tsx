@@ -25,21 +25,6 @@ const levers: Lever[] = [
     title: "Marketing & Coerenza Esterna",
     description: "Il marketing racconta un'azienda che le persone interne non riconoscono. I clienti lo percepiscono. I candidati lo scoprono dopo il primo mese. Il problema non è il messaggio: è che l'identità esterna è stata costruita senza partire da quella interna. Allineiamo chi siete dentro con quello che comunicate fuori. Partendo da dentro, non dall'esterno.",
     icon: Target
-  },
-  {
-    title: "Processo di Delega",
-    description: "Il team commerciale vende in un modo che non somiglia all'azienda. Oppure la relazione col cliente dipende da una persona sola. In contesti B2B complessi, rendiamo il modello di vendita coerente con la vostra identità reale.",
-    icon: Handshake
-  },
-  {
-    title: "Innovazione & AI Readiness",
-    description: "Avete investito in strumenti, formazione, hackathon. Ma le idee si fermano sempre allo stesso punto. Se la cultura interna punisce l'errore, nessuna tecnologia vi renderà innovativi. Lavoriamo sugli assunti invisibili che bloccano il cambiamento prima che parta.",
-    icon: Sparkles
-  },
-  {
-    title: "Cultura del Lavoro Ibrido",
-    description: "L'ibrido c'è, ma funziona come un compromesso più che come una scelta. La fiducia è fragile, la visibilità conta più del risultato. Progettiamo sistemi di responsabilità e fiducia che funzionano anche senza presenza fisica.",
-    icon: Home
   }
 ];
 
