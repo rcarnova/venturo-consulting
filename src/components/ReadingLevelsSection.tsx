@@ -40,8 +40,8 @@ const ReadingLevelsSection = () => {
         <div className="grid md:grid-cols-3 gap-8 md:gap-12">
           {levels.map((level, index) => (
             <AnimatedSection key={index} animation="fade-up" delay={index * 150}>
-              <div className={`${index === 2 ? 'md:border-l-2 md:border-primary md:pl-8' : ''}`}>
-                <p className="font-mono text-xs uppercase tracking-[0.2em] text-muted-foreground mb-3">
+              <div className={`border-t-2 border-accent pt-6 ${index === 2 ? 'md:border-l-2 md:border-l-primary md:pl-8' : ''}`}>
+                <p className="font-mono text-xs font-bold uppercase tracking-[0.2em] text-muted-foreground mb-3">
                   {level.label}
                 </p>
                 <h3 className={`text-subtitle text-foreground mb-4 ${index === 2 ? 'text-primary' : ''}`}>
