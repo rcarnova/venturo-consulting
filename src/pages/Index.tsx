@@ -10,7 +10,7 @@ const HowWeWorkSection = lazy(() => import("@/components/HowWeWorkSection"));
 const ReferencesSection = lazy(() => import("@/components/ReferencesSection"));
 const LeversSection = lazy(() => import("@/components/LeversSection"));
 const CasesSection = lazy(() => import("@/components/CasesSection"));
-const ResultCallout = lazy(() => import("@/components/ResultCallout"));
+const ReadingLevelsSection = lazy(() => import("@/components/ReadingLevelsSection"));
 const PartnersSection = lazy(() => import("@/components/PartnersSection"));
 const TeamPreviewSection = lazy(() => import("@/components/TeamPreviewSection"));
 const LeadMagnetSection = lazy(() => import("@/components/LeadMagnetSection"));
