@@ -25,7 +25,7 @@ export const allCases: CaseData[] = [
     slug: "randstad",
     hasDetail: true,
     url: "/casi-studio/randstad",
-    showOnHomepage: true,
+    showOnHomepage: false,
   },
   {
     id: "randstad-professionals",
@@ -62,7 +62,7 @@ export const allCases: CaseData[] = [
     slug: "ufficio-pio",
     hasDetail: true,
     url: "/casi-studio/ufficio-pio",
-    showOnHomepage: true,
+    showOnHomepage: false,
   },
   {
     id: "lely",
@@ -79,7 +79,7 @@ export const allCases: CaseData[] = [
   {
     id: "ricehouse",
     company: "Ricehouse",
-    result: "Da identità forte a candidature qualificate",
+    result: "Dal riso alla bioedilizia: trovare persone che credono nel tuo perché",
     description: "Ridefinizione completa dell'employer brand e della proposta di valore.",
     logo: "/logos/ricehouse_white.png",
     logoScale: 1,
@@ -112,6 +112,6 @@ export const allCases: CaseData[] = [
     slug: "cve",
     hasDetail: true,
     url: "/casi-studio/cve",
-    showOnHomepage: true,
+    showOnHomepage: false,
   },
 ];
