@@ -64,7 +64,7 @@ const Index = () => {
           <HowWeWorkSection />
           <ReferencesSection />
           <LeversSection />
-          <CasesSection />
+          
           <ReadingLevelsSection />
           <PartnersSection />
           <TeamPreviewSection />
