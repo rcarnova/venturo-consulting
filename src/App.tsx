@@ -32,6 +32,7 @@ const Magazine = lazy(() => import("./pages/Magazine"));
 const ResponsabilitaNonSiDelega = lazy(() => import("./pages/magazine/ResponsabilitaNonSiDelega"));
 const ValoriNonSonoPoster = lazy(() => import("./pages/magazine/ValoriNonSonoPoster"));
 const LaCulturaNonEMaiSbagliata = lazy(() => import("./pages/magazine/LaCulturaNonEMaiSbagliata"));
+const AIAscolto = lazy(() => import("./pages/magazine/AIAscolto"));
 const ChiSiamo = lazy(() => import("./pages/ChiSiamo"));
 const AboutEN = lazy(() => import("./pages/en/About"));
 const LeSfide = lazy(() => import("./pages/LeSfide"));
@@ -90,6 +91,7 @@ const App = () => (
               <Route path="/magazine/la-responsabilita-non-si-delega" element={<ResponsabilitaNonSiDelega />} />
               <Route path="/magazine/i-valori-non-sono-poster" element={<ValoriNonSonoPoster />} />
               <Route path="/magazine/la-cultura-non-e-mai-sbagliata" element={<LaCulturaNonEMaiSbagliata />} />
+              <Route path="/magazine/ai-ascolto" element={<AIAscolto />} />
               {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
               <Route path="*" element={<NotFound />} />
             </Routes>

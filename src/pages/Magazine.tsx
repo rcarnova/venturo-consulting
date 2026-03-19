@@ -6,6 +6,17 @@ import ArticleCard from "@/components/ArticleCard";
 const articles = [
   {
     category: "cultura organizzativa",
+    title: "L'AI ci darà più ascolto. Ma ascolto è un'altra cosa.",
+    excerpt:
+      "Come i nuovi strumenti di analisi del sentiment rischiano di ripetere l'errore delle survey: raccogliere dati senza cambiar nulla.",
+    date: "19 mar 2026",
+    readTime: "5 min",
+    link: "/magazine/ai-ascolto",
+    author: "Rosario",
+    tags: ["cultura organizzativa", "employer branding", "engagement", "leadership", "ascolto", "AI"],
+  },
+  {
+    category: "cultura organizzativa",
     title: "La cultura non è mai sbagliata. È solo cultura.",
     excerpt:
       "Ho visto molte aziende arrendersi. Non parlo di business. Parlo di cultura.",
