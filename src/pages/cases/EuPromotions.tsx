@@ -8,7 +8,7 @@ const EuPromotions = () => {
         title="Eu.promotions — Brand identity e cultura organizzativa | Venturo"
         description="Come abbiamo costruito la brand identity di eu.promotions partendo dalla cultura reale del team. Workshop di envisioning, strategia contenuti e EVP per una PMI internazionale nel loyalty & retail marketing."
         canonical="https://venturoconsulting.it/casi-studio/eupromotions"
-        ogImage="https://venturoconsulting.it/cases/eupromotion-envisioning.png"
+        ogImage="https://venturoconsulting.it/cases/eupromotion-envisioning.webp"
         lang="it"
         alternateUrls={{ it: "https://venturoconsulting.it/casi-studio/eupromotions", en: "https://venturoconsulting.it/en/case-studies/eupromotions" }}
       />
