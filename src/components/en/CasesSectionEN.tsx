@@ -59,7 +59,7 @@ const cases = [
     result: "The First Company Town Hall",
     rating: "4.3/5",
     description: "Design and facilitation of a historic moment for the company.",
-    logo: "/logos/cve_mono.png",
+    logo: "/logos/cve_mono.webp",
     logoScale: 0.8,
   },
 ];

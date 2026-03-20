@@ -41,7 +41,7 @@ const RandstadProfessionalsEN = () => {
             description:
               "Working sessions with the team to surface internal perceptions: who we are, how we see the market, how we want to present ourselves to the world. Through work with images and visual stimuli, we brought to light the real values and ambitions of the division.",
             image: {
-              src: "/cases/randstad-professionals-envisioning.jpg",
+              src: "/cases/randstad-professionals-envisioning.webp",
               alt: "Envisioning workshop with the Randstad Professionals team, working with vision boards and image clippings",
               caption: "Envisioning workshop with the Randstad Professionals team",
             },

@@ -107,7 +107,7 @@ export const allCases: CaseData[] = [
     result: "La Prima Town Hall aziendale",
     rating: "4.3/5",
     description: "Progettazione e facilitazione di un momento storico per l'azienda.",
-    logo: "/logos/cve_mono.png",
+    logo: "/logos/cve_mono.webp",
     logoScale: 0.8,
     slug: "cve",
     hasDetail: true,

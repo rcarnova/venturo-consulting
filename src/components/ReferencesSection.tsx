@@ -48,7 +48,7 @@ const slides: CaseSlide[] = [
     body: "Brand identity e strategia contenuti per una PMI internazionale nel loyalty e retail marketing. Un percorso che ha fatto emergere l'identità culturale già presente — senza inventarne una nuova.",
     cta: "Leggi il caso completo",
     link: "/casi-studio/eupromotions",
-    photo: "/cases/eupromotion-envisioning.png",
+    photo: "/cases/eupromotion-envisioning.webp",
     photoAlt: "Workshop di envisioning eu.promotions",
     photoSide: "right",
   },

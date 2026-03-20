@@ -46,7 +46,7 @@ const RandstadProfessionals = () => {
             description:
               "Quindici persone, immagini, stimoli visivi e tre domande: chi siamo, come vediamo il mercato, come vogliamo mostrarci al mondo. Un approccio bottom-up per rispondere alla domanda più concreta dell'employer branding: cosa vuol dire lavorare qui? I valori emersi — empatia, competenza, ambizione, etica — non erano stati scritti da nessun consulente. Erano già lì, vissuti ogni giorno.",
             image: {
-              src: "/cases/randstad-professionals-envisioning.jpg",
+              src: "/cases/randstad-professionals-envisioning.webp",
               alt: "Workshop di envisioning con il team Randstad Professionals, lavoro con vision board e ritagli di immagini",
               caption: "Workshop di envisioning con il team Randstad Professionals",
             },

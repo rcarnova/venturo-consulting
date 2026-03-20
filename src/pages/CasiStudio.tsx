@@ -83,7 +83,7 @@ const cases = [
     description: "Progettazione e facilitazione di un momento storico per l'azienda.",
     slug: "cve",
     hasDetail: true,
-    logo: "/logos/cve_mono.png",
+    logo: "/logos/cve_mono.webp",
     logoScale: 0.8,
     tags: ["CEO / Leadership"],
   },
