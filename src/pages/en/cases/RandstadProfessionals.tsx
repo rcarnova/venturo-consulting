@@ -8,7 +8,7 @@ const RandstadProfessionalsEN = () => {
         title="Randstad Professionals — Venturo"
         description="A division that tells its story through its people's voices. EVP, Talent Personas and employer branding videos for Randstad Professionals."
         canonical="https://venturoconsulting.it/en/case-studies/randstad-professionals"
-        ogImage="https://venturoconsulting.it/cases/randstad-professionals-envisioning.jpg"
+        ogImage="https://venturoconsulting.it/cases/randstad-professionals-envisioning.webp"
         lang="en"
         alternateUrls={{ it: "https://venturoconsulting.it/casi-studio/randstad-professionals", en: "https://venturoconsulting.it/en/case-studies/randstad-professionals" }}
       />
