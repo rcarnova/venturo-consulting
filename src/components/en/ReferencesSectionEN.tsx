@@ -83,7 +83,7 @@ const ReferencesSectionEN = () => {
 
               <div className="order-first md:order-last">
                 <img
-                  src="/workshop/ricehouse-envisioning-1.jpg"
+                  src="/workshop/ricehouse-envisioning-1.webp"
                   alt="Ricehouse Workshop - Envisioning session with the team to define identity and employer brand"
                   className="w-full h-[400px] md:h-[600px] object-cover rounded-lg"
                   width={800}
