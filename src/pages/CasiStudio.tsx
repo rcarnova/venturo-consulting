@@ -143,6 +143,9 @@ const CasiStudio = () => {
                                 alt={caseStudy.company}
                                 className={`h-5 w-auto ${caseStudy.invertLogo ? 'invert brightness-0 invert' : ''}`}
                                 style={{ transform: `scale(${caseStudy.logoScale || 1})` }}
+                                width={80}
+                                height={20}
+                                loading="lazy"
                               />
                             </div>
                           ) : (

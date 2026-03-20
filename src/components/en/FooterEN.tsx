@@ -8,7 +8,7 @@ const FooterEN = () => {
       <div className="container-wide">
         <div className="flex flex-col md:flex-row items-center justify-between gap-4">
           <div className="flex items-center">
-            <img src={logoVenturo} alt="Venturo" className="h-5" />
+            <img src={logoVenturo} alt="Venturo" className="h-5" width={100} height={20} />
           </div>
 
           <div className="flex items-center gap-6">
