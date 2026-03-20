@@ -42,7 +42,7 @@ const EuPromotionsEN = () => {
             description:
               "Intensive working sessions with the team — not just marketing, but also business profiles — to surface who eu.promotions really is: the lived values, ambitions, the unique way of working with clients. In a single workshop day, the team reached a level of alignment and clarity they didn't expect was possible in such a short time.",
             image: {
-              src: "/cases/eupromotion-envisioning.png",
+              src: "/cases/eupromotion-envisioning.webp",
               alt: "Envisioning workshop with the eu.promotions team, working with images and post-its",
               caption: "Project Identity workshop with the eu.promotions team",
             },
