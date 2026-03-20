@@ -23,6 +23,7 @@ const FooterEN = () => {
               href="https://www.linkedin.com/company/venturo-consulting/" 
               target="_blank" 
               rel="noopener noreferrer"
+              aria-label="Venturo on LinkedIn"
               className="text-muted-foreground hover:text-primary transition-colors"
             >
               <Linkedin className="w-5 h-5" />
