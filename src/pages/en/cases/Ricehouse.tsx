@@ -38,7 +38,7 @@ const RicehouseEN = () => {
           description:
             "\"Who do we want with us?\" workshop with founders and management. We didn't ask \"what are your values?\" but \"tell us about the last time someone made a mistake - what happened?\". Identity emerged from facts, not aspirations.",
           image: {
-            src: "/workshop/ricehouse-envisioning-1.jpg",
+            src: "/workshop/ricehouse-envisioning-1.webp",
             alt: "Ricehouse envisioning workshop - team working on visual thinking and identity definition",
             caption: "Envisioning workshop: building identity through images and storytelling, 2024",
           },

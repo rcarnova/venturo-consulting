@@ -38,7 +38,7 @@ const slides: CaseSlide[] = [
     body: "Ricehouse trasforma gli scarti della lavorazione del riso in materiali da costruzione sostenibili. Come attrarre talenti quando lavori con paglia di riso? Employer branding che racconta il perché prima del cosa.",
     cta: "Leggi il caso completo",
     link: "/casi-studio/ricehouse",
-    photo: "/workshop/ricehouse-envisioning-1.jpg",
+    photo: "/workshop/ricehouse-envisioning-1.webp",
     photoAlt: "Workshop Ricehouse - Sessione di envisioning con il team",
     photoSide: "left",
   },
