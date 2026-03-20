@@ -25,7 +25,7 @@ const CasesSection = () => {
               {/* Image column */}
               <div className="order-first">
                 <img
-                  src="/cases/randstad-professionals-envisioning.jpg"
+                  src="/cases/randstad-professionals-envisioning.webp"
                   alt="Workshop di envisioning con il team Randstad Professionals"
                   className="w-full h-[360px] md:h-full object-cover md:rounded-l-lg"
                   width={800}

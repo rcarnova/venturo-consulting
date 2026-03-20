@@ -53,7 +53,7 @@ const cases = [
     description: "Design and facilitation of a historic moment for the company.",
     slug: "cve",
     hasDetail: true,
-    logo: "/logos/cve_mono.png",
+    logo: "/logos/cve_mono.webp",
     logoScale: 0.8,
     tags: ["CEO / Leadership"],
   },

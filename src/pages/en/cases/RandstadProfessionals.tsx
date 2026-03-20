@@ -8,7 +8,7 @@ const RandstadProfessionalsEN = () => {
         title="Randstad Professionals — Venturo"
         description="A division that tells its story through its people's voices. EVP, Talent Personas and employer branding videos for Randstad Professionals."
         canonical="https://venturoconsulting.it/en/case-studies/randstad-professionals"
-        ogImage="https://venturoconsulting.it/cases/randstad-professionals-envisioning.jpg"
+        ogImage="https://venturoconsulting.it/cases/randstad-professionals-envisioning.webp"
         lang="en"
         alternateUrls={{ it: "https://venturoconsulting.it/casi-studio/randstad-professionals", en: "https://venturoconsulting.it/en/case-studies/randstad-professionals" }}
       />
@@ -41,7 +41,7 @@ const RandstadProfessionalsEN = () => {
             description:
               "Working sessions with the team to surface internal perceptions: who we are, how we see the market, how we want to present ourselves to the world. Through work with images and visual stimuli, we brought to light the real values and ambitions of the division.",
             image: {
-              src: "/cases/randstad-professionals-envisioning.jpg",
+              src: "/cases/randstad-professionals-envisioning.webp",
               alt: "Envisioning workshop with the Randstad Professionals team, working with vision boards and image clippings",
               caption: "Envisioning workshop with the Randstad Professionals team",
             },

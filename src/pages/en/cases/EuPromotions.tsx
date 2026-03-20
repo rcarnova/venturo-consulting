@@ -8,13 +8,13 @@ const EuPromotionsEN = () => {
         title="Eu.promotions — Brand Identity & Organizational Culture | Venturo"
         description="How we built eu.promotions' brand identity starting from the team's real culture. Envisioning workshop, content strategy and EVP for an international SME in loyalty & retail marketing."
         canonical="https://venturoconsulting.it/en/case-studies/eupromotions"
-        ogImage="https://venturoconsulting.it/cases/eupromotion-envisioning.png"
+        ogImage="https://venturoconsulting.it/cases/eupromotion-envisioning.webp"
         lang="en"
         alternateUrls={{ it: "https://venturoconsulting.it/casi-studio/eupromotions", en: "https://venturoconsulting.it/en/case-studies/eupromotions" }}
       />
       <CaseStudyLayoutEN
         caseId="eupromotions"
-        logo="/logos/eupromotion_white.png"
+        logo="/logos/eupromotion_white.webp"
         logoAlt="Eu.promotions"
         logoNeedsInvert={false}
         logoClassName="h-16 sm:h-20 md:h-28 lg:h-32 w-auto object-contain mx-auto mb-8"
@@ -42,7 +42,7 @@ const EuPromotionsEN = () => {
             description:
               "Intensive working sessions with the team — not just marketing, but also business profiles — to surface who eu.promotions really is: the lived values, ambitions, the unique way of working with clients. In a single workshop day, the team reached a level of alignment and clarity they didn't expect was possible in such a short time.",
             image: {
-              src: "/cases/eupromotion-envisioning.png",
+              src: "/cases/eupromotion-envisioning.webp",
               alt: "Envisioning workshop with the eu.promotions team, working with images and post-its",
               caption: "Project Identity workshop with the eu.promotions team",
             },
