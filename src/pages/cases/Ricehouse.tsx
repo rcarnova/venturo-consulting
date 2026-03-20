@@ -38,7 +38,7 @@ const Ricehouse = () => {
           description:
             "Workshop \"Chi vogliamo con noi?\" con founder e management. Non abbiamo chiesto \"quali sono i vostri valori?\" ma \"raccontaci l'ultima volta che qualcuno ha sbagliato - cosa è successo?\". Identità emersa dai fatti, non dalle aspirazioni.",
           image: {
-            src: "/workshop/ricehouse-envisioning-1.jpg",
+            src: "/workshop/ricehouse-envisioning-1.webp",
             alt: "Workshop envisioning Ricehouse - il team lavora su visual thinking e definizione identità",
             caption: "Envisioning workshop: costruzione identità attraverso immagini e storytelling, 2024",
           },
