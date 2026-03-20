@@ -72,7 +72,7 @@ const cases = [
     description: "Brand identity e strategia contenuti per una PMI internazionale nel loyalty & retail marketing.",
     slug: "eupromotions",
     hasDetail: true,
-    logo: "/logos/eupromotion_white.png",
+    logo: "/logos/eupromotion_white.webp",
     invertLogo: false,
     logoScale: 3,
     tags: ["CEO / Leadership", "CMO / Marketing"],
