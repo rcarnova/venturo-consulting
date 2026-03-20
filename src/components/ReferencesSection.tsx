@@ -28,7 +28,7 @@ const slides: CaseSlide[] = [
     body: "EVP, Talent Personas e video employer branding per la divisione top management di Randstad. Un lavoro che parte dall'interno — dalla cultura del team — per costruire una proposta di valore credibile verso il mercato.",
     cta: "Leggi il caso completo",
     link: "/casi-studio/randstad-professionals",
-    photo: "/cases/randstad-professionals-envisioning.jpg",
+    photo: "/cases/randstad-professionals-envisioning.webp",
     photoAlt: "Workshop di envisioning con il team Randstad Professionals",
     photoSide: "right",
   },
