@@ -92,7 +92,7 @@ const LeadMagnetSectionEN = () => {
                 />
                 <label htmlFor="marketing-consent-en" className="text-xs text-muted-foreground leading-snug">
                   I consent to receiving content and updates from Venturo. Read the{" "}
-                  <Link to="/privacy" className="underline hover:text-foreground transition-colors">privacy policy</Link>.
+                  <Link to="/en/privacy" className="underline hover:text-foreground transition-colors">privacy policy</Link>.
                 </label>
               </div>
               {error && (
