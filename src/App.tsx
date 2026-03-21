@@ -23,6 +23,7 @@ const Lumen = lazy(() => import("./pages/Lumen"));
 const LumenEN = lazy(() => import("./pages/en/Lumen"));
 const Principi = lazy(() => import("./pages/Principi"));
 const PrinciplesEN = lazy(() => import("./pages/en/Principles"));
+const PrivacyEN = lazy(() => import("./pages/en/Privacy"));
 const CVE = lazy(() => import("./pages/cases/CVE"));
 const UfficioPioEN = lazy(() => import("./pages/en/cases/UfficioPio"));
 const CVEEN = lazy(() => import("./pages/en/cases/CVE"));
