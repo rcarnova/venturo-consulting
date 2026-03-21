@@ -14,6 +14,7 @@ const routeMap: Record<string, string> = {
   "/magazine": "/magazine",
   "/lumen": "/en/lumen",
   "/principi": "/en/principles",
+  "/privacy": "/en/privacy",
 };
 
 // Build reverse map (skip identity mappings)

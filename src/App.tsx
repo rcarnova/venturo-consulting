@@ -23,6 +23,7 @@ const Lumen = lazy(() => import("./pages/Lumen"));
 const LumenEN = lazy(() => import("./pages/en/Lumen"));
 const Principi = lazy(() => import("./pages/Principi"));
 const PrinciplesEN = lazy(() => import("./pages/en/Principles"));
+const PrivacyEN = lazy(() => import("./pages/en/Privacy"));
 const CVE = lazy(() => import("./pages/cases/CVE"));
 const UfficioPioEN = lazy(() => import("./pages/en/cases/UfficioPio"));
 const CVEEN = lazy(() => import("./pages/en/cases/CVE"));
@@ -73,6 +74,7 @@ const App = () => (
               <Route path="/en/case-studies/randstad" element={<RandstadEN />} />
               <Route path="/en/case-studies/lely" element={<LelyEN />} />
               <Route path="/privacy" element={<Privacy />} />
+              <Route path="/en/privacy" element={<PrivacyEN />} />
               <Route path="/casi-studio" element={<CasiStudio />} />
               <Route path="/casi-studio/ricehouse" element={<Ricehouse />} />
               <Route path="/casi-studio/randstad" element={<Randstad />} />

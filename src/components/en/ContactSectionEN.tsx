@@ -115,7 +115,7 @@ const ContactSectionEN = () => {
               htmlFor="privacy" 
               className="text-[0.9rem] leading-relaxed text-warm-white/70 cursor-pointer"
             >
-              I have read the <Link to="/privacy" className="underline hover:text-warm-white transition-colors">privacy policy</Link> and consent to the processing of my personal data to be contacted regarding this request.*
+              I have read the <Link to="/en/privacy" className="underline hover:text-warm-white transition-colors">privacy policy</Link> and consent to the processing of my personal data to be contacted regarding this request.*
             </label>
           </div>
           <Button 

@@ -40,7 +40,7 @@ const FooterEN = () => {
               Lumen — Methodology
             </Link>
             <Link 
-              to="/privacy" 
+              to="/en/privacy" 
               className="text-[0.85rem] font-mono text-muted-foreground hover:text-foreground transition-colors"
             >
               Privacy Policy
