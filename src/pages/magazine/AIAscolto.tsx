@@ -85,7 +85,7 @@ const AIAscolto = () => {
         subtitle="Come i nuovi strumenti di analisi del sentiment rischiano di ripetere l'errore delle survey: raccogliere dati senza cambiar nulla."
         date="19 mar 2026"
         readTime="5 min"
-        heroImage={culturaOrg}
+        content={content}
         content={content}
       />
     </>
