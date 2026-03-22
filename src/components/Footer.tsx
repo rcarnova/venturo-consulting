@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { Linkedin, Mail } from "lucide-react";
-import logoVenturo from "@/assets/logo-venturo.png";
+import logoVenturo from "@/assets/logo-venturo.webp";
 
 const Footer = () => {
   return (

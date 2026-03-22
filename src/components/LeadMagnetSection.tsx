@@ -45,7 +45,7 @@ const LeadMagnetSection = () => {
         ) : (
           <div className="flex flex-col lg:flex-row lg:items-center gap-5 lg:gap-8 overflow-hidden">
             <img
-              src="/guides/lead-magnet-cover.png"
+              src="/guides/lead-magnet-cover.webp"
               alt="Copertina guida gratuita: 10 domande sull'employer branding per valutare la cultura organizzativa aziendale"
               className="w-20 h-auto rounded-sm shrink-0 hidden sm:block"
               style={{ boxShadow: "4px 6px 16px rgba(0,0,0,0.25), 1px 2px 4px rgba(0,0,0,0.12)" }}

@@ -13,7 +13,7 @@ const RicehouseEN = () => {
       />
       <CaseStudyLayoutEN
       caseId="ricehouse"
-      logo="/logos/ricehouse_white.png"
+      logo="/logos/ricehouse_white.webp"
       logoAlt="Ricehouse"
       title="Ricehouse"
       subtitle="From rice to green building: finding people who believe in your why"

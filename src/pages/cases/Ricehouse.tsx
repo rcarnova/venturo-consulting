@@ -13,7 +13,7 @@ const Ricehouse = () => {
       />
       <CaseStudyLayout
       caseId="ricehouse"
-      logo="/logos/ricehouse_white.png"
+      logo="/logos/ricehouse_white.webp"
       logoAlt="Ricehouse"
       title="Ricehouse"
       subtitle="Dal riso alla bioedilizia: trovare persone che credono nel tuo perché"

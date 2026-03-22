@@ -30,7 +30,7 @@ const ReferencesSectionEN = () => {
               <div className="space-y-8">
                 <div>
                   <img 
-                    src="/logos/ricehouse_logo.png" 
+                    src="/logos/ricehouse_logo.webp" 
                     alt="Ricehouse logo - circular economy green building startup" 
                     className="h-5 md:h-6 w-auto brightness-0"
                     width={120}

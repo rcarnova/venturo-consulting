@@ -3,8 +3,8 @@ import { useLocation, Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import { Menu, Globe } from "lucide-react";
-import logoVenturo from "@/assets/logo-venturo.png";
-import logoV from "@/assets/logo-v.png";
+import logoVenturo from "@/assets/logo-venturo.webp";
+import logoV from "@/assets/logo-v.webp";
 import { getEnRoute } from "@/lib/language-routes";
 import {
   DropdownMenu,

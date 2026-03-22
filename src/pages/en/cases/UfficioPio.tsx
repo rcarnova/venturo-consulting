@@ -16,7 +16,7 @@ const UfficioPioEN = () => {
       />
       <CaseStudyLayoutEN
         caseId="ufficio-pio"
-        logo="/logos/ufficio_pio_white.png"
+        logo="/logos/ufficio_pio_white.webp"
         logoAlt="Ufficio Pio"
         title="Ufficio Pio"
         subtitle="From 'poverty relief area' to Traguardi"

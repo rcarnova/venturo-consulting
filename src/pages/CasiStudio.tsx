@@ -34,7 +34,7 @@ const cases = [
     description: "Workshop intensivo per unificare il linguaggio tra assistenza clienti e team social.",
     slug: "findomestic",
     hasDetail: true,
-    logo: "/logos/findomestic_white.png",
+    logo: "/logos/findomestic_white.webp",
     logoScale: 2.5,
     tags: ["CMO / Marketing", "CHO / HR"],
   },
@@ -44,7 +44,7 @@ const cases = [
     description: "Progetto di naming strategico per dare linguaggio condiviso ai dipartimenti e rendere riconoscibile il percorso dei beneficiari.",
     slug: "ufficio-pio",
     hasDetail: true,
-    logo: "/logos/ufficio_pio_white.png",
+    logo: "/logos/ufficio_pio_white.webp",
     tags: ["CMO / Marketing", "CEO / Leadership"],
   },
   {
@@ -63,7 +63,7 @@ const cases = [
     description: "Ridefinizione completa dell'employer brand e della proposta di valore.",
     slug: "ricehouse",
     hasDetail: true,
-    logo: "/logos/ricehouse_white.png",
+    logo: "/logos/ricehouse_white.webp",
     tags: ["CHO / HR", "CMO / Marketing"],
   },
   {

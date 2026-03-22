@@ -16,7 +16,7 @@ const Findomestic = () => {
       />
       <CaseStudyLayout
         caseId="findomestic"
-        logo="/logos/findomestic_white.png"
+        logo="/logos/findomestic_white.webp"
         logoAlt="Findomestic"
         title="Findomestic"
         subtitle="Da linguaggio istituzionale a conversazione unificata"

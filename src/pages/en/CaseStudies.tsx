@@ -15,7 +15,7 @@ const cases = [
     description: "Complete redefinition of employer brand and value proposition.",
     slug: "ricehouse",
     hasDetail: true,
-    logo: "/logos/ricehouse_white.png",
+    logo: "/logos/ricehouse_white.webp",
     tags: ["CHO / HR", "CMO / Marketing"],
   },
   {
@@ -44,7 +44,7 @@ const cases = [
     description: "Strategic naming project to give departments a shared language and make the beneficiaries' journey recognizable.",
     slug: "ufficio-pio",
     hasDetail: true,
-    logo: "/logos/ufficio_pio_white.png",
+    logo: "/logos/ufficio_pio_white.webp",
     tags: ["CMO / Marketing", "CEO / Leadership"],
   },
   {
@@ -63,7 +63,7 @@ const cases = [
     description: "Intensive workshop to unify language between customer service and social media team.",
     slug: "findomestic",
     hasDetail: true,
-    logo: "/logos/findomestic_white.png",
+    logo: "/logos/findomestic_white.webp",
     logoScale: 2.5,
     tags: ["CMO / Marketing", "CHO / HR"],
   },
