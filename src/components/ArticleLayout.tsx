@@ -11,7 +11,7 @@ interface ArticleLayoutProps {
   subtitle: string;
   date: string;
   readTime: string;
-  heroImage: string;
+  heroImage?: string;
   content: string;
 }
 
