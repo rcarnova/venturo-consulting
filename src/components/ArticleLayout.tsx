@@ -41,19 +41,21 @@ const ArticleLayout = ({
             </Link>
 
             {/* Hero Image */}
-            <div className="mb-12">
-              <img
-                src={heroImage}
-                alt={title}
-                className="w-full object-cover rounded-xl"
-                style={{
-                  aspectRatio: "21/9",
-                  maxHeight: "400px",
-                }}
-                width={1200}
-                height={514}
-              />
-            </div>
+            {heroImage && (
+              <div className="mb-12">
+                <img
+                  src={heroImage}
+                  alt={title}
+                  className="w-full object-cover rounded-xl"
+                  style={{
+                    aspectRatio: "21/9",
+                    maxHeight: "400px",
+                  }}
+                  width={1200}
+                  height={514}
+                />
+              </div>
+            )}
           </div>
 
           {/* Header Content */}

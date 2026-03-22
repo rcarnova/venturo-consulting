@@ -86,7 +86,6 @@ const AIAscolto = () => {
         date="19 mar 2026"
         readTime="5 min"
         content={content}
-        content={content}
       />
     </>
   );
