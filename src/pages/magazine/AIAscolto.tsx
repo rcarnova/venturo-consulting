@@ -1,6 +1,5 @@
 import { SEO } from "@/components/SEO";
 import ArticleLayout from "@/components/ArticleLayout";
-import culturaOrg from "@/assets/cultura-org.webp";
 
 const content = `Negli ultimi anni gli strumenti per ascoltare le organizzazioni sono migliorati molto. E con l'AI migliorano ancora: analisi del sentiment in tempo reale, segnali deboli intercettati prima che diventino problemi, costi accessibili anche per aziende che fino a ieri non potevano permettersi una survey strutturata.
 
