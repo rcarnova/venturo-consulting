@@ -1,18 +1,22 @@
+import { lazy, Suspense } from "react";
 import { SEO } from "@/components/SEO";
 import HeaderEN from "@/components/en/HeaderEN";
 import HeroSectionEN from "@/components/en/HeroSectionEN";
-import WhyVenturoSectionEN from "@/components/en/WhyVenturoSectionEN";
-import HowWeWorkSectionEN from "@/components/en/HowWeWorkSectionEN";
-import ReferencesSectionEN from "@/components/en/ReferencesSectionEN";
-import LeversSectionEN from "@/components/en/LeversSectionEN";
-import CasesSectionEN from "@/components/en/CasesSectionEN";
-import ResultCalloutEN from "@/components/en/ResultCalloutEN";
-import PartnersSectionEN from "@/components/en/PartnersSectionEN";
-import TeamPreviewSectionEN from "@/components/en/TeamPreviewSectionEN";
 import ClientsSectionEN from "@/components/en/ClientsSectionEN";
-import LeadMagnetSectionEN from "@/components/en/LeadMagnetSectionEN";
-import ContactSectionEN from "@/components/en/ContactSectionEN";
-import FooterEN from "@/components/en/FooterEN";
+
+const WhyVenturoSectionEN = lazy(() => import("@/components/en/WhyVenturoSectionEN"));
+const HowWeWorkSectionEN = lazy(() => import("@/components/en/HowWeWorkSectionEN"));
+const ReferencesSectionEN = lazy(() => import("@/components/en/ReferencesSectionEN"));
+const LeversSectionEN = lazy(() => import("@/components/en/LeversSectionEN"));
+const CasesSectionEN = lazy(() => import("@/components/en/CasesSectionEN"));
+const ResultCalloutEN = lazy(() => import("@/components/en/ResultCalloutEN"));
+const PartnersSectionEN = lazy(() => import("@/components/en/PartnersSectionEN"));
+const TeamPreviewSectionEN = lazy(() => import("@/components/en/TeamPreviewSectionEN"));
+const LeadMagnetSectionEN = lazy(() => import("@/components/en/LeadMagnetSectionEN"));
+const ContactSectionEN = lazy(() => import("@/components/en/ContactSectionEN"));
+const FooterEN = lazy(() => import("@/components/en/FooterEN"));
+
+const LazyFallback = <div />;
 
 const IndexEN = () => {
   return (
@@ -29,22 +33,26 @@ const IndexEN = () => {
         <HeroSectionEN />
         <ClientsSectionEN />
         <div className="flex justify-center px-6 pt-12 pb-12">
-          <p style={{ fontSize: '16px', color: '#555555', lineHeight: 1.6, maxWidth: '720px', textAlign: 'left', borderLeft: '3px solid #000000', paddingLeft: '20px' }}>
+          <p className="text-base text-muted-foreground leading-relaxed max-w-[720px] text-left border-l-[3px] border-foreground pl-5">
             Venturo is a consulting firm specializing in organizational culture and employer branding. We work with Italian companies that want to make their cultural identity visible, to attract the right talent, align internal and external communication, and build organizations that are coherent with their values.
           </p>
         </div>
-        <WhyVenturoSectionEN />
-        <HowWeWorkSectionEN />
-        <ReferencesSectionEN />
-        <LeversSectionEN />
-        <CasesSectionEN />
-        <ResultCalloutEN />
-        <PartnersSectionEN />
-        <TeamPreviewSectionEN />
-        <LeadMagnetSectionEN />
-        <ContactSectionEN />
+        <Suspense fallback={LazyFallback}>
+          <WhyVenturoSectionEN />
+          <HowWeWorkSectionEN />
+          <ReferencesSectionEN />
+          <LeversSectionEN />
+          <CasesSectionEN />
+          <ResultCalloutEN />
+          <PartnersSectionEN />
+          <TeamPreviewSectionEN />
+          <LeadMagnetSectionEN />
+          <ContactSectionEN />
+        </Suspense>
       </main>
-      <FooterEN />
+      <Suspense fallback={LazyFallback}>
+        <FooterEN />
+      </Suspense>
     </div>
   );
 };
