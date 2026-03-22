@@ -16,7 +16,7 @@ const CVEEN = () => {
       />
       <CaseStudyLayoutEN
         caseId="cve"
-        logo="/logos/cve_white.png"
+        logo="/logos/cve_white.webp"
         logoClassName="h-24 md:h-32 mx-auto mb-8 invert grayscale"
         logoAlt="CVE Group"
         title="CVE Group"

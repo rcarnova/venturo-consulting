@@ -1,5 +1,5 @@
 import AnimatedSection from "../AnimatedSection";
-import logoIngaze from "@/assets/logo-ingaze.png";
+import logoIngaze from "@/assets/logo-ingaze.webp";
 
 const PartnersSectionEN = () => {
   return (

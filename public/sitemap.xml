@@ -18,6 +18,22 @@
     <priority>1.0</priority>
   </url>
 
+  <!-- Chi siamo -->
+  <url>
+    <loc>https://venturoconsulting.it/chi-siamo</loc>
+    <xhtml:link rel="alternate" hreflang="it" href="https://venturoconsulting.it/chi-siamo"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://venturoconsulting.it/en/about"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://venturoconsulting.it/en/about</loc>
+    <xhtml:link rel="alternate" hreflang="it" href="https://venturoconsulting.it/chi-siamo"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://venturoconsulting.it/en/about"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
   <!-- Le sfide -->
   <url>
     <loc>https://venturoconsulting.it/le-sfide</loc>
@@ -30,6 +46,22 @@
     <loc>https://venturoconsulting.it/en/challenges</loc>
     <xhtml:link rel="alternate" hreflang="it" href="https://venturoconsulting.it/le-sfide"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://venturoconsulting.it/en/challenges"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Casi studio -->
+  <url>
+    <loc>https://venturoconsulting.it/casi-studio</loc>
+    <xhtml:link rel="alternate" hreflang="it" href="https://venturoconsulting.it/casi-studio"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://venturoconsulting.it/en/case-studies"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://venturoconsulting.it/en/case-studies</loc>
+    <xhtml:link rel="alternate" hreflang="it" href="https://venturoconsulting.it/casi-studio"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://venturoconsulting.it/en/case-studies"/>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
@@ -48,22 +80,6 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://venturoconsulting.it/en/lumen"/>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-  </url>
-
-  <!-- Casi studio -->
-  <url>
-    <loc>https://venturoconsulting.it/casi-studio</loc>
-    <xhtml:link rel="alternate" hreflang="it" href="https://venturoconsulting.it/casi-studio"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://venturoconsulting.it/en/case-studies"/>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://venturoconsulting.it/en/case-studies</loc>
-    <xhtml:link rel="alternate" hreflang="it" href="https://venturoconsulting.it/casi-studio"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://venturoconsulting.it/en/case-studies"/>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
   </url>
 
   <!-- Casi studio singoli -->
@@ -93,6 +109,21 @@
     <loc>https://venturoconsulting.it/en/case-studies/randstad</loc>
     <xhtml:link rel="alternate" hreflang="it" href="https://venturoconsulting.it/casi-studio/randstad"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://venturoconsulting.it/en/case-studies/randstad"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://venturoconsulting.it/casi-studio/randstad-professionals</loc>
+    <xhtml:link rel="alternate" hreflang="it" href="https://venturoconsulting.it/casi-studio/randstad-professionals"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://venturoconsulting.it/en/case-studies/randstad-professionals"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://venturoconsulting.it/en/case-studies/randstad-professionals</loc>
+    <xhtml:link rel="alternate" hreflang="it" href="https://venturoconsulting.it/casi-studio/randstad-professionals"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://venturoconsulting.it/en/case-studies/randstad-professionals"/>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -188,25 +219,45 @@
     <priority>0.7</priority>
   </url>
 
-  <!-- Chi siamo -->
+  <!-- Magazine -->
   <url>
-    <loc>https://venturoconsulting.it/chi-siamo</loc>
-    <xhtml:link rel="alternate" hreflang="it" href="https://venturoconsulting.it/chi-siamo"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://venturoconsulting.it/en/about"/>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
+    <loc>https://venturoconsulting.it/magazine</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://venturoconsulting.it/en/about</loc>
-    <xhtml:link rel="alternate" hreflang="it" href="https://venturoconsulting.it/chi-siamo"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://venturoconsulting.it/en/about"/>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
+    <loc>https://venturoconsulting.it/magazine/la-responsabilita-non-si-delega</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://venturoconsulting.it/magazine/i-valori-non-sono-poster</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://venturoconsulting.it/magazine/la-cultura-non-e-mai-sbagliata</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://venturoconsulting.it/magazine/ai-ascolto</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
   </url>
 
   <!-- Privacy -->
   <url>
     <loc>https://venturoconsulting.it/privacy</loc>
+    <xhtml:link rel="alternate" hreflang="it" href="https://venturoconsulting.it/privacy"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://venturoconsulting.it/en/privacy"/>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://venturoconsulting.it/en/privacy</loc>
+    <xhtml:link rel="alternate" hreflang="it" href="https://venturoconsulting.it/privacy"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://venturoconsulting.it/en/privacy"/>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>

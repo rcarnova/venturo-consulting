@@ -16,7 +16,7 @@ const FindomesticEN = () => {
       />
       <CaseStudyLayoutEN
         caseId="findomestic"
-        logo="/logos/findomestic_white.png"
+        logo="/logos/findomestic_white.webp"
         logoAlt="Findomestic"
         title="Findomestic"
         subtitle="From corporate language to unified conversation"

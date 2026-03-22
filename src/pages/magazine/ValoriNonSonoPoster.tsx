@@ -1,6 +1,6 @@
 import { SEO } from "@/components/SEO";
 import ArticleLayout from "@/components/ArticleLayout";
-import culturaOrg from "@/assets/cultura-org.png";
+import culturaOrg from "@/assets/cultura-org.webp";
 
 const content = `Avis era seconda. Hertz era prima.
 
