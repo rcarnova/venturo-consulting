@@ -39,7 +39,7 @@ const books = [
     id: "schein",
     author: "Edgar Schein",
     title: "Organizational Culture",
-    src: "https://covers.openlibrary.org/b/isbn/0787960756-L.jpg",
+    src: "https://m.media-amazon.com/images/I/71EXtac7o5L._SY522_.jpg",
     width: 128,
     rotate: -11,
     top: "22%",
