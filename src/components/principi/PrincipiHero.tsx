@@ -93,6 +93,15 @@ const PrincipiHero = ({ lang = "it" }: PrincipiHeroProps) => {
   const t = copy[lang];
   const [hoveredBook, setHoveredBook] = useState<string | null>(null);
   const [imgErrors, setImgErrors] = useState<Set<string>>(new Set());
+  const [visibleBooks, setVisibleBooks] = useState<Set<string>>(new Set());
+
+  useEffect(() => {
+    books.forEach((book, i) => {
+      setTimeout(() => {
+        setVisibleBooks((prev) => new Set(prev).add(book.id));
+      }, 300 + i * 150);
+    });
+  }, []);
 
   const handleScroll = () => {
     const target = document.getElementById("cultura-sistema");
