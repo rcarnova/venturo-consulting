@@ -218,7 +218,7 @@ const PrincipiHero = ({ lang = "it" }: PrincipiHeroProps) => {
             return (
               <div
                 key={book.id}
-                className="absolute transition-all duration-500 ease-out"
+                className="absolute transition-all duration-500 ease-out cursor-pointer"
                 style={{
                   width: book.width,
                   top: book.top,
@@ -231,6 +231,10 @@ const PrincipiHero = ({ lang = "it" }: PrincipiHeroProps) => {
                 }}
                 onMouseEnter={() => setHoveredBook(book.id)}
                 onMouseLeave={() => setHoveredBook(null)}
+                onClick={() => {
+                  const target = document.getElementById(book.sectionId);
+                  if (target) target.scrollIntoView({ behavior: "smooth" });
+                }}
               >
                 {hasError ? (
                   <div
