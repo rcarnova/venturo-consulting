@@ -27,6 +27,7 @@ const books = [
     author: "Simon Sinek",
     title: "Start With Why",
     src: "https://m.media-amazon.com/images/I/71NBZIExBCL._SY522_.jpg",
+    sectionId: "cultura-sistema",
     width: 108,
     rotate: -6,
     top: "4%",
@@ -40,6 +41,7 @@ const books = [
     author: "Edgar Schein",
     title: "Organizational Culture",
     src: "https://m.media-amazon.com/images/I/71EXtac7o5L._SY522_.jpg",
+    sectionId: "cultura-sistema",
     width: 128,
     rotate: -11,
     top: "22%",
@@ -53,6 +55,7 @@ const books = [
     author: "Tim Brown",
     title: "Change by Design",
     src: "https://m.media-amazon.com/images/I/71slKvaGlAL._SY522_.jpg",
+    sectionId: "innovazione-cambiamento",
     width: 148,
     rotate: -3,
     top: "12%",
@@ -66,6 +69,7 @@ const books = [
     author: "Daniel Kahneman",
     title: "Thinking, Fast and Slow",
     src: "https://covers.openlibrary.org/b/isbn/0374533555-L.jpg",
+    sectionId: "pensiero-decisione",
     width: 128,
     rotate: 8,
     top: "18%",
@@ -79,6 +83,7 @@ const books = [
     author: "Jim Collins",
     title: "Good to Great",
     src: "https://covers.openlibrary.org/b/isbn/0066620996-L.jpg",
+    sectionId: "business-strategia",
     width: 108,
     rotate: 5,
     top: "6%",
@@ -213,7 +218,7 @@ const PrincipiHero = ({ lang = "it" }: PrincipiHeroProps) => {
             return (
               <div
                 key={book.id}
-                className="absolute transition-all duration-500 ease-out"
+                className="absolute transition-all duration-500 ease-out cursor-pointer"
                 style={{
                   width: book.width,
                   top: book.top,
@@ -226,6 +231,10 @@ const PrincipiHero = ({ lang = "it" }: PrincipiHeroProps) => {
                 }}
                 onMouseEnter={() => setHoveredBook(book.id)}
                 onMouseLeave={() => setHoveredBook(null)}
+                onClick={() => {
+                  const target = document.getElementById(book.sectionId);
+                  if (target) target.scrollIntoView({ behavior: "smooth" });
+                }}
               >
                 {hasError ? (
                   <div
