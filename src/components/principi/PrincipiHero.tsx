@@ -52,7 +52,7 @@ const books = [
     id: "brown",
     author: "Tim Brown",
     title: "Change by Design",
-    src: "https://covers.openlibrary.org/b/isbn/0061747238-L.jpg",
+    src: "https://m.media-amazon.com/images/I/71slKvaGlAL._SY522_.jpg",
     width: 148,
     rotate: -3,
     top: "12%",
