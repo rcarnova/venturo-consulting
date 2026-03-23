@@ -26,7 +26,7 @@ const books = [
     id: "sinek",
     author: "Simon Sinek",
     title: "Start With Why",
-    src: "https://covers.openlibrary.org/b/isbn/1591841828-L.jpg",
+    src: "https://m.media-amazon.com/images/I/71NBZIExBCL._SY522_.jpg",
     width: 108,
     rotate: -6,
     top: "4%",
