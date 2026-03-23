@@ -208,18 +208,21 @@ const PrincipiHero = ({ lang = "it" }: PrincipiHeroProps) => {
           {books.map((book) => {
             const isHovered = hoveredBook === book.id;
             const hasError = imgErrors.has(book.id);
+            const isVisible = visibleBooks.has(book.id);
 
             return (
               <div
                 key={book.id}
-                className="absolute transition-all duration-300 ease-out"
+                className="absolute transition-all duration-500 ease-out"
                 style={{
                   width: book.width,
                   top: book.top,
                   left: book.left,
                   zIndex: isHovered ? 20 : book.zIndex,
-                  opacity: isHovered ? 1 : book.opacity,
-                  transform: `rotate(${book.rotate}deg) ${isHovered ? "translateY(-10px) scale(1.05)" : ""}`,
+                  opacity: isVisible ? (isHovered ? 1 : book.opacity) : 0,
+                  transform: isVisible
+                    ? `rotate(${book.rotate}deg) ${isHovered ? "translateY(-10px) scale(1.05)" : ""}`
+                    : `rotate(0deg) translateY(30px) scale(0.9)`,
                 }}
                 onMouseEnter={() => setHoveredBook(book.id)}
                 onMouseLeave={() => setHoveredBook(null)}
