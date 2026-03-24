@@ -86,7 +86,7 @@ const books = [
     sectionId: "business-strategia",
     width: 108,
     rotate: 5,
-    top: "6%",
+    top: "20%",
     left: "72%",
     zIndex: 2,
     opacity: 0.75,
