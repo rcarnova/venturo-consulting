@@ -108,12 +108,6 @@ const PrincipiHero = ({ lang = "it" }: PrincipiHeroProps) => {
     });
   }, []);
 
-  const handleScroll = () => {
-    const target = document.getElementById("cultura-sistema");
-    if (target) {
-      target.scrollIntoView({ behavior: "smooth" });
-    }
-  };
 
   return (
     <section className="pt-20 md:pt-0 bg-white">
