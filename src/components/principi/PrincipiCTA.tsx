@@ -31,12 +31,16 @@ const copy = {
 
 const PrincipiCTA = ({ lang = "it" }: Props) => {
   const t = copy[lang];
+  const navigate = useNavigate();
 
   const scrollToContact = () => {
     if (window.location.pathname === t.homePath) {
       document.getElementById("contact")?.scrollIntoView({ behavior: "smooth" });
     } else {
-      window.location.href = t.contactPath;
+      navigate(t.homePath);
+      setTimeout(() => {
+        document.getElementById("contact")?.scrollIntoView({ behavior: "smooth" });
+      }, 500);
     }
   };
 
