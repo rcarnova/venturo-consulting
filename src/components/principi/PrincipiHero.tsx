@@ -176,23 +176,6 @@ const PrincipiHero = ({ lang = "it" }: PrincipiHeroProps) => {
             {t.body}
           </p>
 
-          {/* CTA */}
-          <button
-            onClick={handleScroll}
-            className="cursor-pointer transition-opacity hover:opacity-80"
-            style={{
-              background: "#E1FF00",
-              color: "#111",
-              fontFamily: "'Space Grotesk', sans-serif",
-              fontWeight: 500,
-              fontSize: 13,
-              borderRadius: 2,
-              padding: "13px 26px",
-              border: "none",
-            }}
-          >
-            {t.cta}
-          </button>
         </div>
 
         {/* Right column — books */}
