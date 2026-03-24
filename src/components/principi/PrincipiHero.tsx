@@ -15,7 +15,7 @@ const copy = {
   en: {
     label: "Our principles",
     headline: ["We didn't", "invent"],
-    highlightWord: "anything.",
+    highlightWord: "anything",
     body: "We apply established principles in an original way. Venturo was born at the intersection of brand strategy, organizational culture and design thinking — three worlds that rarely talk to each other.",
     cta: "Explore the foundations →",
   },
