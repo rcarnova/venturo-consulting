@@ -37,10 +37,17 @@ const PrincipiCTA = ({ lang = "it" }: Props) => {
     if (window.location.pathname === t.homePath) {
       document.getElementById("contact")?.scrollIntoView({ behavior: "smooth" });
     } else {
-      navigate(t.homePath);
-      setTimeout(() => {
-        document.getElementById("contact")?.scrollIntoView({ behavior: "smooth" });
-      }, 500);
+      navigate(t.contactPath.replace(t.homePath, "") ? t.homePath : t.homePath);
+      // Navigate with hash so ScrollToHash + polling can find the lazy-loaded section
+      navigate(t.contactPath);
+      const poll = setInterval(() => {
+        const el = document.getElementById("contact");
+        if (el) {
+          clearInterval(poll);
+          el.scrollIntoView({ behavior: "smooth" });
+        }
+      }, 200);
+      setTimeout(() => clearInterval(poll), 5000);
     }
   };
 
