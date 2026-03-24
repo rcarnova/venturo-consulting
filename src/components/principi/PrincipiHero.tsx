@@ -72,7 +72,7 @@ const books = [
     sectionId: "pensiero-decisione",
     width: 128,
     rotate: 8,
-    top: "18%",
+    top: "30%",
     left: "58%",
     zIndex: 4,
     opacity: 1,
