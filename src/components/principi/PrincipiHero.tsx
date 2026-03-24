@@ -130,10 +130,6 @@ const PrincipiHero = ({ lang = "it" }: PrincipiHeroProps) => {
           </p>
 
           {/* Yellow bar */}
-          <div
-            className="mb-8"
-            style={{ width: 36, height: 2, background: "#E1FF00" }}
-          />
 
           {/* Headline */}
           <h1
