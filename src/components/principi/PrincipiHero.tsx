@@ -110,7 +110,7 @@ const PrincipiHero = ({ lang = "it" }: PrincipiHeroProps) => {
 
 
   return (
-    <section className="pt-20 md:pt-0 bg-white">
+    <section className="pt-24 md:pt-0 bg-white">
       <div
         className="mx-auto flex flex-col md:flex-row items-center md:items-start gap-10 md:gap-[72px]"
         style={{ padding: "140px 48px 88px", maxWidth: 1200 }}
