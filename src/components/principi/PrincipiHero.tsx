@@ -10,7 +10,7 @@ const copy = {
     headline: ["Non ci siamo", "inventati"],
     highlightWord: "niente",
     body: "Applichiamo principi consolidati in modo originale. Venturo nasce dall'incontro di brand strategy, organizational culture e design thinking — tre mondi che raramente dialogano tra loro.",
-    cta: "Esplora i fondamenti →",
+    
   },
   en: {
     label: "Our principles",
