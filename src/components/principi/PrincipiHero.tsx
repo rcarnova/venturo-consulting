@@ -44,7 +44,7 @@ const books = [
     sectionId: "cultura-sistema",
     width: 128,
     rotate: -11,
-    top: "22%",
+    top: "36%",
     left: "2%",
     zIndex: 3,
     opacity: 1,
