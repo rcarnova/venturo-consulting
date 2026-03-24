@@ -8,16 +8,16 @@ const copy = {
   it: {
     label: "I nostri principi",
     headline: ["Non ci siamo", "inventati"],
-    highlightWord: "niente.",
+    highlightWord: "niente",
     body: "Applichiamo principi consolidati in modo originale. Venturo nasce dall'incontro di brand strategy, organizational culture e design thinking — tre mondi che raramente dialogano tra loro.",
-    cta: "Esplora i fondamenti →",
+    
   },
   en: {
     label: "Our principles",
     headline: ["We didn't", "invent"],
-    highlightWord: "anything.",
+    highlightWord: "anything",
     body: "We apply established principles in an original way. Venturo was born at the intersection of brand strategy, organizational culture and design thinking — three worlds that rarely talk to each other.",
-    cta: "Explore the foundations →",
+    
   },
 };
 
@@ -30,7 +30,7 @@ const books = [
     sectionId: "cultura-sistema",
     width: 108,
     rotate: -6,
-    top: "4%",
+    top: "18%",
     left: "8%",
     zIndex: 2,
     opacity: 0.75,
@@ -44,7 +44,7 @@ const books = [
     sectionId: "cultura-sistema",
     width: 128,
     rotate: -11,
-    top: "22%",
+    top: "36%",
     left: "2%",
     zIndex: 3,
     opacity: 1,
@@ -58,7 +58,7 @@ const books = [
     sectionId: "innovazione-cambiamento",
     width: 148,
     rotate: -3,
-    top: "12%",
+    top: "24%",
     left: "30%",
     zIndex: 5,
     opacity: 1,
@@ -72,7 +72,7 @@ const books = [
     sectionId: "pensiero-decisione",
     width: 128,
     rotate: 8,
-    top: "18%",
+    top: "30%",
     left: "58%",
     zIndex: 4,
     opacity: 1,
@@ -86,7 +86,7 @@ const books = [
     sectionId: "business-strategia",
     width: 108,
     rotate: 5,
-    top: "6%",
+    top: "20%",
     left: "72%",
     zIndex: 2,
     opacity: 0.75,
@@ -104,16 +104,10 @@ const PrincipiHero = ({ lang = "it" }: PrincipiHeroProps) => {
     books.forEach((book, i) => {
       setTimeout(() => {
         setVisibleBooks((prev) => new Set(prev).add(book.id));
-      }, 300 + i * 150);
+      }, 300 + i * 120);
     });
   }, []);
 
-  const handleScroll = () => {
-    const target = document.getElementById("cultura-sistema");
-    if (target) {
-      target.scrollIntoView({ behavior: "smooth" });
-    }
-  };
 
   return (
     <section className="pt-20 md:pt-0 bg-white">
@@ -136,10 +130,6 @@ const PrincipiHero = ({ lang = "it" }: PrincipiHeroProps) => {
           </p>
 
           {/* Yellow bar */}
-          <div
-            className="mb-8"
-            style={{ width: 36, height: 2, background: "#E1FF00" }}
-          />
 
           {/* Headline */}
           <h1
@@ -186,23 +176,6 @@ const PrincipiHero = ({ lang = "it" }: PrincipiHeroProps) => {
             {t.body}
           </p>
 
-          {/* CTA */}
-          <button
-            onClick={handleScroll}
-            className="cursor-pointer transition-opacity hover:opacity-80"
-            style={{
-              background: "#E1FF00",
-              color: "#111",
-              fontFamily: "'Space Grotesk', sans-serif",
-              fontWeight: 500,
-              fontSize: 13,
-              borderRadius: 2,
-              padding: "13px 26px",
-              border: "none",
-            }}
-          >
-            {t.cta}
-          </button>
         </div>
 
         {/* Right column — books */}
