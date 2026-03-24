@@ -58,7 +58,7 @@ const books = [
     sectionId: "innovazione-cambiamento",
     width: 148,
     rotate: -3,
-    top: "12%",
+    top: "24%",
     left: "30%",
     zIndex: 5,
     opacity: 1,
