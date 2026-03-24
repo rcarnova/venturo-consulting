@@ -104,7 +104,7 @@ const PrincipiHero = ({ lang = "it" }: PrincipiHeroProps) => {
     books.forEach((book, i) => {
       setTimeout(() => {
         setVisibleBooks((prev) => new Set(prev).add(book.id));
-      }, 300 + i * 150);
+      }, 300 + i * 120);
     });
   }, []);
 
