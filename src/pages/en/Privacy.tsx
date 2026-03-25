@@ -7,7 +7,7 @@ const PrivacyEN = () => {
   return (
     <div className="min-h-screen bg-background">
       <SEO
-        title="Privacy Policy"
+        title="Privacy Policy — Venturo"
         description="Venturo's privacy policy. How we handle your personal data collected through our contact and download forms."
         canonical="https://venturoconsulting.it/en/privacy"
         lang="en"

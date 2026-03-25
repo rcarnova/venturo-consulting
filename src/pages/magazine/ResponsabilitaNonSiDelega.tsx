@@ -15,6 +15,18 @@ const ResponsabilitaNonSiDelega = () => {
         canonical="https://venturoconsulting.it/magazine/la-responsabilita-non-si-delega"
         lang="it"
       />
+      <Helmet>
+        <script type="application/ld+json">{JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "Article",
+          "headline": "La responsabilità non si delega. Si conquista.",
+          "description": "Nelle organizzazioni sane le persone non aspettano che qualcuno assegni loro responsabilità. Le pretendono.",
+          "datePublished": "2026-03-01",
+          "author": { "@type": "Person", "name": "Rosario Carnovale" },
+          "publisher": { "@type": "Organization", "name": "Venturo", "url": "https://venturoconsulting.it" },
+          "url": "https://venturoconsulting.it/magazine/la-responsabilita-non-si-delega"
+        })}</script>
+      </Helmet>
       <Header />
       <main className="pt-20">
         <article className="py-12 md:py-16">

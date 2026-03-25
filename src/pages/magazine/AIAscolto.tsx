@@ -80,6 +80,18 @@ const AIAscolto = () => {
         canonical="https://venturoconsulting.it/magazine/ai-ascolto"
         lang="it"
       />
+      <Helmet>
+        <script type="application/ld+json">{JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "Article",
+          "headline": "L'AI ci darà più ascolto. Ma ascolto è un'altra cosa.",
+          "description": "Come i nuovi strumenti di analisi del sentiment rischiano di ripetere l'errore delle survey: raccogliere dati senza cambiar nulla.",
+          "datePublished": "2026-03-19",
+          "author": { "@type": "Person", "name": "Rosario Carnovale" },
+          "publisher": { "@type": "Organization", "name": "Venturo", "url": "https://venturoconsulting.it" },
+          "url": "https://venturoconsulting.it/magazine/ai-ascolto"
+        })}</script>
+      </Helmet>
       <ArticleLayout
         category="Cultura organizzativa"
         title="L'AI ci darà più ascolto. Ma ascolto è un'altra cosa."
