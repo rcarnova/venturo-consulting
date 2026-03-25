@@ -1,4 +1,5 @@
 import { SEO } from "@/components/SEO";
+import { Helmet } from "react-helmet-async";
 import ArticleLayout from "@/components/ArticleLayout";
 import culturaOrg from "@/assets/cultura-org.webp";
 
@@ -35,6 +36,18 @@ const ValoriNonSonoPoster = () => {
         canonical="https://venturoconsulting.it/magazine/i-valori-non-sono-poster"
         lang="it"
       />
+      <Helmet>
+        <script type="application/ld+json">{JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "Article",
+          "headline": "I valori non sono poster. Sono promesse.",
+          "description": "Le aziende fanno promesse continuamente. Ma come ci hanno insegnato da bambini: le promesse vanno mantenute.",
+          "datePublished": "2026-03-10",
+          "author": { "@type": "Person", "name": "Rosario Carnovale" },
+          "publisher": { "@type": "Organization", "name": "Venturo", "url": "https://venturoconsulting.it" },
+          "url": "https://venturoconsulting.it/magazine/i-valori-non-sono-poster"
+        })}</script>
+      </Helmet>
       <ArticleLayout
         category="Cultura"
         title="I valori non sono poster. Sono promesse."

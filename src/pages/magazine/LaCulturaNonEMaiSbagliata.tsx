@@ -1,4 +1,5 @@
 import { SEO } from "@/components/SEO";
+import { Helmet } from "react-helmet-async";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { Link } from "react-router-dom";
@@ -14,6 +15,18 @@ const LaCulturaNonEMaiSbagliata = () => {
         canonical="https://venturoconsulting.it/magazine/la-cultura-non-e-mai-sbagliata"
         lang="it"
       />
+      <Helmet>
+        <script type="application/ld+json">{JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "Article",
+          "headline": "La cultura non è mai sbagliata. È solo cultura.",
+          "description": "Ho visto molte aziende arrendersi. Non parlo di business. Parlo di cultura.",
+          "datePublished": "2026-03-10",
+          "author": { "@type": "Person", "name": "Rosario Carnovale" },
+          "publisher": { "@type": "Organization", "name": "Venturo", "url": "https://venturoconsulting.it" },
+          "url": "https://venturoconsulting.it/magazine/la-cultura-non-e-mai-sbagliata"
+        })}</script>
+      </Helmet>
       <Header />
       <main className="pt-20">
         <article className="py-12 md:py-16">

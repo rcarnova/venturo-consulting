@@ -1,4 +1,5 @@
 import { SEO } from "@/components/SEO";
+import { Helmet } from "react-helmet-async";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import AnimatedSection from "@/components/AnimatedSection";
@@ -45,6 +46,20 @@ const ChiSiamo = () => {
         lang="it"
         alternateUrls={{ it: "https://venturoconsulting.it/chi-siamo", en: "https://venturoconsulting.it/en/about" }}
       />
+      <Helmet>
+        <script type="application/ld+json">{JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "AboutPage",
+          "name": "Chi siamo — Venturo",
+          "url": "https://venturoconsulting.it/chi-siamo",
+          "description": "Venturo è fondato da professionisti con background in HR, marketing e comunicazione. Lavoriamo con aziende italiane per rendere visibile la cultura organizzativa.",
+          "mainEntity": {
+            "@type": "Organization",
+            "name": "Venturo",
+            "url": "https://venturoconsulting.it"
+          }
+        })}</script>
+      </Helmet>
       <Header />
       <main>
         {/* Intro Section */}
