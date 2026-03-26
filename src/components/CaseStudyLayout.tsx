@@ -20,6 +20,7 @@ interface Phase {
     alt: string;
     caption: string;
   };
+  videoEmbed?: string;
 }
 
 interface CaseStudyLayoutProps {
