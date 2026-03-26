@@ -41,6 +41,7 @@ const LazyFallback = <div />;
 const Index = () => {
   return (
     <div className="min-h-screen bg-background">
+      <LaunchBanner />
       <SEO
         title="Venturo — Cultura Organizzativa ed Employer Branding"
         description="Rendiamo visibile la cultura della tua organizzazione. Lavoriamo su employer branding, comunicazione interna e trasformazione culturale per attrarre i talenti giusti."
