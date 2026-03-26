@@ -21,6 +21,7 @@ interface Phase {
     caption: string;
   };
   videoEmbed?: string;
+  videoCaption?: string;
 }
 
 interface CaseStudyLayoutProps {
