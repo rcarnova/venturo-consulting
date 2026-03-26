@@ -21,6 +21,7 @@ interface Phase {
     caption: string;
   };
   videoEmbed?: string;
+  videoCaption?: string;
 }
 
 interface CaseStudyLayoutProps {
@@ -206,6 +207,9 @@ const CaseStudyLayout = ({
                             loading="lazy"
                           />
                         </div>
+                        {phase.videoCaption && (
+                          <p className="text-sm text-muted-foreground mt-3 italic">{phase.videoCaption}</p>
+                        )}
                       </div>
                     )}
                   </div>

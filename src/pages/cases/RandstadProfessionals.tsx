@@ -71,6 +71,7 @@ const RandstadProfessionals = () => {
               caption: "Sul set delle video interviste employer branding",
             },
             videoEmbed: "https://player.vimeo.com/video/386510579?h=ad05a1a149&badge=0&autopause=0&player_id=0&app_id=58479",
+            videoCaption: "Video principale Randstad Professionals",
           },
         ]}
         results={[
