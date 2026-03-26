@@ -7,7 +7,7 @@ const LaunchBanner = () => {
 
   return (
     <div
-      className="w-full text-center"
+      className="fixed left-0 right-0 z-40 w-full text-center top-16 md:top-20"
       style={{
         background: '#E1FF00',
         color: '#0A0A0A',
