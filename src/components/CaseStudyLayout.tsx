@@ -20,6 +20,7 @@ interface Phase {
     alt: string;
     caption: string;
   };
+  videoEmbed?: string;
 }
 
 interface CaseStudyLayoutProps {
@@ -190,6 +191,20 @@ const CaseStudyLayout = ({
                             {phase.title}
                           </h3>
                           <p className="text-muted-foreground">{phase.description}</p>
+                        </div>
+                      </div>
+                    )}
+                    {phase.videoEmbed && (
+                      <div className="mt-8">
+                        <div className="relative w-full" style={{ paddingTop: '56.25%' }}>
+                          <iframe
+                            src={phase.videoEmbed}
+                            className="absolute top-0 left-0 w-full h-full rounded-lg"
+                            allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share"
+                            referrerPolicy="strict-origin-when-cross-origin"
+                            title="Video case study"
+                            loading="lazy"
+                          />
                         </div>
                       </div>
                     )}
