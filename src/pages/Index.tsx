@@ -3,6 +3,7 @@ import { SEO } from "@/components/SEO";
 import { Helmet } from "react-helmet-async";
 import Header from "@/components/Header";
 import HeroSection from "@/components/HeroSection";
+import LaunchBanner from "@/components/LaunchBanner";
 import ClientsSection from "@/components/ClientsSection";
 
 const WhyVenturoSection = lazy(() => import("@/components/WhyVenturoSection"));
