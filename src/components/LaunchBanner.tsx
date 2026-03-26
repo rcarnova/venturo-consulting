@@ -7,9 +7,8 @@ const LaunchBanner = () => {
 
   return (
     <div
-      className="fixed left-0 right-0 z-50 w-full text-center"
+      className="fixed left-0 right-0 z-40 w-full text-center top-16 md:top-20"
       style={{
-        top: 'var(--header-height, 64px)',
         background: '#E1FF00',
         color: '#0A0A0A',
         fontFamily: "'Space Grotesk', sans-serif",
