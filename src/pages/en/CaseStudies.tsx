@@ -1,6 +1,8 @@
 import { ArrowRight } from "lucide-react";
 import { Link } from "react-router-dom";
 import { SEO } from "@/components/SEO";
+import { Helmet } from "react-helmet-async";
+import HeaderEN from "@/components/en/HeaderEN";
 import HeaderEN from "@/components/en/HeaderEN";
 import FooterEN from "@/components/en/FooterEN";
 import AnimatedSection from "@/components/AnimatedSection";
