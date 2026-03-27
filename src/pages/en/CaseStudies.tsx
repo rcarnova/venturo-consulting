@@ -1,6 +1,7 @@
 import { ArrowRight } from "lucide-react";
 import { Link } from "react-router-dom";
 import { SEO } from "@/components/SEO";
+import { Helmet } from "react-helmet-async";
 import HeaderEN from "@/components/en/HeaderEN";
 import FooterEN from "@/components/en/FooterEN";
 import AnimatedSection from "@/components/AnimatedSection";
@@ -93,6 +94,15 @@ const CaseStudies = () => {
         lang="en"
         alternateUrls={{ it: "https://venturoconsulting.it/casi-studio", en: "https://venturoconsulting.it/en/case-studies" }}
       />
+      <Helmet>
+        <script type="application/ld+json">{JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "CollectionPage",
+          "name": "Case Studies — Venturo",
+          "url": "https://venturoconsulting.it/en/case-studies",
+          "description": "Employer branding, internal communication, strategic naming, facilitation. Real projects where organizational culture became visible."
+        })}</script>
+      </Helmet>
       <HeaderEN />
       <main className="pt-20">
         {/* Hero */}

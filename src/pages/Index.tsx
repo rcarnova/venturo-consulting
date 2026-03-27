@@ -3,7 +3,7 @@ import { SEO } from "@/components/SEO";
 import { Helmet } from "react-helmet-async";
 import Header from "@/components/Header";
 import HeroSection from "@/components/HeroSection";
-import LaunchBanner from "@/components/LaunchBanner";
+
 import ClientsSection from "@/components/ClientsSection";
 
 const WhyVenturoSection = lazy(() => import("@/components/WhyVenturoSection"));
@@ -41,7 +41,7 @@ const LazyFallback = <div />;
 const Index = () => {
   return (
     <div className="min-h-screen bg-background">
-      <LaunchBanner />
+      
       <SEO
         title="Venturo — Cultura Organizzativa ed Employer Branding"
         description="Rendiamo visibile la cultura della tua organizzazione. Lavoriamo su employer branding, comunicazione interna e trasformazione culturale per attrarre i talenti giusti."

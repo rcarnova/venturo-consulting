@@ -1,5 +1,6 @@
 import { lazy, Suspense } from "react";
 import { SEO } from "@/components/SEO";
+import { Helmet } from "react-helmet-async";
 import HeaderEN from "@/components/en/HeaderEN";
 import HeroSectionEN from "@/components/en/HeroSectionEN";
 import ClientsSectionEN from "@/components/en/ClientsSectionEN";
@@ -28,6 +29,25 @@ const IndexEN = () => {
         lang="en"
         alternateUrls={{ it: "https://venturoconsulting.it", en: "https://venturoconsulting.it/en" }}
       />
+      <Helmet>
+        <script type="application/ld+json">{JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "ProfessionalService",
+          "name": "Venturo",
+          "url": "https://venturoconsulting.it/en",
+          "logo": "https://venturoconsulting.it/logo.png",
+          "email": "info@venturoconsulting.it",
+          "description": "Consulting firm specializing in organizational culture and employer branding. We make the why of organizations visible.",
+          "areaServed": "IT",
+          "knowsLanguage": ["it", "en"],
+          "sameAs": ["https://linkedin.com/company/venturo-consulting"],
+          "founder": [
+            { "@type": "Person", "name": "Rosario Carnovale" },
+            { "@type": "Person", "name": "Massimo Benedetti" },
+            { "@type": "Person", "name": "Arianna Barisan" }
+          ]
+        })}</script>
+      </Helmet>
       <HeaderEN />
       <main>
         <HeroSectionEN />
