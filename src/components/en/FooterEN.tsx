@@ -32,19 +32,14 @@ const FooterEN = () => {
         </div>
 
         <div className="mt-6 pt-6 border-t border-border/50 text-center">
-          <div className="flex items-center justify-center gap-6 mb-4">
-            <Link 
-              to="/en/lumen" 
-              className="text-[0.85rem] font-mono text-muted-foreground hover:text-foreground transition-colors"
-            >
-              Lumen — Methodology
-            </Link>
-            <Link 
-              to="/en/privacy" 
-              className="text-[0.85rem] font-mono text-muted-foreground hover:text-foreground transition-colors"
-            >
-              Privacy Policy
-            </Link>
+          <div className="flex flex-wrap items-center justify-center gap-x-6 gap-y-2 mb-4">
+            <Link to="/en/challenges" className="text-[0.85rem] font-mono text-muted-foreground hover:text-foreground transition-colors">Challenges</Link>
+            <Link to="/en/lumen" className="text-[0.85rem] font-mono text-muted-foreground hover:text-foreground transition-colors">Lumen</Link>
+            <Link to="/en/principles" className="text-[0.85rem] font-mono text-muted-foreground hover:text-foreground transition-colors">Principles</Link>
+            <Link to="/en/case-studies" className="text-[0.85rem] font-mono text-muted-foreground hover:text-foreground transition-colors">Case Studies</Link>
+            <Link to="/en/about" className="text-[0.85rem] font-mono text-muted-foreground hover:text-foreground transition-colors">About Us</Link>
+            <Link to="/magazine" className="text-[0.85rem] font-mono text-muted-foreground hover:text-foreground transition-colors">Articles</Link>
+            <Link to="/en/privacy" className="text-[0.85rem] font-mono text-muted-foreground hover:text-foreground transition-colors">Privacy</Link>
           </div>
           <p className="text-[0.85rem] font-mono text-muted-foreground mt-2">
             © {new Date().getFullYear()} Venturo - P.IVA 02662900022
