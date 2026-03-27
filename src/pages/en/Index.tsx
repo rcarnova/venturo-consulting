@@ -1,5 +1,6 @@
 import { lazy, Suspense } from "react";
 import { SEO } from "@/components/SEO";
+import { Helmet } from "react-helmet-async";
 import HeaderEN from "@/components/en/HeaderEN";
 import HeroSectionEN from "@/components/en/HeroSectionEN";
 import ClientsSectionEN from "@/components/en/ClientsSectionEN";
