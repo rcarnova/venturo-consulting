@@ -95,6 +95,15 @@ const CaseStudies = () => {
         lang="en"
         alternateUrls={{ it: "https://venturoconsulting.it/casi-studio", en: "https://venturoconsulting.it/en/case-studies" }}
       />
+      <Helmet>
+        <script type="application/ld+json">{JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "CollectionPage",
+          "name": "Case Studies — Venturo",
+          "url": "https://venturoconsulting.it/en/case-studies",
+          "description": "Employer branding, internal communication, strategic naming, facilitation. Real projects where organizational culture became visible."
+        })}</script>
+      </Helmet>
       <HeaderEN />
       <main className="pt-20">
         {/* Hero */}

@@ -47,6 +47,20 @@ const AboutEN = () => {
         lang="en"
         alternateUrls={{ it: "https://venturoconsulting.it/chi-siamo", en: "https://venturoconsulting.it/en/about" }}
       />
+      <Helmet>
+        <script type="application/ld+json">{JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "AboutPage",
+          "name": "About Us — Venturo",
+          "url": "https://venturoconsulting.it/en/about",
+          "description": "Venturo is founded by professionals with backgrounds in HR, marketing and communication. We work with Italian companies to make organizational culture visible.",
+          "mainEntity": {
+            "@type": "Organization",
+            "name": "Venturo",
+            "url": "https://venturoconsulting.it"
+          }
+        })}</script>
+      </Helmet>
       <HeaderEN />
       <main>
         {/* Intro Section */}
