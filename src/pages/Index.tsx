@@ -4,7 +4,7 @@ import { Helmet } from "react-helmet-async";
 import Header from "@/components/Header";
 import HeroSection from "@/components/HeroSection";
 
-import ClientsSection from "@/components/ClientsSection";
+const ClientsSection = lazy(() => import("@/components/ClientsSection"));
 
 const WhyVenturoSection = lazy(() => import("@/components/WhyVenturoSection"));
 const HowWeWorkSection = lazy(() => import("@/components/HowWeWorkSection"));
@@ -55,7 +55,9 @@ const Index = () => {
       <Header />
       <main>
         <HeroSection />
-        <ClientsSection />
+        <Suspense fallback={LazyFallback}>
+          <ClientsSection />
+        </Suspense>
         <div className="flex justify-center px-6 pt-12 pb-12">
           <p className="text-base text-muted-foreground leading-relaxed max-w-[720px] text-left border-l-[3px] border-foreground pl-5">
             Venturo è una società di consulenza specializzata in cultura organizzativa ed employer branding. Lavoriamo con aziende italiane che vogliono rendere visibile la propria identità culturale, per attrarre i talenti giusti, allineare comunicazione interna ed esterna, e costruire organizzazioni coerenti con i propri valori.

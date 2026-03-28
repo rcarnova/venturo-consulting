@@ -24,6 +24,8 @@ export default defineConfig(({ mode }) => ({
         manualChunks: {
           vendor: ["react", "react-dom", "react-router-dom"],
           ui: ["@radix-ui/react-tooltip", "@radix-ui/react-toast", "@radix-ui/react-dialog"],
+          helmet: ["react-helmet-async"],
+          query: ["@tanstack/react-query"],
         },
       },
     },
