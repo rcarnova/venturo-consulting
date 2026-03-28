@@ -4,7 +4,7 @@ import { Helmet } from "react-helmet-async";
 import Header from "@/components/Header";
 import HeroSection from "@/components/HeroSection";
 
-import ClientsSection from "@/components/ClientsSection";
+const ClientsSection = lazy(() => import("@/components/ClientsSection"));
 
 const WhyVenturoSection = lazy(() => import("@/components/WhyVenturoSection"));
 const HowWeWorkSection = lazy(() => import("@/components/HowWeWorkSection"));
