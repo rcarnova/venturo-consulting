@@ -18,6 +18,26 @@
     <meta name="twitter:title" content="Venturo — Cultura organizzativa ed employer branding" />
     <meta name="twitter:description" content="Consulenza in cultura organizzativa ed employer branding per organizzazioni che vogliono essere riconoscibili." />
     <meta name="twitter:image" content="https://venturoconsulting.it/og-image.png" />
+    <!-- Critical inline CSS for above-the-fold content (breaks JS→CSS chain) -->
+    <style>
+      *,*::before,*::after{box-sizing:border-box;margin:0}
+      :root{--background:0 0% 100%;--foreground:0 0% 8%;--border:0 0% 88%;--muted-foreground:0 0% 45%}
+      body{background:hsl(var(--background));color:hsl(var(--foreground));font-family:'Space Grotesk',system-ui,sans-serif;-webkit-font-smoothing:antialiased}
+      h1,h2,h3,h4,h5,h6{font-family:'Space Grotesk',system-ui,sans-serif}
+      #root{min-height:100vh}
+      .min-h-screen{min-height:100vh}
+      .bg-background{background-color:hsl(var(--background))}
+      .text-foreground{color:hsl(var(--foreground))}
+      .fixed{position:fixed}.top-0{top:0}.left-0{left:0}.right-0{right:0}
+      .z-50{z-index:50}.flex{display:flex}.items-center{align-items:center}
+      .justify-between{justify-content:space-between}
+      .relative{position:relative}.overflow-x-hidden{overflow-x:hidden}
+      .container-wide{max-width:80rem;margin:0 auto;padding-left:1.25rem;padding-right:1.25rem}
+      @media(min-width:768px){.container-wide{padding-left:2rem;padding-right:2rem}}
+      .h-16{height:4rem}.border-b{border-bottom-width:1px;border-color:hsl(var(--border)/0.5)}
+      .backdrop-blur-md{backdrop-filter:blur(12px)}
+      .pt-20{padding-top:5rem}
+    </style>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
