@@ -38,6 +38,8 @@
       .backdrop-blur-md{backdrop-filter:blur(12px)}
       .pt-20{padding-top:5rem}
     </style>
+    <!-- Preload LCP image (logo) to eliminate resource load delay -->
+    <link rel="preload" href="/src/assets/logo-venturo.webp" as="image" type="image/webp" fetchpriority="high">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
@@ -62,7 +64,14 @@
     </script>
   </head>
   <body>
-    <div id="root"></div>
+    <div id="root">
+      <!-- SSR-like shell: render LCP element immediately to eliminate render delay -->
+      <div style="position:fixed;top:0;left:0;right:0;z-index:50;height:4rem;display:flex;align-items:center;background:hsla(0,0%,100%,.8);backdrop-filter:blur(12px);border-bottom:1px solid hsla(0,0%,88%,.5)" id="shell-header">
+        <div style="max-width:80rem;margin:0 auto;padding:0 1.25rem;width:100%">
+          <img src="/src/assets/logo-venturo.webp" alt="Venturo - consulenza cultura organizzativa ed employer branding" width="120" height="32" style="height:1.5rem;width:auto;object-fit:contain" fetchpriority="high">
+        </div>
+      </div>
+    </div>
     <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>

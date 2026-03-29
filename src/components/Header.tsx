@@ -58,6 +58,7 @@ const Header = () => {
             style={{ opacity: scrolled ? 0 : 1 }}
             width={120}
             height={32}
+            fetchPriority="high"
           />
           <img
             src={logoV}
