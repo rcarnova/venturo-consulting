@@ -36,7 +36,7 @@ const PartnersSection = () => {
             </div>
             <div className="flex-1 w-full">
               <img
-                src="/partners/ingaze-dashboard.png"
+                src="/partners/ingaze-dashboard.webp"
                 alt="Screenshot della dashboard Ingaze con analisi del sentiment e benchmark employer branding"
                 className="w-full"
                 style={{ borderRadius: '12px', boxShadow: '0 4px 24px rgba(0,0,0,0.10)' }}
