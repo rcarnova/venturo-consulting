@@ -56,6 +56,9 @@ const Index = () => {
       <main>
         <HeroSection />
         <Suspense fallback={LazyFallback}>
+          <WhyVenturoSection />
+        </Suspense>
+        <Suspense fallback={LazyFallback}>
           <ClientsSection />
         </Suspense>
         <div className="flex justify-center px-6 pt-12 pb-12">
@@ -64,7 +67,6 @@ const Index = () => {
           </p>
         </div>
         <Suspense fallback={LazyFallback}>
-          <WhyVenturoSection />
           <HowWeWorkSection />
           <ReferencesSection />
           <LeversSection />
