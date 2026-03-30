@@ -58,6 +58,20 @@ const Lumen = () => {
 
       <LumenProcess />
 
+      <section className="py-20 md:py-28 bg-background">
+        <div className="container-wide max-w-3xl text-center space-y-4">
+          <p className="text-xl md:text-2xl leading-relaxed text-foreground">
+            A volte quello che emerge non richiede una nuova comunicazione.
+          </p>
+          <p className="text-xl md:text-2xl leading-relaxed text-foreground">
+            Richiede un cambiamento reale.
+          </p>
+          <p className="text-xl md:text-2xl leading-relaxed text-foreground">
+            Anche in quel caso, sappiamo dove andare.
+          </p>
+        </div>
+      </section>
+
       <div className="bg-background">
         <div className="container-wide max-w-5xl py-8">
           <Accordion type="multiple" className="w-full space-y-4">
