@@ -23,9 +23,8 @@ const HeroSection = () => {
             </span>
           </h1>
           
-          <p className="text-[20px] leading-[1.65] text-[#444444] mt-8 max-w-none md:whitespace-nowrap animate-fade-up-delay-2 [animation-delay:2s] md:[animation-delay:6s]">
+          <p className="text-[20px] leading-[1.65] text-[#444444] mt-8 max-w-2xl animate-fade-up-delay-2 [animation-delay:2s] md:[animation-delay:6s]">
             Interveniamo quando l'identità reale di un'organizzazione non emerge nei momenti che contano:{" "}
-            <br className="md:hidden" />
             recruiting, onboarding, comunicazione interna.
           </p>
 
