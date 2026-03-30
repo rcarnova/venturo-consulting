@@ -72,17 +72,6 @@ const Index = () => {
           <LeversSection />
           
           <ReadingLevelsSection />
-          <div className="flex justify-center px-5 md:px-8 py-12">
-            <p className="text-[20px] leading-[1.65] text-foreground">
-              Hai riconosciuto una di queste situazioni?{" "}
-              <button
-                onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
-                className="inline-flex items-center justify-center rounded-md bg-foreground text-background px-6 py-2 text-base font-medium ml-2 glow-btn cursor-pointer"
-              >
-                Parliamone
-              </button>
-            </p>
-          </div>
           <PartnersSection />
           <TeamPreviewSection />
           <LeadMagnetSection />
