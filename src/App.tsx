@@ -47,6 +47,7 @@ const RandstadProfessionals = lazy(() => import("./pages/cases/RandstadProfessio
 const RandstadProfessionalsEN = lazy(() => import("./pages/en/cases/RandstadProfessionals"));
 const EuPromotions = lazy(() => import("./pages/cases/EuPromotions"));
 const EuPromotionsEN = lazy(() => import("./pages/en/cases/EuPromotions"));
+const AnalisiEVP = lazy(() => import("./pages/AnalisiEVP"));
 
 const queryClient = new QueryClient();
 
