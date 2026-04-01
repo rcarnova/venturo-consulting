@@ -159,12 +159,6 @@ Non aggiungere introduzioni o conclusioni oltre a quelle indicate nelle tre sezi
             .trim();
 
           // Add contact to list
-          console.log('Brevo payload:', JSON.stringify({
-            email: email,
-            attributes: { TESTO_ANALISI: plainAnalysis },
-            listIds: [14],
-            updateEnabled: true
-          }));
           await fetch("https://api.brevo.com/v3/contacts", {
             method: "POST",
             headers: { "api-key": BREVO_API_KEY, "content-type": "application/json" },
