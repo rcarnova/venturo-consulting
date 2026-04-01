@@ -170,17 +170,6 @@ Non aggiungere introduzioni o conclusioni oltre a quelle indicate nelle tre sezi
             }),
           });
 
-          // Send analysis email
-          await fetch("https://api.brevo.com/v3/smtp/email", {
-            method: "POST",
-            headers: { "api-key": BREVO_API_KEY, "content-type": "application/json" },
-            body: JSON.stringify({
-              sender: { name: "Venturo", email: "info@venturoconsulting.it" },
-              to: [{ email: email.trim() }],
-              subject: "La tua analisi EVP — Venturo",
-              textContent: analysis,
-            }),
-          });
         } catch (brevoErr) {
           console.error("Brevo error (non-blocking):", brevoErr);
         }
