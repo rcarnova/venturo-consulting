@@ -166,7 +166,21 @@ Non aggiungere introduzioni o conclusioni oltre a quelle indicate nelle tre sezi
               email: email.trim(),
               listIds: [14],
               updateEnabled: true,
-              attributes: { TESTO_ANALISI: plainAnalysis },
+            }),
+          });
+
+          // Send transactional email with analysis
+          await fetch("https://api.brevo.com/v3/smtp/email", {
+            method: "POST",
+            headers: { "api-key": BREVO_API_KEY, "content-type": "application/json" },
+            body: JSON.stringify({
+              to: [{ email: email.trim() }],
+              templateId: 45,
+              params: { TESTO_ANALISI: plainAnalysis },
+              sender: {
+                name: "Rosario di Venturo",
+                email: "rosario@venturoconsulting.it",
+              },
             }),
           });
 
