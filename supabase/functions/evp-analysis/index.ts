@@ -150,6 +150,14 @@ Non aggiungere introduzioni o conclusioni oltre a quelle indicate nelle tre sezi
       const BREVO_API_KEY = Deno.env.get("BREVO_API_KEY");
       if (BREVO_API_KEY) {
         try {
+          // Strip markdown from analysis for plain text attribute
+          const plainAnalysis = analysis
+            .replace(/#{1,6}\s?/g, "")
+            .replace(/\*{1,3}([^*]+)\*{1,3}/g, "$1")
+            .replace(/`([^`]+)`/g, "$1")
+            .replace(/\[([^\]]+)\]\([^)]+\)/g, "$1")
+            .trim();
+
           // Add contact to list
           await fetch("https://api.brevo.com/v3/contacts", {
             method: "POST",
@@ -158,7 +166,7 @@ Non aggiungere introduzioni o conclusioni oltre a quelle indicate nelle tre sezi
               email: email.trim(),
               listIds: [14],
               updateEnabled: true,
-              attributes: { SOURCE: "evp-analysis-tool" },
+              attributes: { TESTO_ANALISI: plainAnalysis },
             }),
           });
 
