@@ -157,8 +157,8 @@ const AnalisiEVP = () => {
           {/* Result */}
           {analysis && (
             <div className="mt-12">
-              <div className="bg-muted/50 rounded-xl p-6 md:p-8">
-                <div className="prose prose-sm max-w-none text-foreground">
+              <div className="rounded-xl p-6 md:p-8 border-l-[3px]" style={{ borderColor: '#E1FF00' }}>
+                <div className="max-w-none text-foreground [&_h2]:text-[16px] [&_h2]:font-semibold [&_h2]:text-[#0A0A0A] [&_h2]:mb-2 [&_h2]:mt-6 [&_h2:first-child]:mt-0 [&_p]:mb-4 [&_p:last-child]:mb-0 [&_em]:text-[#888888] [&_em]:text-sm">
                   <ReactMarkdown>{analysis}</ReactMarkdown>
                 </div>
               </div>
