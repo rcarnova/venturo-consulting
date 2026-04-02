@@ -70,6 +70,19 @@ const AnalisiEVP = () => {
         description="Incolla career page o job post e ottieni un'analisi gratuita della tua Employee Value Proposition con feedback su differenziazione, coerenza e promesse."
         canonical="https://venturoconsulting.it/analisi-evp"
       />
+      <Helmet>
+        <script type="application/ld+json">{JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "WebApplication",
+          "name": "Analisi EVP gratuita",
+          "description": "Strumento gratuito per analizzare la comunicazione della tua Employee Value Proposition a partire da career page e job post.",
+          "url": "https://venturoconsulting.it/analisi-evp",
+          "applicationCategory": "BusinessApplication",
+          "operatingSystem": "Web",
+          "offers": { "@type": "Offer", "price": "0", "priceCurrency": "EUR" },
+          "provider": { "@type": "Organization", "name": "Venturo", "url": "https://venturoconsulting.it" }
+        })}</script>
+      </Helmet>
       <Header />
 
       <main className="pt-28 pb-20 px-4">
