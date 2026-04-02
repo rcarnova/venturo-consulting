@@ -246,6 +246,13 @@
     <priority>0.6</priority>
   </url>
 
+  <!-- Analisi EVP -->
+  <url>
+    <loc>https://venturoconsulting.it/analisi-evp</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
   <!-- Privacy -->
   <url>
     <loc>https://venturoconsulting.it/privacy</loc>

@@ -66,7 +66,7 @@ const AnalisiEVP = () => {
     <div className="min-h-screen bg-background">
       <SEO
         title="Analisi EVP gratuita — Venturo"
-        description="Incolla il testo della tua career page o job post e ottieni un'analisi della tua Employee Value Proposition."
+        description="Incolla career page o job post e ottieni un'analisi gratuita della tua Employee Value Proposition con feedback su differenziazione, coerenza e promesse."
         canonical="https://venturoconsulting.it/analisi-evp"
       />
       <Header />
