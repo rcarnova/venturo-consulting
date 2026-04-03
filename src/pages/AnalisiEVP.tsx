@@ -196,13 +196,18 @@ const AnalisiEVP = () => {
                 </div>
               </div>
 
-              <div className="mt-10 space-y-4">
-                <p className="text-foreground">
-                  Vuoi capire cosa emerge quando sono le persone a raccontare?{" "}
-                  <Link to="/lumen" className="text-primary font-semibold hover:underline">
-                    Scopri Lumen →
+              <div className="mt-10 space-y-5">
+                <div>
+                  <p className="text-sm text-muted-foreground">
+                    Questa lettura viene da testi pubblici. La conversazione vera parte dalle persone.
+                  </p>
+                  <Link
+                    to="/parliamone"
+                    className="inline-block mt-2 text-sm text-primary font-semibold hover:underline transition-colors"
+                  >
+                    Parliamone →
                   </Link>
-                </p>
+                </div>
                 <p className="text-sm text-muted-foreground">
                   Hai un altro testo da analizzare?{" "}
                   <button
