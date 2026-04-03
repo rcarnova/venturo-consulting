@@ -132,21 +132,19 @@ const AnalisiEVP = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
             <div>
               <Label className="text-foreground font-semibold mb-1 block">Career page</Label>
-              <p className="text-xs text-muted-foreground mb-2">Incolla il testo della tua career page</p>
               <Textarea
                 value={careerPage}
                 onChange={(e) => setCareerPage(e.target.value)}
-                placeholder="Incolla qui il testo della career page..."
+                placeholder="Vai sulla career page, seleziona tutto il testo (Cmd+A o Ctrl+A), copialo e incollalo qui."
                 className="min-h-[160px] resize-y"
               />
             </div>
             <div>
               <Label className="text-foreground font-semibold mb-1 block">Job post</Label>
-              <p className="text-xs text-muted-foreground mb-2">Incolla il testo di un annuncio specifico</p>
               <Textarea
                 value={jobPost}
                 onChange={(e) => setJobPost(e.target.value)}
-                placeholder="Incolla qui il testo del job post..."
+                placeholder="Apri l'annuncio che vuoi analizzare, seleziona tutto il testo, copialo e incollalo qui. Puoi lasciare questo campo vuoto — l'analisi funziona anche solo con la career page."
                 className="min-h-[160px] resize-y"
               />
             </div>
@@ -165,7 +163,7 @@ const AnalisiEVP = () => {
               className="max-w-sm"
             />
             <p className="text-xs text-muted-foreground mt-1.5">
-              Ti mandiamo solo l'analisi. Nient'altro.
+              Se inserisci l'email ricevi l'analisi anche lì, per tenerla o condividerla. Nessun'altra comunicazione.
             </p>
           </div>
 
@@ -181,8 +179,13 @@ const AnalisiEVP = () => {
             variant="default"
             size="lg"
           >
-            {loading ? "Analisi in corso..." : "Analizza"}
+            Analizza →
           </Button>
+          {loading && (
+            <p className="text-sm text-muted-foreground mt-3 animate-fade-in">
+              Stiamo leggendo i testi…
+            </p>
+          )}
 
           {/* Result */}
           {analysis && (
