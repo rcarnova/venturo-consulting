@@ -89,13 +89,12 @@ const AnalisiEVP = () => {
         <div className="mx-auto max-w-[680px]">
           {/* Title */}
           <h1 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
-            Come comunica la vostra EVP?
+            Cosa comunica davvero la vostra EVP?
           </h1>
 
           {/* Subtitle */}
-          <p className="text-muted-foreground mb-10 leading-relaxed">
-            Vai sulla career page o sul job post che vuoi analizzare. Seleziona tutto il testo
-            con Cmd+A (Mac) o Ctrl+A (Windows), copialo con Cmd+C e incollalo nei campi qui sotto.
+          <p className="text-lg text-muted-foreground/80 mb-10 leading-relaxed max-w-xl">
+            Incollate il testo della vostra career page e di un job post. In pochi secondi ricevete una lettura esterna — quella di un candidato che non vi conosce ancora.
           </p>
 
           {/* Steps */}
