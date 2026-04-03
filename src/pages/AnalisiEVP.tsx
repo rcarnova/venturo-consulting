@@ -202,7 +202,7 @@ const AnalisiEVP = () => {
                     Questa lettura viene da testi pubblici. La conversazione vera parte dalle persone.
                   </p>
                   <Link
-                    to="/parliamone"
+                    to="/#contact"
                     className="inline-block mt-2 text-sm text-primary font-semibold hover:underline transition-colors"
                   >
                     Parliamone →
