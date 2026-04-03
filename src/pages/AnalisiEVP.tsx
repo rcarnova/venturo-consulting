@@ -97,6 +97,23 @@ const AnalisiEVP = () => {
             Incollate il testo della vostra career page e di un job post. In pochi secondi ricevete una lettura esterna — quella di un candidato che non vi conosce ancora.
           </p>
 
+          {/* Example preview */}
+          <div className="mb-14">
+            <h2 className="text-lg font-semibold text-foreground mb-4">Un esempio di analisi</h2>
+            <div className="rounded-xl border border-border/60 bg-muted/30 p-6 md:p-8">
+              <div className="[&_h3]:text-[15px] [&_h3]:font-semibold [&_h3]:text-foreground [&_h3]:mb-2 [&_h3]:mt-5 [&_h3:first-child]:mt-0 [&_p]:text-sm [&_p]:text-muted-foreground [&_p]:leading-relaxed [&_p]:mb-4 [&_p:last-child]:mb-0">
+                <h3>Come viene percepita la vostra identità</h3>
+                <p>La career page comunica apertura internazionale e appartenenza a qualcosa di più grande. Il job post descrive un lavoro concreto, con orari precisi e attività operative. Un candidato che legge entrambi riceve due segnali diversi — e vale la pena chiedersi se il profilo attratto dal primo riconosce poi se stesso nel secondo.</p>
+                <h3>Le domande che vale la pena farsi</h3>
+                <p>Chi risponde a una comunicazione che parla di avventura e connessioni globali cerca le stesse soddisfazioni di un ruolo che inizia con preparazione merce alle cinque del mattino? Quando si parla di "relazioni durature", ci si riferisce alla profondità commerciale tipica del settore o all'aspettativa di un ambiente più relazionale?</p>
+                <h3>Uno spunto che potrebbe valere una conversazione</h3>
+                <p>Forse l'azienda sta davvero trasformando un settore tradizionale — e la sfida è comunicare questa evoluzione senza perdere la concretezza del lavoro reale.</p>
+                <p className="!mt-5 !text-xs italic !text-muted-foreground/70">Questa è una lettura di superficie. Quello che Lumen fa è più profondo — parte dalle persone, non dai testi.</p>
+              </div>
+            </div>
+            <p className="text-xs text-muted-foreground/60 mt-3">Analisi generata su testi reali. Il nome dell'azienda non è riportato.</p>
+          </div>
+
           {/* Steps */}
           <div className="flex flex-col sm:flex-row gap-4 sm:gap-8 mb-12">
             {[
