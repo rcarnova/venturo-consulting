@@ -110,8 +110,8 @@ const AnalisiEVP = () => {
                 <p>Forse l'azienda sta davvero trasformando un settore tradizionale — e la sfida è comunicare questa evoluzione senza perdere la concretezza del lavoro reale.</p>
                 <p className="!mt-5 !text-xs italic !text-muted-foreground/70">Questa è una lettura di superficie. Quello che Lumen fa è più profondo — parte dalle persone, non dai testi.</p>
               </div>
+              <p className="text-xs text-muted-foreground/60 mt-2.5">Analisi generata su testi reali. Il nome dell'azienda non è riportato.</p>
             </div>
-            <p className="text-xs text-muted-foreground/60 mt-3">Analisi generata su testi reali. Il nome dell'azienda non è riportato.</p>
           </div>
 
           {/* Steps */}
