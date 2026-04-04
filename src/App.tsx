@@ -48,6 +48,7 @@ const RandstadProfessionalsEN = lazy(() => import("./pages/en/cases/RandstadProf
 const EuPromotions = lazy(() => import("./pages/cases/EuPromotions"));
 const EuPromotionsEN = lazy(() => import("./pages/en/cases/EuPromotions"));
 const AnalisiEVP = lazy(() => import("./pages/AnalisiEVP"));
+const EVPAnalysisEN = lazy(() => import("./pages/en/EVPAnalysis"));
 
 const queryClient = new QueryClient();
 
@@ -99,6 +100,7 @@ const App = () => (
               <Route path="/magazine/la-cultura-non-e-mai-sbagliata" element={<LaCulturaNonEMaiSbagliata />} />
               <Route path="/magazine/ai-ascolto" element={<AIAscolto />} />
               <Route path="/analisi-evp" element={<AnalisiEVP />} />
+              <Route path="/en/evp-analysis" element={<EVPAnalysisEN />} />
               {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
               <Route path="*" element={<NotFound />} />
             </Routes>
