@@ -1,0 +1,249 @@
+import { useState } from "react";
+import { Helmet } from "react-helmet-async";
+import { SEO } from "@/components/SEO";
+import HeaderEN from "@/components/en/HeaderEN";
+import FooterEN from "@/components/en/FooterEN";
+import { Button } from "@/components/ui/button";
+import { Textarea } from "@/components/ui/textarea";
+import { Input } from "@/components/ui/input";
+import { Label } from "@/components/ui/label";
+import { Link } from "react-router-dom";
+import ReactMarkdown from "react-markdown";
+
+const FUNCTION_URL = `${import.meta.env.VITE_SUPABASE_URL}/functions/v1/evp-analysis`;
+
+const EVPAnalysis = () => {
+  const [careerPage, setCareerPage] = useState("");
+  const [jobPost, setJobPost] = useState("");
+  const [email, setEmail] = useState("");
+  const [loading, setLoading] = useState(false);
+  const [analysis, setAnalysis] = useState<string | null>(null);
+  const [error, setError] = useState<string | null>(null);
+
+  const handleSubmit = async () => {
+    setError(null);
+    const careerLen = careerPage.trim().length;
+    const jobLen = jobPost.trim().length;
+
+    if (careerLen < 50 && jobLen < 50) {
+      setError("Please paste at least one text to proceed.");
+      return;
+    }
+
+    setLoading(true);
+    try {
+      const res = await fetch(FUNCTION_URL, {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          Authorization: `Bearer ${import.meta.env.VITE_SUPABASE_PUBLISHABLE_KEY}`,
+        },
+        body: JSON.stringify({ careerPage, jobPost, email: email.trim() || undefined }),
+      });
+
+      const data = await res.json();
+      if (!res.ok) {
+        setError(data.error || "An error occurred during the analysis.");
+      } else {
+        setAnalysis(data.analysis);
+      }
+    } catch {
+      setError("Connection error. Please try again shortly.");
+    } finally {
+      setLoading(false);
+    }
+  };
+
+  const handleReset = () => {
+    setCareerPage("");
+    setJobPost("");
+    setEmail("");
+    setAnalysis(null);
+    setError(null);
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  };
+
+  return (
+    <div className="min-h-screen bg-background">
+      <SEO
+        title="Free EVP Analysis - Venturo"
+        description="Paste your career page or job post and get a free analysis of your Employee Value Proposition with feedback on differentiation, consistency, and promises."
+        canonical="https://venturoconsulting.it/en/evp-analysis"
+        lang="en"
+        alternateUrls={{
+          it: "https://venturoconsulting.it/analisi-evp",
+          en: "https://venturoconsulting.it/en/evp-analysis",
+        }}
+      />
+      <Helmet>
+        <script type="application/ld+json">{JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "WebApplication",
+          "name": "Free EVP Analysis",
+          "description": "Free tool to analyse your Employee Value Proposition communication from career pages and job posts.",
+          "url": "https://venturoconsulting.it/en/evp-analysis",
+          "applicationCategory": "BusinessApplication",
+          "operatingSystem": "Web",
+          "offers": { "@type": "Offer", "price": "0", "priceCurrency": "EUR" },
+          "provider": { "@type": "Organization", "name": "Venturo", "url": "https://venturoconsulting.it" }
+        })}</script>
+      </Helmet>
+      <HeaderEN />
+
+      <main className="pt-28 pb-20 px-4">
+        <div className="mx-auto max-w-[680px]">
+          {/* Title */}
+          <h1 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
+            What does your EVP really communicate?
+          </h1>
+
+          {/* Subtitle */}
+          <p className="text-lg text-muted-foreground/80 mb-10 leading-relaxed max-w-xl">
+            Paste the text from your career page and a job post. In a few seconds you'll get an outside reading - the perspective of a candidate who doesn't know you yet.
+          </p>
+
+          {/* Example preview */}
+          <div className="mb-14">
+            <h2 className="text-lg font-semibold text-foreground mb-4">A sample analysis</h2>
+            <div className="rounded-xl border border-border/60 bg-muted/30 p-6 md:p-8">
+              <div className="[&_h3]:text-[15px] [&_h3]:font-semibold [&_h3]:text-foreground [&_h3]:mb-2 [&_h3]:mt-6 [&_h3:first-child]:mt-0 [&_h3]:pt-6 [&_h3:first-child]:pt-0 [&_h3]:border-t [&_h3]:border-border/20 [&_h3:first-child]:border-t-0 [&_p]:text-sm [&_p]:text-muted-foreground [&_p]:leading-relaxed [&_p]:mb-4 [&_p:last-child]:mb-0">
+                <h3>How your identity is perceived</h3>
+                <p>The career page communicates international openness and belonging to something bigger. The job post describes a concrete role, with precise hours and operational tasks. A candidate reading both receives two different signals - and it's worth asking whether the profile attracted by the first recognises themselves in the second.</p>
+                <h3>Questions worth asking</h3>
+                <p>Does someone who responds to messaging about adventure and global connections seek the same satisfaction from a role that starts with stock preparation at five in the morning? When you mention "lasting relationships", do you mean the commercial depth typical of the industry or the expectation of a more relational environment?</p>
+                <h3>A thought that could spark a conversation</h3>
+                <p>Perhaps the company really is transforming a traditional sector - and the challenge is communicating that evolution without losing the concreteness of the actual work.</p>
+                <p className="!mt-5 !text-xs italic !text-muted-foreground/70">This is a surface-level reading. What Lumen does is deeper - it starts from people, not texts.</p>
+              </div>
+              <p className="text-xs text-muted-foreground/60 mt-2.5">Analysis generated from real texts. The company name is not disclosed.</p>
+            </div>
+          </div>
+
+          {/* Steps */}
+          <div className="flex flex-col sm:flex-row gap-4 sm:gap-8 mb-12">
+            {[
+              { n: "01", t: "Open the page you want to analyse" },
+              { n: "02", t: "Select all (Cmd+A) and copy (Cmd+C)" },
+              { n: "03", t: "Paste below and click Analyse" },
+            ].map((s) => (
+              <div key={s.n} className="flex-1">
+                <span className="text-xs font-mono text-primary font-semibold">{s.n}</span>
+                <p className="text-sm text-foreground mt-1">{s.t}</p>
+              </div>
+            ))}
+          </div>
+
+          {/* Text fields */}
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
+            <div>
+              <Label className="text-foreground font-semibold mb-1 block">Career page</Label>
+              <Textarea
+                value={careerPage}
+                onChange={(e) => setCareerPage(e.target.value)}
+                placeholder="Go to the career page, select all text (Cmd+A or Ctrl+A), copy it and paste it here."
+                className="min-h-[160px] resize-y"
+              />
+            </div>
+            <div>
+              <Label className="text-foreground font-semibold mb-1 block">Job post</Label>
+              <Textarea
+                value={jobPost}
+                onChange={(e) => setJobPost(e.target.value)}
+                placeholder="Open the job ad you want to analyse, select all text, copy it and paste it here. You can leave this field empty - the analysis works with just the career page."
+                className="min-h-[160px] resize-y"
+              />
+            </div>
+          </div>
+
+          {/* Email */}
+          <div className="mb-8">
+            <Label className="text-foreground font-semibold mb-1 block">
+              Want to receive the analysis by email?
+            </Label>
+            <Input
+              type="email"
+              value={email}
+              onChange={(e) => setEmail(e.target.value)}
+              placeholder="Your email (optional)"
+              className="max-w-sm"
+            />
+            <p className="text-xs text-muted-foreground mt-1.5">
+              If you enter your email you'll also receive the analysis there, to keep or share. No other communication.
+            </p>
+          </div>
+
+          {/* Error */}
+          {error && (
+            <p className="text-sm text-destructive mb-4">{error}</p>
+          )}
+
+          {/* Submit */}
+          <Button
+            onClick={handleSubmit}
+            disabled={loading}
+            variant="default"
+            size="lg"
+          >
+            Analyse →
+          </Button>
+          {loading && (
+            <p className="text-sm text-muted-foreground mt-3 animate-fade-in">
+              Reading your texts…
+            </p>
+          )}
+
+          {/* Result */}
+          {analysis && (
+            <div className="mt-12">
+              <div className="rounded-xl p-6 md:p-8 border-l-[3px]" style={{ borderColor: '#E1FF00' }}>
+                <div className="max-w-none text-foreground [&_h2]:text-[16px] [&_h2]:font-semibold [&_h2]:text-[#0A0A0A] [&_h2]:mb-2 [&_h2]:mt-6 [&_h2:first-child]:mt-0 [&_p]:mb-4 [&_p:last-child]:mb-0 [&_em]:text-[#888888] [&_em]:text-sm">
+                  <ReactMarkdown>{analysis}</ReactMarkdown>
+                </div>
+              </div>
+
+              <div className="mt-10 space-y-5">
+                <div>
+                  <p className="text-sm text-muted-foreground">
+                    This reading comes from public texts. The real conversation starts from people.
+                  </p>
+                  <Link
+                    to="/en#contact"
+                    className="inline-block mt-2 text-sm text-primary font-semibold hover:underline transition-colors"
+                  >
+                    Let's talk →
+                  </Link>
+                </div>
+                <p className="text-sm text-muted-foreground">
+                  Have another text to analyse?{" "}
+                  <button
+                    onClick={handleReset}
+                    className="underline hover:text-foreground transition-colors"
+                  >
+                    Clear the fields and try again.
+                  </button>
+                </p>
+              </div>
+            </div>
+          )}
+        </div>
+
+        {/* How it works */}
+        <div className="mx-auto max-w-[680px] mt-20 pt-12 border-t border-border/40">
+          <p className="text-xs text-muted-foreground mb-4">How this analysis works</p>
+          <div className="space-y-4 text-sm text-muted-foreground leading-relaxed">
+            <p>This tool reads your texts the way an external candidate would - someone who doesn't know your story and builds their perception only from what they find online.</p>
+            <p>The analysis works on three dimensions: how recognisable your identity is, how consistent the tone is between career page and job post, and which motivational profile is implicitly attracted by the communication.</p>
+            <p>It's not an evaluation. It's a first reading - the starting point for a deeper conversation.</p>
+          </div>
+          <Link to="/en/lumen" className="inline-block mt-6 text-sm text-primary font-semibold hover:underline transition-colors">
+            Discover how Lumen works →
+          </Link>
+        </div>
+      </main>
+
+      <FooterEN />
+    </div>
+  );
+};
+
+export default EVPAnalysis;
