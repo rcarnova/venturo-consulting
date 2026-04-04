@@ -66,7 +66,7 @@ const AnalisiEVP = () => {
   return (
     <div className="min-h-screen bg-background">
       <SEO
-        title="Analisi EVP gratuita — Venturo"
+        title="Analisi EVP gratuita - Venturo"
         description="Incolla career page o job post e ottieni un'analisi gratuita della tua Employee Value Proposition con feedback su differenziazione, coerenza e promesse."
         canonical="https://venturoconsulting.it/analisi-evp"
       />
@@ -94,7 +94,7 @@ const AnalisiEVP = () => {
 
           {/* Subtitle */}
           <p className="text-lg text-muted-foreground/80 mb-10 leading-relaxed max-w-xl">
-            Incollate il testo della vostra career page e di un job post. In pochi secondi ricevete una lettura esterna — quella di un candidato che non vi conosce ancora.
+            Incollate il testo della vostra career page e di un job post. In pochi secondi ricevete una lettura esterna - quella di un candidato che non vi conosce ancora.
           </p>
 
           {/* Example preview */}
@@ -103,12 +103,12 @@ const AnalisiEVP = () => {
             <div className="rounded-xl border border-border/60 bg-muted/30 p-6 md:p-8">
               <div className="[&_h3]:text-[15px] [&_h3]:font-semibold [&_h3]:text-foreground [&_h3]:mb-2 [&_h3]:mt-6 [&_h3:first-child]:mt-0 [&_h3]:pt-6 [&_h3:first-child]:pt-0 [&_h3]:border-t [&_h3]:border-border/20 [&_h3:first-child]:border-t-0 [&_p]:text-sm [&_p]:text-muted-foreground [&_p]:leading-relaxed [&_p]:mb-4 [&_p:last-child]:mb-0">
                 <h3>Come viene percepita la vostra identità</h3>
-                <p>La career page comunica apertura internazionale e appartenenza a qualcosa di più grande. Il job post descrive un lavoro concreto, con orari precisi e attività operative. Un candidato che legge entrambi riceve due segnali diversi — e vale la pena chiedersi se il profilo attratto dal primo riconosce poi se stesso nel secondo.</p>
+                <p>La career page comunica apertura internazionale e appartenenza a qualcosa di più grande. Il job post descrive un lavoro concreto, con orari precisi e attività operative. Un candidato che legge entrambi riceve due segnali diversi - e vale la pena chiedersi se il profilo attratto dal primo riconosce poi se stesso nel secondo.</p>
                 <h3>Le domande che vale la pena farsi</h3>
                 <p>Chi risponde a una comunicazione che parla di avventura e connessioni globali cerca le stesse soddisfazioni di un ruolo che inizia con preparazione merce alle cinque del mattino? Quando si parla di "relazioni durature", ci si riferisce alla profondità commerciale tipica del settore o all'aspettativa di un ambiente più relazionale?</p>
                 <h3>Uno spunto che potrebbe valere una conversazione</h3>
-                <p>Forse l'azienda sta davvero trasformando un settore tradizionale — e la sfida è comunicare questa evoluzione senza perdere la concretezza del lavoro reale.</p>
-                <p className="!mt-5 !text-xs italic !text-muted-foreground/70">Questa è una lettura di superficie. Quello che Lumen fa è più profondo — parte dalle persone, non dai testi.</p>
+                <p>Forse l'azienda sta davvero trasformando un settore tradizionale - e la sfida è comunicare questa evoluzione senza perdere la concretezza del lavoro reale.</p>
+                <p className="!mt-5 !text-xs italic !text-muted-foreground/70">Questa è una lettura di superficie. Quello che Lumen fa è più profondo - parte dalle persone, non dai testi.</p>
               </div>
               <p className="text-xs text-muted-foreground/60 mt-2.5">Analisi generata su testi reali. Il nome dell'azienda non è riportato.</p>
             </div>
@@ -144,7 +144,7 @@ const AnalisiEVP = () => {
               <Textarea
                 value={jobPost}
                 onChange={(e) => setJobPost(e.target.value)}
-                placeholder="Apri l'annuncio che vuoi analizzare, seleziona tutto il testo, copialo e incollalo qui. Puoi lasciare questo campo vuoto — l'analisi funziona anche solo con la career page."
+                placeholder="Apri l'annuncio che vuoi analizzare, seleziona tutto il testo, copialo e incollalo qui. Puoi lasciare questo campo vuoto - l'analisi funziona anche solo con la career page."
                 className="min-h-[160px] resize-y"
               />
             </div>
@@ -226,9 +226,9 @@ const AnalisiEVP = () => {
         <div className="mx-auto max-w-[680px] mt-20 pt-12 border-t border-border/40">
           <p className="text-xs text-muted-foreground mb-4">Come funziona questa analisi</p>
           <div className="space-y-4 text-sm text-muted-foreground leading-relaxed">
-            <p>Questo tool legge i vostri testi come li leggerebbe un candidato esterno — qualcuno che non conosce la vostra storia e costruisce la sua percezione solo da quello che trova online.</p>
+            <p>Questo tool legge i vostri testi come li leggerebbe un candidato esterno - qualcuno che non conosce la vostra storia e costruisce la sua percezione solo da quello che trova online.</p>
             <p>L'analisi lavora su tre dimensioni: quanto è riconoscibile la vostra identità, quanto è coerente il tono tra career page e job post, e quale profilo motivazionale viene implicitamente attratto dalla comunicazione.</p>
-            <p>Non è una valutazione. È una prima lettura — il punto di partenza per una conversazione più profonda.</p>
+            <p>Non è una valutazione. È una prima lettura - il punto di partenza per una conversazione più profonda.</p>
           </div>
           <Link to="/lumen" className="inline-block mt-6 text-sm text-primary font-semibold hover:underline transition-colors">
             Scopri come lavora Lumen →
