@@ -101,7 +101,7 @@ const AnalisiEVP = () => {
           <div className="mb-14">
             <h2 className="text-lg font-semibold text-foreground mb-4">Un esempio di analisi</h2>
             <div className="rounded-xl border border-border/60 bg-muted/30 p-6 md:p-8">
-              <div className="[&_h3]:text-[15px] [&_h3]:font-semibold [&_h3]:text-foreground [&_h3]:mb-2 [&_h3]:mt-5 [&_h3:first-child]:mt-0 [&_p]:text-sm [&_p]:text-muted-foreground [&_p]:leading-relaxed [&_p]:mb-4 [&_p:last-child]:mb-0">
+              <div className="[&_h3]:text-[15px] [&_h3]:font-semibold [&_h3]:text-foreground [&_h3]:mb-2 [&_h3]:mt-6 [&_h3:first-child]:mt-0 [&_h3]:pt-6 [&_h3:first-child]:pt-0 [&_h3]:border-t [&_h3]:border-border/20 [&_h3:first-child]:border-t-0 [&_p]:text-sm [&_p]:text-muted-foreground [&_p]:leading-relaxed [&_p]:mb-4 [&_p:last-child]:mb-0">
                 <h3>Come viene percepita la vostra identità</h3>
                 <p>La career page comunica apertura internazionale e appartenenza a qualcosa di più grande. Il job post descrive un lavoro concreto, con orari precisi e attività operative. Un candidato che legge entrambi riceve due segnali diversi — e vale la pena chiedersi se il profilo attratto dal primo riconosce poi se stesso nel secondo.</p>
                 <h3>Le domande che vale la pena farsi</h3>
