@@ -224,7 +224,7 @@ const AnalisiEVP = () => {
 
         {/* How it works */}
         <div className="mx-auto max-w-[680px] mt-20 pt-12 border-t border-border/40">
-          <p className="text-xs font-mono text-primary font-semibold uppercase tracking-wider mb-4">Come funziona questa analisi</p>
+          <p className="text-xs text-muted-foreground mb-4">Come funziona questa analisi</p>
           <div className="space-y-4 text-sm text-muted-foreground leading-relaxed">
             <p>Questo tool legge i vostri testi come li leggerebbe un candidato esterno — qualcuno che non conosce la vostra storia e costruisce la sua percezione solo da quello che trova online.</p>
             <p>L'analisi lavora su tre dimensioni: quanto è riconoscibile la vostra identità, quanto è coerente il tono tra career page e job post, e quale profilo motivazionale viene implicitamente attratto dalla comunicazione.</p>
