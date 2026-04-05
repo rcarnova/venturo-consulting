@@ -1,9 +1,10 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { useLocation, Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import { Menu, Globe } from "lucide-react";
 import logoVenturo from "@/assets/logo-venturo.webp";
+import logoV from "@/assets/logo-v.webp";
 import { getItRoute } from "@/lib/language-routes";
 import {
   DropdownMenu,
@@ -15,9 +16,10 @@ import {
 const navLinks = [
   { href: "/en/challenges", label: "Challenges" },
   { href: "/en/lumen", label: "Lumen" },
-  { href: "/en/principles", label: "Principles" },
   { href: "/en/case-studies", label: "Case Studies" },
+  { href: "/en/principles", label: "Principles" },
   { href: "/en/about", label: "About Us" },
+  { href: "/en/evp-analysis", label: "EVP Analysis" },
   { href: "/magazine", label: "Articles" },
 ];
 
