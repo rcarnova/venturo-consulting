@@ -25,14 +25,33 @@ const navLinks = [
 
 const HeaderEN = () => {
   const [open, setOpen] = useState(false);
+  const [scrolled, setScrolled] = useState(false);
   const location = useLocation();
+  const navigate = useNavigate();
   const itPath = getItRoute(location.pathname);
 
+  useEffect(() => {
+    const handleScroll = () => setScrolled(window.scrollY > 50);
+    handleScroll();
+    window.addEventListener("scroll", handleScroll, { passive: true });
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
   const scrollToContact = () => {
-    if (window.location.pathname === '/en') {
+    if (location.pathname === '/en') {
       document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' });
     } else {
-      window.location.href = '/en#contact';
+      navigate('/en');
+      setTimeout(() => {
+        const poll = setInterval(() => {
+          const el = document.getElementById('contact');
+          if (el) {
+            el.scrollIntoView({ behavior: 'smooth' });
+            clearInterval(poll);
+          }
+        }, 100);
+        setTimeout(() => clearInterval(poll), 5000);
+      }, 100);
     }
   };
 
@@ -43,8 +62,25 @@ const HeaderEN = () => {
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-md border-b border-border/50">
       <div className="container-wide flex items-center justify-between h-16 md:h-20">
-        <Link to="/en" className="relative h-6 md:h-8 flex items-center" style={{ minWidth: 120 }}>
-          <img src={logoVenturo} alt="Venturo - organizational culture and employer branding consulting" className="h-6 md:h-8 w-auto object-contain" width={120} height={32} />
+        <Link to="/en" className="relative h-6 md:h-8 flex items-center" style={{ minWidth: scrolled ? 28 : 120 }}>
+          <img
+            src={logoVenturo}
+            alt="Venturo - organizational culture and employer branding consulting"
+            className="h-6 md:h-8 w-auto object-contain transition-opacity duration-300 ease-in-out"
+            style={{ opacity: scrolled ? 0 : 1 }}
+            width={120}
+            height={32}
+            fetchPriority="high"
+          />
+          <img
+            src={logoV}
+            alt="Venturo"
+            className="h-5 md:h-7 w-auto object-contain absolute left-0 top-1/2 -translate-y-1/2 transition-opacity duration-300 ease-in-out"
+            style={{ opacity: scrolled ? 1 : 0 }}
+            width={28}
+            height={28}
+          />
+        </Link>
         </Link>
         
         <nav className="hidden md:flex items-center gap-8">
