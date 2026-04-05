@@ -51,6 +51,12 @@ const IndexEN = () => {
       <HeaderEN />
       <main>
         <HeroSectionEN />
+        <a
+          href="/en/evp-analysis"
+          className="block w-full bg-primary text-primary-foreground text-center text-[13px] font-normal py-[10px] hover:opacity-85 transition-opacity"
+        >
+          New - Analyze how your EVP communicates for free →
+        </a>
         <Suspense fallback={LazyFallback}>
           <WhyVenturoSectionEN />
         </Suspense>

@@ -38,6 +38,7 @@ const Footer = () => {
             <Link to="/principi" className="text-[0.85rem] font-mono text-muted-foreground hover:text-foreground transition-colors">Principi</Link>
             <Link to="/casi-studio" className="text-[0.85rem] font-mono text-muted-foreground hover:text-foreground transition-colors">Casi studio</Link>
             <Link to="/chi-siamo" className="text-[0.85rem] font-mono text-muted-foreground hover:text-foreground transition-colors">Chi siamo</Link>
+            <Link to="/analisi-evp" className="text-[0.85rem] font-mono text-muted-foreground hover:text-foreground transition-colors">Analisi EVP</Link>
             <Link to="/magazine" className="text-[0.85rem] font-mono text-muted-foreground hover:text-foreground transition-colors">Articoli</Link>
             <Link to="/privacy" className="text-[0.85rem] font-mono text-muted-foreground hover:text-foreground transition-colors">Privacy</Link>
           </div>
