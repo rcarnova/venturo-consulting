@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { useLocation, Link } from "react-router-dom";
+import { useLocation, Link, useNavigate } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import { Menu, Globe } from "lucide-react";
@@ -27,6 +27,7 @@ const Header = () => {
   const [open, setOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
   const location = useLocation();
+  const navigate = useNavigate();
   const enPath = getEnRoute(location.pathname);
 
   useEffect(() => {
@@ -37,10 +38,20 @@ const Header = () => {
   }, []);
 
   const scrollToContact = () => {
-    if (window.location.pathname === '/') {
+    if (location.pathname === '/') {
       document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' });
     } else {
-      window.location.href = '/#contact';
+      navigate('/');
+      setTimeout(() => {
+        const poll = setInterval(() => {
+          const el = document.getElementById('contact');
+          if (el) {
+            el.scrollIntoView({ behavior: 'smooth' });
+            clearInterval(poll);
+          }
+        }, 100);
+        setTimeout(() => clearInterval(poll), 5000);
+      }, 100);
     }
   };
 
