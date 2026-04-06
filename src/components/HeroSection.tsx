@@ -28,7 +28,7 @@ const HeroSection = () => {
             recruiting, onboarding, comunicazione interna.
           </p>
 
-          <div className="mt-12 flex flex-col sm:flex-row gap-4 animate-fade-up-delay-2 [animation-delay:2.3s] md:[animation-delay:6.3s]">
+          <div className="mt-12 flex flex-col sm:flex-row gap-4 animate-fade-up-delay-2 [animation-delay:1.5s] md:[animation-delay:3s]">
             <Button onClick={scrollToContact} variant="hero" className="glow-btn">
               Parliamone
             </Button>
