@@ -41,8 +41,9 @@
     </style>
     <!-- Preload LCP image (logo) to eliminate resource load delay -->
     <link rel="preload" href="/src/assets/logo-venturo.webp" as="image" type="image/webp" fetchpriority="high">
-    <!-- Preload critical CSS to break JS→CSS chain -->
-    <link rel="preload" href="/src/index.css" as="style">
+    <!-- Main CSS loaded async — critical styles are inlined above -->
+    <link rel="preload" href="/src/index.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="/src/index.css"></noscript>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
