@@ -20,13 +20,26 @@ const AnalisiEVP = () => {
   const [analysis, setAnalysis] = useState<string | null>(null);
   const [error, setError] = useState<string | null>(null);
 
+  const [careerError, setCareerError] = useState<string | null>(null);
+
   const handleSubmit = async () => {
     setError(null);
-    const careerLen = careerPage.trim().length;
-    const jobLen = jobPost.trim().length;
+    setCareerError(null);
 
-    if (careerLen < 50 && jobLen < 50) {
-      setError("Incolla almeno un testo per procedere.");
+    if (careerPage.trim().length === 0) {
+      setCareerError("Incolla il testo della career page per procedere.");
+      return;
+    }
+
+    const totalLen = careerPage.trim().length + jobPost.trim().length;
+
+    if (totalLen < 200) {
+      setError("Il testo è troppo breve per un'analisi utile. Prova a incollare l'intera pagina.");
+      return;
+    }
+
+    if (totalLen > 12000) {
+      setError("Il testo è troppo lungo. Prova a incollare solo le sezioni principali della career page e del job post.");
       return;
     }
 
@@ -142,6 +155,9 @@ const AnalisiEVP = () => {
                 placeholder="Vai sulla career page, seleziona tutto il testo (Cmd+A o Ctrl+A), copialo e incollalo qui."
                 className="min-h-[160px] resize-y"
               />
+              {careerError && (
+                <p className="text-xs text-muted-foreground mt-1.5">{careerError}</p>
+              )}
             </div>
             <div>
               <Label className="text-foreground font-semibold mb-1 block">Job post</Label>
