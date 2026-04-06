@@ -3,14 +3,15 @@ import { SEO } from "@/components/SEO";
 import { Helmet } from "react-helmet-async";
 import HeaderEN from "@/components/en/HeaderEN";
 import HeroSectionEN from "@/components/en/HeroSectionEN";
-import ClientsSectionEN from "@/components/en/ClientsSectionEN";
+
+const ClientsSectionEN = lazy(() => import("@/components/en/ClientsSectionEN"));
 
 const WhyVenturoSectionEN = lazy(() => import("@/components/en/WhyVenturoSectionEN"));
 const HowWeWorkSectionEN = lazy(() => import("@/components/en/HowWeWorkSectionEN"));
 const ReferencesSectionEN = lazy(() => import("@/components/en/ReferencesSectionEN"));
 const LeversSectionEN = lazy(() => import("@/components/en/LeversSectionEN"));
-const CasesSectionEN = lazy(() => import("@/components/en/CasesSectionEN"));
-const ResultCalloutEN = lazy(() => import("@/components/en/ResultCalloutEN"));
+
+const ReadingLevelsSectionEN = lazy(() => import("@/components/en/ReadingLevelsSectionEN"));
 const PartnersSectionEN = lazy(() => import("@/components/en/PartnersSectionEN"));
 const TeamPreviewSectionEN = lazy(() => import("@/components/en/TeamPreviewSectionEN"));
 const LeadMagnetSectionEN = lazy(() => import("@/components/en/LeadMagnetSectionEN"));
@@ -60,7 +61,9 @@ const IndexEN = () => {
         <Suspense fallback={LazyFallback}>
           <WhyVenturoSectionEN />
         </Suspense>
-        <ClientsSectionEN />
+        <Suspense fallback={LazyFallback}>
+          <ClientsSectionEN />
+        </Suspense>
         <div className="flex justify-center px-6 pt-12 pb-12">
           <p className="text-base text-muted-foreground leading-relaxed max-w-[720px] text-left border-l-[3px] border-foreground pl-5">
             Venturo is a consulting firm specializing in organizational culture and employer branding. We work with Italian companies that want to make their cultural identity visible, to attract the right talent, align internal and external communication, and build organizations that are coherent with their values.
@@ -70,8 +73,8 @@ const IndexEN = () => {
           <HowWeWorkSectionEN />
           <ReferencesSectionEN />
           <LeversSectionEN />
-          <CasesSectionEN />
-          <ResultCalloutEN />
+          
+          <ReadingLevelsSectionEN />
           <PartnersSectionEN />
           <TeamPreviewSectionEN />
           <LeadMagnetSectionEN />
