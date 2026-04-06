@@ -23,11 +23,11 @@ const HeroSectionEN = () => {
             </span>
           </h1>
           
-          <p className="text-[20px] leading-[1.65] text-[#444444] mt-8 max-w-none md:whitespace-nowrap animate-fade-up-delay-2 [animation-delay:2s] md:[animation-delay:6s]">
+          <p className="text-[20px] leading-[1.65] text-[#444444] mt-8 max-w-none md:whitespace-nowrap animate-fade-up-delay-2 [animation-delay:1.2s] md:[animation-delay:2.5s]">
             Cultural challenges always have an inside and an outside.<br className="md:hidden" /> Venturo crosses both.
           </p>
 
-          <div className="mt-12 flex flex-col sm:flex-row gap-4 animate-fade-up-delay-2 [animation-delay:2.3s] md:[animation-delay:6.3s]">
+          <div className="mt-12 flex flex-col sm:flex-row gap-4 animate-fade-up-delay-2 [animation-delay:1.5s] md:[animation-delay:3s]">
             <Button onClick={scrollToContact} variant="hero" className="glow-btn">
               Let's talk about your culture
             </Button>
