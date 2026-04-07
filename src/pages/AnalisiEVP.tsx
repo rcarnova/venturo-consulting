@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Globe, TextCursorInput, ClipboardPaste } from "lucide-react";
 import { Helmet } from "react-helmet-async";
 import { SEO } from "@/components/SEO";
 import Header from "@/components/Header";
@@ -134,11 +135,12 @@ const AnalisiEVP = () => {
           {/* Steps */}
           <div className="flex flex-col sm:flex-row gap-4 sm:gap-8 mb-12">
             {[
-              { n: "01", t: "Apri la pagina che vuoi analizzare" },
-              { n: "02", t: "Seleziona tutto (Cmd+A) e copia (Cmd+C)" },
-              { n: "03", t: "Incolla qui sotto e clicca Analizza" },
+              { n: "01", t: "Apri la pagina che vuoi analizzare", icon: Globe },
+              { n: "02", t: "Seleziona tutto (Cmd+A) e copia (Cmd+C)", icon: TextCursorInput },
+              { n: "03", t: "Incolla qui sotto e clicca Analizza", icon: ClipboardPaste },
             ].map((s) => (
               <div key={s.n} className="flex-1">
+                <s.icon className="h-5 w-5 text-muted-foreground mb-2" strokeWidth={1.5} />
                 <span className="text-xs font-mono text-primary font-semibold">{s.n}</span>
                 <p className="text-sm text-foreground mt-1">{s.t}</p>
               </div>

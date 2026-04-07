@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Globe, TextCursorInput, ClipboardPaste } from "lucide-react";
 import { Helmet } from "react-helmet-async";
 import { SEO } from "@/components/SEO";
 import HeaderEN from "@/components/en/HeaderEN";
@@ -135,11 +136,12 @@ const EVPAnalysis = () => {
           {/* Steps */}
           <div className="flex flex-col sm:flex-row gap-4 sm:gap-8 mb-12">
             {[
-              { n: "01", t: "Open the page you want to analyse" },
-              { n: "02", t: "Select all (Cmd+A) and copy (Cmd+C)" },
-              { n: "03", t: "Paste below and click Analyse" },
+              { n: "01", t: "Open the page you want to analyse", icon: Globe },
+              { n: "02", t: "Select all (Cmd+A) and copy (Cmd+C)", icon: TextCursorInput },
+              { n: "03", t: "Paste below and click Analyse", icon: ClipboardPaste },
             ].map((s) => (
               <div key={s.n} className="flex-1">
+                <s.icon className="h-5 w-5 text-muted-foreground mb-2" strokeWidth={1.5} />
                 <span className="text-xs font-mono text-primary font-semibold">{s.n}</span>
                 <p className="text-sm text-foreground mt-1">{s.t}</p>
               </div>
