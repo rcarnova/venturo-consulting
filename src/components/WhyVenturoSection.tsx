@@ -10,7 +10,7 @@ const WhyVenturoSection = () => {
               Perché esiste Venturo
             </h2>
             <p className="text-body text-foreground text-left md:max-w-[60%]">
-              Se in un'organizzazione la cultura non è chiara:
+              Quando non è chiaro chi sei come organizzazione, succede questo:
             </p>
 
             <ul className="text-body text-foreground mt-6 space-y-3 md:max-w-[60%] list-none">
