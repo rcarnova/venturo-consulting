@@ -10,8 +10,15 @@ const WhyVenturoSection = () => {
               Perché esiste Venturo
             </h2>
             <p className="text-body text-foreground text-left md:max-w-[60%]">
-              Venturo nasce da una convinzione: la cultura di un'organizzazione non è un tema soft. Modella i comportamenti, determina i risultati, e si riflette in tutto ciò che l'azienda dice e fa verso l'esterno.
+              Se in un'organizzazione la cultura non è chiara:
             </p>
+
+            <ul className="text-body text-foreground mt-6 space-y-2 md:max-w-[60%]">
+              <li>assumi le persone sbagliate</li>
+              <li>perdi quelle giuste</li>
+              <li>prendi decisioni incoerenti</li>
+              <li>e ogni iniziativa HR diventa cosmetica</li>
+            </ul>
 
             <p className="text-body text-foreground mt-8">
               Per questo lavoriamo su tre livelli:

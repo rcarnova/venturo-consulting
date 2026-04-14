@@ -10,8 +10,15 @@ const WhyVenturoSectionEN = () => {
               Why Venturo exists
             </h2>
             <p className="text-body text-foreground text-left md:max-w-[60%]">
-              Venturo was born from a conviction: organizational culture is not a soft topic. It shapes behaviors, determines results, and is reflected in everything a company says and does externally.
+              When culture is unclear in an organization:
             </p>
+
+            <ul className="text-body text-foreground mt-6 space-y-2 md:max-w-[60%]">
+              <li>you hire the wrong people</li>
+              <li>you lose the right ones</li>
+              <li>you make inconsistent decisions</li>
+              <li>and every HR initiative becomes cosmetic</li>
+            </ul>
 
             <p className="text-body text-foreground mt-8">
               That's why we work on three levels:
