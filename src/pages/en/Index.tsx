@@ -66,7 +66,7 @@ const IndexEN = () => {
         </Suspense>
         <div className="flex justify-center px-6 pt-12 pb-12">
           <p className="text-base text-muted-foreground leading-relaxed max-w-[720px] text-left border-l-[3px] border-foreground pl-5">
-            Venturo is a consulting firm specializing in organizational culture and employer branding. We work with Italian companies that want to make their cultural identity visible, to attract the right talent, align internal and external communication, and build organizations that are coherent with their values.
+            Venturo is a consulting firm specializing in organizational culture, internal and employer branding. We work with companies that want to make their cultural identity visible, to attract the right talent, align internal and external communication, and make decisions that are coherent with their values.
           </p>
         </div>
         <Suspense fallback={LazyFallback}>
