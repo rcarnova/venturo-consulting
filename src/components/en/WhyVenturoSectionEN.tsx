@@ -13,11 +13,18 @@ const WhyVenturoSectionEN = () => {
               When culture is unclear in an organization:
             </p>
 
-            <ul className="text-body text-foreground mt-6 space-y-2 md:max-w-[60%]">
-              <li>you hire the wrong people</li>
-              <li>you lose the right ones</li>
-              <li>you make inconsistent decisions</li>
-              <li>and every HR initiative becomes cosmetic</li>
+            <ul className="text-body text-foreground mt-6 space-y-3 md:max-w-[60%] list-none">
+              {[
+                "you hire the wrong people",
+                "you lose the right ones",
+                "you make inconsistent decisions",
+                "and every HR initiative becomes cosmetic",
+              ].map((item) => (
+                <li key={item} className="flex items-start gap-3">
+                  <span className="text-primary mt-[2px]">→</span>
+                  <span>{item}</span>
+                </li>
+              ))}
             </ul>
 
             <p className="text-body text-foreground mt-8">
