@@ -69,7 +69,7 @@ const Index = () => {
         </Suspense>
         <div className="flex justify-center px-6 pt-12 pb-12">
           <p className="text-base text-muted-foreground leading-relaxed max-w-[720px] text-left border-l-[3px] border-foreground pl-5">
-            Venturo è una società di consulenza specializzata in cultura organizzativa ed employer branding. Lavoriamo con aziende italiane che vogliono rendere visibile la propria identità culturale, per attrarre i talenti giusti, allineare comunicazione interna ed esterna, e costruire organizzazioni coerenti con i propri valori.
+            Venturo è una società di consulenza specializzata in cultura organizzativa, internal ed employer branding. Lavoriamo con aziende che vogliono rendere visibile la propria identità culturale, per attrarre i talenti giusti, allineare comunicazione interna ed esterna, e prendere decisioni coerenti con i propri valori.
           </p>
         </div>
         <Suspense fallback={LazyFallback}>
