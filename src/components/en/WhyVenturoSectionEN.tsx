@@ -10,7 +10,7 @@ const WhyVenturoSectionEN = () => {
               Why Venturo exists
             </h2>
             <p className="text-body text-foreground text-left md:max-w-[60%]">
-              When culture is unclear in an organization:
+              When it's not clear who you are as an organization, this is what happens:
             </p>
 
             <ul className="text-body text-foreground mt-6 space-y-3 md:max-w-[60%] list-none">
