@@ -6,6 +6,17 @@ import ArticleCard from "@/components/ArticleCard";
 const articles = [
   {
     category: "cultura organizzativa",
+    title: "Non è (solo) un problema di competenze. L'AI e la cultura organizzativa.",
+    excerpt:
+      "I progetti AI non si arenano nei datacenter, ma nelle riunioni e nelle conversazioni che non avvengono. L'adozione è prima di tutto una questione di identità.",
+    date: "19 apr 2026",
+    readTime: "6 min",
+    link: "/magazine/competenze-ai-cultura",
+    author: "Rosario",
+    tags: ["cultura organizzativa", "AI", "leadership", "cambiamento"],
+  },
+  {
+    category: "cultura organizzativa",
     title: "Il costo del non detto. Perché il 70% dei dipendenti non c'è davvero.",
     excerpt:
       "Il distacco dei dipendenti non nasce dal nulla: nasce dal non detto che si accumula, strato dopo strato, fino a diventare cultura.",
