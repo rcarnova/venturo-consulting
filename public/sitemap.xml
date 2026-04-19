@@ -291,6 +291,21 @@
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
   </url>
+  <url>
+    <loc>https://venturoconsulting.it/magazine/il-costo-del-non-detto</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://venturoconsulting.it/magazine/competenze-ai-cultura</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://venturoconsulting.it/magazine/presenza-intenzionalita</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
 
   <!-- Privacy -->
   <url>
