@@ -38,6 +38,7 @@ const AIAscolto = lazy(() => import("./pages/magazine/AIAscolto"));
 const CostoNonDetto = lazy(() => import("./pages/magazine/CostoNonDetto"));
 const CompetenzeAI = lazy(() => import("./pages/magazine/CompetenzeAI"));
 const PresenzaTerzani = lazy(() => import("./pages/magazine/PresenzaTerzani"));
+const PresenzaIdentita = lazy(() => import("./pages/magazine/PresenzaIdentita"));
 const ChiSiamo = lazy(() => import("./pages/ChiSiamo"));
 const AboutEN = lazy(() => import("./pages/en/About"));
 const LeSfide = lazy(() => import("./pages/LeSfide"));
@@ -105,6 +106,7 @@ const App = () => (
               <Route path="/magazine/il-costo-del-non-detto" element={<CostoNonDetto />} />
               <Route path="/magazine/competenze-ai-cultura" element={<CompetenzeAI />} />
               <Route path="/magazine/presenza-intenzionalita" element={<PresenzaTerzani />} />
+              <Route path="/magazine/presenza-identita" element={<PresenzaIdentita />} />
               <Route path="/analisi-evp" element={<AnalisiEVP />} />
               <Route path="/en/evp-analysis" element={<EVPAnalysisEN />} />
               {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}

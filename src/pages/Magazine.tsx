@@ -6,6 +6,17 @@ import ArticleCard from "@/components/ArticleCard";
 const articles = [
   {
     category: "cultura organizzativa",
+    title: "Chi è davvero presente? Identità, leadership ed employer branding.",
+    excerpt:
+      "Le organizzazioni che non attraggono talenti non hanno un problema di strategia o budget: hanno un problema di presenza.",
+    date: "19 apr 2026",
+    readTime: "4 min",
+    link: "/magazine/presenza-identita",
+    author: "Rosario",
+    tags: ["cultura organizzativa", "employer branding", "leadership", "identità"],
+  },
+  {
+    category: "cultura organizzativa",
     title: "La vicinanza nasce dall'intenzionalità, non dalla tecnologia.",
     excerpt:
       "Non è remoto vs ufficio. È presenti vs altrove. La qualità dell'attenzione che porti in una stanza vale più di dove quella stanza si trova.",
