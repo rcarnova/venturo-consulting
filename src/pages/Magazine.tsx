@@ -6,7 +6,26 @@ import ArticleCard from "@/components/ArticleCard";
 const articles = [
   {
     category: "cultura organizzativa",
+    title: "La vicinanza nasce dall'intenzionalità, non dalla tecnologia.",
+    excerpt:
+      "Non è remoto vs ufficio. È presenti vs altrove. La qualità dell'attenzione che porti in una stanza vale più di dove quella stanza si trova.",
+    date: "19 apr 2026",
+    readTime: "4 min",
+    link: "/magazine/presenza-intenzionalita",
+    author: "Rosario",
+    tags: ["cultura organizzativa", "leadership", "engagement", "presenza"],
+  },
+  {
+    category: "cultura organizzativa",
     title: "Non è (solo) un problema di competenze. L'AI e la cultura organizzativa.",
+    excerpt:
+      "I progetti AI non si arenano nei datacenter, ma nelle riunioni e nelle conversazioni che non avvengono. L'adozione è prima di tutto una questione di identità.",
+    date: "19 apr 2026",
+    readTime: "6 min",
+    link: "/magazine/competenze-ai-cultura",
+    author: "Rosario",
+    tags: ["cultura organizzativa", "AI", "leadership", "cambiamento"],
+  },
     excerpt:
       "I progetti AI non si arenano nei datacenter, ma nelle riunioni e nelle conversazioni che non avvengono. L'adozione è prima di tutto una questione di identità.",
     date: "19 apr 2026",
