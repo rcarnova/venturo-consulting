@@ -21,7 +21,7 @@ const ResponsabilitaNonSiDelega = () => {
           "@type": "Article",
           "headline": "La responsabilità non si delega. Si conquista.",
           "description": "Nelle organizzazioni sane le persone non aspettano che qualcuno assegni loro responsabilità. Le pretendono.",
-          "datePublished": "2026-03-01",
+          "datePublished": "2026-03-08",
           "author": { "@type": "Person", "name": "Rosario Carnovale" },
           "publisher": { "@type": "Organization", "name": "Venturo", "url": "https://venturoconsulting.it" },
           "url": "https://venturoconsulting.it/magazine/la-responsabilita-non-si-delega"
@@ -63,7 +63,7 @@ const ResponsabilitaNonSiDelega = () => {
             >
               <span>Rosario</span>
               <span>•</span>
-              <span>10 mar 2026</span>
+              <span>8 mar 2026</span>
               <span>•</span>
               <span>4 min</span>
             </div>
