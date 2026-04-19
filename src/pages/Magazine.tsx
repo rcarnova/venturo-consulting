@@ -59,6 +59,8 @@ const articles = [
     excerpt:
       "Ho visto molte aziende arrendersi. Non parlo di business. Parlo di cultura.",
     date: "15 mar 2026",
+    readTime: "4 min",
+    link: "/magazine/la-cultura-non-e-mai-sbagliata",
     author: "Rosario",
     tags: ["cultura organizzativa", "cambiamento"],
   },
@@ -68,6 +70,8 @@ const articles = [
     excerpt:
       "Nelle organizzazioni sane le persone non aspettano che qualcuno assegni loro responsabilità. Le pretendono.",
     date: "8 mar 2026",
+    readTime: "4 min",
+    link: "/magazine/la-responsabilita-non-si-delega",
     author: "Rosario",
     tags: ["organizzazione"],
   },
@@ -77,6 +81,8 @@ const articles = [
     excerpt:
       "Le aziende fanno promesse continuamente. Ma come ci hanno insegnato da bambini: le promesse vanno mantenute.",
     date: "1 mar 2026",
+    readTime: "4 min",
+    link: "/magazine/i-valori-non-sono-poster",
     author: "Rosario",
     tags: ["cultura organizzativa"],
   },
