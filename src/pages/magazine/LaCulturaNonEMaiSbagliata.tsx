@@ -21,7 +21,7 @@ const LaCulturaNonEMaiSbagliata = () => {
           "@type": "Article",
           "headline": "La cultura non è mai sbagliata. È solo cultura.",
           "description": "Ho visto molte aziende arrendersi. Non parlo di business. Parlo di cultura.",
-          "datePublished": "2026-03-10",
+          "datePublished": "2026-03-15",
           "author": { "@type": "Person", "name": "Rosario Carnovale" },
           "publisher": { "@type": "Organization", "name": "Venturo", "url": "https://venturoconsulting.it" },
           "url": "https://venturoconsulting.it/magazine/la-cultura-non-e-mai-sbagliata"
@@ -63,7 +63,7 @@ const LaCulturaNonEMaiSbagliata = () => {
             >
               <span>Rosario</span>
               <span>•</span>
-              <span>10 mar 2026</span>
+              <span>15 mar 2026</span>
               <span>•</span>
               <span>4 min</span>
             </div>

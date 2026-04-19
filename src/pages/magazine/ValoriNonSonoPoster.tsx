@@ -52,7 +52,7 @@ const ValoriNonSonoPoster = () => {
         category="Cultura"
         title="I valori non sono poster. Sono promesse."
         subtitle="Le aziende fanno promesse continuamente. Ma come ci hanno insegnato da bambini: le promesse vanno mantenute."
-        date="10 mar 2026"
+        date="1 mar 2026"
         readTime="4 min"
         heroImage={culturaOrg}
         content={content}

@@ -96,7 +96,7 @@ const AIAscolto = () => {
         category="Cultura organizzativa"
         title="L'AI ci darà più ascolto. Ma ascolto è un'altra cosa."
         subtitle="Come i nuovi strumenti di analisi del sentiment rischiano di ripetere l'errore delle survey: raccogliere dati senza cambiar nulla."
-        date="19 mar 2026"
+        date="22 mar 2026"
         readTime="5 min"
         content={content}
       />

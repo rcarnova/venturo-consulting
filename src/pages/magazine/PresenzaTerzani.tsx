@@ -70,7 +70,7 @@ const PresenzaTerzani = () => {
         category="Cultura organizzativa"
         title="La vicinanza nasce dall'intenzionalità, non dalla tecnologia."
         subtitle="Non è remoto vs ufficio. È presenti vs altrove. La qualità dell'attenzione che porti in una stanza vale più di dove quella stanza si trova."
-        date="19 apr 2026"
+        date="12 apr 2026"
         readTime="4 min"
         content={content}
       />

@@ -72,7 +72,7 @@ const CompetenzeAI = () => {
         category="Cultura organizzativa"
         title="Non è (solo) un problema di competenze. L'AI e la cultura organizzativa."
         subtitle="I progetti AI non si arenano nei datacenter, ma nelle riunioni e nelle conversazioni che non avvengono. L'adozione è prima di tutto una questione di identità."
-        date="19 apr 2026"
+        date="5 apr 2026"
         readTime="6 min"
         content={content}
       />
