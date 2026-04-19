@@ -68,7 +68,7 @@ const CostoNonDetto = () => {
         category="Cultura organizzativa"
         title="Il costo del non detto. Perché il 70% dei dipendenti non c'è davvero."
         subtitle="Il distacco dei dipendenti non nasce dal nulla: nasce dal non detto che si accumula, strato dopo strato, fino a diventare cultura."
-        date="19 apr 2026"
+        date="29 mar 2026"
         readTime="6 min"
         content={content}
       />
