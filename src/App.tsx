@@ -35,6 +35,7 @@ const ResponsabilitaNonSiDelega = lazy(() => import("./pages/magazine/Responsabi
 const ValoriNonSonoPoster = lazy(() => import("./pages/magazine/ValoriNonSonoPoster"));
 const LaCulturaNonEMaiSbagliata = lazy(() => import("./pages/magazine/LaCulturaNonEMaiSbagliata"));
 const AIAscolto = lazy(() => import("./pages/magazine/AIAscolto"));
+const CostoNonDetto = lazy(() => import("./pages/magazine/CostoNonDetto"));
 const ChiSiamo = lazy(() => import("./pages/ChiSiamo"));
 const AboutEN = lazy(() => import("./pages/en/About"));
 const LeSfide = lazy(() => import("./pages/LeSfide"));
