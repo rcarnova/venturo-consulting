@@ -6,6 +6,17 @@ import ArticleCard from "@/components/ArticleCard";
 const articles = [
   {
     category: "cultura organizzativa",
+    title: "Il costo del non detto. Perché il 70% dei dipendenti non c'è davvero.",
+    excerpt:
+      "Il distacco dei dipendenti non nasce dal nulla: nasce dal non detto che si accumula, strato dopo strato, fino a diventare cultura.",
+    date: "19 apr 2026",
+    readTime: "6 min",
+    link: "/magazine/il-costo-del-non-detto",
+    author: "Rosario",
+    tags: ["cultura organizzativa", "leadership", "engagement", "ascolto"],
+  },
+  {
+    category: "cultura organizzativa",
     title: "L'AI ci darà più ascolto. Ma ascolto è un'altra cosa.",
     excerpt:
       "Come i nuovi strumenti di analisi del sentiment rischiano di ripetere l'errore delle survey: raccogliere dati senza cambiar nulla.",
