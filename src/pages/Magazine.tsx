@@ -21,6 +21,8 @@ const articles = [
     excerpt:
       "Non è remoto vs ufficio. È presenti vs altrove. La qualità dell'attenzione che porti in una stanza vale più di dove quella stanza si trova.",
     date: "12 apr 2026",
+    readTime: "4 min",
+    link: "/magazine/presenza-intenzionalita",
     author: "Rosario",
     tags: ["cultura organizzativa", "leadership", "engagement", "presenza"],
   },
@@ -30,6 +32,8 @@ const articles = [
     excerpt:
       "I progetti AI non si arenano nei datacenter, ma nelle riunioni e nelle conversazioni che non avvengono. L'adozione è prima di tutto una questione di identità.",
     date: "5 apr 2026",
+    readTime: "6 min",
+    link: "/magazine/competenze-ai-cultura",
     author: "Rosario",
     tags: ["cultura organizzativa", "AI", "leadership", "cambiamento"],
   },
@@ -39,6 +43,8 @@ const articles = [
     excerpt:
       "Il distacco dei dipendenti non nasce dal nulla: nasce dal non detto che si accumula, strato dopo strato, fino a diventare cultura.",
     date: "29 mar 2026",
+    readTime: "6 min",
+    link: "/magazine/il-costo-del-non-detto",
     author: "Rosario",
     tags: ["cultura organizzativa", "leadership", "engagement", "ascolto"],
   },
