@@ -40,6 +40,7 @@ const CompetenzeAI = lazy(() => import("./pages/magazine/CompetenzeAI"));
 const PresenzaTerzani = lazy(() => import("./pages/magazine/PresenzaTerzani"));
 const PresenzaIdentita = lazy(() => import("./pages/magazine/PresenzaIdentita"));
 const BrandManualeReliquia = lazy(() => import("./pages/magazine/BrandManualeReliquia"));
+const TrasparenzaSalariale = lazy(() => import("./pages/magazine/TrasparenzaSalariale"));
 const MagazineEN = lazy(() => import("./pages/en/Magazine"));
 const BrandManualRelicEN = lazy(() => import("./pages/en/magazine/BrandManualRelic"));
 const PresenceIdentityEN = lazy(() => import("./pages/en/magazine/PresenceIdentity"));
@@ -119,6 +120,7 @@ const App = () => (
               <Route path="/magazine/presenza-intenzionalita" element={<PresenzaTerzani />} />
               <Route path="/magazine/presenza-identita" element={<PresenzaIdentita />} />
               <Route path="/magazine/brand-manuale-reliquia" element={<BrandManualeReliquia />} />
+              <Route path="/magazine/trasparenza-salariale" element={<TrasparenzaSalariale />} />
               <Route path="/en/magazine" element={<MagazineEN />} />
               <Route path="/en/magazine/brand-manual-relic" element={<BrandManualRelicEN />} />
               <Route path="/en/magazine/presence-identity" element={<PresenceIdentityEN />} />

@@ -315,6 +315,12 @@
     <loc>https://venturoconsulting.it/magazine/brand-manuale-reliquia</loc>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://venturoconsulting.it/magazine/trasparenza-salariale</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
   <url>
     <loc>https://venturoconsulting.it/en/magazine</loc>
     <changefreq>weekly</changefreq>
