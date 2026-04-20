@@ -5,6 +5,17 @@ import ArticleCard from "@/components/ArticleCard";
 
 const articles = [
   {
+    category: "branding",
+    title: "Il manuale di brand è una reliquia. L'identità è cultura.",
+    excerpt:
+      "Un'identità forte non si misura dallo spessore del manuale, ma da quanto profondamente è entrata nelle persone.",
+    date: "26 apr 2026",
+    readTime: "6 min",
+    link: "/magazine/brand-manuale-reliquia",
+    author: "Rosario",
+    tags: ["branding", "cultura organizzativa", "identità"],
+  },
+  {
     category: "cultura organizzativa",
     title: "Chi è davvero presente? Identità, leadership ed employer branding.",
     excerpt:
