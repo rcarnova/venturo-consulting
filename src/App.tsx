@@ -40,6 +40,16 @@ const CompetenzeAI = lazy(() => import("./pages/magazine/CompetenzeAI"));
 const PresenzaTerzani = lazy(() => import("./pages/magazine/PresenzaTerzani"));
 const PresenzaIdentita = lazy(() => import("./pages/magazine/PresenzaIdentita"));
 const BrandManualeReliquia = lazy(() => import("./pages/magazine/BrandManualeReliquia"));
+const MagazineEN = lazy(() => import("./pages/en/Magazine"));
+const BrandManualRelicEN = lazy(() => import("./pages/en/magazine/BrandManualRelic"));
+const PresenceIdentityEN = lazy(() => import("./pages/en/magazine/PresenceIdentity"));
+const PresenceIntentionalityEN = lazy(() => import("./pages/en/magazine/PresenceIntentionality"));
+const AISkillsCultureEN = lazy(() => import("./pages/en/magazine/AISkillsCulture"));
+const CostOfTheUnsaidEN = lazy(() => import("./pages/en/magazine/CostOfTheUnsaid"));
+const AIListeningEN = lazy(() => import("./pages/en/magazine/AIListening"));
+const CultureIsNeverWrongEN = lazy(() => import("./pages/en/magazine/CultureIsNeverWrong"));
+const ResponsibilityIsClaimedEN = lazy(() => import("./pages/en/magazine/ResponsibilityIsClaimed"));
+const ValuesArePromisesEN = lazy(() => import("./pages/en/magazine/ValuesArePromises"));
 const ChiSiamo = lazy(() => import("./pages/ChiSiamo"));
 const AboutEN = lazy(() => import("./pages/en/About"));
 const LeSfide = lazy(() => import("./pages/LeSfide"));
@@ -109,6 +119,16 @@ const App = () => (
               <Route path="/magazine/presenza-intenzionalita" element={<PresenzaTerzani />} />
               <Route path="/magazine/presenza-identita" element={<PresenzaIdentita />} />
               <Route path="/magazine/brand-manuale-reliquia" element={<BrandManualeReliquia />} />
+              <Route path="/en/magazine" element={<MagazineEN />} />
+              <Route path="/en/magazine/brand-manual-relic" element={<BrandManualRelicEN />} />
+              <Route path="/en/magazine/presence-identity" element={<PresenceIdentityEN />} />
+              <Route path="/en/magazine/presence-intentionality" element={<PresenceIntentionalityEN />} />
+              <Route path="/en/magazine/ai-skills-culture" element={<AISkillsCultureEN />} />
+              <Route path="/en/magazine/cost-of-the-unsaid" element={<CostOfTheUnsaidEN />} />
+              <Route path="/en/magazine/ai-listening" element={<AIListeningEN />} />
+              <Route path="/en/magazine/culture-is-never-wrong" element={<CultureIsNeverWrongEN />} />
+              <Route path="/en/magazine/responsibility-is-claimed" element={<ResponsibilityIsClaimedEN />} />
+              <Route path="/en/magazine/values-are-promises" element={<ValuesArePromisesEN />} />
               <Route path="/analisi-evp" element={<AnalisiEVP />} />
               <Route path="/en/evp-analysis" element={<EVPAnalysisEN />} />
               {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}

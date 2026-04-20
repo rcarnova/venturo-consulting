@@ -39,7 +39,7 @@ const FooterEN = () => {
             <Link to="/en/case-studies" className="text-[0.85rem] font-mono text-muted-foreground hover:text-foreground transition-colors">Case Studies</Link>
             <Link to="/en/about" className="text-[0.85rem] font-mono text-muted-foreground hover:text-foreground transition-colors">About Us</Link>
             <Link to="/en/evp-analysis" className="text-[0.85rem] font-mono text-muted-foreground hover:text-foreground transition-colors">EVP Analysis</Link>
-            <Link to="/magazine" className="text-[0.85rem] font-mono text-muted-foreground hover:text-foreground transition-colors">Articles</Link>
+            <Link to="/en/magazine" className="text-[0.85rem] font-mono text-muted-foreground hover:text-foreground transition-colors">Articles</Link>
             <Link to="/en/privacy" className="text-[0.85rem] font-mono text-muted-foreground hover:text-foreground transition-colors">Privacy</Link>
           </div>
           <p className="text-[0.85rem] font-mono text-muted-foreground mt-2">

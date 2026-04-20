@@ -20,7 +20,7 @@ const navLinks = [
   { href: "/en/principles", label: "Principles" },
   { href: "/en/about", label: "About Us" },
   { href: "/en/evp-analysis", label: "EVP Analysis" },
-  { href: "/magazine", label: "Articles" },
+  { href: "/en/magazine", label: "Articles" },
 ];
 
 const HeaderEN = () => {

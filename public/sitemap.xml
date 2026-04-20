@@ -315,9 +315,56 @@
     <loc>https://venturoconsulting.it/magazine/brand-manuale-reliquia</loc>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
+  <url>
+    <loc>https://venturoconsulting.it/en/magazine</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
   </url>
-
-  <!-- Privacy -->
+  <url>
+    <loc>https://venturoconsulting.it/en/magazine/brand-manual-relic</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://venturoconsulting.it/en/magazine/presence-identity</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://venturoconsulting.it/en/magazine/presence-intentionality</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://venturoconsulting.it/en/magazine/ai-skills-culture</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://venturoconsulting.it/en/magazine/cost-of-the-unsaid</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://venturoconsulting.it/en/magazine/ai-listening</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://venturoconsulting.it/en/magazine/culture-is-never-wrong</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://venturoconsulting.it/en/magazine/responsibility-is-claimed</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://venturoconsulting.it/en/magazine/values-are-promises</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
   <url>
     <loc>https://venturoconsulting.it/privacy</loc>
     <xhtml:link rel="alternate" hreflang="it" href="https://venturoconsulting.it/privacy"/>
