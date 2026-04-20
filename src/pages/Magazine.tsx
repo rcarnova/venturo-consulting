@@ -5,6 +5,17 @@ import ArticleCard from "@/components/ArticleCard";
 
 const articles = [
   {
+    category: "cultura organizzativa",
+    title: "Trasparenza salariale: lo specchio che le aziende non possono più evitare.",
+    excerpt:
+      "La Direttiva UE 2023/970 non è solo compliance. È un'occasione per capire come pensa davvero la vostra organizzazione.",
+    date: "3 mag 2026",
+    readTime: "5 min",
+    link: "/magazine/trasparenza-salariale",
+    author: "Rosario",
+    tags: ["cultura organizzativa", "leadership", "diversity", "normativa"],
+  },
+  {
     category: "branding",
     title: "Il manuale di brand è una reliquia. L'identità è cultura.",
     excerpt:
