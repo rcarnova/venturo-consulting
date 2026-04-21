@@ -70,7 +70,7 @@ const RemoteWorkingSpecchio = () => {
           "@type": "Article",
           "headline": "Il remote working non è un problema ambientale. È uno specchio.",
           "description": "Il lavoro ibrido rivela il rapporto che le persone hanno con il proprio lavoro. Senza criteri chiari di valore, nessuna policy salva la cultura.",
-          "datePublished": "2026-05-10",
+          "datePublished": "2026-04-21",
           "author": { "@type": "Person", "name": "Rosario Carnovale" },
           "publisher": { "@type": "Organization", "name": "Venturo", "url": "https://venturoconsulting.it" },
           "url": "https://venturoconsulting.it/magazine/remote-working-specchio"
