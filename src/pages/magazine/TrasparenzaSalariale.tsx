@@ -75,7 +75,7 @@ const TrasparenzaSalariale = () => {
           "@type": "Article",
           "headline": "Trasparenza salariale: lo specchio che le aziende non possono più evitare",
           "description": "La Direttiva UE 2023/970 obbliga le aziende a rendere pubblici i criteri retributivi. Aggiustare i numeri senza toccare la cultura produce compliance, non cambiamento.",
-          "datePublished": "2026-05-03",
+          "datePublished": "2026-04-17",
           "author": { "@type": "Person", "name": "Rosario Carnovale" },
           "publisher": { "@type": "Organization", "name": "Venturo", "url": "https://venturoconsulting.it" },
           "url": "https://venturoconsulting.it/magazine/trasparenza-salariale"
@@ -85,7 +85,7 @@ const TrasparenzaSalariale = () => {
         category="Cultura organizzativa"
         title="Trasparenza salariale: lo specchio che le aziende non possono più evitare"
         subtitle="La Direttiva UE 2023/970 non è solo compliance. È un'occasione per capire come pensa davvero la vostra organizzazione."
-        date="3 mag 2026"
+        date="17 apr 2026"
         readTime="5 min"
         content={content}
       />

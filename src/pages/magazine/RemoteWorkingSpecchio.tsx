@@ -80,7 +80,7 @@ const RemoteWorkingSpecchio = () => {
         category="Cultura organizzativa"
         title="Il remote working non è un problema ambientale. È uno specchio."
         subtitle="La Banca d'Italia misura le emissioni del lavoro ibrido. Il risultato è chiaro. La domanda interessante è un'altra."
-        date="10 mag 2026"
+        date="21 apr 2026"
         readTime="6 min"
         content={content}
       />
