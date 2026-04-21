@@ -62,7 +62,7 @@ const BrandManualeReliquia = () => {
           "@type": "Article",
           "headline": "Il manuale di brand è una reliquia. L'identità è cultura.",
           "description": "I brand che funzionano oggi non hanno il manuale più bello: hanno persone che capiscono il perché di ogni scelta.",
-          "datePublished": "2026-04-26",
+          "datePublished": "2026-04-14",
           "author": { "@type": "Person", "name": "Rosario Carnovale" },
           "publisher": { "@type": "Organization", "name": "Venturo", "url": "https://venturoconsulting.it" },
           "url": "https://venturoconsulting.it/magazine/brand-manuale-reliquia"
@@ -72,7 +72,7 @@ const BrandManualeReliquia = () => {
         category="Branding"
         title="Il manuale di brand è una reliquia. L'identità è cultura."
         subtitle="Un'identità forte non si misura dallo spessore del manuale, ma da quanto profondamente è entrata nelle persone."
-        date="26 apr 2026"
+        date="14 apr 2026"
         readTime="6 min"
         content={content}
       />
