@@ -102,7 +102,7 @@ const ToolkitAdmin = () => {
   if (!authed) {
     return (
       <div className="min-h-screen bg-background">
-        <SEO title="Admin" description="" canonical="https://venturoconsulting.it/toolkit/admin" lang="it" noindex />
+        <Helmet><title>Admin — Toolkit</title><meta name="robots" content="noindex,nofollow" /></Helmet>
         <Header />
         <main className="pt-32 pb-20">
           <div className="max-w-md mx-auto px-5">
@@ -134,7 +134,7 @@ const ToolkitAdmin = () => {
 
   return (
     <div className="min-h-screen bg-background">
-      <SEO title="Admin" description="" canonical="https://venturoconsulting.it/toolkit/admin" lang="it" noindex />
+      <Helmet><title>Admin — Toolkit</title><meta name="robots" content="noindex,nofollow" /></Helmet>
       <Header />
       <main className="pt-32 pb-20">
         <div className="max-w-5xl mx-auto px-5 md:px-8">

@@ -66,6 +66,8 @@ const EuPromotions = lazy(() => import("./pages/cases/EuPromotions"));
 const EuPromotionsEN = lazy(() => import("./pages/en/cases/EuPromotions"));
 const AnalisiEVP = lazy(() => import("./pages/AnalisiEVP"));
 const EVPAnalysisEN = lazy(() => import("./pages/en/EVPAnalysis"));
+const Toolkit = lazy(() => import("./pages/Toolkit"));
+const ToolkitAdmin = lazy(() => import("./pages/ToolkitAdmin"));
 
 const queryClient = new QueryClient();
 
@@ -135,6 +137,8 @@ const App = () => (
               <Route path="/en/magazine/values-are-promises" element={<ValuesArePromisesEN />} />
               <Route path="/analisi-evp" element={<AnalisiEVP />} />
               <Route path="/en/evp-analysis" element={<EVPAnalysisEN />} />
+              <Route path="/toolkit" element={<Toolkit />} />
+              <Route path="/toolkit/admin" element={<ToolkitAdmin />} />
               {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
               <Route path="*" element={<NotFound />} />
             </Routes>
