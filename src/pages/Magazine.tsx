@@ -9,33 +9,11 @@ const articles = [
     title: "Il remote working non è un problema ambientale. È uno specchio.",
     excerpt:
       "La Banca d'Italia misura le emissioni del lavoro ibrido. Il risultato è chiaro. La domanda interessante è un'altra: il remote non crea problemi, li rivela.",
-    date: "10 mag 2026",
+    date: "21 apr 2026",
     readTime: "6 min",
     link: "/magazine/remote-working-specchio",
     author: "Rosario",
     tags: ["cultura organizzativa", "leadership", "remote working", "performance"],
-  },
-  {
-    category: "cultura organizzativa",
-    title: "Trasparenza salariale: lo specchio che le aziende non possono più evitare.",
-    excerpt:
-      "La Direttiva UE 2023/970 non è solo compliance. È un'occasione per capire come pensa davvero la vostra organizzazione.",
-    date: "3 mag 2026",
-    readTime: "5 min",
-    link: "/magazine/trasparenza-salariale",
-    author: "Rosario",
-    tags: ["cultura organizzativa", "leadership", "diversity", "normativa"],
-  },
-  {
-    category: "branding",
-    title: "Il manuale di brand è una reliquia. L'identità è cultura.",
-    excerpt:
-      "Un'identità forte non si misura dallo spessore del manuale, ma da quanto profondamente è entrata nelle persone.",
-    date: "26 apr 2026",
-    readTime: "6 min",
-    link: "/magazine/brand-manuale-reliquia",
-    author: "Rosario",
-    tags: ["branding", "cultura organizzativa", "identità"],
   },
   {
     category: "cultura organizzativa",
@@ -47,6 +25,28 @@ const articles = [
     link: "/magazine/presenza-identita",
     author: "Rosario",
     tags: ["cultura organizzativa", "employer branding", "leadership", "identità"],
+  },
+  {
+    category: "cultura organizzativa",
+    title: "Trasparenza salariale: lo specchio che le aziende non possono più evitare.",
+    excerpt:
+      "La Direttiva UE 2023/970 non è solo compliance. È un'occasione per capire come pensa davvero la vostra organizzazione.",
+    date: "17 apr 2026",
+    readTime: "5 min",
+    link: "/magazine/trasparenza-salariale",
+    author: "Rosario",
+    tags: ["cultura organizzativa", "leadership", "diversity", "normativa"],
+  },
+  {
+    category: "branding",
+    title: "Il manuale di brand è una reliquia. L'identità è cultura.",
+    excerpt:
+      "Un'identità forte non si misura dallo spessore del manuale, ma da quanto profondamente è entrata nelle persone.",
+    date: "14 apr 2026",
+    readTime: "6 min",
+    link: "/magazine/brand-manuale-reliquia",
+    author: "Rosario",
+    tags: ["branding", "cultura organizzativa", "identità"],
   },
   {
     category: "cultura organizzativa",
