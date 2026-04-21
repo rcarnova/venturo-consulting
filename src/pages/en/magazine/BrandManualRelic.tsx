@@ -65,7 +65,7 @@ const BrandManualRelic = () => {
           "@context": "https://schema.org",
           "@type": "Article",
           "headline": "The brand manual is a relic. Identity is culture.",
-          "datePublished": "2026-04-26",
+          "datePublished": "2026-04-14",
           "author": { "@type": "Person", "name": "Rosario Carnovale" },
           "publisher": { "@type": "Organization", "name": "Venturo", "url": "https://venturoconsulting.it" },
           "url": "https://venturoconsulting.it/en/magazine/brand-manual-relic"
@@ -75,7 +75,7 @@ const BrandManualRelic = () => {
         category="Branding"
         title="The brand manual is a relic. Identity is culture."
         subtitle="A strong identity isn't measured by the thickness of the manual, but by how deeply it has entered people."
-        date="Apr 26, 2026"
+        date="Apr 14, 2026"
         readTime="6 min"
         content={content}
       />

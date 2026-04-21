@@ -9,7 +9,7 @@ const articles = [
     title: "The brand manual is a relic. Identity is culture.",
     excerpt:
       "A strong identity isn't measured by the thickness of the manual, but by how deeply it has entered people.",
-    date: "Apr 26, 2026",
+    date: "Apr 14, 2026",
     readTime: "6 min",
     link: "/en/magazine/brand-manual-relic",
     author: "Rosario",
