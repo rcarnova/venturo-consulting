@@ -42,6 +42,7 @@ const PresenzaIdentita = lazy(() => import("./pages/magazine/PresenzaIdentita"))
 const BrandManualeReliquia = lazy(() => import("./pages/magazine/BrandManualeReliquia"));
 const TrasparenzaSalariale = lazy(() => import("./pages/magazine/TrasparenzaSalariale"));
 const RemoteWorkingSpecchio = lazy(() => import("./pages/magazine/RemoteWorkingSpecchio"));
+const BookishTalenti = lazy(() => import("./pages/magazine/BookishTalenti"));
 const MagazineEN = lazy(() => import("./pages/en/Magazine"));
 const BrandManualRelicEN = lazy(() => import("./pages/en/magazine/BrandManualRelic"));
 const PresenceIdentityEN = lazy(() => import("./pages/en/magazine/PresenceIdentity"));
@@ -52,6 +53,7 @@ const AIListeningEN = lazy(() => import("./pages/en/magazine/AIListening"));
 const CultureIsNeverWrongEN = lazy(() => import("./pages/en/magazine/CultureIsNeverWrong"));
 const ResponsibilityIsClaimedEN = lazy(() => import("./pages/en/magazine/ResponsibilityIsClaimed"));
 const ValuesArePromisesEN = lazy(() => import("./pages/en/magazine/ValuesArePromises"));
+const BookishTalentsEN = lazy(() => import("./pages/en/magazine/BookishTalents"));
 const ChiSiamo = lazy(() => import("./pages/ChiSiamo"));
 const AboutEN = lazy(() => import("./pages/en/About"));
 const LeSfide = lazy(() => import("./pages/LeSfide"));
@@ -125,6 +127,7 @@ const App = () => (
               <Route path="/magazine/brand-manuale-reliquia" element={<BrandManualeReliquia />} />
               <Route path="/magazine/trasparenza-salariale" element={<TrasparenzaSalariale />} />
               <Route path="/magazine/remote-working-specchio" element={<RemoteWorkingSpecchio />} />
+              <Route path="/magazine/bookish-talenti-sostanza" element={<BookishTalenti />} />
               <Route path="/en/magazine" element={<MagazineEN />} />
               <Route path="/en/magazine/brand-manual-relic" element={<BrandManualRelicEN />} />
               <Route path="/en/magazine/presence-identity" element={<PresenceIdentityEN />} />
@@ -135,6 +138,7 @@ const App = () => (
               <Route path="/en/magazine/culture-is-never-wrong" element={<CultureIsNeverWrongEN />} />
               <Route path="/en/magazine/responsibility-is-claimed" element={<ResponsibilityIsClaimedEN />} />
               <Route path="/en/magazine/values-are-promises" element={<ValuesArePromisesEN />} />
+              <Route path="/en/magazine/bookish-talents-substance" element={<BookishTalentsEN />} />
               <Route path="/analisi-evp" element={<AnalisiEVP />} />
               <Route path="/en/evp-analysis" element={<EVPAnalysisEN />} />
               <Route path="/toolkit" element={<Toolkit />} />

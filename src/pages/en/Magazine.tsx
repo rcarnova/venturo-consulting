@@ -5,6 +5,17 @@ import ArticleCard from "@/components/ArticleCard";
 
 const articles = [
   {
+    category: "organizational culture",
+    title: "Bookish influencers and talent's new hunger for substance.",
+    excerpt:
+      "Millennials and Gen Z follow those who read, not those who show. Talent wants environments where people actually think: declared employer branding is no longer enough.",
+    date: "Apr 24, 2026",
+    readTime: "6 min",
+    link: "/en/magazine/bookish-talents-substance",
+    author: "Rosario",
+    tags: ["organizational culture", "employer branding", "talent", "identity"],
+  },
+  {
     category: "branding",
     title: "The brand manual is a relic. Identity is culture.",
     excerpt:

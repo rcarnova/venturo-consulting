@@ -6,6 +6,17 @@ import ArticleCard from "@/components/ArticleCard";
 const articles = [
   {
     category: "cultura organizzativa",
+    title: "I bookish influencer e la nuova fame di sostanza dei talenti.",
+    excerpt:
+      "Millennial e Gen Z seguono chi legge, non chi mostra. I talenti cercano ambienti in cui si pensa davvero: l'employer branding dichiarato non basta più.",
+    date: "24 apr 2026",
+    readTime: "6 min",
+    link: "/magazine/bookish-talenti-sostanza",
+    author: "Rosario",
+    tags: ["cultura organizzativa", "employer branding", "talenti", "identità"],
+  },
+  {
+    category: "cultura organizzativa",
     title: "Il remote working non è un problema ambientale. È uno specchio.",
     excerpt:
       "La Banca d'Italia misura le emissioni del lavoro ibrido. Il risultato è chiaro. La domanda interessante è un'altra: il remote non crea problemi, li rivela.",
