@@ -19,6 +19,7 @@ const ArticleCard = ({
   date,
   readTime,
   link,
+  tags,
 }: ArticleCardProps) => {
   return (
     <Link to={link} className="group block">
@@ -80,13 +81,33 @@ const ArticleCard = ({
 
           {/* Metadata */}
           <div
-            className="flex items-center gap-4 text-sm"
+            className="flex items-center gap-4 text-sm mb-4"
             style={{ color: "#666" }}
           >
             <span>{date}</span>
             <span>•</span>
             <span>{readTime}</span>
           </div>
+
+          {/* Tags */}
+          {tags && tags.length > 0 && (
+            <div className="flex flex-wrap gap-2">
+              {tags.map((tag) => (
+                <span
+                  key={tag}
+                  className="text-xs px-2.5 py-1 rounded-full border"
+                  style={{
+                    borderColor: "#FF006E",
+                    color: "#FF006E",
+                    fontFamily: "'IBM Plex Mono', monospace",
+                    letterSpacing: "0.03em",
+                  }}
+                >
+                  {tag}
+                </span>
+              ))}
+            </div>
+          )}
         </div>
       </article>
     </Link>
