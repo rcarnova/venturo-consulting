@@ -19,6 +19,7 @@ const ArticleCard = ({
   date,
   readTime,
   link,
+  tags,
 }: ArticleCardProps) => {
   return (
     <Link to={link} className="group block">
