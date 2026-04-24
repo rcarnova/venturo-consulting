@@ -13,7 +13,7 @@ const articles = [
     readTime: "6 min",
     link: "/magazine/bookish-talenti-sostanza",
     author: "Rosario",
-    tags: ["cultura organizzativa", "employer branding", "talenti", "identità"],
+    tags: ["attrazione talenti", "brand e cultura"],
   },
   {
     category: "cultura organizzativa",
@@ -24,7 +24,7 @@ const articles = [
     readTime: "6 min",
     link: "/magazine/remote-working-specchio",
     author: "Rosario",
-    tags: ["cultura organizzativa", "leadership", "remote working", "performance"],
+    tags: ["lavoro ibrido", "delega e leadership"],
   },
   {
     category: "cultura organizzativa",
@@ -35,7 +35,7 @@ const articles = [
     readTime: "4 min",
     link: "/magazine/presenza-identita",
     author: "Rosario",
-    tags: ["cultura organizzativa", "employer branding", "leadership", "identità"],
+    tags: ["attrazione talenti", "delega e leadership"],
   },
   {
     category: "cultura organizzativa",
@@ -46,7 +46,7 @@ const articles = [
     readTime: "5 min",
     link: "/magazine/trasparenza-salariale",
     author: "Rosario",
-    tags: ["cultura organizzativa", "leadership", "diversity", "normativa"],
+    tags: ["comunicazione interna", "brand e cultura"],
   },
   {
     category: "branding",
@@ -57,7 +57,7 @@ const articles = [
     readTime: "6 min",
     link: "/magazine/brand-manuale-reliquia",
     author: "Rosario",
-    tags: ["branding", "cultura organizzativa", "identità"],
+    tags: ["brand e cultura", "comunicazione interna"],
   },
   {
     category: "cultura organizzativa",
@@ -68,7 +68,7 @@ const articles = [
     readTime: "4 min",
     link: "/magazine/presenza-intenzionalita",
     author: "Rosario",
-    tags: ["cultura organizzativa", "leadership", "engagement", "presenza"],
+    tags: ["lavoro ibrido", "comunicazione interna"],
   },
   {
     category: "cultura organizzativa",
@@ -79,7 +79,7 @@ const articles = [
     readTime: "6 min",
     link: "/magazine/competenze-ai-cultura",
     author: "Rosario",
-    tags: ["cultura organizzativa", "AI", "leadership", "cambiamento"],
+    tags: ["innovazione", "comunicazione interna"],
   },
   {
     category: "cultura organizzativa",
@@ -90,7 +90,7 @@ const articles = [
     readTime: "6 min",
     link: "/magazine/il-costo-del-non-detto",
     author: "Rosario",
-    tags: ["cultura organizzativa", "leadership", "engagement", "ascolto"],
+    tags: ["comunicazione interna", "delega e leadership"],
   },
   {
     category: "cultura organizzativa",
@@ -101,7 +101,7 @@ const articles = [
     readTime: "5 min",
     link: "/magazine/ai-ascolto",
     author: "Rosario",
-    tags: ["cultura organizzativa", "employer branding", "engagement", "leadership", "ascolto", "AI"],
+    tags: ["comunicazione interna", "innovazione"],
   },
   {
     category: "cultura organizzativa",
@@ -112,7 +112,7 @@ const articles = [
     readTime: "4 min",
     link: "/magazine/la-cultura-non-e-mai-sbagliata",
     author: "Rosario",
-    tags: ["cultura organizzativa", "cambiamento"],
+    tags: ["brand e cultura", "innovazione"],
   },
   {
     category: "Organizzazione",
@@ -123,7 +123,7 @@ const articles = [
     readTime: "4 min",
     link: "/magazine/la-responsabilita-non-si-delega",
     author: "Rosario",
-    tags: ["organizzazione"],
+    tags: ["delega e leadership"],
   },
   {
     category: "Cultura",
@@ -134,7 +134,7 @@ const articles = [
     readTime: "4 min",
     link: "/magazine/i-valori-non-sono-poster",
     author: "Rosario",
-    tags: ["cultura organizzativa"],
+    tags: ["brand e cultura", "attrazione talenti"],
   },
 ];
 
