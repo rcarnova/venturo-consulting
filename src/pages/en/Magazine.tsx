@@ -13,7 +13,7 @@ const articles = [
     readTime: "6 min",
     link: "/en/magazine/bookish-talents-substance",
     author: "Rosario",
-    tags: ["organizational culture", "employer branding", "talent", "identity"],
+    tags: ["talent attraction", "brand & culture"],
   },
   {
     category: "branding",
@@ -24,7 +24,7 @@ const articles = [
     readTime: "6 min",
     link: "/en/magazine/brand-manual-relic",
     author: "Rosario",
-    tags: ["branding", "organizational culture", "identity"],
+    tags: ["brand & culture", "internal communication"],
   },
   {
     category: "organizational culture",
@@ -35,7 +35,7 @@ const articles = [
     readTime: "4 min",
     link: "/en/magazine/presence-identity",
     author: "Rosario",
-    tags: ["organizational culture", "employer branding", "leadership", "identity"],
+    tags: ["talent attraction", "delegation & leadership"],
   },
   {
     category: "organizational culture",
@@ -46,7 +46,7 @@ const articles = [
     readTime: "4 min",
     link: "/en/magazine/presence-intentionality",
     author: "Rosario",
-    tags: ["organizational culture", "leadership", "engagement", "presence"],
+    tags: ["hybrid work", "internal communication"],
   },
   {
     category: "organizational culture",
@@ -57,7 +57,7 @@ const articles = [
     readTime: "6 min",
     link: "/en/magazine/ai-skills-culture",
     author: "Rosario",
-    tags: ["organizational culture", "AI", "leadership", "change"],
+    tags: ["innovation", "internal communication"],
   },
   {
     category: "organizational culture",
@@ -68,7 +68,7 @@ const articles = [
     readTime: "6 min",
     link: "/en/magazine/cost-of-the-unsaid",
     author: "Rosario",
-    tags: ["organizational culture", "leadership", "engagement", "listening"],
+    tags: ["internal communication", "delegation & leadership"],
   },
   {
     category: "organizational culture",
@@ -79,7 +79,7 @@ const articles = [
     readTime: "5 min",
     link: "/en/magazine/ai-listening",
     author: "Rosario",
-    tags: ["organizational culture", "employer branding", "engagement", "leadership", "listening", "AI"],
+    tags: ["internal communication", "innovation"],
   },
   {
     category: "organizational culture",
@@ -90,7 +90,7 @@ const articles = [
     readTime: "4 min",
     link: "/en/magazine/culture-is-never-wrong",
     author: "Rosario",
-    tags: ["organizational culture", "change"],
+    tags: ["brand & culture", "innovation"],
   },
   {
     category: "Organization",
@@ -101,7 +101,7 @@ const articles = [
     readTime: "4 min",
     link: "/en/magazine/responsibility-is-claimed",
     author: "Rosario",
-    tags: ["organization"],
+    tags: ["delegation & leadership"],
   },
   {
     category: "Culture",
@@ -112,7 +112,7 @@ const articles = [
     readTime: "4 min",
     link: "/en/magazine/values-are-promises",
     author: "Rosario",
-    tags: ["organizational culture"],
+    tags: ["brand & culture", "talent attraction"],
   },
 ];
 
