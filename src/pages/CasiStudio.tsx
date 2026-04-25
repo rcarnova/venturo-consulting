@@ -88,6 +88,14 @@ const cases = [
     logoScale: 0.8,
     tags: ["CEO / Leadership"],
   },
+  {
+    company: "Comune di Vercelli",
+    result: "Toxic: dare voce ai ragazzi sulla violenza di genere",
+    description: "Laboratorio partecipativo nelle scuole superiori, raccolta di testimonianze e reading teatrale al Festival Raccolti.",
+    slug: "comune-di-vercelli-violenza-di-genere",
+    hasDetail: true,
+    tags: ["CEO / Leadership", "CMO / Marketing"],
+  },
 ];
 
 const CasiStudio = () => {
