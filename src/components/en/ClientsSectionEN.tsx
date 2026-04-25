@@ -7,6 +7,7 @@ const clients = [
   { name: "Sambonet", logo: "/logos/sambonet_white.webp", scale: 1, invert: false },
   { name: "Ufficio Pio", logo: "/logos/ufficio_pio_white.webp", scale: 1, invert: false },
   { name: "Eu.promotions", logo: "/logos/eupromotion_white.webp", scale: 1.4, invert: false },
+  { name: "Comune di Vercelli", logo: "/logos/comune_vercelli_white.png", scale: 1.3, invert: false },
 ];
 
 // Duplicate the array 3 times for seamless infinite scroll
