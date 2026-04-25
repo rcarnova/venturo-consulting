@@ -67,6 +67,7 @@ const RandstadProfessionalsEN = lazy(() => import("./pages/en/cases/RandstadProf
 const EuPromotions = lazy(() => import("./pages/cases/EuPromotions"));
 const ComuneVercelli = lazy(() => import("./pages/cases/ComuneVercelli"));
 const EuPromotionsEN = lazy(() => import("./pages/en/cases/EuPromotions"));
+const ComuneVercelliEN = lazy(() => import("./pages/en/cases/ComuneVercelli"));
 const AnalisiEVP = lazy(() => import("./pages/AnalisiEVP"));
 const EVPAnalysisEN = lazy(() => import("./pages/en/EVPAnalysis"));
 const Toolkit = lazy(() => import("./pages/Toolkit"));
@@ -117,6 +118,7 @@ const App = () => (
               <Route path="/casi-studio/eupromotions" element={<EuPromotions />} />
               <Route path="/casi-studio/comune-di-vercelli-violenza-di-genere" element={<ComuneVercelli />} />
               <Route path="/en/case-studies/eupromotions" element={<EuPromotionsEN />} />
+              <Route path="/en/case-studies/comune-di-vercelli-gender-violence" element={<ComuneVercelliEN />} />
               <Route path="/magazine" element={<Magazine />} />
               <Route path="/magazine/la-responsabilita-non-si-delega" element={<ResponsabilitaNonSiDelega />} />
               <Route path="/magazine/i-valori-non-sono-poster" element={<ValoriNonSonoPoster />} />

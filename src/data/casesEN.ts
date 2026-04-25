@@ -101,4 +101,17 @@ export const allCasesEN: CaseData[] = [
     url: "/en/case-studies/cve",
     showOnHomepage: true,
   },
+  {
+    id: "comune-vercelli",
+    company: "City of Vercelli",
+    result: "Toxic: giving voice to teenagers on gender-based violence",
+    description: "Participatory workshop in high schools, collection of testimonies and theatrical reading at Festival Raccolti.",
+    logo: "/logos/comune_vercelli.png",
+    logoScale: 1,
+    invertLogo: false,
+    slug: "comune-di-vercelli-gender-violence",
+    hasDetail: true,
+    url: "/en/case-studies/comune-di-vercelli-gender-violence",
+    showOnHomepage: false,
+  },
 ];
