@@ -74,11 +74,11 @@ const ComuneVercelli = () => {
             <div className="container-narrow text-center">
               <AnimatedSection>
                 <img
-                  src="/logos/comune_vercelli.webp"
+                  src="/logos/comune_vercelli.png"
                   alt="Comune di Vercelli"
-                  className="h-16 md:h-20 w-auto object-contain mx-auto mb-8"
-                  width={200}
-                  height={80}
+                  className="h-28 md:h-36 lg:h-40 w-auto object-contain mx-auto mb-8"
+                  width={400}
+                  height={160}
                 />
                 <p className="text-xs md:text-sm font-mono uppercase tracking-[0.2em] text-muted-foreground mb-4">
                   Caso studio
