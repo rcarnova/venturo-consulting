@@ -65,6 +65,7 @@ const LelyEN = lazy(() => import("./pages/en/cases/Lely"));
 const RandstadProfessionals = lazy(() => import("./pages/cases/RandstadProfessionals"));
 const RandstadProfessionalsEN = lazy(() => import("./pages/en/cases/RandstadProfessionals"));
 const EuPromotions = lazy(() => import("./pages/cases/EuPromotions"));
+const ComuneVercelli = lazy(() => import("./pages/cases/ComuneVercelli"));
 const EuPromotionsEN = lazy(() => import("./pages/en/cases/EuPromotions"));
 const AnalisiEVP = lazy(() => import("./pages/AnalisiEVP"));
 const EVPAnalysisEN = lazy(() => import("./pages/en/EVPAnalysis"));
@@ -114,6 +115,7 @@ const App = () => (
               <Route path="/en/case-studies/findomestic" element={<FindomesticEN />} />
               <Route path="/en/case-studies/randstad-professionals" element={<RandstadProfessionalsEN />} />
               <Route path="/casi-studio/eupromotions" element={<EuPromotions />} />
+              <Route path="/casi-studio/comune-di-vercelli-violenza-di-genere" element={<ComuneVercelli />} />
               <Route path="/en/case-studies/eupromotions" element={<EuPromotionsEN />} />
               <Route path="/magazine" element={<Magazine />} />
               <Route path="/magazine/la-responsabilita-non-si-delega" element={<ResponsabilitaNonSiDelega />} />
