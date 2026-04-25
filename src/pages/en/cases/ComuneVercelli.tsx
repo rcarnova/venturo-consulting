@@ -54,6 +54,10 @@ const ComuneVercelliEN = () => {
         description="A workshop with high-school students in Vercelli on gender-based violence. Collection of testimonies and a theatrical reading at Festival Raccolti."
         canonical="https://venturoconsulting.it/en/case-studies/comune-di-vercelli-gender-violence"
         lang="en"
+        alternateUrls={{
+          it: "https://venturoconsulting.it/casi-studio/comune-di-vercelli-violenza-di-genere",
+          en: "https://venturoconsulting.it/en/case-studies/comune-di-vercelli-gender-violence",
+        }}
       />
       <div className="min-h-screen bg-background">
         <HeaderEN />

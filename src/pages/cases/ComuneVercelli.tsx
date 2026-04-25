@@ -54,6 +54,10 @@ const ComuneVercelli = () => {
         description="Un laboratorio con studenti delle scuole superiori di Vercelli sul tema della violenza di genere. Raccolta di testimonianze e reading teatrale al Festival Raccolti."
         canonical="https://venturoconsulting.it/casi-studio/comune-di-vercelli-violenza-di-genere"
         lang="it"
+        alternateUrls={{
+          it: "https://venturoconsulting.it/casi-studio/comune-di-vercelli-violenza-di-genere",
+          en: "https://venturoconsulting.it/en/case-studies/comune-di-vercelli-gender-violence",
+        }}
       />
       <div className="min-h-screen bg-background">
         <Header />
