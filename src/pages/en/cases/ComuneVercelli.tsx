@@ -50,8 +50,8 @@ const ComuneVercelliEN = () => {
   return (
     <>
       <SEO
-        title="Toxic — workshop on gender-based violence for the City of Vercelli — Venturo"
-        description="A workshop with high-school students in Vercelli on gender-based violence. Collection of testimonies and a theatrical reading at Festival Raccolti."
+        title="Toxic — workshop on gender-based violence — Venturo"
+        description="Workshop with high-school students in Vercelli on gender-based violence. Theatrical reading at Festival Raccolti, commissioned by the City of Vercelli."
         canonical="https://venturoconsulting.it/en/case-studies/comune-di-vercelli-gender-violence"
         lang="en"
         alternateUrls={{

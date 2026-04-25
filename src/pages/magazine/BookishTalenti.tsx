@@ -51,6 +51,10 @@ const BookishTalenti = () => {
         description="Millennial e Gen Z seguono chi legge, non chi mostra. Un segnale per chi costruisce employer branding: i talenti cercano ambienti in cui si pensa davvero."
         canonical="https://venturoconsulting.it/magazine/bookish-talenti-sostanza"
         lang="it"
+        alternateUrls={{
+          it: "https://venturoconsulting.it/magazine/bookish-talenti-sostanza",
+          en: "https://venturoconsulting.it/en/magazine/bookish-talents-substance",
+        }}
       />
       <Helmet>
         <script type="application/ld+json">{JSON.stringify({

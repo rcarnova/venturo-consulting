@@ -50,8 +50,8 @@ const ComuneVercelli = () => {
   return (
     <>
       <SEO
-        title="Toxic — laboratorio sulla violenza di genere per il Comune di Vercelli — Venturo"
-        description="Un laboratorio con studenti delle scuole superiori di Vercelli sul tema della violenza di genere. Raccolta di testimonianze e reading teatrale al Festival Raccolti."
+        title="Toxic — laboratorio sulla violenza di genere — Venturo"
+        description="Laboratorio con studenti delle scuole superiori di Vercelli sulla violenza di genere. Reading teatrale al Festival Raccolti, commissionato dal Comune di Vercelli."
         canonical="https://venturoconsulting.it/casi-studio/comune-di-vercelli-violenza-di-genere"
         lang="it"
         alternateUrls={{
