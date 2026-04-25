@@ -229,6 +229,23 @@
     <priority>0.8</priority>
   </url>
 
+  <url>
+    <loc>https://venturoconsulting.it/casi-studio/comune-di-vercelli-violenza-di-genere</loc>
+    <xhtml:link rel="alternate" hreflang="it" href="https://venturoconsulting.it/casi-studio/comune-di-vercelli-violenza-di-genere"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://venturoconsulting.it/en/case-studies/comune-di-vercelli-gender-violence"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://venturoconsulting.it/casi-studio/comune-di-vercelli-violenza-di-genere"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://venturoconsulting.it/en/case-studies/comune-di-vercelli-gender-violence</loc>
+    <xhtml:link rel="alternate" hreflang="it" href="https://venturoconsulting.it/casi-studio/comune-di-vercelli-violenza-di-genere"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://venturoconsulting.it/en/case-studies/comune-di-vercelli-gender-violence"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://venturoconsulting.it/casi-studio/comune-di-vercelli-violenza-di-genere"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
   <!-- Principi -->
   <url>
     <loc>https://venturoconsulting.it/principi</loc>
@@ -327,6 +344,11 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://venturoconsulting.it/magazine/bookish-talenti-sostanza</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://venturoconsulting.it/en/magazine</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -373,6 +395,11 @@
   </url>
   <url>
     <loc>https://venturoconsulting.it/en/magazine/values-are-promises</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://venturoconsulting.it/en/magazine/bookish-talents-substance</loc>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
   </url>
