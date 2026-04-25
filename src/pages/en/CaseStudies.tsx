@@ -78,6 +78,14 @@ const cases = [
     invertLogo: true,
     tags: ["CHO / HR", "CMO / Marketing"],
   },
+  {
+    company: "City of Vercelli",
+    result: "Toxic: giving voice to teenagers on gender-based violence",
+    description: "Participatory workshop in high schools, collection of testimonies and theatrical reading at Festival Raccolti.",
+    slug: "comune-di-vercelli-gender-violence",
+    hasDetail: true,
+    tags: ["CEO / Leadership", "CMO / Marketing"],
+  },
 ];
 
 const CaseStudies = () => {

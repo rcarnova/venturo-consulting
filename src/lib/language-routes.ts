@@ -10,6 +10,7 @@ const routeMap: Record<string, string> = {
   "/casi-studio/findomestic": "/en/case-studies/findomestic",
   "/casi-studio/ufficio-pio": "/en/case-studies/ufficio-pio",
   "/casi-studio/eupromotions": "/en/case-studies/eupromotions",
+  "/casi-studio/comune-di-vercelli-violenza-di-genere": "/en/case-studies/comune-di-vercelli-gender-violence",
   "/chi-siamo": "/en/about",
   "/magazine": "/en/magazine",
   "/magazine/brand-manuale-reliquia": "/en/magazine/brand-manual-relic",

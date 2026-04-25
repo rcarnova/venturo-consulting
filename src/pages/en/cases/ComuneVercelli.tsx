@@ -1,75 +1,75 @@
 import { ArrowLeft } from "lucide-react";
 import { Link } from "react-router-dom";
 import { SEO } from "@/components/SEO";
-import Header from "@/components/Header";
-import Footer from "@/components/Footer";
+import HeaderEN from "@/components/en/HeaderEN";
+import FooterEN from "@/components/en/FooterEN";
 import AnimatedSection from "@/components/AnimatedSection";
 import { Button } from "@/components/ui/button";
-import SuggestedCases from "@/components/SuggestedCases";
-import { allCases } from "@/data/cases";
+import SuggestedCasesEN from "@/components/en/SuggestedCasesEN";
+import { allCasesEN } from "@/data/casesEN";
 
 const meta = [
-  { label: "Cliente", value: "Comune di Vercelli" },
-  { label: "Tema", value: "Violenza di genere" },
-  { label: "Output", value: "Reading teatrale" },
-  { label: "Anno", value: "2025" },
+  { label: "Client", value: "City of Vercelli" },
+  { label: "Topic", value: "Gender-based violence" },
+  { label: "Output", value: "Theatrical reading" },
+  { label: "Year", value: "2025" },
 ];
 
 const quotes = [
-  "Non potevo uscire con i maschi e vestire come volevo e quando chiudevamo il rapporto lui poteva andare con altre tipe ma io no.",
-  "Mio padre non mi fa fare box perché sono donna.",
-  "Io consiglio a me stessa di non darmi più colpe di cose che non ho fatto io e soprattutto di avere il coraggio di parlarne.",
+  "I wasn't allowed to go out with boys or dress how I wanted, and when we broke up he could go with other girls but I couldn't.",
+  "My father won't let me do boxing because I'm a woman.",
+  "I tell myself to stop blaming myself for things I didn't do, and above all to find the courage to talk about it.",
 ];
 
 const method = [
   {
-    title: "Progettazione",
-    description: "Disegno del laboratorio partecipativo: setting, domande, cornice di sicurezza per studenti e studentesse.",
+    title: "Design",
+    description: "Designing the participatory workshop: setting, questions, and a safe frame for high-school students.",
   },
   {
-    title: "Facilitazione",
-    description: "Conduzione degli incontri e raccolta delle testimonianze scritte, in forma anonima e tutelata.",
+    title: "Facilitation",
+    description: "Leading the sessions and collecting written testimonies, anonymously and with care.",
   },
   {
-    title: "Trasformazione",
-    description: "Elaborazione del materiale e scrittura drammaturgica per restituire le voci in forma di reading teatrale.",
+    title: "Transformation",
+    description: "Editing the material and writing the dramaturgical script that returns the voices as a theatrical reading.",
   },
 ];
 
 const results = [
-  "Reading teatrale presentata al Festival Raccolti di Vercelli",
-  "Partecipazione attiva di studenti e studentesse delle scuole superiori",
-  "Spazio di ascolto e consapevolezza su un tema socialmente rilevante",
+  "Theatrical reading presented at the Festival Raccolti in Vercelli",
+  "Active participation of female and male high-school students",
+  "A space for listening and awareness on a socially relevant topic",
 ];
 
-const ComuneVercelli = () => {
+const ComuneVercelliEN = () => {
   const scrollToContact = () => {
-    window.location.href = "/#contact";
+    window.location.href = "/en#contact";
   };
 
   return (
     <>
       <SEO
-        title="Toxic — laboratorio sulla violenza di genere per il Comune di Vercelli — Venturo"
-        description="Un laboratorio con studenti delle scuole superiori di Vercelli sul tema della violenza di genere. Raccolta di testimonianze e reading teatrale al Festival Raccolti."
-        canonical="https://venturoconsulting.it/casi-studio/comune-di-vercelli-violenza-di-genere"
-        lang="it"
+        title="Toxic — workshop on gender-based violence for the City of Vercelli — Venturo"
+        description="A workshop with high-school students in Vercelli on gender-based violence. Collection of testimonies and a theatrical reading at Festival Raccolti."
+        canonical="https://venturoconsulting.it/en/case-studies/comune-di-vercelli-gender-violence"
+        lang="en"
         alternateUrls={{
           it: "https://venturoconsulting.it/casi-studio/comune-di-vercelli-violenza-di-genere",
           en: "https://venturoconsulting.it/en/case-studies/comune-di-vercelli-gender-violence",
         }}
       />
       <div className="min-h-screen bg-background">
-        <Header />
+        <HeaderEN />
         <main className="pt-20">
           {/* Breadcrumb */}
           <div className="container-wide py-4">
             <Link
-              to="/casi-studio"
+              to="/en/case-studies"
               className="inline-flex items-center gap-2 text-sm font-mono text-muted-foreground hover:text-foreground transition-colors"
             >
               <ArrowLeft className="w-4 h-4" />
-              Torna ai casi
+              Back to cases
             </Link>
           </div>
 
@@ -79,20 +79,19 @@ const ComuneVercelli = () => {
               <AnimatedSection>
                 <img
                   src="/logos/comune_vercelli.png"
-                  alt="Comune di Vercelli"
+                  alt="City of Vercelli"
                   className="h-28 md:h-36 lg:h-40 w-auto object-contain mx-auto mb-8"
                   width={400}
                   height={160}
                 />
                 <p className="text-xs md:text-sm font-mono uppercase tracking-[0.2em] text-muted-foreground mb-4">
-                  Caso studio
+                  Case study
                 </p>
                 <h1 className="text-display text-charcoal">Toxic</h1>
                 <p className="text-subheadline mt-4 max-w-2xl mx-auto">
-                  Un laboratorio con studenti delle scuole superiori di Vercelli sulla violenza di genere, commissionato dal Comune di Vercelli.
+                  A workshop with high-school students in Vercelli on gender-based violence, commissioned by the City of Vercelli.
                 </p>
 
-                {/* Meta chips */}
                 <div className="mt-8 flex flex-wrap items-center justify-center gap-x-3 gap-y-2 text-xs md:text-sm font-mono text-muted-foreground">
                   {meta.map((m, i) => (
                     <span key={m.label} className="flex items-center gap-3">
@@ -108,55 +107,55 @@ const ComuneVercelli = () => {
             </div>
           </section>
 
-          {/* Locandina */}
+          {/* Poster */}
           <section className="py-12 bg-background">
             <div className="container-narrow">
               <AnimatedSection>
                 <figure>
                   <img
                     src="/cases/toxic-locandina.webp"
-                    alt="Locandina del progetto Toxic — laboratorio per ragazze e ragazzi sul tema della violenza di genere"
+                    alt="Poster of the Toxic project — workshop for girls and boys on gender-based violence"
                     className="w-full h-auto rounded-lg"
                     loading="lazy"
                     width={1200}
                     height={675}
                   />
                   <figcaption className="text-sm text-muted-foreground mt-3 italic text-center">
-                    Locandina del progetto Toxic, Comune di Vercelli, 2025
+                    Toxic project poster, City of Vercelli, 2025
                   </figcaption>
                 </figure>
               </AnimatedSection>
             </div>
           </section>
 
-          {/* Il progetto */}
+          {/* The project */}
           <section className="section-padding">
             <div className="container-narrow">
               <AnimatedSection>
-                <h2 className="text-section text-charcoal mb-8">Il progetto</h2>
+                <h2 className="text-section text-charcoal mb-8">The project</h2>
                 <div className="space-y-6 text-body-large text-muted-foreground">
                   <p>
-                    Venturo ha lavorato con studenti delle scuole superiori di Vercelli per raccogliere testimonianze dirette su esperienze di discriminazione di genere vissute nella quotidianità.
+                    Venturo worked with high-school students in Vercelli to gather first-hand testimonies of gender discrimination experienced in everyday life.
                   </p>
                   <p>
-                    Il metodo: un laboratorio partecipativo con raccolta di testimonianze scritte, elaborazione del materiale e trasformazione in testo drammaturgico.
+                    The method: a participatory workshop with the collection of written testimonies, careful editing of the material, and its transformation into a dramaturgical text.
                   </p>
                   <p>
-                    L'output finale è stato una reading teatrale delle testimonianze, presentata in occasione del Festival Raccolti di Vercelli.
+                    The final output was a theatrical reading of the testimonies, presented at the Festival Raccolti in Vercelli.
                   </p>
                 </div>
               </AnimatedSection>
             </div>
           </section>
 
-          {/* Voci dal laboratorio */}
+          {/* Voices */}
           <section className="section-padding bg-muted/30">
             <div className="container-narrow">
               <AnimatedSection>
                 <p className="text-xs md:text-sm font-mono uppercase tracking-[0.2em] text-muted-foreground mb-3">
-                  Voci dal laboratorio
+                  Voices from the workshop
                 </p>
-                <h2 className="text-section text-charcoal mb-12">Le testimonianze</h2>
+                <h2 className="text-section text-charcoal mb-12">The testimonies</h2>
               </AnimatedSection>
 
               <div className="space-y-10">
@@ -173,11 +172,11 @@ const ComuneVercelli = () => {
             </div>
           </section>
 
-          {/* Cosa ha fatto Venturo */}
+          {/* What Venturo did */}
           <section className="section-padding">
             <div className="container-narrow">
               <AnimatedSection>
-                <h2 className="text-section text-charcoal mb-12">Cosa ha fatto Venturo</h2>
+                <h2 className="text-section text-charcoal mb-12">What Venturo did</h2>
               </AnimatedSection>
               <div className="grid md:grid-cols-3 gap-6">
                 {method.map((m, i) => (
@@ -195,11 +194,11 @@ const ComuneVercelli = () => {
             </div>
           </section>
 
-          {/* Risultati */}
+          {/* Results */}
           <section className="section-padding bg-muted/30">
             <div className="container-narrow">
               <AnimatedSection>
-                <h2 className="text-section text-charcoal mb-8">Risultati</h2>
+                <h2 className="text-section text-charcoal mb-8">Results</h2>
                 <div className="grid md:grid-cols-2 gap-4">
                   {results.map((r, i) => (
                     <div
@@ -215,15 +214,14 @@ const ComuneVercelli = () => {
             </div>
           </section>
 
-          {/* Suggested */}
-          <SuggestedCases currentCaseId="comune-vercelli" allCases={allCases} />
+          <SuggestedCasesEN currentCaseId="comune-vercelli" allCases={allCasesEN} />
 
           {/* CTA */}
           <section className="py-16 md:py-20 bg-primary text-primary-foreground">
             <div className="container-narrow text-center">
               <AnimatedSection>
                 <h2 className="text-section text-primary-foreground mb-4">
-                  Vuoi risultati simili per la tua organizzazione?
+                  Want similar results for your organization?
                 </h2>
                 <Button
                   onClick={scrollToContact}
@@ -231,16 +229,16 @@ const ComuneVercelli = () => {
                   size="lg"
                   className="bg-transparent border-primary-foreground text-primary-foreground hover:bg-primary-foreground hover:text-primary"
                 >
-                  Parliamone
+                  Let's talk
                 </Button>
               </AnimatedSection>
             </div>
           </section>
         </main>
-        <Footer />
+        <FooterEN />
       </div>
     </>
   );
 };
 
-export default ComuneVercelli;
+export default ComuneVercelliEN;
