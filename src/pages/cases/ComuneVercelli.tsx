@@ -80,9 +80,9 @@ const ComuneVercelli = () => {
                 <img
                   src="/logos/comune_vercelli_transparent.png"
                   alt="Comune di Vercelli"
-                  className="h-36 md:h-44 lg:h-52 w-auto object-contain mx-auto mb-8"
-                  width={520}
-                  height={210}
+                  className="h-20 sm:h-24 md:h-28 lg:h-32 w-auto object-contain mx-auto mb-8"
+                  width={733}
+                  height={200}
                 />
                 <p className="text-xs md:text-sm font-mono uppercase tracking-[0.2em] text-muted-foreground mb-4">
                   Caso studio
