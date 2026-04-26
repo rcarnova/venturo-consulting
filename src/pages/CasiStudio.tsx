@@ -94,9 +94,9 @@ const cases = [
     description: "Laboratorio partecipativo nelle scuole superiori, raccolta di testimonianze e reading teatrale al Festival Raccolti.",
     slug: "comune-di-vercelli-violenza-di-genere",
     hasDetail: true,
-    logo: "/logos/comune_vercelli_white_alpha.png",
+    logo: "/logos/comune_vercelli_dark_alpha.png",
     logoScale: 2.6,
-    invertLogo: false,
+    invertLogo: true,
     tags: ["CEO / Leadership", "CMO / Marketing"],
   },
 ];
