@@ -126,6 +126,22 @@ const ComuneVercelli = () => {
                   </figcaption>
                 </figure>
               </AnimatedSection>
+
+              <AnimatedSection delay={100}>
+                <figure className="mt-12">
+                  <img
+                    src="/cases/toxic-pubblico-raccolti.webp"
+                    alt="Il pubblico del Raccolti Festival al reading di Toxic"
+                    className="w-full h-auto rounded-lg"
+                    loading="lazy"
+                    width={1920}
+                    height={1279}
+                  />
+                  <figcaption className="text-sm text-muted-foreground mt-3 italic text-center">
+                    Il pubblico del Raccolti Festival al reading di Toxic
+                  </figcaption>
+                </figure>
+              </AnimatedSection>
             </div>
           </section>
 
