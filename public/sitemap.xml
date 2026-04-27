@@ -349,7 +349,10 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://venturoconsulting.it/en/magazine</loc>
+    <loc>https://venturoconsulting.it/magazine/identita-dichiarata-vissuta</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
