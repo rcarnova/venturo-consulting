@@ -158,7 +158,7 @@ const CasiStudio = () => {
                       <div className="flex items-start justify-between">
                         <div>
                           {caseStudy.logo ? (
-                            <div className={`bg-charcoal rounded-lg overflow-hidden py-2.5 inline-flex items-center justify-center mb-2 ${(caseStudy.logoScale || 1) >= 3 ? 'px-6' : 'px-4'}`}>
+                            <div className={`bg-charcoal rounded-lg overflow-hidden inline-flex items-center justify-center mb-2 h-10 min-w-[110px] ${(caseStudy.logoScale || 1) >= 3 ? 'px-6' : 'px-4'}`}>
                               <img
                                 src={caseStudy.logo}
                                 alt={caseStudy.company}
