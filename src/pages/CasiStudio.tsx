@@ -95,7 +95,7 @@ const cases = [
     slug: "comune-di-vercelli-violenza-di-genere",
     hasDetail: true,
     logo: "/logos/comune_vercelli_wordmark.png",
-    logoScale: 1.6,
+    logoScale: 1,
     invertLogo: true,
     tags: ["CEO / Leadership", "CMO / Marketing"],
   },
