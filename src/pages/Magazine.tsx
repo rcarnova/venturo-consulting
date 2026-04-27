@@ -6,6 +6,17 @@ import ArticleCard from "@/components/ArticleCard";
 const articles = [
   {
     category: "cultura organizzativa",
+    title: "L'identità dichiarata e l'identità vissuta: il cortocircuito silenzioso.",
+    excerpt:
+      "Il 72% dei dipendenti non capisce la strategia della propria azienda. Non è un problema di comunicazione: è la distanza tra ciò che un'organizzazione dichiara di essere e ciò che le persone vivono ogni giorno.",
+    date: "27 apr 2026",
+    readTime: "6 min",
+    link: "/magazine/identita-dichiarata-vissuta",
+    author: "Rosario",
+    tags: ["brand e cultura", "comunicazione interna"],
+  },
+  {
+    category: "cultura organizzativa",
     title: "I bookish influencer e la nuova fame di sostanza dei talenti.",
     excerpt:
       "Millennial e Gen Z seguono chi legge, non chi mostra. I talenti cercano ambienti in cui si pensa davvero: l'employer branding dichiarato non basta più.",
