@@ -43,6 +43,7 @@ const BrandManualeReliquia = lazy(() => import("./pages/magazine/BrandManualeRel
 const TrasparenzaSalariale = lazy(() => import("./pages/magazine/TrasparenzaSalariale"));
 const RemoteWorkingSpecchio = lazy(() => import("./pages/magazine/RemoteWorkingSpecchio"));
 const BookishTalenti = lazy(() => import("./pages/magazine/BookishTalenti"));
+const IdentitaDichiarataVissuta = lazy(() => import("./pages/magazine/IdentitaDichiarataVissuta"));
 const MagazineEN = lazy(() => import("./pages/en/Magazine"));
 const BrandManualRelicEN = lazy(() => import("./pages/en/magazine/BrandManualRelic"));
 const PresenceIdentityEN = lazy(() => import("./pages/en/magazine/PresenceIdentity"));
@@ -132,6 +133,7 @@ const App = () => (
               <Route path="/magazine/trasparenza-salariale" element={<TrasparenzaSalariale />} />
               <Route path="/magazine/remote-working-specchio" element={<RemoteWorkingSpecchio />} />
               <Route path="/magazine/bookish-talenti-sostanza" element={<BookishTalenti />} />
+              <Route path="/magazine/identita-dichiarata-vissuta" element={<IdentitaDichiarataVissuta />} />
               <Route path="/en/magazine" element={<MagazineEN />} />
               <Route path="/en/magazine/brand-manual-relic" element={<BrandManualRelicEN />} />
               <Route path="/en/magazine/presence-identity" element={<PresenceIdentityEN />} />
