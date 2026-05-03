@@ -74,11 +74,21 @@ const ArticleCard = ({
           className="relative w-full overflow-hidden flex items-end p-6"
           style={{
             aspectRatio: "16/9",
+            background,
             backgroundColor: "#141414",
           }}
         >
+          {/* Subtle dark veil bottom-left for text legibility */}
+          <div
+            aria-hidden
+            className="absolute inset-0 pointer-events-none"
+            style={{
+              background:
+                "linear-gradient(180deg, rgba(0,0,0,0) 35%, rgba(0,0,0,0.45) 100%)",
+            }}
+          />
           <span
-            className="text-white font-bold text-2xl md:text-3xl leading-tight"
+            className="relative text-white font-bold text-2xl md:text-3xl leading-tight"
             style={{
               fontFamily: "'Space Grotesk', system-ui, sans-serif",
               lineHeight: 1.1,
