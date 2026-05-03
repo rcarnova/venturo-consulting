@@ -1,9 +1,10 @@
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import ReactMarkdown from "react-markdown";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { Button } from "@/components/ui/button";
 import { ArrowLeft } from "lucide-react";
+import { gradientForSlug } from "@/lib/article-covers";
 
 interface ArticleLayoutProps {
   category: string;
@@ -24,6 +25,8 @@ const ArticleLayout = ({
   heroImage,
   content,
 }: ArticleLayoutProps) => {
+  const { pathname } = useLocation();
+  const heroGradient = gradientForSlug(pathname);
   return (
     <div className="min-h-screen bg-background">
       <Header />
@@ -40,9 +43,21 @@ const ArticleLayout = ({
               Torna al Magazine
             </Link>
 
+            {/* Editorial gradient band — echoes the index card cover */}
+            {!heroImage && (
+              <div
+                className="mb-10 rounded-xl"
+                style={{
+                  height: "8px",
+                  background: heroGradient,
+                }}
+                aria-hidden
+              />
+            )}
+
             {/* Hero Image */}
             {heroImage && (
-              <div className="mb-12">
+              <div className="mb-12 relative">
                 <img
                   src={heroImage}
                   alt={title}

@@ -1,9 +1,10 @@
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import ReactMarkdown from "react-markdown";
 import HeaderEN from "@/components/en/HeaderEN";
 import FooterEN from "@/components/en/FooterEN";
 import { Button } from "@/components/ui/button";
 import { ArrowLeft } from "lucide-react";
+import { gradientForSlug } from "@/lib/article-covers";
 
 interface ArticleLayoutENProps {
   category: string;
@@ -24,6 +25,8 @@ const ArticleLayoutEN = ({
   heroImage,
   content,
 }: ArticleLayoutENProps) => {
+  const { pathname } = useLocation();
+  const heroGradient = gradientForSlug(pathname);
   return (
     <div className="min-h-screen bg-background">
       <HeaderEN />
@@ -38,6 +41,14 @@ const ArticleLayoutEN = ({
               <ArrowLeft className="w-4 h-4" />
               Back to Magazine
             </Link>
+
+            {!heroImage && (
+              <div
+                className="mb-10 rounded-xl"
+                style={{ height: "8px", background: heroGradient }}
+                aria-hidden
+              />
+            )}
 
             {heroImage && (
               <div className="mb-12">
