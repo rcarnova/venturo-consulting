@@ -25,6 +25,8 @@ const ArticleLayout = ({
   heroImage,
   content,
 }: ArticleLayoutProps) => {
+  const { pathname } = useLocation();
+  const heroGradient = gradientForSlug(pathname);
   return (
     <div className="min-h-screen bg-background">
       <Header />
