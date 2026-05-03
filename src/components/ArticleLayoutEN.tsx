@@ -42,6 +42,14 @@ const ArticleLayoutEN = ({
               Back to Magazine
             </Link>
 
+            {!heroImage && (
+              <div
+                className="mb-10 rounded-xl"
+                style={{ height: "8px", background: heroGradient }}
+                aria-hidden
+              />
+            )}
+
             {heroImage && (
               <div className="mb-12">
                 <img
