@@ -187,7 +187,7 @@ const Magazine = () => {
           <div className="max-w-[1200px] mx-auto px-5 md:px-8">
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 lg:gap-10">
               {articles.map((article, index) => (
-                <ArticleCard key={index} {...article} />
+                <ArticleCard key={index} index={index} {...article} />
               ))}
             </div>
           </div>
