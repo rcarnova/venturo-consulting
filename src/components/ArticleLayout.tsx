@@ -43,9 +43,21 @@ const ArticleLayout = ({
               Torna al Magazine
             </Link>
 
+            {/* Editorial gradient band — echoes the index card cover */}
+            {!heroImage && (
+              <div
+                className="mb-10 rounded-xl"
+                style={{
+                  height: "8px",
+                  background: heroGradient,
+                }}
+                aria-hidden
+              />
+            )}
+
             {/* Hero Image */}
             {heroImage && (
-              <div className="mb-12">
+              <div className="mb-12 relative">
                 <img
                   src={heroImage}
                   alt={title}
