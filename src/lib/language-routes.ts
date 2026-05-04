@@ -26,7 +26,6 @@ const routeMap: Record<string, string> = {
   "/magazine/remote-working-specchio": "/en/magazine/remote-work-as-mirror",
   "/magazine/trasparenza-salariale": "/en/magazine/pay-transparency",
   "/magazine/bookish-talenti-sostanza": "/en/magazine/bookish-talents-substance",
-  "/magazine/presenza-intenzionalita": "/en/magazine/presence-intentionality",
   "/lumen": "/en/lumen",
   "/principi": "/en/principles",
   "/privacy": "/en/privacy",
