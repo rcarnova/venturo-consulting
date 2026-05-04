@@ -55,6 +55,9 @@ const CultureIsNeverWrongEN = lazy(() => import("./pages/en/magazine/CultureIsNe
 const ResponsibilityIsClaimedEN = lazy(() => import("./pages/en/magazine/ResponsibilityIsClaimed"));
 const ValuesArePromisesEN = lazy(() => import("./pages/en/magazine/ValuesArePromises"));
 const BookishTalentsEN = lazy(() => import("./pages/en/magazine/BookishTalents"));
+const DeclaredVsLivedIdentityEN = lazy(() => import("./pages/en/magazine/DeclaredVsLivedIdentity"));
+const RemoteWorkAsMirrorEN = lazy(() => import("./pages/en/magazine/RemoteWorkAsMirror"));
+const PayTransparencyEN = lazy(() => import("./pages/en/magazine/PayTransparency"));
 const ChiSiamo = lazy(() => import("./pages/ChiSiamo"));
 const AboutEN = lazy(() => import("./pages/en/About"));
 const LeSfide = lazy(() => import("./pages/LeSfide"));
@@ -145,6 +148,9 @@ const App = () => (
               <Route path="/en/magazine/responsibility-is-claimed" element={<ResponsibilityIsClaimedEN />} />
               <Route path="/en/magazine/values-are-promises" element={<ValuesArePromisesEN />} />
               <Route path="/en/magazine/bookish-talents-substance" element={<BookishTalentsEN />} />
+              <Route path="/en/magazine/declared-vs-lived-identity" element={<DeclaredVsLivedIdentityEN />} />
+              <Route path="/en/magazine/remote-work-as-mirror" element={<RemoteWorkAsMirrorEN />} />
+              <Route path="/en/magazine/pay-transparency" element={<PayTransparencyEN />} />
               <Route path="/analisi-evp" element={<AnalisiEVP />} />
               <Route path="/en/evp-analysis" element={<EVPAnalysisEN />} />
               <Route path="/toolkit" element={<Toolkit />} />
