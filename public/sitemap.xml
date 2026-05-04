@@ -370,19 +370,19 @@
   <url>
     <loc>https://venturoconsulting.it/magazine/identita-dichiarata-vissuta</loc>
     <xhtml:link rel="alternate" hreflang="it" href="https://venturoconsulting.it/magazine/identita-dichiarata-vissuta"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://venturoconsulting.it/en/magazine/identita-dichiarata-vissuta"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://venturoconsulting.it/en/magazine/declared-vs-lived-identity"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://venturoconsulting.it/magazine/identita-dichiarata-vissuta"/>
-    <lastmod>2026-05-03</lastmod>
+    <lastmod>2026-05-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
 
   <url>
-    <loc>https://venturoconsulting.it/en/magazine/identita-dichiarata-vissuta</loc>
+    <loc>https://venturoconsulting.it/en/magazine/declared-vs-lived-identity</loc>
     <xhtml:link rel="alternate" hreflang="it" href="https://venturoconsulting.it/magazine/identita-dichiarata-vissuta"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://venturoconsulting.it/en/magazine/identita-dichiarata-vissuta"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://venturoconsulting.it/en/magazine/declared-vs-lived-identity"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://venturoconsulting.it/magazine/identita-dichiarata-vissuta"/>
-    <lastmod>2026-05-03</lastmod>
+    <lastmod>2026-05-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -409,7 +409,20 @@
 
   <url>
     <loc>https://venturoconsulting.it/magazine/remote-working-specchio</loc>
-    <lastmod>2026-05-03</lastmod>
+    <xhtml:link rel="alternate" hreflang="it" href="https://venturoconsulting.it/magazine/remote-working-specchio"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://venturoconsulting.it/en/magazine/remote-work-as-mirror"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://venturoconsulting.it/magazine/remote-working-specchio"/>
+    <lastmod>2026-05-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://venturoconsulting.it/en/magazine/remote-work-as-mirror</loc>
+    <xhtml:link rel="alternate" hreflang="it" href="https://venturoconsulting.it/magazine/remote-working-specchio"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://venturoconsulting.it/en/magazine/remote-work-as-mirror"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://venturoconsulting.it/magazine/remote-working-specchio"/>
+    <lastmod>2026-05-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -436,7 +449,20 @@
 
   <url>
     <loc>https://venturoconsulting.it/magazine/trasparenza-salariale</loc>
-    <lastmod>2026-05-03</lastmod>
+    <xhtml:link rel="alternate" hreflang="it" href="https://venturoconsulting.it/magazine/trasparenza-salariale"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://venturoconsulting.it/en/magazine/pay-transparency"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://venturoconsulting.it/magazine/trasparenza-salariale"/>
+    <lastmod>2026-05-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://venturoconsulting.it/en/magazine/pay-transparency</loc>
+    <xhtml:link rel="alternate" hreflang="it" href="https://venturoconsulting.it/magazine/trasparenza-salariale"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://venturoconsulting.it/en/magazine/pay-transparency"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://venturoconsulting.it/magazine/trasparenza-salariale"/>
+    <lastmod>2026-05-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
