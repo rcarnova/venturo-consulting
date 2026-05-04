@@ -6,6 +6,17 @@ import ArticleCard from "@/components/ArticleCard";
 const articles = [
   {
     category: "organizational culture",
+    title: "Declared identity vs lived identity: the silent short circuit.",
+    excerpt:
+      "72% of employees don't understand their company's strategy. It's not a communication problem: it's the distance between what an organization declares to be and what people live every day.",
+    date: "Apr 27, 2026",
+    readTime: "6 min",
+    link: "/en/magazine/declared-vs-lived-identity",
+    author: "Rosario",
+    tags: ["brand & culture", "internal communication"],
+  },
+  {
+    category: "organizational culture",
     title: "Bookish influencers and talent's new hunger for substance.",
     excerpt:
       "Millennials and Gen Z follow those who read, not those who show. Talent wants environments where people actually think: declared employer branding is no longer enough.",
@@ -14,6 +25,39 @@ const articles = [
     link: "/en/magazine/bookish-talents-substance",
     author: "Rosario",
     tags: ["talent attraction", "brand & culture"],
+  },
+  {
+    category: "organizational culture",
+    title: "Remote working isn't an environmental problem. It's a mirror.",
+    excerpt:
+      "The Bank of Italy measures the emissions of hybrid work. The result is clear. The interesting question is another: remote doesn't create problems, it reveals them.",
+    date: "Apr 21, 2026",
+    readTime: "6 min",
+    link: "/en/magazine/remote-work-as-mirror",
+    author: "Rosario",
+    tags: ["hybrid work", "delegation & leadership"],
+  },
+  {
+    category: "organizational culture",
+    title: "Who is truly present? Identity, leadership and employer branding.",
+    excerpt:
+      "Organizations that fail to attract talent don't have a strategy or budget problem: they have a presence problem.",
+    date: "Apr 19, 2026",
+    readTime: "4 min",
+    link: "/en/magazine/presence-identity",
+    author: "Rosario",
+    tags: ["talent attraction", "delegation & leadership"],
+  },
+  {
+    category: "organizational culture",
+    title: "Pay transparency: the mirror companies can no longer avoid.",
+    excerpt:
+      "EU Directive 2023/970 isn't just compliance. It's an opportunity to understand how your organization really thinks.",
+    date: "Apr 17, 2026",
+    readTime: "5 min",
+    link: "/en/magazine/pay-transparency",
+    author: "Rosario",
+    tags: ["internal communication", "brand & culture"],
   },
   {
     category: "branding",
