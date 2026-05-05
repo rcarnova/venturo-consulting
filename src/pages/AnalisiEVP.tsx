@@ -83,6 +83,7 @@ const AnalisiEVP = () => {
         title="Analisi EVP gratuita - Venturo"
         description="Incolla career page o job post e ottieni un'analisi gratuita della tua Employee Value Proposition con feedback su differenziazione, coerenza e promesse."
         canonical="https://venturoconsulting.it/analisi-evp"
+        lang="it"
         alternateUrls={{
           it: "https://venturoconsulting.it/analisi-evp",
           en: "https://venturoconsulting.it/en/evp-analysis",
