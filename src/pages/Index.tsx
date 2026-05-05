@@ -45,9 +45,9 @@ const Index = () => {
       <SEO
         title="Venturo — Cultura Organizzativa ed Employer Branding"
         description="Rendiamo visibile la cultura della tua organizzazione. Lavoriamo su employer branding, comunicazione interna e trasformazione culturale per attrarre i talenti giusti."
-        canonical="https://venturoconsulting.it"
+        canonical="https://venturoconsulting.it/"
         lang="it"
-        alternateUrls={{ it: "https://venturoconsulting.it", en: "https://venturoconsulting.it/en" }}
+        alternateUrls={{ it: "https://venturoconsulting.it/", en: "https://venturoconsulting.it/en" }}
       />
       <Helmet>
         <script type="application/ld+json">{JSON.stringify(jsonLd)}</script>
