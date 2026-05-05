@@ -55,6 +55,11 @@ const CompetenzeAI = () => {
         description="I progetti AI non si arenano nei datacenter, ma nelle riunioni e nelle conversazioni che non avvengono. Perché l'adozione dell'intelligenza artificiale è prima di tutto una questione di identità organizzativa."
         canonical="https://venturoconsulting.it/magazine/competenze-ai-cultura"
         lang="it"
+        alternateUrls={{
+          it: "https://venturoconsulting.it/magazine/competenze-ai-cultura",
+          en: "https://venturoconsulting.it/en/magazine/ai-skills-culture",
+        }}
+        lang="it"
       />
       <Helmet>
         <script type="application/ld+json">{JSON.stringify({

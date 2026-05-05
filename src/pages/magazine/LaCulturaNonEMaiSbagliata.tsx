@@ -14,6 +14,11 @@ const LaCulturaNonEMaiSbagliata = () => {
         description="Ho visto molte aziende arrendersi. Non parlo di business. Parlo di cultura."
         canonical="https://venturoconsulting.it/magazine/la-cultura-non-e-mai-sbagliata"
         lang="it"
+        alternateUrls={{
+          it: "https://venturoconsulting.it/magazine/la-cultura-non-e-mai-sbagliata",
+          en: "https://venturoconsulting.it/en/magazine/culture-is-never-wrong",
+        }}
+        lang="it"
       />
       <Helmet>
         <script type="application/ld+json">{JSON.stringify({

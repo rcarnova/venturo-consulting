@@ -55,6 +55,11 @@ const BrandManualeReliquia = () => {
         description="I brand che funzionano oggi non hanno il manuale più bello: hanno persone che capiscono il perché di ogni scelta. L'identità non è stile, è cultura organizzativa."
         canonical="https://venturoconsulting.it/magazine/brand-manuale-reliquia"
         lang="it"
+        alternateUrls={{
+          it: "https://venturoconsulting.it/magazine/brand-manuale-reliquia",
+          en: "https://venturoconsulting.it/en/magazine/brand-manual-relic",
+        }}
+        lang="it"
       />
       <Helmet>
         <script type="application/ld+json">{JSON.stringify({

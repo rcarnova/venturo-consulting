@@ -44,6 +44,11 @@ const PresenzaIdentita = () => {
         description="Le organizzazioni che non attraggono talenti non hanno un problema di strategia o budget: hanno un problema di presenza. Leader, valori e identità che si sentono, non solo si leggono."
         canonical="https://venturoconsulting.it/magazine/presenza-identita"
         lang="it"
+        alternateUrls={{
+          it: "https://venturoconsulting.it/magazine/presenza-identita",
+          en: "https://venturoconsulting.it/en/magazine/presence-identity",
+        }}
+        lang="it"
       />
       <Helmet>
         <script type="application/ld+json">{JSON.stringify({

@@ -63,6 +63,11 @@ const RemoteWorkingSpecchio = () => {
         description="Lo studio Banca d'Italia/ENEA misura l'impatto ambientale del lavoro ibrido. Ma la partita vera per chi si occupa di cultura organizzativa è un'altra: il remote non crea problemi, li rivela."
         canonical="https://venturoconsulting.it/magazine/remote-working-specchio"
         lang="it"
+        alternateUrls={{
+          it: "https://venturoconsulting.it/magazine/remote-working-specchio",
+          en: "https://venturoconsulting.it/en/magazine/remote-work-as-mirror",
+        }}
+        lang="it"
       />
       <Helmet>
         <script type="application/ld+json">{JSON.stringify({

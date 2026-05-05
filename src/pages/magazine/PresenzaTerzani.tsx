@@ -53,6 +53,11 @@ const PresenzaTerzani = () => {
         description="Non è remoto vs ufficio: è presenti vs altrove. La qualità dell'attenzione che portiamo in una stanza vale più di dove quella stanza si trova."
         canonical="https://venturoconsulting.it/magazine/presenza-intenzionalita"
         lang="it"
+        alternateUrls={{
+          it: "https://venturoconsulting.it/magazine/presenza-intenzionalita",
+          en: "https://venturoconsulting.it/en/magazine/presence-intentionality",
+        }}
+        lang="it"
       />
       <Helmet>
         <script type="application/ld+json">{JSON.stringify({

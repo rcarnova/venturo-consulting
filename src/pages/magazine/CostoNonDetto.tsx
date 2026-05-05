@@ -51,6 +51,11 @@ const CostoNonDetto = () => {
         description="Il distacco dei dipendenti non nasce dal nulla: nasce dal non detto che si accumula fino a diventare cultura. Come rendere nominabile l'innominabile dentro un'organizzazione."
         canonical="https://venturoconsulting.it/magazine/il-costo-del-non-detto"
         lang="it"
+        alternateUrls={{
+          it: "https://venturoconsulting.it/magazine/il-costo-del-non-detto",
+          en: "https://venturoconsulting.it/en/magazine/cost-of-the-unsaid",
+        }}
+        lang="it"
       />
       <Helmet>
         <script type="application/ld+json">{JSON.stringify({

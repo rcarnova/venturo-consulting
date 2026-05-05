@@ -79,6 +79,11 @@ const AIAscolto = () => {
         description="L'AI migliora davvero l'ascolto nelle organizzazioni? Come i nuovi strumenti di analisi del sentiment rischiano di ripetere l'errore delle survey: raccogliere dati senza cambiar nulla."
         canonical="https://venturoconsulting.it/magazine/ai-ascolto"
         lang="it"
+        alternateUrls={{
+          it: "https://venturoconsulting.it/magazine/ai-ascolto",
+          en: "https://venturoconsulting.it/en/magazine/ai-listening",
+        }}
+        lang="it"
       />
       <Helmet>
         <script type="application/ld+json">{JSON.stringify({
