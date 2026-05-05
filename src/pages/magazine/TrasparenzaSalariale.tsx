@@ -67,7 +67,6 @@ const TrasparenzaSalariale = () => {
         title="Trasparenza salariale: lo specchio che le aziende non possono più evitare"
         description="La Direttiva UE 2023/970 obbliga le aziende italiane a rendere pubblici i criteri retributivi entro giugno 2026. Ma il vero tema non sono i numeri: è la cultura che li ha generati."
         canonical="https://venturoconsulting.it/magazine/trasparenza-salariale"
-        lang="it"
         alternateUrls={{
           it: "https://venturoconsulting.it/magazine/trasparenza-salariale",
           en: "https://venturoconsulting.it/en/magazine/pay-transparency",

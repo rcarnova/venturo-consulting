@@ -13,7 +13,6 @@ const ResponsabilitaNonSiDelega = () => {
         title="La responsabilità non si delega. Si conquista."
         description="Nelle organizzazioni sane le persone non aspettano che qualcuno assegni loro responsabilità. Le pretendono."
         canonical="https://venturoconsulting.it/magazine/la-responsabilita-non-si-delega"
-        lang="it"
         alternateUrls={{
           it: "https://venturoconsulting.it/magazine/la-responsabilita-non-si-delega",
           en: "https://venturoconsulting.it/en/magazine/responsibility-is-claimed",
