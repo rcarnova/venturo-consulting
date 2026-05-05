@@ -28,7 +28,7 @@ const IndexEN = () => {
         description="We make your organization's culture visible. Venturo works on employer branding, internal communication and cultural transformation for companies that want to attract and retain the right talent."
         canonical="https://venturoconsulting.it/en"
         lang="en"
-        alternateUrls={{ it: "https://venturoconsulting.it", en: "https://venturoconsulting.it/en" }}
+        alternateUrls={{ it: "https://venturoconsulting.it/", en: "https://venturoconsulting.it/en" }}
       />
       <Helmet>
         <script type="application/ld+json">{JSON.stringify({

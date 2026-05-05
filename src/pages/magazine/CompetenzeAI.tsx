@@ -54,6 +54,10 @@ const CompetenzeAI = () => {
         title="Non è (solo) un problema di competenze. L'AI e la cultura organizzativa."
         description="I progetti AI non si arenano nei datacenter, ma nelle riunioni e nelle conversazioni che non avvengono. Perché l'adozione dell'intelligenza artificiale è prima di tutto una questione di identità organizzativa."
         canonical="https://venturoconsulting.it/magazine/competenze-ai-cultura"
+        alternateUrls={{
+          it: "https://venturoconsulting.it/magazine/competenze-ai-cultura",
+          en: "https://venturoconsulting.it/en/magazine/ai-skills-culture",
+        }}
         lang="it"
       />
       <Helmet>

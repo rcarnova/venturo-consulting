@@ -54,6 +54,10 @@ const BrandManualeReliquia = () => {
         title="Il manuale di brand è una reliquia. L'identità è cultura."
         description="I brand che funzionano oggi non hanno il manuale più bello: hanno persone che capiscono il perché di ogni scelta. L'identità non è stile, è cultura organizzativa."
         canonical="https://venturoconsulting.it/magazine/brand-manuale-reliquia"
+        alternateUrls={{
+          it: "https://venturoconsulting.it/magazine/brand-manuale-reliquia",
+          en: "https://venturoconsulting.it/en/magazine/brand-manual-relic",
+        }}
         lang="it"
       />
       <Helmet>

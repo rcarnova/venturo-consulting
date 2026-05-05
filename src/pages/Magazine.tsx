@@ -157,6 +157,10 @@ const Magazine = () => {
         description="Ogni organizzazione ha un perché. Articoli su employer branding, cultura organizzativa, leadership e comunicazione interna."
         canonical="https://venturoconsulting.it/magazine"
         lang="it"
+        alternateUrls={{
+          it: "https://venturoconsulting.it/magazine",
+          en: "https://venturoconsulting.it/en/magazine",
+        }}
       />
       <Header />
       <main className="pt-20">

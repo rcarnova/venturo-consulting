@@ -34,6 +34,10 @@ const ValoriNonSonoPoster = () => {
         title="I valori non sono poster. Sono promesse."
         description="Le aziende fanno promesse continuamente. Ma come ci hanno insegnato da bambini: le promesse vanno mantenute."
         canonical="https://venturoconsulting.it/magazine/i-valori-non-sono-poster"
+        alternateUrls={{
+          it: "https://venturoconsulting.it/magazine/i-valori-non-sono-poster",
+          en: "https://venturoconsulting.it/en/magazine/values-are-promises",
+        }}
         lang="it"
       />
       <Helmet>

@@ -50,6 +50,10 @@ const IdentitaDichiarataVissuta = () => {
         title="L'identità dichiarata e l'identità vissuta: il cortocircuito silenzioso delle organizzazioni"
         description="Il 72% dei dipendenti non capisce la strategia della propria azienda. Non è un problema di comunicazione: è la distanza tra ciò che un'organizzazione dichiara di essere e ciò che le persone vivono ogni giorno."
         canonical="https://venturoconsulting.it/magazine/identita-dichiarata-vissuta"
+        alternateUrls={{
+          it: "https://venturoconsulting.it/magazine/identita-dichiarata-vissuta",
+          en: "https://venturoconsulting.it/en/magazine/declared-vs-lived-identity",
+        }}
         lang="it"
       />
       <Helmet>
