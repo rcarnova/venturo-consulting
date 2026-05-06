@@ -17,7 +17,7 @@ const levers: Lever[] = [
     icon: UserPlus
   },
   {
-    title: "Comunicazione Interna",
+    title: "Comunicazione\u00A0Interna",
     description: "I senior difendono un modo di fare che ha funzionato. I nuovi arrivati ne portano un altro. Nessuno dei due ha torto, ma non si parlano. Facciamo emergere le culture diverse che convivono nella stessa organizzazione e costruiamo un linguaggio condiviso.",
     icon: Users2
   },
