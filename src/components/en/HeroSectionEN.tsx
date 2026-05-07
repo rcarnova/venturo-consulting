@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import HeroLightBackdrop from "@/components/HeroLightBackdrop";
 
 const HeroSectionEN = () => {
   const scrollToContact = () => {
@@ -7,6 +8,7 @@ const HeroSectionEN = () => {
 
   return (
     <section className="relative min-h-screen flex items-center pt-20 bg-background overflow-x-hidden">
+      <HeroLightBackdrop />
       <div className="container-wide relative z-10 px-5 md:px-8">
         <div className="max-w-4xl">
           <h1 className="text-[36px] md:!text-[80px] font-bold leading-[1.15] tracking-tight text-foreground">
