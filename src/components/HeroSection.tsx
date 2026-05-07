@@ -7,11 +7,11 @@ const HeroSection = () => {
   };
 
   return (
-    <section className="relative min-h-screen flex items-center pt-20 bg-background overflow-x-hidden">
+    <section className="relative min-h-screen flex items-center pt-20 bg-[#0F0F0F] overflow-x-hidden">
       <HeroLightBackdrop />
       <div className="container-wide relative z-10 px-5 md:px-8">
         <div className="max-w-4xl">
-          <h1 className="text-[36px] md:!text-[80px] font-bold leading-[1.15] tracking-tight text-foreground">
+          <h1 className="text-[36px] md:!text-[80px] font-bold leading-[1.15] tracking-tight text-white">
             <span
               className="inline-block animate-[heroFadeUp_0.8s_ease-out_0.1s_both]"
             >
@@ -25,13 +25,13 @@ const HeroSection = () => {
             </span>
           </h1>
           
-          <p className="text-[20px] leading-[1.65] text-[#444444] mt-8 max-w-2xl animate-fade-up-delay-2 [animation-delay:1.2s] md:[animation-delay:2.5s]">
+          <p className="text-[20px] leading-[1.65] text-white/75 mt-8 max-w-2xl animate-fade-up-delay-2 [animation-delay:1.2s] md:[animation-delay:2.5s]">
             Interveniamo quando l'identità reale di un'organizzazione non emerge nei momenti che contano:{" "}
             recruiting, onboarding, comunicazione interna.
           </p>
 
           <div className="mt-12 flex flex-col sm:flex-row gap-4 animate-fade-up-delay-2 [animation-delay:1.5s] md:[animation-delay:3s]">
-            <Button onClick={scrollToContact} variant="hero" className="glow-btn">
+            <Button onClick={scrollToContact} variant="hero" className="glow-btn bg-white text-[#0F0F0F] hover:bg-white/90">
               Parliamone
             </Button>
           </div>
@@ -39,9 +39,9 @@ const HeroSection = () => {
       </div>
 
       {/* Scroll indicator */}
-      <div className="absolute bottom-10 left-1/2 -translate-x-1/2 animate-float">
-        <div className="w-6 h-10 border-2 border-foreground/30 rounded-full flex items-start justify-center p-2">
-          <div className="w-1 h-2 bg-foreground/50 rounded-full animate-bounce" />
+      <div className="absolute bottom-10 left-1/2 -translate-x-1/2 animate-float z-10">
+        <div className="w-6 h-10 border-2 border-white/40 rounded-full flex items-start justify-center p-2">
+          <div className="w-1 h-2 bg-white/60 rounded-full animate-bounce" />
         </div>
       </div>
     </section>
