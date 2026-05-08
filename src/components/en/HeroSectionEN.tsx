@@ -28,7 +28,7 @@ const HeroSectionEN = () => {
           </p>
 
           <div className="mt-12 flex flex-col sm:flex-row gap-4 animate-fade-up-delay-2 [animation-delay:1.5s] md:[animation-delay:3s]">
-            <Button onClick={scrollToContact} variant="hero" className="glow-btn bg-white text-[#0F0F0F] hover:bg-white/90">
+            <Button onClick={scrollToContact} variant="hero" className="glow-btn">
               Let's talk about your culture
             </Button>
           </div>
