@@ -7,7 +7,7 @@ const HeroSection = () => {
   };
 
   return (
-    <section className="relative min-h-screen flex items-center pt-20 bg-[#0F0F0F] overflow-x-hidden">
+    <section className="relative min-h-screen flex items-center pt-20 bg-background overflow-x-hidden">
       <HeroLightBackdrop />
       <div className="container-wide relative z-10 px-5 md:px-8">
         <div className="max-w-4xl">
