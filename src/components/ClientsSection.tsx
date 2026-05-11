@@ -1,13 +1,15 @@
+import { Link } from "react-router-dom";
+
 const clients = [
-  { name: "Ricehouse", logo: "/logos/ricehouse_white.webp", scale: 0.95, invert: false },
-  { name: "Lely", logo: "/logos/lely_white.svg", scale: 0.95, invert: false },
-  { name: "Randstad", logo: "/logos/randstad_blue.svg", scale: 1, invert: true },
-  { name: "CVE", logo: "/logos/cve_mono.webp", scale: 0.8, invert: false },
-  { name: "Findomestic", logo: "/logos/findomestic_white.webp", scale: 1.15, invert: false },
-  { name: "Sambonet", logo: "/logos/sambonet_white.webp", scale: 1, invert: false },
-  { name: "Ufficio Pio", logo: "/logos/ufficio_pio_white.webp", scale: 1, invert: false },
-  { name: "Eu.promotions", logo: "/logos/eupromotion_white.webp", scale: 1.1, invert: false },
-  { name: "Comune di Vercelli", logo: "/logos/comune_vercelli_white.png", scale: 1.05, invert: false },
+  { name: "Ricehouse", logo: "/logos/ricehouse_white.webp", scale: 0.95, invert: false, href: "/casi-studio/ricehouse" },
+  { name: "Lely", logo: "/logos/lely_white.svg", scale: 0.95, invert: false, href: "/casi-studio/lely" },
+  { name: "Randstad", logo: "/logos/randstad_blue.svg", scale: 1, invert: true, href: "/casi-studio" },
+  { name: "CVE", logo: "/logos/cve_mono.webp", scale: 0.8, invert: false, href: "/casi-studio/cve" },
+  { name: "Findomestic", logo: "/logos/findomestic_white.webp", scale: 1.15, invert: false, href: "/casi-studio/findomestic" },
+  { name: "Sambonet", logo: "/logos/sambonet_white.webp", scale: 1, invert: false, href: "/casi-studio" },
+  { name: "Ufficio Pio", logo: "/logos/ufficio_pio_white.webp", scale: 1, invert: false, href: "/casi-studio/ufficio-pio" },
+  { name: "Eu.promotions", logo: "/logos/eupromotion_white.webp", scale: 1.1, invert: false, href: "/casi-studio/eupromotions" },
+  { name: "Comune di Vercelli", logo: "/logos/comune_vercelli_white.png", scale: 1.05, invert: false, href: "/casi-studio/comune-di-vercelli-violenza-di-genere" },
 ];
 
 // Duplicate the array 3 times for seamless infinite scroll
