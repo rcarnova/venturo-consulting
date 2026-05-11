@@ -1,13 +1,13 @@
 const clients = [
-  { name: "Ricehouse", logo: "/logos/ricehouse_white.webp", scale: 1, invert: false },
-  { name: "Lely", logo: "/logos/lely_white.svg", scale: 1, invert: false },
+  { name: "Ricehouse", logo: "/logos/ricehouse_white.webp", scale: 0.95, invert: false },
+  { name: "Lely", logo: "/logos/lely_white.svg", scale: 0.95, invert: false },
   { name: "Randstad", logo: "/logos/randstad_blue.svg", scale: 1, invert: true },
   { name: "CVE", logo: "/logos/cve_mono.webp", scale: 0.8, invert: false },
-  { name: "Findomestic", logo: "/logos/findomestic_white.webp", scale: 1.5, invert: false },
+  { name: "Findomestic", logo: "/logos/findomestic_white.webp", scale: 1.15, invert: false },
   { name: "Sambonet", logo: "/logos/sambonet_white.webp", scale: 1, invert: false },
   { name: "Ufficio Pio", logo: "/logos/ufficio_pio_white.webp", scale: 1, invert: false },
-  { name: "Eu.promotions", logo: "/logos/eupromotion_white.webp", scale: 1.4, invert: false },
-  { name: "Comune di Vercelli", logo: "/logos/comune_vercelli_white.png", scale: 1.3, invert: false },
+  { name: "Eu.promotions", logo: "/logos/eupromotion_white.webp", scale: 1.1, invert: false },
+  { name: "Comune di Vercelli", logo: "/logos/comune_vercelli_white.png", scale: 1.05, invert: false },
 ];
 
 // Duplicate the array 3 times for seamless infinite scroll
@@ -40,15 +40,15 @@ const ClientsSection = () => {
           {duplicatedClients.map((client, index) => (
             <div
               key={`${client.name}-${index}`}
-              className="flex-shrink-0 w-[150px] h-[75px] md:w-[180px] md:h-[90px] mx-6 md:mx-8 flex items-center justify-center"
+              className="flex-shrink-0 w-[160px] h-[80px] md:w-[200px] md:h-[100px] mx-5 md:mx-7 px-4 flex items-center justify-center"
             >
               <img
                 src={client.logo}
                 alt={`Logo ${client.name} - cliente Venturo`}
-                style={{ transform: `scale(${client.scale})` }}
-                className={`max-w-full max-h-full object-contain opacity-60 hover:opacity-90 transition-opacity duration-300 ${client.invert ? 'invert brightness-0 invert' : ''}`}
-                width={150}
-                height={75}
+                style={{ transform: `scale(${client.scale})`, maxHeight: '44px' }}
+                className={`w-auto max-w-full object-contain opacity-70 hover:opacity-100 transition-opacity duration-300 ${client.invert ? 'invert brightness-0 invert' : ''}`}
+                width={160}
+                height={44}
                 loading="lazy"
               />
             </div>
