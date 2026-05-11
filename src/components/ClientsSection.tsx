@@ -40,8 +40,10 @@ const ClientsSection = () => {
         {/* Scrolling container */}
         <div className="flex items-center animate-scroll hover:[animation-play-state:paused]">
           {duplicatedClients.map((client, index) => (
-            <div
+            <Link
+              to={client.href}
               key={`${client.name}-${index}`}
+              aria-label={`Vai al caso studio ${client.name}`}
               className="flex-shrink-0 w-[180px] h-[80px] md:w-[220px] md:h-[100px] mx-3 md:mx-4 px-8 md:px-10 flex items-center justify-center"
             >
               <img
@@ -53,7 +55,7 @@ const ClientsSection = () => {
                 height={40}
                 loading="lazy"
               />
-            </div>
+            </Link>
           ))}
         </div>
       </div>
