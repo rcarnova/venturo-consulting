@@ -40,15 +40,15 @@ const ClientsSectionEN = () => {
           {duplicatedClients.map((client, index) => (
             <div
               key={`${client.name}-${index}`}
-              className="flex-shrink-0 w-[160px] h-[80px] md:w-[200px] md:h-[100px] mx-5 md:mx-7 px-4 flex items-center justify-center"
+              className="flex-shrink-0 w-[180px] h-[80px] md:w-[220px] md:h-[100px] mx-3 md:mx-4 px-8 md:px-10 flex items-center justify-center"
             >
               <img
                 src={client.logo}
                 alt={`${client.name} logo - Venturo client`}
-                style={{ transform: `scale(${client.scale})`, maxHeight: '44px' }}
+                style={{ transform: `scale(${client.scale})`, maxHeight: '40px' }}
                 className={`w-auto max-w-full object-contain opacity-70 hover:opacity-100 transition-opacity duration-300 ${client.invert ? 'invert brightness-0 invert' : ''}`}
                 width={160}
-                height={44}
+                height={40}
                 loading="lazy"
               />
             </div>
