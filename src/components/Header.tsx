@@ -17,6 +17,7 @@ const navLinks = [
   { href: "/lumen", label: "Lumen" },
   { href: "/casi-studio", label: "Casi studio" },
   { href: "/magazine", label: "Articoli" },
+  { href: "/ex-assessment", label: "EX Assessment" },
   { href: "/chi-siamo", label: "Chi siamo" },
 ];
 

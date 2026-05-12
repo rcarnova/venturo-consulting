@@ -73,6 +73,7 @@ const ComuneVercelli = lazy(() => import("./pages/cases/ComuneVercelli"));
 const EuPromotionsEN = lazy(() => import("./pages/en/cases/EuPromotions"));
 const ComuneVercelliEN = lazy(() => import("./pages/en/cases/ComuneVercelli"));
 const AnalisiEVP = lazy(() => import("./pages/AnalisiEVP"));
+const ExAssessment = lazy(() => import("./pages/ExAssessment"));
 const EVPAnalysisEN = lazy(() => import("./pages/en/EVPAnalysis"));
 const Toolkit = lazy(() => import("./pages/Toolkit"));
 const ToolkitAdmin = lazy(() => import("./pages/ToolkitAdmin"));
@@ -152,6 +153,7 @@ const App = () => (
               <Route path="/en/magazine/remote-work-as-mirror" element={<RemoteWorkAsMirrorEN />} />
               <Route path="/en/magazine/pay-transparency" element={<PayTransparencyEN />} />
               <Route path="/analisi-evp" element={<AnalisiEVP />} />
+              <Route path="/ex-assessment" element={<ExAssessment />} />
               <Route path="/en/evp-analysis" element={<EVPAnalysisEN />} />
               <Route path="/toolkit" element={<Toolkit />} />
               <Route path="/toolkit/admin" element={<ToolkitAdmin />} />
