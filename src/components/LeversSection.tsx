@@ -82,6 +82,15 @@ const LeversSection = () => {
           </div>
         </AnimatedSection>
 
+        <div className="text-center mt-6">
+          <Link
+            to="/le-sfide"
+            className="text-sm text-primary-foreground/70 hover:text-primary-foreground transition-colors"
+          >
+            Scopri tutte le sfide →
+          </Link>
+        </div>
+
         {/* Content */}
         <AnimatedSection animation="fade-up" delay={300}>
           <div className="mt-10 md:mt-12">

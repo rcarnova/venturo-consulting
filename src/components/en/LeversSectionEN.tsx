@@ -97,6 +97,15 @@ const LeversSectionEN = () => {
           </div>
         </AnimatedSection>
 
+        <div className="text-center mt-6">
+          <Link
+            to="/en/challenges"
+            className="text-sm text-primary-foreground/70 hover:text-primary-foreground transition-colors"
+          >
+            Discover all the challenges →
+          </Link>
+        </div>
+
         {/* Content */}
         <AnimatedSection animation="fade-up" delay={300}>
           <div className="mt-10 md:mt-12">
