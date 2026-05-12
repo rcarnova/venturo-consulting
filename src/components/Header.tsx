@@ -14,13 +14,10 @@ import {
 } from "@/components/ui/dropdown-menu";
 
 const navLinks = [
-  { href: "/le-sfide", label: "Le sfide" },
   { href: "/lumen", label: "Lumen" },
   { href: "/casi-studio", label: "Casi studio" },
-  { href: "/principi", label: "Principi" },
-  { href: "/chi-siamo", label: "Chi siamo" },
-  { href: "/analisi-evp", label: "Analisi EVP" },
   { href: "/magazine", label: "Articoli" },
+  { href: "/chi-siamo", label: "Chi siamo" },
 ];
 
 const Header = () => {
