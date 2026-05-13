@@ -5,9 +5,10 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build && npm run seo:report",
+    "build": "vite build && npm run seo:report && npm run prerender",
     "build:dev": "vite build --mode development && npm run seo:report",
     "seo:report": "node scripts/seo-report.mjs",
+    "prerender": "node scripts/prerender.mjs",
     "lint": "eslint .",
     "preview": "vite preview",
     "test": "vitest run",
